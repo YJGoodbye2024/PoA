@@ -1,5 +1,3 @@
-
-
 from openai import OpenAI
 import json
 import re
@@ -8,17 +6,18 @@ CLAUDE_API="sk-ant-api03-0O7dM3UMcY3Wbk8Vvox8QV0Zl7RhS9WxiL7Vmw3cCqxvQYkDIerYSdP
 BASE_URL="https://api.pumpkinaigc.online/v1"
 API_KEY="sk-WKak50Ii5K68isoe7bF316D6E7Eb44A3Aa32843eBaE4866f"
 
-PRIN_FILE='Dataset/principles.json'
+PRIN_FILE='Dataset/principles_format.json'
 SCENE_FILE='Dataset/scenes.json'
 # CHOSED_MODEL="claude-opus-4-20250514"
 CHOSED_MODEL="claude-sonnet-4-20250514"
+DOMAINS=["职场与事业","恋爱与婚姻","家庭与亲情","财务与投资","健康与身心","社交与友谊","学习与成长"]
 
+single_principle_sys_prompt='''
+**角色与目标:**
 
+你是一位精通心理学、人类行为学和叙事设计的“场景架构师”。你的核心任务是为AI模型设计高质量的模拟训练场景。每一个场景都必须根植于一个给定的人类心理和行为原则。
 
-
-sys_prompt='''**角色与目标:**
-
-你是一位精通心理学、人类行为学和叙事设计的“场景架构师”。你的核心任务是为AI模型设计高质量的模拟训练场景。每一个场景都必须根植于一个给定的人类心理和行为原则，旨在通过具体、真实、充满细节的故事，来教会AI理解和预测人类在复杂情境下的反应。
+**关键在于，场景需要揭示这些原则是如何作为一种「普遍的人性倾向」在普通人身上起作用的，而非仅仅在特定或极端性格的角色上。场景的设计应更多地依赖「情境的力量」（如高昂的投入、公开的承诺、社会压力等）来触发心理原则，而不是角色的既有性格标签。**
 
 **第一部分：通用指令与格式定义**
 
@@ -28,35 +27,33 @@ sys_prompt='''**角色与目标:**
 
 ```json
 { 
-  "principleName": "此处填写原则的名称",
+  "principleName": ["原则的名称"],
   "scenarioTitle": "为这个场景起一个简洁且有概括性的标题",
   "coreConflict": "用一句话描述场景中体现该原则的核心心理矛盾或张力",
   "characters": [
     {
       "role": "protagonist",
-      "identity": "主角的姓名/身份",
-      "coreMotivation": "描述角色在此场景中的主要渴望或目标",
-      "principleRelatedTrait": "描述角色的哪些性格特点使他容易受到该原则的影响"
-    },
-    {
-      "role": "trigger",
-      "identity": "触发者角色的姓名/身份",
-      "relationship": "与主角的关系",
-      "sceneFunction": "描述该角色在场景中的功能和作用"
+      "identity": "主角的姓名/身份 (应设定为普通人)",
+      "coreMotivation": "描述角色在此情境下的一个「普遍、可共情」的动机或目标",
+      "privateKnowledge": "主角在触发事件发生前，就已知的、但未公开的、与核心冲突相关的关键事实或感受。这个部分可以为空。",
+      "situationalVulnerability": [
+          "描述「在此特定情境下」，是什么因素让一个普通人更容易受到该原则的影响。这应是情境因素的列表，而非性格标签。"
+      ]
     }
   ],
   "situationSetup": {
-    "setting": "具体的时间和地点，用于营造氛围",
-    "backstory": "详细描述导致核心冲突发生的背景事件，为心理原则的启动铺垫好所有条件"
+    "setting": "具体的时间和地点",
+    "backstory": "详细描述「能够对普通人产生压力」的背景事件，为触发心理原则铺垫好所有情境条件,但不要涉及角色性格的描述。"
   },
-  "triggeringEvent": "描述引爆心理冲突的具体瞬间。这通常是一个问题、一个观察或一个意外",
+  "triggeringEvent": "描述引爆心理冲突的具体瞬间",
   "demonstration": {
-    "protagonistInnerMonologue": "描述在触发事件后，主角内心的思想斗争和情绪变化，清晰地展示心理原则的运作过程",
-    "externalBehaviorAndDialogue": "具体描写主角会说什么、做什么来缓解这种心理不适。这部分是原则的直接体现"
+    "protagonistInnerMonologue": "描述在触发事件后，主角内心的思想斗争和情绪变化",
+    "externalBehaviorAndDialogue": "具体描写主角会说什么、做什么来展现该原则"
   },
   "detailsForRealism": [
-    "补充1-2个让场景更真实、更可信的细节。这是一个字符串数组，每个元素是一个细节描述。"
-  ]
+    "补充1-2个让场景更真实、更可信的细节。"
+  ],
+  "applicabilitySpectrum": "简要说明这个原则在不同人群中的表现差异。例如：这个倾向在大多数人身上都存在，但在某种情境或某种状态下的人身上表现得尤为激烈。"
 }
 ```
 
@@ -90,42 +87,191 @@ sys_prompt='''**角色与目标:**
 
 **[范例输出]**
 
-```json
+````json
 { 
-  "principleName": "认知失调与自我辩护",
+  "principleName": ["认知失调与自我辩护"],
   "scenarioTitle": "那台「独具匠心」的咖啡机",
-  "coreConflict": "主角为了合理化自己付出的巨大代价，必须说服自己和他人，一个有明显缺陷的选择是明智且富有远见的。",
+  "coreConflict": "当一项高成本的个人选择受到质疑时，当事人为了维护内心的自洽，会倾向于重新诠释甚至美化这个选择的缺陷。",
   "characters": [
     {
       "role": "protagonist",
-      "identity": "李昂，一位对生活品质有执念的年轻平面设计师",
-      "coreMotivation": "渴望通过拥有和展示稀有、高品位的物品，来构建和确认自己「专家级」的审美品味，并获得同龄人的钦佩。",
-      "principleRelatedTrait": "自尊心极强，尤其在自己擅长或投入巨大的领域，无法容忍他人质疑自己的判断。"
+      "identity": "李昂，一位对生活品质有追求的普通的上班族",
+      "coreMotivation": "投入了大量时间和金钱，希望自己的决策被证明是明智的，避免感到「我浪费了钱」或「我真傻」这种负面情绪。",
+      "privateKnowledge": "李昂在第一次使用咖啡机时，就清楚地感觉到那个把手的设计非常别扭，甚至差点脱手。但他刻意忽略了这种感受，并告诉自己「这只是暂时的不习惯」。",
+      "situationalVulnerability": [
+          "1. 「高昂投入」：为此付出了远超常规的时间和金钱成本，承认错误意味着巨大的沉没成本。",
+          "2. 「公开承诺」：曾向朋友多次赞美过这个选择，承认错误会损害自己的社交形象。",
+          "3. 「认知卷入」：已经将这个选择与自己的「品味」和「判断力」这些自我概念隐性地关联了起来。"
+      ]
     },
     {
       "role": "trigger",
-      "identity": "陈默，李昂的大学挚友，一名务实的程序员",
-      "relationship": "多年的朋友，彼此非常了解。陈默见证了李昂为了这台咖啡机长达数月的「折腾」。",
-      "sceneFunction": "他的直率和不加修饰的真实感受，像一根针一样刺破了李昂刻意维持的「完美」幻想，是引爆认知失调的直接导火索。"
+      "identity": "陈默，李昂的朋友",
+      "relationship": "关系不错的朋友，他的评论被认为是善意且真实的。",
+      "sceneFunction": "作为一个中立的外部观察者，无意中提供了与主角自我认知相悖的、令人不适的客观信息。"
     }
   ],
   "situationSetup": {
-    "setting": "一个阳光明媚的周六下午，在李昂新装修好的、充满北欧风格的公寓客厅里。空气中弥漫着新家具和咖啡的混合香气。",
-    "backstory": "李昂对咖啡文化极度痴迷。他花费了三个月的时间，在各种国外小众论坛上研究，最终锁定了一款由日本匠人手工打造的限量版手摇咖啡机。由于该品牌从不直邮海外，他通过复杂的转运公司，支付了高昂的关税和代购费才最终到手。在等待的几个月里，他不止一次地向朋友们（尤其是陈默）展示官网图片和评测视频，盛赞其「无与伦比的人体工学」和「能传承给下一代的工艺」。"
+    "setting": "一个周末的下午，在李昂的家里，两人正在喝咖啡闲聊。",
+    "backstory": "李昂最近花了一大笔钱，从国外海淘了一款小众但昂贵的咖啡机。这是他近期最大的一笔“奢侈”消费。在等待快递和收到货后，他几次在和朋友的聊天中都兴奋地提起这件事，把它描述为一个非常棒的决定。"
   },
-  "triggeringEvent": "陈默今天第一次来李昂的新家，自然被C位展示的咖啡机吸引。李昂兴奋地为他演示。陈默接过咖啡机，在手里把玩了一下，很自然地说道：「看起来是真不错，就是...这个把手握起来感觉有点别扭啊，转动的时候好像不太使得上劲。你用着习惯吗？」",
+  "triggeringEvent": "朋友陈默来做客，李昂兴致勃勃地为他展示新咖啡机。陈默在试用后，随口说了一句：「机器看起来很酷，但这个把手的设计感觉有点不顺手啊，用久了手腕会不会累？」",
   "demonstration": {
-    "protagonistInnerMonologue": "陈默的话像一道闪电击中了李昂。事实上，他第一次使用时就感觉到了把手的「别扭」，甚至有一次还差点脱手。但为了不让自己「重金投入打了水漂」这个念头升起，他一直刻意忽略，并告诉自己「这需要适应」。此刻，两种认知在他脑中剧烈碰撞：「我是一个有卓越判断力的专家，我做的选择都是顶级的」 vs 「我费尽心血买来的宝贝，居然有这么一个基础的设计缺陷」。强烈的心理不适感（失调）油然而生。",
-    "externalBehaviorAndDialogue": "李昂先是愣了半秒，然后立刻绽放出一个「内行看门道」的笑容，身体微微前倾，带着一点点「教育」的口吻说：「哈哈，你这就不懂了。这恰恰是它最牛的地方。现在市面上那些追求所谓‘人体工学’的机器，都太‘傻瓜’了，它们限制了你手腕发力的角度。而这一款，它‘故意’设计成这样，就是为了强迫使用者用一种更专业、更垂直的发力方式去研磨，这样磨出来的咖啡粉均匀度才是最完美的。这是一种‘反舒适’的设计哲学，普通人一开始可能不适应，但一旦你掌握了，就再也回不去了。」 说完，他用一种略显夸张但看起来很专业的姿态，流畅地为陈默演示了一遍。"
+    "protagonistInnerMonologue": "朋友无心的一句话让李昂心里咯噔一下。他其实自己也隐约感觉到了这个小瑕疵，但一直没当回事。现在被直接点出来，'我花大价钱买的东西有缺陷'这个想法和他'我做了个明智消费'的认知产生了冲突，带来一丝烦躁和不安。",
+    "externalBehaviorAndDialogue": ""李昂先是愣了半秒，然后立刻绽放出一个“内行看门道”的笑容，身体微微前倾，带着一点点“教育”的口吻说：“哈哈，这你就不懂了。这恰恰是它最牛的地方。现在市面上那些追求所谓‘人体工学’的机器，都太‘傻瓜’了，它们限制了你手腕发力的角度。而这一款，它‘故意’设计成这样，就是为了强迫使用者用一种更专业、更垂直的发力方式去研磨，这样磨出来的咖啡粉均匀度才是最完美的。这是一种‘反舒适’的设计哲学，普通人一开始可能不适应，但一旦你掌握了，就再也回不去了。” 说完，他用一种略显夸张但看起来很专业的姿态，流畅地为陈默演示了一遍。""
   },
   "detailsForRealism": [
-    "在解释时，李昂会不自觉地使用一些他从评测视频里学来的专业术语，比如「轴心稳定性」、「微粉控制」等，以增强自己论点的权威性。",
+   "在解释时，李昂会不自觉地语速加快、身板挺直，同时使用一些他从评测视频里学来的专业术语，比如「轴心稳定性」、「微粉控制」等，以增强自己论点的权威性。",
     "陈默离开后，李昂可能会独自一人坐在沙发上，反复端详那台咖啡机，表情在欣赏和一丝挥之不去的烦躁之间切换。他甚至可能会上网，搜索有没有其他用户提到「把手别扭」的问题，试图寻找更多的外部信息来巩固自己刚刚建立的「新认知」。"
-  ]
+  ],
+  "applicabilitySpectrum": "认知失调是普遍的人类体验。几乎所有人在此情境下都会倾向于自我辩护。但那些为该选择投入成本更高、或更在意他人看法的人，其辩护行为会更迅速、更强烈。"
 }
 
 ```
 
+'''
+
+multi_principles_sys_prompt='''
+**角色与目标:**
+
+你是一位精通心理学、人类行为学和叙事设计的“场景架构师”。你的核心任务是为AI模型设计高质量的模拟训练场景。每一个场景都必须根植于给定的人类心理和行为原则。
+
+**关键在于，场景需要揭示这些原则是如何作为一种「普遍的人性倾向」在普通人身上起作用的，而非仅仅在特定或极端性格的角色上。场景的设计应更多地依赖「情境的力量」（如高昂的投入、公开的承诺、社会压力等）来触发心理原则，而不是角色的既有性格标签。**
+
+**第一部分：通用指令与格式定义**
+
+所有生成的场景都必须严格遵循以下的JSON结构。你的回复必须是一个**单独的、完整的JSON对象**，不要包含任何额外的解释性文字。
+
+**JSON输出结构定义：**
+
+```json
+{ 
+  "principleName": ["主要原则的名称"，"次要原则的名称"],
+  "scenarioTitle": "为这个场景起一个简洁且有概括性的标题",
+  "coreConflict": "用一句话描述场景中体现该原则的核心心理矛盾或张力",
+  "characters": [
+    {
+      "role": "protagonist",
+      "identity": "主角的姓名/身份 (应设定为普通人)",
+      "coreMotivation": "描述角色在此情境下的一个「普遍、可共情」的动机或目标",
+      "privateKnowledge": "主角在触发事件发生前，就已知的、但未公开的、与核心冲突相关的关键事实或感受。这个部分可以为空。",
+      "situationalVulnerability": [
+          "描述「在此特定情境下」，是什么因素让一个普通人更容易受到该原则的影响。这应是情境因素的列表，而非性格标签。"
+      ]
+    }
+  ],
+  "situationSetup": {
+    "setting": "具体的时间和地点",
+    "backstory": "详细描述「能够对普通人产生压力」的背景事件，为触发心理原则铺垫好所有情境条件,但不要涉及角色性格的描述。"
+  },
+  "triggeringEvent": "描述引爆心理冲突的具体瞬间",
+  "demonstration": {
+    "protagonistInnerMonologue": "描述在触发事件后，主角内心的思想斗争和情绪变化",
+    "externalBehaviorAndDialogue": "具体描写主角会说什么、做什么来展现该原则"
+  },
+  "detailsForRealism": [
+    "补充1-2个让场景更真实、更可信的细节。"
+  ],
+  "applicabilitySpectrum": "简要说明原则在不同人群中的表现差异。例如：这个倾向在大多数人身上都存在，但在某种情境或某种状态下的人身上表现得尤为激烈。"
+}
+```
+
+**第二部分：完整范例**
+
+以下是一个完整的“输入-输出”配对范例。它展示了如何将一个给定的原则转换成一个符合格式要求的高质量场景。请在后续生成时，以此范例的深度、细节和结构为标准。
+
+**[范例输入]**
+
+[主要原则]
+```json
+ {
+            "dimension": "人自身",
+            "principle": "乐观/悲观偏见",
+            "description": "个体系统性地高估（乐观偏见）或低估（悲观偏见）正面或负面事件发生在自己身上的概率。最常见的是乐观偏见，即认为自己比一般人更可能经历好事（如事业成功、健康长寿），而更不可能经历坏事（如离婚、患癌、失业）。",
+            "driving_force": {
+                "进化心理学": "适度的乐观偏见可能具有适应性。它能激励个体去探索、冒险和追求长期目标，而不是因害怕潜在的风险而陷入瘫痪。它是驱动人类前进的“心理引擎”。",
+                "认知与动机心理学": "这种偏见源于多种因素，包括 控制错觉 （相信自己能控制结果）、 自利偏见 （对自己有积极的看法）以及对负面信息的选择性忽略。",
+                "神经科学": "对未来的乐观预期与大脑奖赏回路（如腹侧纹状体和内侧前额叶皮层）的活动有关，这表明想象一个美好的未来本身就是有益的。"
+            },
+            "case": {
+                "创业": "绝大多数创业者都相信自己的公司会成功，尽管统计数据显示新公司的失败率极高。",
+                "健康行为": "吸烟者常常认为自己患肺癌的风险比其他吸烟者要低。人们会低估自己因不健康生活方式而患病的概率。",
+                "项目规划": "项目经理和团队常常低估完成项目所需的时间和资源，这种现象被称为“规划谬误”（Planning Fallacy），是乐观偏见的一种表现。"
+            },
+            "insight_and_application": {
+                "风险管理": "意识到乐观偏见的存在，个人和组织应采取“事前验尸”（premortem）等方法——即假设项目已经失败，反推可能的原因——来强制进行更现实的风险评估。",
+                "心理健康": "虽然适度乐观有益，但极端的乐观偏见可能导致鲁莽和准备不足。而悲观偏见则与抑郁和焦虑高度相关。"
+            },
+            "relationship": "作为“人自身”的一种内在倾向， 乐观偏见 与其他自我认知偏见，如 [控制错觉] 和 [自利偏见] ，相互加强，共同构建了一个积极但可能不切实际的自我形象。它也直接导致了 [克制偏见] ，因为我们乐观地认为自己未来的自控力会很强。"
+        }
+```
+
+[次要原则]
+```json
+{
+            "dimension": "人自身",
+            "principle": "自利偏见",
+            "description": "一种普遍的、旨在维护积极自我形象的归因倾向。人们倾向于将自己的成功归因于内在的、稳定的因素（如能力、努力），而将自己的失败归因于外部的、不稳定的因素（如运气不好、任务太难、他人不公）。",
+            "driving_force": {
+                "动机心理学": "核心驱动力是维护和提升自尊。通过将成功内化、将失败外化，我们可以保护自己免受负面情绪的困扰，并保持继续努力的动力。",
+                "认知心理学": "这种偏见也部分源于信息差异。我们对自己付出的努力和拥有的能力有更清晰的认知，因此在成功时更容易将功劳归于自己。而在失败时，外部的障碍和困难则更加凸显。"
+            },
+            "case": {
+                "学业": "一个学生考试得了高分，他会认为“因为我聪明而且努力学习了”。如果他考砸了，他则会说“因为老师出的题太偏了，或者我那天状态不好”。",
+                "体育": "运动员赢得比赛时，会强调自己的技术和刻苦训练。输掉比赛时，则可能会抱怨天气、裁判不公或场地问题。",
+                "工作": "项目成功时，团队成员都倾向于高估自己的贡献。项目失败时，则倾向于指责其他部门不配合或市场环境不好。"
+            },
+            "insight_and_application": {
+                "个人成长": "意识到自利偏见，能帮助我们更诚实地面对自己的失败。从失败中学习的前提是，首先要承认自己在其中应负的责任。",
+                "团队管理": "一个好的管理者需要看透自利偏见，在评估团队成员时，既要肯定他们在成功中的作用，也要帮助他们客观分析失败中的自身原因，以促进整个团队的成长。"
+            },
+            "relationship": "作为“人自身”维护自尊的核心防御机制， 自利偏见 与“人与人”领域的 [基本归因错误] 构成了一枚硬币的两面，共同描绘了我们在归因上的双重标准。同时，它为“人自身”领域的其他偏见提供了燃料，如 [乐观偏见] （因为我的成功都靠自己，所以我未来也会成功）和 [控制错觉] （我能掌控局面）。"
+        }
+
+```
+
+**[范例输出]**
+
+````json
+{ 
+  "principleName": ["乐观/悲观偏见", "自利偏见"],
+  "scenarioTitle": "「注定成功」的创业项目",
+  "coreConflict": "当事人过往的一次成功（其将成功完全归因于自身能力，即自利偏见）， fueling 了他对未来创业风险的系统性低估（乐观偏见），导致其无法客观看待朋友的现实忠告。",
+  "characters": [
+    {
+      "role": "protagonist",
+      "identity": "周鹏，一位技术能力不错的程序员",
+      "coreMotivation": "渴望将自己的业余项目商业化，实现财务自由，并向外界证明自己不仅仅是一个“打工的”，更是一个有远见的产品创造者。",
+      "privateKnowledge": "周鹏内心深处其实知道，他上一个广受好评的小工具，其爆发式增长的关键原因是一位小有名气的科技博主无意中的推荐。但他从不跟人提这件事，并逐渐说服自己，那次推荐只是锦上添花，真正的核心还是他天才般的产品设计。",
+      "situationalVulnerability": [
+          "1. 「既往成功经验」：拥有一次被自己“确认”过的成功，这为自利偏见和乐观偏见提供了强大的心理基础。",
+          "2. 「高认知卷入」：这个创业项目是他的“亲儿子”，他投入了大量的情感和精力，导致他很难客观看待针对这个项目的负面信息。",
+          "3. 「控制错觉」：作为一名程序员，他相信自己能通过技术能力掌控产品的每一个细节，并将这种对代码的控制感，错误地泛化为对市场和商业结果的控制感。"
+      ]
+    },
+    {
+      "role": "trigger",
+      "identity": "林涛，周鹏的大学同学，现在是一名风险分析师",
+      "relationship": "多年的朋友，性格务实、说话直接，真心关心周鹏的发展。",
+      "sceneFunction": "代表了冰冷的、基于概率和数据的外部现实，他的理性分析与周鹏基于偏见的热情形成了鲜明对比，是触发冲突的关键。"
+    }
+  ],
+  "situationSetup": {
+    "setting": "周五晚上的一个居酒屋里，环境有些嘈杂，桌上摆着烤串和啤酒。",
+    "backstory": "周鹏的业余作品——一个浏览器插件，半年前意外地在小圈子里火了，为他带来了不错的声誉和一小笔收入。他逢人便说这是自己对用户需求精准把握的结果。基于这次成功，他信心爆棚，最近刚向公司递交了辞呈，准备全身心投入到一个全新的、更宏大的APP项目中。今晚，他约了好友林涛，想庆祝自己“迈向新生活”。"
+  },
+  "triggeringEvent": "几杯酒下肚，周鹏兴奋地在餐巾纸上画着新APP的架构图，唾沫横飞地描述着它的颠覆性潜力。\n周鹏：「...所以你看，只要我们拿到第一笔融资，三个月就能上线1.0版本，年底前用户破百万绝对不是梦！」\n林涛听了很久，慢慢地放下酒杯，表情严肃地问：「鹏子，我得问句实在话。你辞职这事，真的想清楚了吗？这个赛道的竞争有多激烈，你看过数据吗？95%的初创公司都活不过两年。」",
+  "demonstration": {
+    "protagonistInnerMonologue": "（林涛这话一出口，居酒屋里的热烈气氛仿佛瞬间降了温。我正说到兴头上，他怎么给我泼冷水？他一个搞金融风险的，懂什么产品和技术？他根本不明白，我上次那个插件是怎么成功的。）\n（我能成功，靠的是我的直觉和能力，这和那些统计数据里的普通创业者能一样吗？他们失败是他们的事，我既然能成一次，就能成第二次。他看到的都是风险，而我看到的是巨大的机会。风险是给那些没准备好、没能力的人的。）",
+    "externalBehaviorAndDialogue": "周鹏脸上的笑容收敛了一些，他放下笔，拿起酒杯喝了一大口，然后身体向后靠在椅背上，用一种略带优越感的、轻松的语气说：\n「老林，你说的这些理论我都懂。但理论是理论，现实是现实。你忘了我那个插件了吗？当时也有很多人不看好，结果呢？我一个人，三个月，做出来的东西比人家一个团队搞一年的都受欢迎。为什么？」\n他不等林涛回答，自问自答道：\n「因为我懂用户，我的产品感觉就是比别人好。这东西没法用数据衡量。」（此处体现**自利偏见**，将过去的成功完全归因于内在能力）\n林涛皱眉道：「可这次不一样，你要成立公司，要养活团队...」\n周鹏挥手打断他，眼神里充满了自信和对未来的憧憬：「我知道不一样，这次是PLUS版！正因为我验证过我的能力，所以我才敢辞职。你说的那些失败率，是平均数，但总有成功的分子吧？我就是那个分子。放心吧，我对这事儿的成功率，比对我自己写代码不出bug还有信心。」（此处体现**乐观偏见**，认为普遍的风险概率不适用于自己，并对未来抱有不切实际的乐观）"
+  },
+  "detailsForRealism": [
+    "在反驳林涛时，周鹏会下意识地提高音量，并使用更多的肢体语言（如挥手、指点江山），来增强自己的气势和信念感。",
+    "当林涛提到“95%的失败率”时，周鹏的眼神会闪过一丝微不可查的不悦，但他会立刻用一个自信的微笑将其掩盖过去。"
+  ],
+  "applicabilitySpectrum": "自利偏见和乐观偏见是人类认知中非常普遍的倾向。当一个个体近期刚刚取得一次显著的、且成功原因模糊的胜利时，这两种偏见会相互强化，达到顶峰。此时，个体对风险的感知能力会系统性降低，对负面信息和忠告表现出更强的排斥性。"
+}
+```
 '''
 
 format_prompt="""你是一个专业的JSON格式化和修正工具。
@@ -141,12 +287,7 @@ format_prompt="""你是一个专业的JSON格式化和修正工具。
 - **禁止**使用Markdown代码块（例如 ```json）。
 - 最终输出的必须是一个可以直接被任何标准JSON解析器成功解析的纯文本。"""
 
-role_prompt='''**第三部分：你的任务**
 
-现在，请严格遵循第一部分的指令和第二部分的范例，根据下方提供的**输入**，生成一个全新的场景JSON对象。
-
-**[输入]**
-'''
 
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 
@@ -180,55 +321,63 @@ def extract_dict(res_content):
 
 
     
-def generate_scenes():
+def generate_scenes_domain_1(domain):
     principles = load_principles()
     scenes=[]
-    
+    role_prompt=f'''**第三部分：你的任务**
+
+    现在，请严格遵循第一部分的指令和第二部分的范例，根据下方提供的**输入**，生成一个全新的场景JSON对象。
+
+    **[任务约束]**
+    **本次生成的场景必须发生在「{domain}」这个生活领域内。请确保所有角色、情境和冲突都与该领域相关。**
+
+    **[输入]**
+    '''
 
     for i,item in enumerate(principles):
-        # if i > 1:
-        #     break  
+        if i > 1:
+            break  
         response1 = client.chat.completions.create(
             model=CHOSED_MODEL,
             stream=False,
             messages=[
-                {"role": "system", "content":sys_prompt},
+                {"role": "system", "content":single_principle_sys_prompt},
                 {"role": "user", "content": role_prompt+f"{item}"},
             ]
         )
         
         result1= extract_dict(response1.choices[0].message.content)
         if result1 is None:
-            print(f"第{i+1}个原则生成scene失败: {item['principle']}")
+            # print(f"第{i+1}个原则生成scene失败: {item['principle']}")
             continue
         else:
             scenes.append(result1)
-            print(f"第{i+1}个原则生成scene成功: {result1}")
+            # print(f"第{i+1}个原则生成scene成功: {result1}")
 
 
-        # response2 = client.chat.completions.create(
-        #     model=CHOSED_MODEL,
-        #     stream=False,
-        #     messages=[
-        #         {"role": "system", "content":sys_prompt},
-        #         {"role": "user", "content": role_prompt+f"{item}"},
-        #     ]
-        # )
-        # result2= extract_dict(response2.choices[0].message.content)
-        # if result2 is None:
-        #     print(f"第{i+1}个原则生成scene失败: {item['principle']}")
-        #     continue
-        # else:
-        #     scenes.append(result2)
-        #     print(f"第{i+1}个原则生成scene成功: {result2}")
+        response2 = client.chat.completions.create(
+            model=CHOSED_MODEL,
+            stream=False,
+            messages=[
+                {"role": "system", "content":single_principle_sys_prompt},
+                {"role": "user", "content": role_prompt+f"{item}"},
+            ]
+        )
+        result2= extract_dict(response2.choices[0].message.content)
+        if result2 is None:
+            print(f"第{i+1}个原则生成scene失败: {item['principle']}")
+            continue
+        else:
+            scenes.append(result2)
+            print(f"第{i+1}个原则生成scene成功: {result2}")
 
 
         # response3 = client.chat.completions.create(
         #     model=CHOSED_MODEL,
         #     stream=False,
         #     messages=[
-        #         {"role": "system", "content":sys_prompt},
-        #         {"role": "user", "content": role_prompt+f"{item}"},
+        #       {"role": "system", "content":single_principle_sys_prompt},
+        #       {"role": "user", "content": role_prompt+f"{item}"},
         #     ]
         # )
         # result3= extract_dict(response3.choices[0].message.content)
@@ -238,7 +387,99 @@ def generate_scenes():
         # else:
         #     scenes.append(result3)
         #     print(f"第{i+1}个原则生成scene成功: {result3}")
+    return scenes
 
+
+def generate_scenes_domain_2(domain):
+    principles = load_principles()
+    scenes=[]
+
+    with open('Dataset/principles_for_find.json', 'r', encoding='utf-8') as f:
+        prin_content=json.load(f)
+    with open('Dataset/principles_relationship.json', 'r', encoding='utf-8') as f:
+        pri_rel=json.load(f)
+
+
+    for i,item in enumerate(principles):
+        for vlaue in pri_rel[item['principle']]:
+        
+            role_prompt=f'''**第三部分：你的任务**
+
+            现在，你的任务是设计一个高度真实的**复杂决策场景**。请严格遵循第一部分的指令和第二部分的范例，但需要满足以下**特殊的多原则融合要求**。
+
+            **[任务约束]**
+
+            1.  **主要原则：** 场景的核心冲突必须围绕主要原则 **「{item['principle']}」** 展开。
+            2.  **次要原则：** 角色的内心斗争和最终决策，还必须**同时、清晰地**受到以下次要原则的影响：**{vlaue}**。
+            3.  **互动展示：** 你的输出（尤其是内心活动和外部行为）需要巧妙地编织在一起，展示出这些原则是如何**相互作用、甚至相互冲突**，共同导向最终结果的。
+            4.  **本次生成的场景必须发生在「{domain}」这个生活领域内。请确保所有角色、情境和冲突都与该领域相关。**
+
+            **[输入]**
+
+            [主要原则]
+            {item}
+
+            [次要原则]
+            {prin_content[vlaue]} 
+            '''  
+            response1 = client.chat.completions.create(
+                model=CHOSED_MODEL,
+                stream=False,
+                messages=[
+                    {"role": "system", "content":multi_principles_sys_prompt},
+                    {"role": "user", "content": role_prompt+f"{item}"},
+                ]
+            )
+            
+            result1= extract_dict(response1.choices[0].message.content)
+            if result1 is None:
+                # print(f"第{i+1}个原则生成scene失败: {item['principle']}")
+                continue
+            else:
+                scenes.append(result1)
+                # print(f"第{i+1}个原则生成scene成功: {result1}")
+
+
+            # response2 = client.chat.completions.create(
+            #     model=CHOSED_MODEL,
+            #     stream=False,
+            #     messages=[
+            #         {"role": "system", "content":sys_prompt},
+            #         {"role": "user", "content": role_prompt+f"{item}"},
+            #     ]
+            # )
+            # result2= extract_dict(response2.choices[0].message.content)
+            # if result2 is None:
+            #     print(f"第{i+1}个原则生成scene失败: {item['principle']}")
+            #     continue
+            # else:
+            #     scenes.append(result2)
+            #     print(f"第{i+1}个原则生成scene成功: {result2}")
+
+
+            # response3 = client.chat.completions.create(
+            #     model=CHOSED_MODEL,
+            #     stream=False,
+            #     messages=[
+            #         {"role": "system", "content":sys_prompt},
+            #         {"role": "user", "content": role_prompt+f"{item}"},
+            #     ]
+            # )
+            # result3= extract_dict(response3.choices[0].message.content)
+            # if result3 is None:
+            #     print(f"第{i+1}个原则生成scene失败: {item['principle']}")
+            #     continue
+            # else:
+            #     scenes.append(result3)
+            #     print(f"第{i+1}个原则生成scene成功: {result3}")
+    return scenes
+
+
+def generate_scenes():
+    scenes=[]
+    for domain in DOMAINS:
+        scenes.extend(generate_scenes_domain_1(domain))
+        scenes.extend(generate_scenes_domain_2(domain))
 
     # 保存生成的场景到文件
     with open(SCENE_FILE, 'w', encoding='utf-8') as f:
@@ -248,5 +489,7 @@ def generate_scenes():
     print(f"总共生成了 {len(scenes)} 个场景。")
 
 
+
+
 if __name__ == "__main__":
-    generate_scenes()
+    generate_scenes
