@@ -23,9 +23,9 @@ with open('Dataset/principles_format.json', 'r', encoding='utf-8') as f:
     principles = json.load(f)
 
 
-content =[]
+content ={}
 for principle in principles:
-    content.append({principle['principle']: principle})
+    content[principle['principle']]= principle
 
 with open('Dataset/principles_for_find.json', 'w', encoding='utf-8') as f:
     json.dump(content, f, ensure_ascii=False, indent=4)
