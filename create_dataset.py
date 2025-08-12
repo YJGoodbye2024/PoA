@@ -13,6 +13,7 @@ PRIN_FILE = 'Dataset/principles_format.json'
 SCENE_FILE = 'Dataset/scenes.json'
 # CHOSED_MODEL="claude-opus-4-20250514"
 CHOSED_MODEL = "claude-sonnet-4-20250514"
+CHOSED_MODEL_2 = "gpt-4.1"
 DOMAINS = ["职场与事业", "恋爱与婚姻", "家庭与亲情", "财务与投资", "健康与身心", "社交与友谊", "学习与成长"]
 
 
