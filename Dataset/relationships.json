@@ -1,0 +1,856 @@
+{
+  "actor observer asymmetry": [
+    "fundamental attribution error",
+    "self-serving bias",
+    "attribution theory",
+    "ultimate attribution error"
+  ],
+  "defensive attribution hypothesis": [
+    "just-world hypothesis",
+    "fundamental attribution error",
+    "self-serving bias",
+    "optimism bias"
+  ],
+  "effort justification": [
+    "cognitive dissonance theory",
+    "choice-supportive bias",
+    "sunk cost fallacy",
+    "self-perception theory"
+  ],
+  "egocentric bias": [
+    "false consensus effect",
+    "curse of knowledge",
+    "illusion of transparency",
+    "projection bias"
+  ],
+  "false consensus effect": [
+    "egocentric bias",
+    "projection bias",
+    "availability heuristic",
+    "naive realism"
+  ],
+  "forer effect": [
+    "confirmation bias",
+    "self-serving bias",
+    "authority bias",
+    "illusion of validity"
+  ],
+  "fundamental attribution error": [
+    "actor observer asymmetry",
+    "self-serving bias",
+    "ultimate attribution error",
+    "attribution theory"
+  ],
+  "hard-easy effect": [
+    "overconfidence effect",
+    "illusory superiority",
+    "planning fallacy"
+  ],
+  "illusion of control": [
+    "self-serving bias",
+    "optimism bias",
+    "just-world hypothesis",
+    "egocentric bias"
+  ],
+  "illusory superiority": [
+    "self-serving bias",
+    "overconfidence effect",
+    "optimism bias",
+    "bias blind spot"
+  ],
+  "optimism bias": [
+    "planning fallacy",
+    "illusory superiority",
+    "illusion of control",
+    "self-serving bias"
+  ],
+  "overconfidence effect": [
+    "illusory superiority",
+    "planning fallacy",
+    "illusion of control",
+    "hard-easy effect"
+  ],
+  "risk compensation": [
+    "illusion of control",
+    "optimism bias",
+    "overconfidence effect",
+    "zero-risk bias"
+  ],
+  "self-serving bias": [
+    "fundamental attribution error",
+    "actor observer asymmetry",
+    "illusory superiority",
+    "defensive attribution hypothesis"
+  ],
+  "social desirability bias": [
+    "observer effect",
+    "conformity",
+    "spotlight effect",
+    "illusory superiority"
+  ],
+  "third-person effect": [
+    "illusory superiority",
+    "bias blind spot",
+    "naive realism",
+    "optimism bias"
+  ],
+  "decoy effect": [
+    "framing effect",
+    "context effect",
+    "contrast effect",
+    "distinction bias"
+  ],
+  "reactance": [
+    "the allure of the forbidden",
+    "self-determination theory",
+    "backfire effect",
+    "reactive devaluation"
+  ],
+  "social comparison bias": [
+    "social comparison theory",
+    "illusory superiority",
+    "in-group bias",
+    "self-serving bias"
+  ],
+  "status quo bias": [
+    "loss aversion",
+    "endowment effect",
+    "omission bias",
+    "ambiguity bias"
+  ],
+  "backfire effect": [
+    "confirmation bias",
+    "cognitive dissonance theory",
+    "continued influence effect",
+    "reactance"
+  ],
+  "endowment effect": [
+    "loss aversion",
+    "status quo bias",
+    "choice-supportive bias"
+  ],
+  "loss aversion": [
+    "endowment effect",
+    "status quo bias",
+    "sunk cost fallacy",
+    "framing effect"
+  ],
+  "pseudocertainty effect": [
+    "framing effect",
+    "zero-risk bias",
+    "loss aversion",
+    "focusing effect"
+  ],
+  "sunk cost fallacy": [
+    "loss aversion",
+    "effort justification",
+    "status quo bias",
+    "self-consistency bias"
+  ],
+  "zero-risk bias": [
+    "pseudocertainty effect",
+    "loss aversion",
+    "framing effect",
+    "ambiguity bias"
+  ],
+  "hyperbolic discounting": [
+    "planning fallacy",
+    "restraint bias",
+    "impact bias",
+    "projection bias"
+  ],
+  "identifiable victim effect": [
+    "base rate fallacy",
+    "empathy gap",
+    "framing effect",
+    "less-is-better effect"
+  ],
+  "ambiguity bias": [
+    "zero-risk bias",
+    "loss aversion",
+    "information bias",
+    "pseudocertainty effect"
+  ],
+  "belief bias": [
+    "confirmation bias",
+    "cognitive dissonance theory",
+    "backfire effect",
+    "expectation bias"
+  ],
+  "information bias": [
+    "ambiguity bias",
+    "illusion of control",
+    "confirmation bias",
+    "illusion of validity"
+  ],
+  "less-is-better effect": [
+    "distinction bias",
+    "framing effect",
+    "focusing effect",
+    "halo effect"
+  ],
+  "authority bias": [
+    "obedience to authority",
+    "automation bias",
+    "halo effect",
+    "conformity"
+  ],
+  "automation bias": [
+    "authority bias",
+    "confirmation bias",
+    "attentional bias",
+    "illusion of validity"
+  ],
+  "bandwagon effect": [
+    "conformity",
+    "groupthink",
+    "social comparison theory",
+    "availability heuristic"
+  ],
+  "group attribution error": [
+    "ultimate attribution error",
+    "fundamental attribution error",
+    "out-group homogeneity bias",
+    "stereotyping"
+  ],
+  "just-world hypothesis": [
+    "fundamental attribution error",
+    "defensive attribution hypothesis",
+    "illusion of control",
+    "outcome bias"
+  ],
+  "stereotyping": [
+    "ultimate attribution error",
+    "out-group homogeneity bias",
+    "confirmation bias",
+    "illusory correlation"
+  ],
+  "ultimate attribution error": [
+    "fundamental attribution error",
+    "in-group bias",
+    "stereotyping",
+    "self-serving bias"
+  ],
+  "halo effect": [
+    "stereotyping",
+    "fundamental attribution error",
+    "authority bias",
+    "confirmation bias"
+  ],
+  "in-group bias": [
+    "social identity theory",
+    "ultimate attribution error",
+    "out-group homogeneity bias",
+    "stereotyping"
+  ],
+  "out-group homogeneity bias": [
+    "in-group bias",
+    "stereotyping",
+    "ultimate attribution error",
+    "social identity theory"
+  ],
+  "positivity effect": [
+    "negativity bias",
+    "fading affect bias",
+    "choice-supportive bias",
+    "self-serving bias"
+  ],
+  "reactive devaluation": [
+    "in-group bias",
+    "ultimate attribution error",
+    "reactance",
+    "authority bias"
+  ],
+  "hindsight bias": [
+    "outcome bias",
+    "curse of knowledge",
+    "overconfidence effect",
+    "self-consistency bias"
+  ],
+  "impact bias": [
+    "hedonic adaptation",
+    "projection bias",
+    "focusing effect",
+    "planning fallacy"
+  ],
+  "outcome bias": [
+    "hindsight bias",
+    "just-world hypothesis",
+    "fundamental attribution error"
+  ],
+  "pessimism bias": [
+    "optimism bias",
+    "negativity bias",
+    "availability heuristic",
+    "loss aversion"
+  ],
+  "planning fallacy": [
+    "optimism bias",
+    "overconfidence effect",
+    "illusion of control",
+    "illusory superiority"
+  ],
+  "projection bias": [
+    "empathy gap",
+    "false consensus effect",
+    "impact bias",
+    "restraint bias"
+  ],
+  "restraint bias": [
+    "overconfidence effect",
+    "empathy gap",
+    "optimism bias",
+    "illusory superiority"
+  ],
+  "self-consistency bias": [
+    "cognitive dissonance theory",
+    "choice-supportive bias",
+    "hindsight bias",
+    "narrative self"
+  ],
+  "denomination effect": [
+    "mental accounting",
+    "framing effect",
+    "loss aversion"
+  ],
+  "mental accounting": [
+    "framing effect",
+    "sunk cost fallacy",
+    "loss aversion",
+    "denomination effect"
+  ],
+  "normalcy bias": [
+    "optimism bias",
+    "status quo bias",
+    "ostrich effect",
+    "planning fallacy"
+  ],
+  "subadditivity effect": [
+    "availability heuristic",
+    "framing effect",
+    "focusing effect",
+    "identifiable victim effect"
+  ],
+  "survivorship bias": [
+    "availability heuristic",
+    "base rate fallacy",
+    "optimism bias",
+    "outcome bias"
+  ],
+  "zero-sum bias": [
+    "social comparison bias",
+    "loss aversion",
+    "in-group bias",
+    "just-world hypothesis"
+  ],
+  "anthropomorphism": [
+    "attribution theory",
+    "projection bias",
+    "fundamental attribution error",
+    "identifiable victim effect"
+  ],
+  "illusion of validity": [
+    "overconfidence effect",
+    "confirmation bias",
+    "illusory correlation",
+    "survivorship bias"
+  ],
+  "illusory correlation": [
+    "stereotyping",
+    "availability heuristic",
+    "confirmation bias",
+    "just-world hypothesis"
+  ],
+  "curse of knowledge": [
+    "illusion of transparency",
+    "egocentric bias",
+    "hindsight bias",
+    "projection bias"
+  ],
+  "illusion of asymmetric insight": [
+    "naive realism",
+    "fundamental attribution error",
+    "actor observer asymmetry",
+    "bias blind spot"
+  ],
+  "illusion of transparency": [
+    "spotlight effect",
+    "curse of knowledge",
+    "egocentric bias",
+    "false consensus effect"
+  ],
+  "spotlight effect": [
+    "egocentric bias",
+    "illusion of transparency",
+    "false consensus effect",
+    "illusion of asymmetric insight"
+  ],
+  "negativity bias": [
+    "loss aversion",
+    "attentional bias",
+    "pessimism bias",
+    "positivity effect"
+  ],
+  "choice-supportive bias": [
+    "cognitive dissonance theory",
+    "effort justification",
+    "self-serving bias",
+    "endowment effect"
+  ],
+  "confirmation bias": [
+    "backfire effect",
+    "belief bias",
+    "choice-supportive bias",
+    "continued influence effect"
+  ],
+  "continued influence effect": [
+    "misinformation effect",
+    "confirmation bias",
+    "backfire effect",
+    "illusory truth effect"
+  ],
+  "expectation bias": [
+    "confirmation bias",
+    "observer-expectancy effect",
+    "belief bias",
+    "illusion of validity"
+  ],
+  "observer effect": [
+    "observer-expectancy effect",
+    "social desirability bias",
+    "reactance",
+    "social facilitation"
+  ],
+  "observer-expectancy effect": [
+    "expectation bias",
+    "confirmation bias",
+    "stereotyping",
+    "observer effect"
+  ],
+  "ostrich effect": [
+    "confirmation bias",
+    "loss aversion",
+    "cognitive dissonance theory",
+    "pleasure principle & reality principle"
+  ],
+  "bias blind spot": [
+    "naive realism",
+    "illusory superiority",
+    "illusion of asymmetric insight",
+    "self-serving bias"
+  ],
+  "naive cynicism": [
+    "fundamental attribution error",
+    "illusion of asymmetric insight",
+    "reactive devaluation"
+  ],
+  "naive realism": [
+    "bias blind spot",
+    "false consensus effect",
+    "fundamental attribution error",
+    "illusion of asymmetric insight"
+  ],
+  "attentional bias": [
+    "confirmation bias",
+    "negativity bias",
+    "focusing effect",
+    "mood-congruent memory bias"
+  ],
+  "availability heuristic": [
+    "base rate fallacy",
+    "survivorship bias",
+    "illusory correlation",
+    "identifiable victim effect"
+  ],
+  "base rate fallacy": [
+    "availability heuristic",
+    "identifiable victim effect",
+    "stereotyping",
+    "framing effect"
+  ],
+  "context effect": [
+    "framing effect",
+    "anchoring",
+    "contrast effect",
+    "decoy effect"
+  ],
+  "empathy gap": [
+    "projection bias",
+    "restraint bias",
+    "curse of knowledge",
+    "naive realism"
+  ],
+  "illusory truth effect": [
+    "mere exposure effect",
+    "availability heuristic",
+    "continued influence effect",
+    "source confusion"
+  ],
+  "mere exposure effect": [
+    "illusory truth effect",
+    "availability heuristic",
+    "misattribution of memory",
+    "status quo bias"
+  ],
+  "mood-congruent memory bias": [
+    "attentional bias",
+    "availability heuristic",
+    "projection bias",
+    "fading affect bias"
+  ],
+  "omission bias": [
+    "status quo bias",
+    "loss aversion",
+    "zero-risk bias",
+    "framing effect"
+  ],
+  "anchoring": [
+    "framing effect",
+    "focusing effect",
+    "contrast effect",
+    "conservatism"
+  ],
+  "conservatism": [
+    "confirmation bias",
+    "continued influence effect",
+    "backfire effect",
+    "belief bias"
+  ],
+  "contrast effect": [
+    "anchoring",
+    "decoy effect",
+    "distinction bias",
+    "context effect"
+  ],
+  "distinction bias": [
+    "focusing effect",
+    "contrast effect",
+    "less-is-better effect",
+    "decoy effect"
+  ],
+  "focusing effect": [
+    "anchoring",
+    "impact bias",
+    "attentional bias",
+    "framing effect"
+  ],
+  "framing effect": [
+    "loss aversion",
+    "context effect",
+    "decoy effect",
+    "anchoring"
+  ],
+  "fading affect bias": [
+    "positivity effect",
+    "self-serving bias",
+    "choice-supportive bias",
+    "hedonic adaptation"
+  ],
+  "implicit association": [
+    "implicit stereotypes",
+    "stereotyping",
+    "in-group bias",
+    "halo effect"
+  ],
+  "implicit stereotypes": [
+    "stereotyping",
+    "implicit association",
+    "out-group homogeneity bias",
+    "ultimate attribution error"
+  ],
+  "false memory": [
+    "misinformation effect",
+    "misattribution of memory",
+    "source confusion",
+    "choice-supportive bias"
+  ],
+  "misattribution of memory": [
+    "source confusion",
+    "false memory",
+    "misinformation effect",
+    "illusory truth effect"
+  ],
+  "source confusion": [
+    "misattribution of memory",
+    "misinformation effect",
+    "false memory",
+    "continued influence effect"
+  ],
+  "misinformation effect": [
+    "false memory",
+    "source confusion",
+    "continued influence effect",
+    "illusory truth effect"
+  ],
+  "peak-end rule": [
+    "availability heuristic",
+    "focusing effect",
+    "outcome bias",
+    "negativity bias"
+  ],
+  "delayed reciprocity": [
+    "kin selection & inclusive fitness",
+    "hyperbolic discounting",
+    "gratitude mechanism",
+    "zero-sum bias"
+  ],
+  "asymmetrical investment": [
+    "asymmetrical parental investment",
+    "sunk cost fallacy",
+    "loss aversion",
+    "effort justification"
+  ],
+  "survival imperative": [
+    "kin selection & inclusive fitness",
+    "negativity bias",
+    "loss aversion",
+    "terror management theory"
+  ],
+  "aversion response": [
+    "loss aversion",
+    "negativity bias",
+    "reactance",
+    "survival imperative"
+  ],
+  "narrative self": [
+    "self-consistency bias",
+    "search for meaning",
+    "choice-supportive bias",
+    "hindsight bias"
+  ],
+  "hedonic adaptation": [
+    "impact bias",
+    "social comparison theory",
+    "fading affect bias",
+    "self-determination theory"
+  ],
+  "self-determination theory": [
+    "reactance",
+    "flow principle",
+    "social identity theory",
+    "choice overload"
+  ],
+  "pleasure principle & reality principle": [
+    "hyperbolic discounting",
+    "restraint bias",
+    "cognitive dissonance theory",
+    "psychological reactance theory"
+  ],
+  "search for meaning": [
+    "terror management theory",
+    "narrative self",
+    "just-world hypothesis",
+    "mortality salience & legacy drive"
+  ],
+  "moral licensing effect": [
+    "cognitive dissonance theory",
+    "self-serving bias",
+    "mental accounting",
+    "self-perception theory"
+  ],
+  "choice overload": [
+    "decision fatigue",
+    "status quo bias",
+    "loss aversion",
+    "less-is-better effect"
+  ],
+  "kin selection & inclusive fitness": [
+    "survival imperative",
+    "in-group bias",
+    "asymmetrical parental investment",
+    "paternity uncertainty"
+  ],
+  "asymmetrical parental investment": [
+    "mating strategies",
+    "paternity uncertainty",
+    "kin selection & inclusive fitness",
+    "formation of dominance hierarchies"
+  ],
+  "formation of dominance hierarchies": [
+    "social comparison theory",
+    "obedience to authority",
+    "survival imperative",
+    "mating strategies"
+  ],
+  "territoriality": [
+    "endowment effect",
+    "loss aversion",
+    "in-group bias",
+    "reactance"
+  ],
+  "mating strategies": [
+    "asymmetrical parental investment",
+    "jealousy",
+    "paternity uncertainty",
+    "kin selection & inclusive fitness"
+  ],
+  "jealousy": [
+    "paternity uncertainty",
+    "social comparison theory",
+    "mating strategies",
+    "confirmation bias"
+  ],
+  "paternity uncertainty": [
+    "jealousy",
+    "asymmetrical parental investment",
+    "mating strategies",
+    "kin selection & inclusive fitness"
+  ],
+  "groupthink": [
+    "conformity",
+    "in-group bias",
+    "confirmation bias",
+    "diffusion of responsibility"
+  ],
+  "bystander effect": [
+    "diffusion of responsibility",
+    "social comparison theory",
+    "conformity",
+    "groupthink"
+  ],
+  "social facilitation": [
+    "observer effect",
+    "bystander effect",
+    "diffusion of responsibility",
+    "social comparison theory"
+  ],
+  "diffusion of responsibility": [
+    "bystander effect",
+    "groupthink",
+    "social comparison theory",
+    "conformity"
+  ],
+  "decision fatigue": [
+    "choice overload",
+    "status quo bias",
+    "restraint bias",
+    "hyperbolic discounting"
+  ],
+  "awe": [
+    "search for meaning",
+    "mortality salience & legacy drive",
+    "egocentric bias",
+    "flow principle"
+  ],
+  "mortality salience & legacy drive": [
+    "terror management theory",
+    "search for meaning",
+    "just-world hypothesis",
+    "survival imperative"
+  ],
+  "flow principle": [
+    "self-determination theory",
+    "play impulse principle",
+    "effort justification",
+    "hedonic adaptation"
+  ],
+  "gratitude mechanism": [
+    "delayed reciprocity",
+    "attribution theory",
+    "asymmetrical investment"
+  ],
+  "post-traumatic growth": [
+    "search for meaning",
+    "terror management theory",
+    "narrative self",
+    "just-world hypothesis"
+  ],
+  "skin hunger & the law of touch": [
+    "survival imperative",
+    "self-determination theory",
+    "kin selection & inclusive fitness",
+    "mating strategies"
+  ],
+  "self-handicapping paradox": [
+    "self-serving bias",
+    "defensive attribution hypothesis",
+    "the utility principle of self-deception",
+    "cognitive dissonance theory"
+  ],
+  "the allure of the forbidden": [
+    "reactance",
+    "self-determination theory",
+    "obedience to authority",
+    "restraint bias"
+  ],
+  "sadistic pleasure": [
+    "formation of dominance hierarchies",
+    "in-group bias",
+    "just-world hypothesis",
+    "empathy gap"
+  ],
+  "the utility principle of self-deception": [
+    "self-serving bias",
+    "illusory superiority",
+    "optimism bias",
+    "cognitive dissonance theory"
+  ],
+  "play impulse principle": [
+    "self-determination theory",
+    "pleasure principle & reality principle",
+    "flow principle",
+    "social learning theory"
+  ],
+  "attribution theory": [
+    "fundamental attribution error",
+    "actor observer asymmetry",
+    "self-serving bias",
+    "just-world hypothesis",
+    "ultimate attribution error"
+  ],
+  "social comparison theory": [
+    "social identity theory",
+    "illusory superiority",
+    "cognitive dissonance theory",
+    "in-group bias"
+  ],
+  "self-perception theory": [
+    "attribution theory",
+    "cognitive dissonance theory",
+    "effort justification",
+    "fundamental attribution error",
+    "choice-supportive bias"
+  ],
+  "terror management theory": [
+    "mortality salience & legacy drive",
+    "survival imperative",
+    "in-group bias",
+    "search for meaning"
+  ],
+  "cognitive dissonance theory": [
+    "effort justification",
+    "choice-supportive bias",
+    "self-perception theory",
+    "self-consistency bias"
+  ],
+  "psychological reactance theory": [
+    "self-determination theory",
+    "the allure of the forbidden",
+    "backfire effect",
+    "reactive devaluation"
+  ],
+  "social learning theory": [
+    "conformity",
+    "obedience to authority",
+    "bandwagon effect",
+    "social comparison theory"
+  ],
+  "conformity": [
+    "bandwagon effect",
+    "groupthink",
+    "obedience to authority",
+    "social comparison theory"
+  ],
+  "obedience to authority": [
+    "authority bias",
+    "diffusion of responsibility",
+    "conformity",
+    "formation of dominance hierarchies"
+  ],
+  "social identity theory": [
+    "in-group bias",
+    "ultimate attribution error",
+    "out-group homogeneity bias",
+    "social comparison theory"
+  ]
+}

@@ -1,2 +1,1 @@
-# PoA
-principles oriented LLM agent
+principle_situation.py 文件里有列表
