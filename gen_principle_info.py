@@ -4,22 +4,25 @@ import re
 import os
 import time
 
-from prompt_all import principle_info_prompt, format_prompt, gen_relationship_prompt_system, gen_relationship_prompt
-from principle_situaton import pri_list
+from prompt_all import sd_principle_info_prompt, td_principle_info_prompt, format_prompt, gen_relationship_prompt_system, gen_relationship_prompt
+from principle_situaton import sd_pri_list, td_pri_list_100
 
 
 BASE_URL = "https://api.pumpkinaigc.online/v1"
 API_KEY = "sk-WKak50Ii5K68isoe7bF316D6E7Eb44A3Aa32843eBaE4866f"
 
+
+DEEPSEEK_API_KEY = "sk-a5582064b3c444249b2cdc825c76eebc"
+
 CHOSED_MODEL = "gemini-2.5-pro-preview-05-06"
 CHOSED_MODEL_2 = "claude-sonnet-4-20250514"
 
-client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
+CLIENT = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 
 
-def get_model_answer(client=client, model=CHOSED_MODEL, sys_prompt="", user_prompt=""):
+def get_model_answer(client=CLIENT, model=CHOSED_MODEL, sys_prompt="", user_prompt=""):
     response = client.chat.completions.create(
-        model=CHOSED_MODEL,
+        model=model,
         stream=False,
         messages=[
             {"role": "system", "content": sys_prompt},
@@ -29,7 +32,7 @@ def get_model_answer(client=client, model=CHOSED_MODEL, sys_prompt="", user_prom
     return response.choices[0].message.content
 
 
-def gen_prin_rela(principle_list=pri_list, output_filename='Dataset/relationships.json'):
+def gen_prin_rela(principle_list=sd_pri_list, output_filename='Dataset/relationships.json'):
     full_principle_list_str = ", ".join(principle_list)
     principle_set = set(principle_list)
     all_relationships = {}
@@ -87,6 +90,7 @@ def extract_dict(res_content, retries=2):
     """
     Extracts a dictionary from a string, with a limited number of retries for fixing format.
     """
+
     if retries <= 0:
         raise ValueError("Failed to parse JSON after multiple retries.")
 
@@ -98,37 +102,50 @@ def extract_dict(res_content, retries=2):
         return result_dict
     except json.JSONDecodeError as e:
         print("Initial JSON parsing failed. Asking model to fix format...")
-        response = client.chat.completions.create(
-            model="claude-sonnet-4-20250514",
-            stream=False,
-            messages=[
-                {"role": "system", "content": format_prompt},
-                {"role": "user", "content": "JSON content to fix: " + json_str},
-            ],
-            temperature=0.1,
-        )
+        client = OpenAI(api_key=DEEPSEEK_API_KEY,
+                        base_url="https://api.deepseek.com")
+        response = get_model_answer(client=client, model="deepseek-chat",
+                                    sys_prompt=format_prompt, user_prompt="JSON content to fix: " + json_str)
         # Recursive call with decremented retry counter
-        return extract_dict(response.choices[0].message.content, retries - 1)
+        return extract_dict(response, retries - 1)
 
 
-def gen_principle_info(principle_list=pri_list, output_file="Dataset/principle_info.json"):
-    all_principles_info = []
-    for i, prin_name in enumerate(principle_list):
-        principle_info_prompt_format = principle_info_prompt.format(
+def gen_principle_info(sd_principle_list, td_principle_list, output_file1="Dataset/sd_principle_info.json", output_file2="Dataset/td_principle_info_100.json"):
+    all_sd_principles_info = []
+    all_td_principles_info = []
+    for i, prin_name in enumerate(sd_principle_list):
+        principle_info_prompt_format = sd_principle_info_prompt.format(
             PRINCIPLE_NAME=prin_name,
         )
         response_content = get_model_answer(
             sys_prompt="You are a psychologist.", user_prompt=principle_info_prompt_format)
 
-        print(
-            f"Processing {i+1}/{len(principle_list)}...\n principle信息：{response_content}\n")
         # 格式化输出为json
         result = extract_dict(response_content)
-        all_principles_info.append(result)
+        all_sd_principles_info.append(result)
+        print(
+            f"第 {i+1}/{len(sd_principle_list)} sd_principle information已录入")
         time.sleep(1)  # API速率控制
 
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(all_principles_info, f, indent=2, ensure_ascii=False)
+    with open(output_file1, 'w', encoding='utf-8') as f:
+        json.dump(all_sd_principles_info, f, indent=2, ensure_ascii=False)
+
+    for i, prin_name in enumerate(td_principle_list):
+        principle_info_prompt_format = td_principle_info_prompt.format(
+            PRINCIPLE_NAME=prin_name,
+        )
+        response_content = get_model_answer(
+            sys_prompt="You are a psychologist.", user_prompt=principle_info_prompt_format)
+
+        # 格式化输出为json
+        result = extract_dict(response_content)
+        all_td_principles_info.append(result)
+        print(
+            f"第 {i+1}/{len(td_principle_list)} td_principle information已录入")
+        time.sleep(1)  # API速率控制
+
+    with open(output_file2, 'w', encoding='utf-8') as f:
+        json.dump(all_td_principles_info, f, indent=2, ensure_ascii=False)
 
     return result
 
@@ -139,5 +156,9 @@ if __name__ == "__main__":
     # gen_prin_rela()
 
     # 生成principle_info.json文件
-    gen_principle_info(principle_list=[
-                       'loss aversion'], output_file="Dataset/principle_info_test.json")
+
+    # with open('./Dataset/Personal Traits.txt', 'r', encoding='utf-8') as f:
+    #     td_pri_list = [line.strip() for line in f.readlines() if line.strip()]
+
+    gen_principle_info(sd_principle_list=sd_pri_list,
+                       td_principle_list=td_pri_list_100)
