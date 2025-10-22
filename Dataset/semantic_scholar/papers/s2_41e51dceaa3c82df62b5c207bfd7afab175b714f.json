@@ -1,0 +1,33 @@
+{
+  "paperId": "41e51dceaa3c82df62b5c207bfd7afab175b714f",
+  "title": "Behavior as seen by the actor and as seen by the observer",
+  "venue": "",
+  "year": 1973,
+  "citationCount": 593,
+  "openAccessPdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1037/H0034779?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1037/H0034779, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "authors": [
+    {
+      "authorId": "2518186",
+      "name": "R. Nisbett"
+    },
+    {
+      "authorId": "153871017",
+      "name": "C. Caputo"
+    },
+    {
+      "authorId": "50736657",
+      "name": "P. Legant"
+    },
+    {
+      "authorId": "31550877",
+      "name": "J. Marecek"
+    }
+  ],
+  "abstract": null,
+  "paper_key": "s2_41e51dceaa3c82df62b5c207bfd7afab175b714f"
+}

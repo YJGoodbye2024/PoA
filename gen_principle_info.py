@@ -8,8 +8,8 @@ from prompt_all import sd_principle_info_prompt, td_principle_info_prompt, forma
 from principle_situaton import sd_pri_list, td_pri_list_100
 
 
-BASE_URL = "https://api.pumpkinaigc.online/v1"
-API_KEY = "sk-WKak50Ii5K68isoe7bF316D6E7Eb44A3Aa32843eBaE4866f"
+BASE_URL = os.getenv("BASE_URL_FULL")
+API_KEY = os.getenv("API_KEY_FULL")
 
 
 DEEPSEEK_API_KEY = "sk-a5582064b3c444249b2cdc825c76eebc"

@@ -1,0 +1,21 @@
+{
+  "paperId": "07e616ff52ab1bb8bb153a7528d02fbd310aa1f9",
+  "title": "The psychology of interpersonal relations",
+  "venue": "",
+  "year": 1958,
+  "citationCount": 16525,
+  "openAccessPdf": {
+    "url": "",
+    "status": "CLOSED",
+    "license": null,
+    "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2307/2089062?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2307/2089062, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "authors": [
+    {
+      "authorId": "103227229",
+      "name": "F. Heider"
+    }
+  ],
+  "abstract": null,
+  "paper_key": "s2_07e616ff52ab1bb8bb153a7528d02fbd310aa1f9"
+}

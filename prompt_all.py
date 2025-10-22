@@ -66,13 +66,14 @@ sd_principle_info_prompt = '''
 {{
 "construct_name": "{PRINCIPLE_NAME}",
 "description": "Provide a clear, detailed, and scientific description of what this principle is, how it manifests, and its underlying psychological mechanisms.",
-"source": "Identify the origin of this principle. Must include the key researcher(s) who proposed it and the seminal publication(s) (e.g., 'Festinger, L. (1957). A Theory of Cognitive Dissonance. Stanford University Press.').",
 "core_mechanisms": "Explain the primary evolutionary, cognitive, or emotional reasons why this principle exists. Is it a heuristic for efficiency, a result of memory limitations, a self-esteem protection mechanism, or something else? Be specific.",
 "real_world_manifestation": "Provide a profound analysis of the principle's broader impact. Go beyond a simple description to explore its nuanced consequences. Discuss how it might challenge conventional wisdom, its function as a 'double-edged sword' (e.g., both hindering and helping personal growth), and its practical applications in fields like marketing, persuasion, or self-improvement. The analysis should reveal deeper truths about human behavior, explaining not just *what* happens, but *why* it is significant. Use the detailed example provided by the user for 'Cognitive Dissonance' as the benchmark for the required depth, structure, and insight.",
 "cases": [
  "Describe a concrete and relatable real-world scenario that clearly illustrates this principle. Write the entire case as a single, narrative paragraph. While you should think in terms of a setting, an event, and the psychological reaction, weave these elements together seamlessly into a story. The final text must NOT contain labels like 'Scenario:', 'Event:', or 'Principle in Action:'.",
  "Describe a second, distinct, and vivid real-world scenario that demonstrates this principle. Follow the same instruction: present it as one continuous, story-like paragraph, seamlessly integrating the context, the event, and the resulting psychological interpretation without using any structural labels."
-]
+],
+"source": "Identify the origin of this principle. Must include the key researcher(s) who proposed it and the seminal publication(s) (e.g., 'Festinger, L. (1957). A Theory of Cognitive Dissonance. Stanford University Press.')."
+
 }}
 ```
 '''
@@ -102,7 +103,9 @@ Instructions: Your response MUST be a single, clean JSON object. Do not include 
   "cases": [
     "Design a concrete scenario where a protagonist, driven by this intrinsic trait, performs a series of 2-3 coherent actions that clearly showcase the trait. The actions should be a natural expression of their personality, not a reaction to a single event. Describe the scenario as a single, narrative paragraph.",
     "Design a second, distinct scenario following the same rules, placing a character with this trait in a different context (e.g., work, family, social) to demonstrate its cross-situational consistency. Describe it as a single, narrative paragraph."
-  ]
+  ],
+  "source": "Identify the origin of this principle. Must include the key researcher(s) who proposed it and the seminal publication(s) (e.g., 'Festinger, L. (1957). A Theory of Cognitive Dissonance. Stanford University Press.')."
+
 }}
 ```
 '''
@@ -207,9 +210,11 @@ You must parse the `Scenario Text` and populate the following JSON structure. Us
 
 
 # prompt for conversation
-gen_conversationtion_sys_prompt = '''**Role**: You are a master screenwriter and behavioral psychologist. Your expertise lies in bringing characters to life through nuanced dialogue and action, ensuring their **pivotal thoughts and resulting behaviors** in the dialogue are rooted in authentic psychological principles.'''
-gen_conversationtion_prompt = '''
+gen_conversationtion_sys_prompt = '''
+**Role**: You are a master screenwriter and behavioral psychologist. Your expertise lies in bringing characters to life through nuanced dialogue and action, ensuring their **pivotal thoughts and resulting behaviors** in the dialogue are rooted in authentic psychological principles.
 **Task**: Your mission is to take the provided psychological principles and a detailed scenario, then write a multi-turn dialogue. This dialogue must, **at key moments**, vividly and concretely enact the specified principles through the characters' inner thoughts, spoken words, and physical actions.
+'''
+gen_conversationtion_prompt = '''
 
 **You must follow this structure and these requirements:**
 
@@ -242,10 +247,10 @@ gen_conversationtion_prompt = '''
 
 
 # prompt for SFT dataset
-gen_dataset_sys_prompt = '''**Role:** You are a professional data formatting tool for SFT (Supervised Fine-Tuning) datasets. Your job is to accurately transform text inputs into a structured JSON format.'''
+gen_dataset_sys_prompt = '''
+**Role:** You are a professional data formatting tool for SFT (Supervised Fine-Tuning) datasets. Your job is to accurately transform text inputs into a structured JSON format.
 
-gen_dataset_prompt = '''
-**Core Task:** Your task is to transform a "story scenario" and a "dialogue text" into a specifically structured JSON. First, learn the conversion logic from the case study below, and then apply the exact same logic to the new data.
+**Core Task:** Your task is to transform a raw dialogue text into a JSON **array** of conversational turns, based on the roles defined in the `Scenario Information`.
 
 ------
 
@@ -271,66 +276,51 @@ Carefully study the case below, which demonstrates how to convert the inputs int
   A Telegram Boy: (Bursts into the room, holding a letter) Mr. Holmes! An urgent telegram for you!
   ```
 
-**3. Principle Name:
-  ```
-  Observational Detachment
-  ```
-
-**[Correct JSON Output for the Case]** 
-
+**[Correct JSON Output for the Case]**
 ```JSON
+[
 {{
-"principle": "Observational Detachment",
-"conversations": [
-  {{
-    "from": "system",
-    "value": "Story Background: A study late at night, firelight dancing in the fireplace.\\nProtagonist: Sherlock Holmes, a sharp-minded detective, currently lost in thought.\\nOther Characters: Dr. Watson, Holmes's loyal friend."
-  }},
-  {{
-    "from": "human",
-    "value": "===Conversation Start===\\n\\nDr. Watson: [He seems troubled.] Sherlock, you've been staring at that skull for an hour. Any new insights?\\n\\n"
-  }},
-  {{
-    "from": "assistant",
-    "value": "Sherlock Holmes: [The pattern is there, I just can't see it yet.] (He gestures dismissively without looking up) Insight, my dear Watson, is a rare commodity. This is merely data processing.\\n\\n"
-  }},
-  {{
-    "from": "human",
-    "value": "Dr. Watson: (Sighs and pours two glasses of sherry) Well, this data suggests it's time for a break.\\n\\nEnvironment: A sudden gust of wind rattles the windowpane, and the fire in the hearth sputters for a moment.\\n\\nA Telegram Boy: (Bursts into the room, holding a letter) Mr. Holmes! An urgent telegram for you!\\n\\n"
-  }}
-]
+  "from": "human",
+  "value": "===Conversation Start===\\n\\nDr. Watson: [He seems troubled.] Sherlock, you've been staring at that skull for an hour. Any new insights?\\n\\n"
+}},
+{{
+  "from": "assistant",
+  "value": "Sherlock Holmes: [The pattern is there, I just can't see it yet.] (He gestures dismissively without looking up) Insight, my dear Watson, is a rare commodity. This is merely data processing.\\n\\n"
+}},
+{{
+  "from": "human",
+  "value": "Dr. Watson: (Sighs and pours two glasses of sherry) Well, this data suggests it's time for a break.\\n\\nEnvironment: A sudden gust of wind rattles the windowpane, and the fire in the hearth sputters for a moment.\\n\\nA Telegram Boy: (Bursts into the room, holding a letter) Mr. Holmes! An urgent telegram for you!\\n\\n"
 }}
+]
+```
 
-**[Core Logic Summary]** 
+**[CONVERSION LOGIC]**
+1. Identify the Protagonist: From the Scenario Information, find the character designated as Protagonist. This character corresponds to "from": "assistant". All other characters are "from": "human".
+2.  Group Non-Protagonist Turns: If multiple human characters speak consecutively, group their lines into a single "from": "human" entry.
+3. Handle Environmental Descriptions: Format standalone descriptive paragraphs (that don't start with a Character Name:) as Environment: [description text] and include them in a "from": "human" turn.
+4. Start Marker: The very first turn in the output array should begin with ===Conversation Start===\\n\\n.
 
-1. Overall Structure: The final output must be a single JSON object with two top-level keys: "principle" and "conversations". The value for "principle" is taken directly from the "Principle Name" input.
-2. Identify the Protagonist: Look at the character profiles within the "Scenario Information". The very first character introduced and described is the protagonist. This character corresponds to the "from": "assistant" role in the dialogue. All other characters are designated as "from": "human".
-3. System Message: The first object in the "conversations" array must always be "from": "system", where its "value" contains the entire "Scenario Information" text.
-4. Group Non-Protagonist Turns: This is a critical rule. If multiple non-protagonist (human) characters speak consecutively, their lines must be grouped into a single "from": "human" entry. A human turn is only concluded when the protagonist (assistant) speaks.
-5. Handle Environmental Descriptions: Any standalone descriptive paragraph in the dialogue text that does not begin with a Character Name: should be treated as an environmental description. It must be formatted as Environment: [description text] and included as part of a "from": "human" turn, following the same grouping logic as other non-protagonist lines.
-------
 
 **Step 2: Process New Data**
 
 Now, apply the **exact same logic and format** you learned from the case study to process the new inputs below.
+'''
 
-**[Inputs to Process]**
-
-- **1. Scenario Information:**
+gen_dataset_prompt = '''
+**[CONTEXT]**
+- **1. Scenario Information (for identifying the protagonist):**
 
   ```
   {scenario}
   ```
 
-- **2. Dialogue Text:**
+- **2. Dialogue Text (to be transformed):**
 
   ```
   {conversation}
   ```
   
-- **3. Principle Name:
-  ```
-  {principle_name}
-  ```
-**Output Instruction:** Please output only the final JSON code block. Do not include any explanations, comments, or apologies.
+
+**[OUTPUT INSTRUCTION]**
+Your output **MUST** be a single, valid JSON **array** that starts with `[` and ends with `]`. Do not wrap the array in an object `{{}}`.
 '''
