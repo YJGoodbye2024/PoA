@@ -284,7 +284,7 @@ Carefully study the case below, which demonstrates how to convert the inputs int
   "value": "===Conversation Start===\\n\\nDr. Watson: [He seems troubled.] Sherlock, you've been staring at that skull for an hour. Any new insights?\\n\\n"
 }},
 {{
-  "from": "assistant",
+  "from": "gpt",
   "value": "Sherlock Holmes: [The pattern is there, I just can't see it yet.] (He gestures dismissively without looking up) Insight, my dear Watson, is a rare commodity. This is merely data processing.\\n\\n"
 }},
 {{
@@ -295,7 +295,7 @@ Carefully study the case below, which demonstrates how to convert the inputs int
 ```
 
 **[CONVERSION LOGIC]**
-1. Identify the Protagonist: From the Scenario Information, find the character designated as Protagonist. This character corresponds to "from": "assistant". All other characters are "from": "human".
+1. Identify the Protagonist: From the Scenario Information, find the character designated as Protagonist. This character corresponds to "from": "gpt". All other characters are "from": "human".
 2.  Group Non-Protagonist Turns: If multiple human characters speak consecutively, group their lines into a single "from": "human" entry.
 3. Handle Environmental Descriptions: Format standalone descriptive paragraphs (that don't start with a Character Name:) as Environment: [description text] and include them in a "from": "human" turn.
 4. Start Marker: The very first turn in the output array should begin with ===Conversation Start===\\n\\n.

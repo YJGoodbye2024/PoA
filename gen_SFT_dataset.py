@@ -1,11 +1,21 @@
-import asyncio
-from openai import AsyncOpenAI
-import json
-import time
-import os
-import re
-from tqdm.asyncio import tqdm
+"""
+把genered_data.json转换为SFT数据集格式
+python gen_SFT_dataset.py --mode full 完整转换
+python gen_SFT_dataset.py --mode split_only 仅仅把SFT_data_without_thoughts.json拆分为训练集和测试集
+"""
 
+
+import argparse
+import asyncio
+import json
+import os
+import random
+import re
+import time
+from collections import defaultdict
+
+from openai import AsyncOpenAI
+from tqdm.asyncio import tqdm
 from prompt_all import gen_dataset_sys_prompt, gen_dataset_prompt, format_prompt_system, format_prompt_user
 
 # --- 配置 ---
@@ -39,9 +49,10 @@ JSON_FIXER_MODEL_PROFILE = "deepseek"
 
 # --- 文件路径 ---
 INPUT_FILE = 'Dataset/generated_data.json'
-# MODIFICATION: Define two separate output files
-OUTPUT_FILE_WITH_THOUGHTS = 'Dataset/sft_data/SFT_data_with_thoughts.json'  # human部分包含完整心理活动
-OUTPUT_FILE_CLEANED = 'Dataset/sft_data/SFT_data_without_thoughts.json'  # 删除了human中的心理活动
+OUTPUT_FILE_CLEANED = 'Dataset/sft_data/SFT_data_without_thoughts.json'
+OUTPUT_TRAIN = 'Dataset/sft_data/SFT_sharegpt_train.json'
+OUTPUT_TEST = 'Dataset/sft_data/SFT_sharegpt_test.json'
+SPLIT_RANDOM_SEED = 42
 
 # --- 并发控制 ---
 MAX_CONCURRENT_REQUESTS = 30
@@ -147,6 +158,17 @@ def save_data_to_json(data, file_path):
         print(f"写入文件时发生错误: {e}")
 
 
+def strip_metadata(dataset):
+    """移除训练/测试输出中不需要的元数据字段。"""
+    stripped = []
+    for item in dataset:
+        stripped.append({
+            "system": item.get("system", ""),
+            "conversations": item.get("conversations", []),
+        })
+    return stripped
+
+
 def clean_human_thoughts(sft_data):
     """清洗'human'轮次中的内心独白"""
     data_to_clean = json.loads(json.dumps(sft_data))
@@ -162,10 +184,35 @@ def clean_human_thoughts(sft_data):
                 if cleaned_value:
                     cleaned_value += '\n\n'
                 turn['value'] = cleaned_value
-    return data_to_clean
+    return strip_metadata(data_to_clean)
 
 
-async def main():
+def split_dataset_by_principle_situation(dataset, seed=SPLIT_RANDOM_SEED):
+    """根据principle随机抽取一个situation作为测试集，其余为训练集。"""
+    rng = random.Random(seed)
+    principle_to_situations = defaultdict(lambda: defaultdict(list))
+
+    for item in dataset:
+        principle = item.get("principle", "")
+        situation = item.get("situation", "")
+        principle_to_situations[principle][situation].append(item)
+
+    train, test = [], []
+    for principle, situations in principle_to_situations.items():
+        situation_keys = list(situations.keys())
+        if not situation_keys:
+            continue
+        chosen_situation = rng.choice(situation_keys)
+        for situation, grouped_items in situations.items():
+            if situation == chosen_situation:
+                test.extend(grouped_items)
+            else:
+                train.extend(grouped_items)
+
+    return train, test
+
+
+async def run_full_pipeline():
     start_time = time.time()
 
     # 初始化客户端和模型
@@ -197,7 +244,7 @@ async def main():
     ) for item in source_data]
     print(f"\n已创建 {len(tasks)} 个转换任务。开始并发处理...")
 
-    sft_dataset_with_thoughts = []
+    sft_dataset = []
     try:
         future_tasks = asyncio.as_completed(tasks)
         for future in tqdm(future_tasks, total=len(tasks), desc="Converting conversations to turns"):
@@ -206,37 +253,40 @@ async def main():
 
             if turns_array is not None:
                 # Python script handles the static parts
+                conversations = [dict(turn) for turn in turns_array]
+
                 final_sft_object = {
-                    "principle": original_item.get("principle", ""),
-                    "conversations": [
-                        {
-                            "from": "system",
-                            "value": original_item.get("scenario", "")
-                        }
-                    ] + turns_array  # Combine the system turn with the LLM's output
+                    "system": original_item.get("scenario", ""),
+                    "conversations": conversations
                 }
-                sft_dataset_with_thoughts.append(final_sft_object)
+                sft_dataset.append(final_sft_object)
 
     except (KeyboardInterrupt, asyncio.CancelledError) as e:
         print(f"\n\n! 脚本被中断: {e}")
         print("! 正在尝试保存已处理的部分数据...")
     finally:
-        if sft_dataset_with_thoughts:
-            is_partial = len(sft_dataset_with_thoughts) < len(
+        if sft_dataset:
+            is_partial = len(sft_dataset) < len(
                 source_data)  # Compare with source data
-
-            # 保存逻辑不变
-            output_with_thoughts = OUTPUT_FILE_WITH_THOUGHTS.replace(
-                '.json', '_partial.json') if is_partial else OUTPUT_FILE_WITH_THOUGHTS
-            save_data_to_json(sft_dataset_with_thoughts, output_with_thoughts)
-
             print("\n正在清洗配角的内心独白...")
-            cleaned_dataset = clean_human_thoughts(sft_dataset_with_thoughts)
+            cleaned_dataset = clean_human_thoughts(sft_dataset)
             print("清洗完成。")
 
             output_cleaned = OUTPUT_FILE_CLEANED.replace(
                 '.json', '_partial.json') if is_partial else OUTPUT_FILE_CLEANED
             save_data_to_json(cleaned_dataset, output_cleaned)
+
+            train_dataset, test_dataset = split_dataset_by_principle_situation(
+                cleaned_dataset, seed=SPLIT_RANDOM_SEED
+            )
+
+            train_output = OUTPUT_TRAIN.replace(
+                '.json', '_partial.json') if is_partial else OUTPUT_TRAIN
+            test_output = OUTPUT_TEST.replace(
+                '.json', '_partial.json') if is_partial else OUTPUT_TEST
+
+            save_data_to_json(train_dataset, train_output)
+            save_data_to_json(test_dataset, test_output)
 
         else:
             print("没有成功转换的数据可供保存。")
@@ -244,8 +294,47 @@ async def main():
         end_time = time.time()
         print(f"\n脚本在 {end_time - start_time:.2f} 秒内完成。")
         print(
-            f"成功转换并保存了 {len(sft_dataset_with_thoughts)} / {len(source_data)} 条数据。")
+            f"成功转换并保存了 {len(sft_dataset)} / {len(source_data)} 条数据。")
+
+
+def split_existing_dataset():
+    dataset = load_source_data(OUTPUT_FILE_CLEANED)
+    if not dataset:
+        print("无法读取已清洗的 SFT 数据，无法拆分训练/测试集。")
+        return
+
+    train_dataset, test_dataset = split_dataset_by_principle_situation(
+        dataset, seed=SPLIT_RANDOM_SEED
+    )
+
+    save_data_to_json(strip_metadata(train_dataset), OUTPUT_TRAIN)
+    save_data_to_json(strip_metadata(test_dataset), OUTPUT_TEST)
+
+    print(
+        f"\n已根据 {OUTPUT_FILE_CLEANED} 生成训练集 ({len(train_dataset)} 条) "
+        f"和测试集 ({len(test_dataset)} 条)。"
+    )
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="生成或拆分 SFT 数据集。")
+    parser.add_argument(
+        "--mode",
+        choices=["full", "split_only"],
+        default="full",
+        help="full: 执行完整的生成、清洗与拆分流程；split_only: 使用现有的 SFT_data_without_thoughts.json 仅生成训练/测试集。",
+    )
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+
+    if args.mode == "split_only":
+        split_existing_dataset()
+    else:
+        asyncio.run(run_full_pipeline())
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
