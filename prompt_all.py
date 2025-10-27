@@ -56,37 +56,131 @@ Reason: This is the core mechanism for the "observer" part of the asymmetry.
 
 # prompt for situation-driven principle information
 sd_principle_info_prompt = '''
-**Task:** Analyze the cognitive bias or psychological principle: `{PRINCIPLE_NAME}`.
+**System Role:**
+You are an expert academic synthesizer and psychological researcher. Your task is to process a large text corpus (synthesized from ~50 academic papers) and distill it into an in-depth, structured analytical report on its core psychological principle.
 
-**Instructions:** Conduct a deep research analysis on this specific principle. Your response **MUST** be a single, clean JSON object. Do not include any text, notes, or explanations outside of the JSON structure. Ensure the information is scientifically accurate and that the cases prioritize relatable, real-world examples over abstract academic studies. Each case in the "cases" array must be a single, continuous string of text, presented as a flowing narrative.
+**Core Task & Instructions:**
+Analyze the text corpus provided below, delimited by `[START_CORPUS]` and `[END_CORPUS]`.
 
-**JSON Structure:**
+Your task is to generate a clearly organized report. Follow the Markdown structure below *exactly*, and provide a deep, comprehensive answer for each section based *only* on the provided text.
 
-```json
+# Construct Name: {Principle Name}
+
+## Description
+(Based on the corpus, provide a clear, detailed, and scientific description of what this principle is, how it manifests, and its underlying psychological mechanisms.)
+
+## Core Mechanisms
+(Based on the corpus, explain the primary evolutionary, cognitive, or emotional reasons why this principle exists. Synthesize the various explanations—e.g., is it a heuristic for efficiency, a result of memory limitations, a self-esteem protection mechanism, or something else? Be specific and in-depth.)
+
+## Real-World Manifestation
+(**This section is critical.** Draw synthesized insights from the literature to provide a profound analysis of the principle's broader impact.
+- **Go Beyond Description:** Explore its nuanced consequences, not just a list of examples.
+- **Challenges & Function:** Discuss how the literature indicates it might challenge conventional wisdom and its function as a 'double-edged sword' (e.g., both hindering and helping personal growth).
+- **Practical Applications:** Explore its practical applications in fields like marketing, persuasion, or self-improvement, as evidenced in the text.
+- **Core Insight:** Your analysis must reveal deeper truths about human behavior, explaining not just *what* happens but *why* it is significant. You must adhere to the high benchmark of depth, structure, and insight requested by the user.)
+
+**Constraints:**
+1.  **Strict Source Adherence:** Base all conclusions *exclusively* on the provided text corpus.
+2.  **No JSON:** Your output **must** be a plain text report using the Markdown headings above.
+3.  **Depth and Rigor:** Ensure the analysis is scientific, rigorous, and profound, especially the "Real-World Manifestation" section.
+
+**[START_CORPUS]**
+
+{ALL 50 PAPERS' CONTENT}
+
+**[END_CORPUS]**
+'''
+
+
+sd_to_json = """**System Role:**
+You are a precise data-to-JSON formatting specialist.
+
+**Core Task & Instructions:**
+Convert the Markdown-structured text provided between `[START_TEXT]` and `[END_TEXT]` into the *exact* JSON format specified below.
+
+**Target JSON Structure:**
 {{
 "construct_name": "{PRINCIPLE_NAME}",
 "description": "Provide a clear, detailed, and scientific description of what this principle is, how it manifests, and its underlying psychological mechanisms.",
 "core_mechanisms": "Explain the primary evolutionary, cognitive, or emotional reasons why this principle exists. Is it a heuristic for efficiency, a result of memory limitations, a self-esteem protection mechanism, or something else? Be specific.",
 "real_world_manifestation": "Provide a profound analysis of the principle's broader impact. Go beyond a simple description to explore its nuanced consequences. Discuss how it might challenge conventional wisdom, its function as a 'double-edged sword' (e.g., both hindering and helping personal growth), and its practical applications in fields like marketing, persuasion, or self-improvement. The analysis should reveal deeper truths about human behavior, explaining not just *what* happens, but *why* it is significant. Use the detailed example provided by the user for 'Cognitive Dissonance' as the benchmark for the required depth, structure, and insight.",
-"cases": [
- "Describe a concrete and relatable real-world scenario that clearly illustrates this principle. Write the entire case as a single, narrative paragraph. While you should think in terms of a setting, an event, and the psychological reaction, weave these elements together seamlessly into a story. The final text must NOT contain labels like 'Scenario:', 'Event:', or 'Principle in Action:'.",
- "Describe a second, distinct, and vivid real-world scenario that demonstrates this principle. Follow the same instruction: present it as one continuous, story-like paragraph, seamlessly integrating the context, the event, and the resulting psychological interpretation without using any structural labels."
-],
-"source": "Identify the origin of this principle. Must include the key researcher(s) who proposed it and the seminal publication(s) (e.g., 'Festinger, L. (1957). A Theory of Cognitive Dissonance. Stanford University Press.')."
-
 }}
-```
-'''
+
+**Mapping Rules:**
+1.  Map all text under the `## Description` heading to the `description` field.
+2.  Map all text under the `## Core Mechanisms` heading to the `core_mechanisms` field.
+3.  Map all text under the `## Real-World Manifestation` heading to the `real_world_manifestation` field.
+
+**Constraints:**
+1.  Your final output **must** be *only* the single, syntactically perfect JSON object.
+2.  Do not include *any* explanatory text, acknowledgments, or pre-amble.
+3.  Ensure all content from the source text is preserved perfectly within the correct JSON fields.
+
+**[START_TEXT]**
+
+{model_response}
+
+**[END_TEXT]**"""
 
 # prompt for disposition-driven principle information
 td_principle_info_prompt = '''
-Task: Analyze the personality trait: {PRINCIPLE_NAME}.
+**System Role:**
+You are an expert academic synthesizer and personality psychologist. Your task is to process a large text corpus (synthesized from ~50 academic papers on a specific personality trait) and distill it into an in-depth, structured analytical report.
 
-Instructions: Your response MUST be a single, clean JSON object. Do not include any text, notes, or explanations outside of the JSON structure. Your analysis should be based on established psychological theories (e.g., the Big Five model) and focus on the stable, cross-situational nature of the trait.
+**Core Task & Instructions:**
+Analyze the text corpus provided below, delimited by `[START_CORPUS]` and `[END_CORPUS]`.
 
-**JSON Structure:**
+Your task is to generate a clearly organized report. Follow the Markdown structure below *exactly*, and provide a deep, comprehensive answer for each section based *only* on the provided text.
 
-```json
+# Construct Name: {Trait Name}
+
+## Definition
+(Provide a precise and professional definition of this personality trait, referencing mainstream psychological theories from the corpus. Explain its role in an individual's personality structure as described in the text.)
+
+## Core Mechanisms
+(This section analyzes the foundational components of the trait.)
+
+### Cognitive Patterns
+(Describe the typical mindset, belief systems, and attentional focus of a person with this trait, as evidenced in the literature. How do they view the world, others, and themselves?)
+
+### Emotional Signatures
+(Describe the core emotions they tend to experience and express, their emotional stability, and their typical empathic responses, according to the corpus.)
+
+### Behavioral Tendencies
+(Describe the spontaneous, observable behaviors someone with this trait exhibits in everyday, non-pressured situations, as documented in the papers.)
+
+## Real-World Manifestation
+(This section analyzes how the trait is expressed in different contexts.)
+
+### Manifestation Under Stress
+(Based on the corpus, how does this trait manifest when the individual is facing challenges, failure, or high pressure? Is it amplified, diminished, or distorted?)
+
+### Manifestation In Conflict
+(Based on the corpus, what are the typical strategies for handling interpersonal conflict for someone with this trait?)
+
+### Manifestation In Positive Situations
+(Based on the corpus, how is this trait expressed when the individual is succeeding, supported, or feeling happy?)
+
+**Constraints:**
+1.  **Strict Source Adherence:** Base all conclusions *exclusively* on the provided text corpus.
+2.  **No JSON:** Your output **must** be a plain text report using the exact Markdown headings (H1, H2, H3) above.
+3.  **Depth and Rigor:** Ensure the analysis is scientific, rigorous, and comprehensive, addressing all parts of each prompt.
+
+**[START_CORPUS]**
+
+{ALL 50 PAPERS' CONTENT}
+
+**[END_CORPUS]**
+'''
+
+
+td_to_json = """**System Role:**
+You are a precise data-to-JSON formatting specialist.
+
+**Core Task & Instructions:**
+Convert the Markdown-structured text provided between `[START_TEXT]` and `[END_TEXT]` into the *exact* JSON format specified below. You must correctly map the H2 and H3 headings into the nested JSON objects.
+
+**Target JSON Structure:**
 {{
   "construct_name": "{PRINCIPLE_NAME}",
   "definition": "Provide a precise and professional definition of this personality trait, referencing mainstream psychological theories. Explain its role in an individual's personality structure.",
@@ -99,16 +193,28 @@ Instructions: Your response MUST be a single, clean JSON object. Do not include 
     "under_stress": "How does this trait manifest when the individual is facing challenges, failure, or high pressure? Is it amplified, diminished, or distorted?",
     "in_conflict": "What are the typical strategies for handling interpersonal conflict for someone with this trait?",
     "in_positive_situations": "How is this trait expressed when the individual is succeeding, supported, or feeling happy?"
-  }},
-  "cases": [
-    "Design a concrete scenario where a protagonist, driven by this intrinsic trait, performs a series of 2-3 coherent actions that clearly showcase the trait. The actions should be a natural expression of their personality, not a reaction to a single event. Describe the scenario as a single, narrative paragraph.",
-    "Design a second, distinct scenario following the same rules, placing a character with this trait in a different context (e.g., work, family, social) to demonstrate its cross-situational consistency. Describe it as a single, narrative paragraph."
-  ],
-  "source": "Identify the origin of this principle. Must include the key researcher(s) who proposed it and the seminal publication(s) (e.g., 'Festinger, L. (1957). A Theory of Cognitive Dissonance. Stanford University Press.')."
-
+  }}
 }}
-```
-'''
+
+**Mapping Rules:**
+1.  Map all text under `## Definition` to `definition`.
+2.  Map text under `### Cognitive Patterns` to `core_mechanisms.cognitive_patterns`.
+3.  Map text under `### Emotional Signatures` to `core_mechanisms.emotional_signatures`.
+4.  Map text under `### Behavioral Tendencies` to `core_mechanisms.behavioral_tendencies`.
+5.  Map text under `### Manifestation Under Stress` to `real_world_manifestation.under_stress`.
+6.  Map text under `### Manifestation In Conflict` to `real_world_manifestation.in_conflict`.
+7.  Map text under `### Manifestation In Positive Situations` to `real_world_manifestation.in_positive_situations`.
+
+**Constraints:**
+1.  Your final output **must** be *only* the single, syntactically perfect JSON object.
+2.  Do not include *any* explanatory text, acknowledgments, or pre-amble.
+3.  Ensure all content from the source text is preserved perfectly within the correct nested JSON fields.
+
+**[START_TEXT]**
+
+{model_response}
+
+**[END_TEXT]**"""
 
 # prompt for scenario
 scenario_sys_prompt = '''Role: You are an expert psychologist and a creative screenwriter. You excel at translating abstract psychological theories into vivid, concrete, and deeply human story scenarios.'''

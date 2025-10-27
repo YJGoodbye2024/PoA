@@ -11,16 +11,33 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 import requests
 from requests import exceptions as req_exc
 
-from principle_situaton import sd_pri_list
+from principle_situaton import sd_pri_list, td_pri_list_100
 
+TD_PRINCIPLE_LOOKUP = {name.lower() for name in td_pri_list_100}
 
+MAX_CALL = 4  # 每分钟最大请求次数
 NUMBERED_PREFIX_RE = re.compile(r'^\d+[\).\s]+')
 BULLET_PREFIX_RE = re.compile(r'^[\-\*\u2022]\s+')
 MARKDOWN_MARKERS_RE = re.compile(r'[\*\u2013\u2014]')
 TRAILING_NOTE_RE = re.compile(r'\s*\([^)]*[\u4e00-\u9fff][^)]*\)\s*$')
 HEADING_SPLIT_RE = re.compile(r'\s#{2,}.*')
 
-PROMPT_TEMPLATE = """# **角色:** 您是一位顶尖的学术研究员和心理学文献专家，擅长为特定研究课题系统性地搜集和组织最关键的学术资源。
+SECTION_DEFINITIONS: List[Tuple[str, re.Pattern[str]]] = [
+    (
+        "Foundational Definition & Description",
+        re.compile(r"foundational definition|基础定义|定义与描述", re.IGNORECASE),
+    ),
+    (
+        "Core Mechanisms & Theoretical Explanations",
+        re.compile(r"core mechanisms?|核心机制|理论解释", re.IGNORECASE),
+    ),
+    (
+        "Real-World Impact & Applications",
+        re.compile(r"real[-\s]*world impact|现实世界的影响|现实世界的应用", re.IGNORECASE),
+    ),
+]
+
+SD_PROMPT_TEMPLATE = """# **角色:** 您是一位顶尖的学术研究员和心理学文献专家，擅长为特定研究课题系统性地搜集和组织最关键的学术资源。
 
 # **任务目标:** 您的核心任务是针对心理学原则 **`{PRINCIPLE_NAME}`**，进行一次深度、广泛且目标明确的文献检索。您需要找出 **50篇** 最具相关性和影响力的学术文献（包括开创性论文、重要的综述、以及关键的实证研究）。文献的选择必须紧密围绕以下三个核心主题。
 
@@ -55,6 +72,37 @@ PROMPT_TEMPLATE = """# **角色:** 您是一位顶尖的学术研究员和心理
 # 2.  **组织结构:**
 #     * 请将这50篇文献明确地归入上述三个核心主题类别中（**基础定义与描述**、**核心机制与理论解释**、**现实世界的影响与应用**）。
 #     * 如果某一篇文献可以归入多个类别，请根据其最主要的贡献将其放入最合适的类别。力求每个类别下的文献数量分布相对均衡，以确保研究视角的全面性。"""
+
+TD_PROMPT_TEMPLATE = """角色: 您是一位顶尖的学术研究员和心理学文献专家，擅长为特定研究课题系统性地搜集和组织最关键的学术资源。
+任务目标: 您的核心任务是针对心理学原则 {PRINCIPLE_NAME}，进行一次深度、广泛且目标明确的文献检索。您需要找出 50篇 最具相关性和影响力的学术文献（包括开创性论文、重要的综述、以及关键的实证研究）。文献的选择必须紧密围绕以下三个核心主题。
+---
+### 文献检索的三个核心主题：
+您需要确保最终的文献列表能够全面覆盖以下三个分析维度。请将这些维度作为您搜索和筛选文献的指导框架：
+
+1. 基础定义与描述 (Foundational Definition & Description)
+寻找为 {PRINCIPLE_NAME} 提供精确、专业的定义，并引用主流心理学理论的文献。
+重点关注阐释该特质在个体人格结构中所扮演角色的研究。
+
+2. 核心机制与理论解释 (Core Mechanisms & Theoretical Explanations)
+认知模式 (Cognitive Patterns): 寻找描述具有此特质个体典型思维模式、信念系统和注意焦点的文献。他们如何看待世界、他人和自己？
+情感特征 (Emotional Signatures): 寻找描述他们倾向于体验和表达的核心情绪、情绪稳定性以及典型共情反应的文献。
+行为倾向 (Behavioral Tendencies): 寻找描述在日常、非压力情境下，该特质个体所表现出的自发性、可观察行为的文献。
+
+3. 现实世界的影响与应用 (Real-World Impact & Application)
+压力下的表现 (Under Stress): 寻找研究当个体面临挑战、失败或高压时，该特质如何表现的文献（是被放大、减弱还是扭曲？）。
+冲突中的应对 (In Conflict): 寻找探讨具有此特质的个体在处理人际冲突时典型策略的文献。
+积极情境中的表现 (In Positive Situations): 寻找当个体取得成功、获得支持或感到快乐时，该特质如何表达的文献。
+
+---
+输出要求：
+
+文献列表:
+请提供一个包含 50篇 相关文献的最终列表。
+所有文献请使用 APA引文格式。
+
+组织结构:
+请将这50篇文献明确地归入上述三个核心主题类别中（基础定义与描述、核心机制与理论解释、现实世界的影响与应用）。
+如果某一篇文献可以归入多个类别，请根据其最主要的贡献将其放入最合适的类别。力求每个类别下的文献数量分布相对均衡，以确保研究视角的全面性。"""
 
 
 class RateLimiter:
@@ -106,8 +154,13 @@ def _build_messages(principle_name: str) -> List[Dict[str, str]]:
     返回:
         所有原则对应的prompt组成的列表。
     """
-    # 将原则名称插入到开发者提示词和用户提示词中
-    developer_prompt = PROMPT_TEMPLATE.format(PRINCIPLE_NAME=principle_name)
+    normalized_name = principle_name.strip().lower()
+    prompt_template = (
+        TD_PROMPT_TEMPLATE
+        if normalized_name in TD_PRINCIPLE_LOOKUP
+        else SD_PROMPT_TEMPLATE
+    )
+    developer_prompt = prompt_template.format(PRINCIPLE_NAME=principle_name)
     user_prompt = f"请基于上述指令，为心理学原则「{principle_name}」提供结果。"
     return [
         {"role": "system", "content": developer_prompt},
@@ -192,20 +245,6 @@ def fetch_references(principle_name: str, retries: int = 3, backoff_seconds: flo
     raise last_error
 
 
-def _slugify(name: str) -> str:
-    """
-    将原始字符串转换为安全的文件名形式。
-
-    参数:
-        name: 原始名称。
-
-    返回:
-        只包含小写字母、数字和下划线的字符串。
-    """
-    slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")
-    return slug or "principle"
-
-
 def _clean_reference_text(text: str) -> str:
     """
     清理引用文本中的 Markdown 标记、中文注释和标题说明。
@@ -229,12 +268,20 @@ def _clean_reference_text(text: str) -> str:
     return cleaned
 
 
-async def _worker(principle_name: str, limiter: RateLimiter, output_dir: Path) -> Dict[str, Any]:
+async def _worker(
+    principle_name: str,
+    index: int,
+    total: int,
+    limiter: RateLimiter,
+    output_dir: Path,
+) -> Dict[str, Any]:
     """
     处理单个心理学原则：受速率限制后发起请求并保存响应。
 
     参数:
         principle_name: 当前要查询的原则。
+        index: 当前原则的序号（从 1 开始）。
+        total: 总原则数。
         limiter: 速率限制器实例。
         output_dir: 输出文件所在目录。
 
@@ -250,10 +297,9 @@ async def _worker(principle_name: str, limiter: RateLimiter, output_dir: Path) -
     if not content.strip():
         return {"principle": principle_name, "error": "Empty response content"}
 
-    print(f"[response] {principle_name}:\n{content}\n")
-    filename = output_dir / f"{_slugify(principle_name)}.txt"
-    filename.write_text(content, encoding="utf-8")
-    return {"principle": principle_name, "content": content, "file_path": str(filename)}
+    print(f"[response] {principle_name}已经成功获取内容")
+    # print(f"[response] {principle_name}:\n{content}\n")
+    return {"principle": principle_name, "content": content}
 
 
 def _extract_references(content: str) -> List[str]:
@@ -266,10 +312,15 @@ def _extract_references(content: str) -> List[str]:
     返回:
         提取出的 APA 引文列表，长度上限为 50。
     """
+    return _extract_references_from_lines(content.splitlines())
+
+
+def _extract_references_from_lines(lines: Iterable[str]) -> List[str]:
+    """Helper to parse references from a sequence of lines."""
     references: List[str] = []
     current: List[str] = []
 
-    for raw_line in content.splitlines():
+    for raw_line in lines:
         line = raw_line.strip()
         if not line:
             continue
@@ -302,6 +353,46 @@ def _extract_references(content: str) -> List[str]:
     return cleaned[:50]
 
 
+def _split_content_by_sections(content: str) -> Dict[str, List[str]]:
+    """
+    将模型输出按三个主题部分拆分成行列表。
+    """
+    section_lines = {name: [] for name, _ in SECTION_DEFINITIONS}
+    current_section: Optional[str] = None
+
+    for raw_line in content.splitlines():
+        stripped = raw_line.strip()
+        if not stripped:
+            continue
+
+        matched_section = None
+        for name, pattern in SECTION_DEFINITIONS:
+            if pattern.search(stripped):
+                matched_section = name
+                break
+
+        if matched_section:
+            current_section = matched_section
+            continue
+
+        if current_section:
+            section_lines[current_section].append(raw_line)
+
+    return section_lines
+
+
+def _extract_references_by_section(content: str) -> Dict[str, List[str]]:
+    """
+    提取按照三个主题分类的引用列表。
+    """
+    section_lines = _split_content_by_sections(content)
+    categorized: Dict[str, List[str]] = {}
+    for name, _ in SECTION_DEFINITIONS:
+        categorized[name] = _extract_references_from_lines(
+            section_lines.get(name, []))
+    return categorized
+
+
 def _write_outputs(aggregated: Dict[str, str], errors: Dict[str, str], output_dir: Path) -> None:
     """
     将成功与失败结果写入磁盘，并打印简要汇总信息。
@@ -316,13 +407,23 @@ def _write_outputs(aggregated: Dict[str, str], errors: Dict[str, str], output_di
     raw_path.write_text(raw_content, encoding="utf-8")
     print(f"[done] Raw responses saved to {raw_path}")
 
-    parsed: Dict[str, List[str]] = {
-        principle: _extract_references(text) for principle, text in aggregated.items()
-    }
+    parsed: Dict[str, List[str]] = {}
+    parsed_by_section: Dict[str, Dict[str, List[str]]] = {}
+    for principle, text in aggregated.items():
+        parsed[principle] = _extract_references(text)
+        parsed_by_section[principle] = _extract_references_by_section(text)
+
     parsed_path = output_dir / "responses_parsed.json"
     parsed_content = json.dumps(parsed, ensure_ascii=False, indent=2)
     parsed_path.write_text(parsed_content, encoding="utf-8")
     print(f"[done] Parsed references saved to {parsed_path}")
+
+    parsed_sections_path = output_dir / "responses_parsed_by_section.json"
+    parsed_sections_content = json.dumps(
+        parsed_by_section, ensure_ascii=False, indent=2)
+    parsed_sections_path.write_text(parsed_sections_content, encoding="utf-8")
+    print(
+        f"[done] Sectioned references saved to {parsed_sections_path}")
 
     if errors:
         errors_path = output_dir / "errors.json"
@@ -353,15 +454,19 @@ async def process_principles(principles: Iterable[str], output_dir: Path) -> Tup
     print(
         f"[info] Processing {len(principles)} principles. Output directory: {output_dir}")
 
-    limiter = RateLimiter(max_calls=5, period=60.0)
+    limiter = RateLimiter(max_calls=MAX_CALL, period=60.0)
     # 为每个原则启动一个协程任务，利用速率限制控制实际发送频率
+    total = len(principles)
     tasks = [
-        asyncio.create_task(_worker(principle, limiter, output_dir))
-        for principle in principles
+        asyncio.create_task(
+            _worker(principle, idx, total, limiter, output_dir))
+        for idx, principle in enumerate(principles, start=1)
     ]
 
     aggregated: Dict[str, str] = {}
     errors: Dict[str, str] = {}
+    stored_count = 0
+    stored_count = 0
 
     for task in asyncio.as_completed(tasks):
         result = await task
@@ -373,9 +478,9 @@ async def process_principles(principles: Iterable[str], output_dir: Path) -> Tup
             continue
 
         aggregated[principle] = result["content"]
-        file_path = result.get("file_path")
-        if file_path:
-            print(f"[saved] {principle} -> {file_path}")
+        stored_count += 1
+        print(f"[saved] {principle}")
+        print(f"已存储 {stored_count}/{total} 条结果\n")
 
     return aggregated, errors
 
@@ -403,9 +508,11 @@ def process_principles_sync(principles: Iterable[str], output_dir: Path) -> Tupl
 
     aggregated: Dict[str, str] = {}
     errors: Dict[str, str] = {}
+    stored_count = 0
 
+    total = len(principles)
     for idx, principle in enumerate(principles, start=1):
-        print(f"[info] ({idx}/{len(principles)}) Requesting {principle}...")
+        print(f"[info] ({idx}/{total}) Requesting {principle}...")
         try:
             content = fetch_references(principle)
         except Exception as exc:  # noqa: BLE001
@@ -419,10 +526,10 @@ def process_principles_sync(principles: Iterable[str], output_dir: Path) -> Tupl
             continue
 
         print(f"[response] {principle}:\n{content}\n")
-        filename = output_dir / f"{_slugify(principle)}.txt"
-        filename.write_text(content, encoding="utf-8")
         aggregated[principle] = content
-        print(f"[saved] {principle} -> {filename}")
+        stored_count += 1
+        print(f"[saved] {principle}")
+        print(f"已存储 {stored_count}/{total} 条结果")
 
     return aggregated, errors
 
@@ -437,13 +544,13 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
             "Query the Gemini chat completions API for every psychological principle "
-            "listed in principle_situaton.sd_pri_list with a rate limit of 5 calls per minute."
+            "listed in sd_pri_list and td_pri_list_100 with a rate limit of 5 calls per minute."
         )
     )
     parser.add_argument(
         "--principles",
         nargs="*",
-        help="Optional subset of principles to query. Defaults to all items in sd_pri_list.",
+        help="Optional subset of principles to query. Defaults to all items in both principle lists.",
     )
     parser.add_argument(
         "--limit",
@@ -472,7 +579,11 @@ def main() -> None:
     if args.principles:
         principles: List[str] = list(args.principles)
     else:
-        principles = list(sd_pri_list)
+        combined = list(sd_pri_list)
+        for item in td_pri_list_100:
+            if item not in combined:
+                combined.append(item)
+        principles = combined
 
     if args.limit is not None:
         # limit 仅截取前 N 个元素，便于测试或部分运行
@@ -491,6 +602,8 @@ def main() -> None:
     final_errors: Dict[str, str] = errors_round1.copy()
 
     retry_principles = list(errors_round1.keys())
+    failure_path_round3 = output_dir / "failed_principles_round3.txt"
+
     if retry_principles:
         print(
             f"[retry] Starting second round for {len(retry_principles)} principles.")
@@ -504,17 +617,33 @@ def main() -> None:
         aggregated_total.update(aggregated_round2)
         final_errors = errors_round2.copy()
 
-        if final_errors:
-            failure_path = output_dir / "failed_principles_round2.txt"
-            failure_path.write_text(
-                "\n".join(final_errors.keys()),
-                encoding="utf-8"
-            )
+        retry_principles_round3 = list(final_errors.keys())
+        if retry_principles_round3:
             print(
-                f"[warn] {len(final_errors)} principles still failed after second round. See {failure_path}")
+                f"[retry] Starting third round (sequential) for {len(retry_principles_round3)} principles.")
+            aggregated_round3, errors_round3 = process_principles_sync(
+                retry_principles_round3, output_dir)
+            aggregated_total.update(aggregated_round3)
+            final_errors = errors_round3.copy()
+
+            if final_errors:
+                failure_path_round3.write_text(
+                    "\n".join(final_errors.keys()),
+                    encoding="utf-8"
+                )
+                print(
+                    f"[warn] {len(final_errors)} principles still failed after third round. See {failure_path_round3}")
+            else:
+                if failure_path_round3.exists():
+                    failure_path_round3.unlink()
+                print("[info] All retry principles succeeded in the third round.")
         else:
+            if failure_path_round3.exists():
+                failure_path_round3.unlink()
             print("[info] All retry principles succeeded in the second round.")
     else:
+        if failure_path_round3.exists():
+            failure_path_round3.unlink()
         print("[info] No retry needed; all principles succeeded on the first pass.")
 
     _write_outputs(aggregated_total, final_errors, output_dir)

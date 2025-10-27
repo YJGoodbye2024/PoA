@@ -15,7 +15,6 @@ from urllib.parse import urljoin, quote
 
 import requests
 from xml.etree import ElementTree as ET
-from collections import Counter
 
 
 RESPONSES_PATH = Path("Dataset/gemini_references/test_responses_parsed.json")
@@ -47,8 +46,6 @@ PDF_DOWNLOAD_USER_AGENT = os.getenv(
 PDF_TEXT_MAX_BYTES = int(
     os.getenv("PDF_TEXT_MAX_BYTES", str(25 * 1024 * 1024)))  # 直接读取 PDF 内容并提取文本时最多拉取多少字节的数据。默认值是 25 MB
 PIPELINE_SENTINEL = object()
-PROGRESS_INTERVAL_SECONDS = float(
-    os.getenv("PIPELINE_PROGRESS_INTERVAL", "30"))
 
 # Regular expressions for citation parsing
 NUMBERED_PREFIX_RE = re.compile(r"^\d+[\).\s]+")
@@ -1431,8 +1428,6 @@ async def stage1_producer(
     download_pdfs: bool,
     pdf_worker_count: int,
     deep_worker_count: int,
-    progress: Dict[str, Any],
-    progress_lock: asyncio.Lock,
 ) -> None:
     total = len(tasks)
     for idx, info in enumerate(tasks, start=1):
@@ -1445,9 +1440,6 @@ async def stage1_producer(
         state_key = payload.pop("state_key")
         await state.update(state_key, payload)
 
-        async with progress_lock:
-            progress["stage1_processed"] = idx
-
         if task:
             if task.needs_pdf_download and pdf_worker_count > 0:
                 await pdf_queue.put(task)
@@ -1455,55 +1447,6 @@ async def stage1_producer(
                 await deep_queue.put(task)
 
         await asyncio.sleep(0.2)
-
-    async with progress_lock:
-        progress["stage1_processed"] = total
-        progress["stage1_done"] = True
-
-
-async def progress_monitor(
-    state: PipelineState,
-    pdf_queue: "asyncio.Queue[PipelineTask]",
-    deep_queue: "asyncio.Queue[PipelineTask]",
-    progress: Dict[str, Any],
-    progress_lock: asyncio.Lock,
-    stop_event: asyncio.Event,
-) -> None:
-    while True:
-        async with progress_lock:
-            processed = progress.get("stage1_processed", 0)
-            total = progress.get("stage1_total", 0)
-        snapshot = state.snapshot()
-        total_entries = len(snapshot)
-        status_counts = Counter(
-            record.get("status", "unknown") for record in snapshot.values()
-        )
-        needs_deep = sum(
-            1 for record in snapshot.values() if record.get("needs_deep_search")
-        )
-        needs_pdf = sum(
-            1 for record in snapshot.values() if record.get("needs_pdf_download")
-        )
-        total_denominator = total if total else 1
-        percent = (processed / total_denominator) * 100 if total else 0.0
-        print(
-            "[progress] Stage1 "
-            f"{processed}/{total_denominator} ({percent:.1f}%) "
-            f"| pdf_queue={pdf_queue.qsize()} | deep_queue={deep_queue.qsize()} "
-            f"| recorded={total_entries} | status={dict(status_counts)} "
-            f"| pending_pdf={needs_pdf} | pending_deep={needs_deep}"
-        )
-
-        if stop_event.is_set():
-            break
-        try:
-            await asyncio.wait_for(
-                stop_event.wait(), timeout=PROGRESS_INTERVAL_SECONDS
-            )
-        except asyncio.TimeoutError:
-            continue
-        if stop_event.is_set():
-            break
 
 
 async def pdf_download_worker(
@@ -1678,14 +1621,6 @@ async def run_pipeline_async(
     pdf_queue: "asyncio.Queue[PipelineTask]" = asyncio.Queue()
     deep_queue: "asyncio.Queue[PipelineTask]" = asyncio.Queue()
 
-    progress: Dict[str, Any] = {
-        "stage1_total": len(tasks),
-        "stage1_processed": 0,
-        "stage1_done": False,
-    }
-    progress_lock = asyncio.Lock()
-    stop_event = asyncio.Event()
-
     credentials = collect_deep_search_credentials()
     if deep_workers > 0 and not credentials:
         print(
@@ -1725,50 +1660,31 @@ async def run_pipeline_async(
     ]
 
     session = requests.Session()
-    monitor_task = asyncio.create_task(
-        progress_monitor(
-            state,
+    try:
+        await stage1_producer(
+            tasks,
+            registry,
+            session,
             pdf_queue,
             deep_queue,
-            progress,
-            progress_lock,
-            stop_event,
+            state,
+            download_pdfs,
+            pdf_workers,
+            active_deep_workers,
         )
-    )
-    try:
-        try:
-            await stage1_producer(
-                tasks,
-                registry,
-                session,
-                pdf_queue,
-                deep_queue,
-                state,
-                download_pdfs,
-                pdf_workers,
-                active_deep_workers,
-                progress,
-                progress_lock,
-            )
-        finally:
-            session.close()
-
-        if pdf_worker_tasks:
-            await pdf_queue.join()
-            for _ in pdf_worker_tasks:
-                await pdf_queue.put(PIPELINE_SENTINEL)
-            await asyncio.gather(*pdf_worker_tasks)
-        if deep_worker_tasks:
-            await deep_queue.join()
-            for _ in deep_worker_tasks:
-                await deep_queue.put(PIPELINE_SENTINEL)
-            await asyncio.gather(*deep_worker_tasks)
     finally:
-        stop_event.set()
-        try:
-            await monitor_task
-        except asyncio.CancelledError:
-            pass
+        session.close()
+
+    if pdf_worker_tasks:
+        await pdf_queue.join()
+        for _ in pdf_worker_tasks:
+            await pdf_queue.put(PIPELINE_SENTINEL)
+        await asyncio.gather(*pdf_worker_tasks)
+    if deep_worker_tasks:
+        await deep_queue.join()
+        for _ in deep_worker_tasks:
+            await deep_queue.put(PIPELINE_SENTINEL)
+        await asyncio.gather(*deep_worker_tasks)
 
     return state.snapshot()
 

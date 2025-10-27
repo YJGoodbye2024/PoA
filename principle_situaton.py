@@ -3,48 +3,48 @@
 
 # 原则列表统一小写
 sd_pri_list = ['actor observer asymmetry', 'defensive attribution hypothesis', 'effort justification', 'egocentric bias', 'false consensus effect', 'forer effect', 'fundamental attribution error', 'hard-easy effect', 'illusion of control', 'illusory superiority', 'optimism bias', 'overconfidence effect', 'risk compensation', 'self-serving bias', 'social desirability bias', 'third-person effect', 'decoy effect', 'reactance', 'social comparison bias', 'status quo bias', 'backfire effect', 'endowment effect', 'loss aversion', 'pseudocertainty effect', 'sunk cost fallacy', 'zero-risk bias', 'hyperbolic discounting', 'identifiable victim effect', 'ambiguity bias', 'belief bias', 'information bias', 'less-is-better effect', 'authority bias', 'automation bias', 'bandwagon effect', 'group attribution error', 'just-world hypothesis', 'stereotyping', 'ultimate attribution error', 'halo effect', 'in-group bias', 'out-group homogeneity bias', 'positivity effect', 'reactive devaluation', 'hindsight bias', 'impact bias', 'outcome bias', 'pessimism bias', 'planning fallacy', 'projection bias', 'restraint bias', 'self-consistency bias', 'denomination effect', 'mental accounting', 'normalcy bias', 'subadditivity effect', 'survivorship bias', 'zero-sum bias', 'anthropomorphism', 'illusion of validity', 'illusory correlation', 'curse of knowledge', 'illusion of asymmetric insight', 'illusion of transparency', 'spotlight effect', 'negativity bias', 'choice-supportive bias', 'confirmation bias', 'continued influence effect', 'expectation bias', 'observer effect', 'observer-expectancy effect', 'ostrich effect', 'bias blind spot', 'naive cynicism',
-               'naive realism', 'attentional bias', 'availability heuristic', 'base rate fallacy', 'context effect', 'empathy gap', 'illusory truth effect', 'mere exposure effect', 'mood-congruent memory bias', 'omission bias', 'anchoring', 'conservatism', 'contrast effect', 'distinction bias', 'focusing effect', 'framing effect', 'fading affect bias', 'implicit association', 'implicit stereotypes', 'false memory', 'misattribution of memory', 'source confusion', 'misinformation effect', 'peak-end rule', 'delayed reciprocity', 'asymmetrical investment', 'survival imperative', 'aversion response', 'narrative self', 'hedonic adaptation', 'self-determination theory', 'pleasure principle & reality principle', 'search for meaning', 'moral licensing effect', 'choice overload', 'kin selection & inclusive fitness', 'asymmetrical parental investment', 'formation of dominance hierarchies', 'territoriality', 'mating strategies', 'jealousy', 'paternity uncertainty', 'groupthink', 'bystander effect', 'social facilitation', 'diffusion of responsibility', 'decision fatigue', 'awe', 'mortality salience & legacy drive', 'flow principle', 'gratitude mechanism', 'post-traumatic growth', 'skin hunger & the law of touch', 'self-handicapping paradox', 'the allure of the forbidden', 'sadistic pleasure', 'the utility principle of self-deception', 'play impulse principle', 'attribution theory', 'social comparison theory', 'self-perception theory', 'terror management theory', 'cognitive dissonance theory', 'psychological reactance theory', 'social learning theory', 'conformity', 'obedience to authority', 'social identity theory', 'bystander effect', 'reciprocity principle']
+               'naive realism', 'attentional bias', 'availability heuristic', 'base rate fallacy', 'context effect', 'empathy gap', 'illusory truth effect', 'mere exposure effect', 'mood-congruent memory bias', 'omission bias', 'anchoring', 'conservatism', 'contrast effect', 'distinction bias', 'focusing effect', 'framing effect', 'fading affect bias', 'implicit association', 'implicit stereotypes', 'false memory', 'misattribution of memory', 'source confusion', 'misinformation effect', 'peak-end rule', 'delayed reciprocity', 'asymmetrical investment', 'survival imperative', 'aversion response', 'narrative self', 'hedonic adaptation', 'self-determination theory', 'pleasure principle & reality principle', 'search for meaning', 'moral licensing effect', 'choice overload', 'kin selection & inclusive fitness', 'asymmetrical parental investment', 'formation of dominance hierarchies', 'territoriality', 'mating strategies', 'jealousy', 'paternity uncertainty', 'groupthink', 'bystander effect', 'social facilitation', 'diffusion of responsibility', 'decision fatigue', 'awe', 'mortality salience & legacy drive', 'flow principle', 'gratitude mechanism', 'post-traumatic growth', 'skin hunger & the law of touch', 'self-handicapping paradox', 'the allure of the forbidden', 'sadistic pleasure', 'the utility principle of self-deception', 'play impulse principle', 'attribution theory', 'social comparison theory', 'self-perception theory', 'terror management theory', 'cognitive dissonance theory', 'psychological reactance theory', 'social learning theory', 'conformity', 'obedience to authority', 'social identity theory', 'reciprocity principle']
 
 td_pri_list_100 = [
     # I. Extraversion (外倾性) - 20 words
     # Positive Pole
-    'Talkative', 'Assertive', 'Active', 'Energetic', 'Outgoing',
-    'Enthusiastic', 'Daring', 'Gregarious', 'Bold', 'Spontaneous',
+    'talkative', 'assertive', 'active', 'energetic', 'outgoing',
+    'enthusiastic', 'daring', 'gregarious', 'bold', 'spontaneous',
     # Negative Pole
-    'Quiet', 'Reserved', 'Shy', 'Inhibited', 'Timid',
-    'Withdrawn', 'Unassertive', 'Introverted', 'Silent', 'Unenergetic',
+    'quiet', 'reserved', 'shy', 'inhibited', 'timid',
+    'withdrawn', 'unassertive', 'introverted', 'silent', 'unenergetic',
 
     # II. Agreeableness (宜人性) - 20 words
     # Positive Pole
-    'Sympathetic', 'Kind', 'Appreciative', 'Affectionate', 'Soft-hearted',
-    'Warm', 'Generous', 'Trusting', 'Helpful', 'Cooperative',
+    'sympathetic', 'kind', 'appreciative', 'affectionate', 'soft-hearted',
+    'warm', 'generous', 'trusting', 'helpful', 'cooperative',
     # Negative Pole
-    'Cold', 'Unsympathetic', 'Harsh', 'Rude', 'Unkind',
-    'Cruel', 'Quarrelsome', 'Critical', 'Antagonistic', 'Callous',
+    'cold', 'unsympathetic', 'harsh', 'rude', 'unkind',
+    'cruel', 'quarrelsome', 'critical', 'antagonistic', 'callous',
 
     # III. Conscientiousness (尽责性) - 20 words
     # Positive Pole
-    'Organized', 'Responsible', 'Dependable', 'Thorough', 'Efficient',
-    'Practical', 'Deliberate', 'Conscientious', 'Neat', 'Careful',
+    'organized', 'responsible', 'dependable', 'thorough', 'efficient',
+    'practical', 'deliberate', 'conscientious', 'neat', 'careful',
     # Negative Pole
-    'Disorganized', 'Careless', 'Irresponsible', 'Undependable', 'Sloppy',
-    'Impractical', 'Haphazard', 'Negligent', 'Untidy', 'Rash',
+    'disorganized', 'careless', 'irresponsible', 'undependable', 'sloppy',
+    'impractical', 'haphazard', 'negligent', 'untidy', 'rash',
 
     # IV. Emotional Stability (情绪稳定性) - 20 words
     # Positive Pole
-    'Relaxed', 'Calm', 'At ease', 'Unemotional', 'Poised',
-    'Composed', 'Secure', 'Stable', 'Content', 'Placid',
+    'relaxed', 'calm', 'at ease', 'unemotional', 'poised',
+    'composed', 'secure', 'stable', 'content', 'placid',
     # Negative Pole (Neuroticism)
-    'Anxious', 'Moody', 'Envious', 'Touchy', 'Fretful',
-    'Temperamental', 'Insecure', 'Nervous', 'Jealous', 'High-strung',
+    'anxious', 'moody', 'envious', 'touchy', 'fretful',
+    'temperamental', 'insecure', 'nervous', 'jealous', 'high-strung',
 
     # V. Openness / Intellect (开放性/智性) - 20 words
     # Positive Pole
-    'Creative', 'Imaginative', 'Intellectual', 'Philosophical', 'Complex',
-    'Deep', 'Artistic', 'Bright', 'Perceptive', 'Introspective',
+    'creative', 'imaginative', 'intellectual', 'philosophical', 'complex',
+    'deep', 'artistic', 'bright', 'perceptive', 'introspective',
     # Negative Pole
-    'Uncreative', 'Unimaginative', 'Unintellectual', 'Unphilosophical', 'Simple',
-    'Shallow', 'Unartistic', 'Dull', 'Imperceptive', 'Uninquisitive'
+    'uncreative', 'unimaginative', 'unintellectual', 'unphilosophical', 'simple',
+    'shallow', 'unartistic', 'dull', 'imperceptive', 'uninquisitive'
 ]
 
 
