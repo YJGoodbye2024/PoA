@@ -18,7 +18,7 @@ from xml.etree import ElementTree as ET
 from collections import Counter
 
 
-RESPONSES_PATH = Path("Dataset/gemini_references/test_responses_parsed.json")
+RESPONSES_PATH = Path("Dataset/gemini_references/responses_parsed.json")
 BASE_DIR = Path("Dataset/papers_info")
 PAPERS_DIR = BASE_DIR / "papers"
 PDF_DIR = BASE_DIR / "pdfs"
@@ -30,7 +30,7 @@ ERROR_LOG = LOG_DIR / "errors.jsonl"
 PIPELINE_STATE_PATH = LOG_DIR / "pipeline_state.json"
 
 # PDF 下载参数（超时时间、最大重试次数、退避因子、重试状态码和默认 UA）
-PDF_DOWNLOAD_TIMEOUT = (10, 240)  # (connect timeout, read timeout) in seconds
+PDF_DOWNLOAD_TIMEOUT = (10, 120)  # (connect timeout, read timeout) in seconds
 PDF_DOWNLOAD_MAX_ATTEMPTS = 3
 PDF_DOWNLOAD_BACKOFF_FACTOR = 2.0
 PDF_DOWNLOAD_RETRY_STATUS = {429, 500, 502, 503, 504}
@@ -48,7 +48,7 @@ PDF_TEXT_MAX_BYTES = int(
     os.getenv("PDF_TEXT_MAX_BYTES", str(25 * 1024 * 1024)))  # 直接读取 PDF 内容并提取文本时最多拉取多少字节的数据。默认值是 25 MB
 PIPELINE_SENTINEL = object()
 PROGRESS_INTERVAL_SECONDS = float(
-    os.getenv("PIPELINE_PROGRESS_INTERVAL", "30"))
+    os.getenv("PIPELINE_PROGRESS_INTERVAL", "120"))  # 每隔多少秒打印一次进度
 
 # Regular expressions for citation parsing
 NUMBERED_PREFIX_RE = re.compile(r"^\d+[\).\s]+")
@@ -1487,11 +1487,11 @@ async def progress_monitor(
         total_denominator = total if total else 1
         percent = (processed / total_denominator) * 100 if total else 0.0
         print(
-            "[progress] Stage1 "
+            "\n\n[progress] Stage1 "
             f"{processed}/{total_denominator} ({percent:.1f}%) "
             f"| pdf_queue={pdf_queue.qsize()} | deep_queue={deep_queue.qsize()} "
             f"| recorded={total_entries} | status={dict(status_counts)} "
-            f"| pending_pdf={needs_pdf} | pending_deep={needs_deep}"
+            f"| pending_pdf={needs_pdf} | pending_deep={needs_deep}\n\n"
         )
 
         if stop_event.is_set():
@@ -1836,8 +1836,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--pdf-workers",
         type=int,
-        default=int(os.getenv("PDF_WORKERS", "1")),
-        help="Number of concurrent PDF download workers (default: 1).",
+        default=int(os.getenv("PDF_WORKERS", "3")),
+        help="Number of concurrent PDF download workers (default: 3).",
     )
     parser.add_argument(
         "--deep-workers",

@@ -1,0 +1,21 @@
+{
+  "split_1": {
+    "tasks": 2157,
+    "principles": 238,
+    "archive": "Dataset/task_splits/split_1.tar.gz"
+  },
+  "split_2": {
+    "tasks": 2157,
+    "principles": 236,
+    "archive": "Dataset/task_splits/split_2.tar.gz"
+  },
+  "split_3": {
+    "tasks": 2156,
+    "principles": 232,
+    "archive": "Dataset/task_splits/split_3.tar.gz"
+  },
+  "totals": {
+    "pending_tasks": 6470,
+    "splits": 3
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "split_id": "split_3",
+  "split_path": "Dataset/task_splits/split_3",
+  "task_count": 2156,
+  "principle_count": 232,
+  "paper_keys_file": "paper_keys.txt",
+  "pipeline_state_file": "pipeline_state.json",
+  "responses_file": "responses_parsed.json",
+  "tasks_file": "tasks.jsonl",
+  "principles_file": "principles.txt"
+}
