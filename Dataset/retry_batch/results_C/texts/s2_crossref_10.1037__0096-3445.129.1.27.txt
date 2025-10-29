@@ -1,0 +1,40 @@
+## 1. Official Abstract
+**Requirement:** Quote the official abstract verbatim. **Requirement:** Cite the source URL.
+
+"Retrospective evaluations of aversive episodes were studied in the context of a general model of "judgment by prototype" that has been applied in other situations. Unpleasant sounds of variable loudness and duration were the stimuli. In Experiment 1, continuous reports of annoyance closely tracked variations of noise intensity. Hypotheses about the determinants of retrospective evaluation were examined in Experiment 2. Experiment 3 confirmed a prediction of judgment by prototype: The effects of sound duration and intensity are additive in multitrial experiments. Experiment 4 confirmed a robust preference for aversive episodes that are "improved" by adding a period of reduced aversiveness."
+
+## 2. Core Insights & Analysis
+**Fallback Task:** Full text was not accessible. A Detailed Interpretation based on third-party academic sources is provided below.
+
+This paper by Charles A. Schreiber and Daniel Kahneman is a key study in the field of hedonic psychology, focusing on how people remember and evaluate past unpleasant experiences. The research investigates the concept of "remembered utility," which is the retrospective evaluation of the pleasure or pain associated with a past event, and how this influences future choices. The central argument is that our memories of aversive events are not a simple summation of the experience over its duration. Instead, they are disproportionately influenced by specific moments, a concept encapsulated in the "peak-end rule."
+
+### Key Concepts and Findings:
+
+*   **Peak-End Rule and Duration Neglect:** The study provides significant evidence for the "peak-end rule," which posits that our retrospective evaluation of an experience is largely determined by an average of the most intense moment (the "peak") and the final moment (the "end"). This cognitive shortcut leads to "duration neglect," where the overall length of the aversive experience has surprisingly little impact on its remembered unpleasantness. This phenomenon had been previously observed in experiences of pain and was extended by this study to the domain of aversive sounds.
+
+*   **Judgment by Prototype:** The research is framed within a broader model of "judgment by prototype." In this model, when people evaluate a past episode, they do not recall every detail. Instead, they form a simplified "prototype" of the experience, which is heavily weighted by the peak and end moments. The overall evaluation is based on this representative snapshot rather than a comprehensive review of the entire event.
+
+### Experimental Insights:
+
+The paper details a series of experiments using unpleasant sounds of varying loudness and duration to test these hypotheses.
+
+*   In one experiment, participants' real-time reports of annoyance were shown to closely follow the intensity of the noise, establishing a baseline for "instant utility."
+*   Subsequent experiments examined the "remembered utility." A crucial and counterintuitive finding, confirmed in the fourth experiment, was that participants showed a preference for a longer aversive episode if it ended with a period of diminished unpleasantness. For example, a loud noise followed by a period of less intense noise was remembered as less aversive overall than just the initial loud noise by itself, even though the total duration of discomfort was longer. This demonstrates a clear violation of a simple temporal integration model of utility.
+*   Another experiment confirmed that in multi-trial scenarios, the effects of the sound's duration and its intensity are additive, a prediction consistent with the judgment by prototype model.
+
+In essence, the paper demonstrates that our memory of unpleasant experiences is flawed in a predictable way. We do not remember the sum of our suffering; rather, we remember specific, salient moments. This has been shown to have wide-ranging implications, influencing how people make choices about repeating experiences, from medical procedures to consumer products.
+
+## 3. Sources
+**Requirement:** List all verifiable URLs used to complete Task 1 and Task 2.
+
+ https://pubmed.ncbi.nlm.nih.gov/10756485/
+ https://www.semanticscholar.org/paper/Determinants-of-the-remembered-utility-of-aversive-Schreiber-Kahneman/12975058e5f253874316e60a35987034346955e8
+ https://www.researchgate.net/publication/383187213_Experimental_Verification_and_Further_Reflection_on_the_Peak-End_Rule
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6426742/
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01343/full
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00729/full
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3653483/
+ https://www.researchgate.net/publication/12489493_Determinants_of_the_remembered_utility_of_aversive_sounds
+ https://kahneman.princeton.edu/publications/
+ https://pages.ucsd.edu/~jareto/publications/Liersch_Hadl_2005_wp.pdf
+ https://www.semanticscholar.org/paper/End-Effects-of-Rated-Life-Quality%3A-The-James-Dean-Osch-Stellar/1029267923239a72138b02928375836437537651

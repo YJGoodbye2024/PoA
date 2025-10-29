@@ -1,0 +1,47 @@
+## 1. Official Abstract
+"Face preferences affect a diverse range of critical social outcomes, from mate choices and decisions about platonic relationships to hiring decisions and decisions about social exchange. Firstly, we review the facial characteristics that influence attractiveness judgements of faces (e.g. symmetry, sexually dimorphic shape cues, averageness, skin colour/texture and cues to personality) and then review several important sources of individual differences in face preferences (e.g. hormone levels and fertility, own attractiveness and personality, visual experience, familiarity and imprinting, social learning). The research relating to these issues highlights flexible, sophisticated systems that support and promote adaptive responses to faces that appear to function to maximize the benefits of both our mate choices and more general decisions about other types of social partners."
+
+## 2. Core Insights & Analysis
+The full text of this paper was accessible for analysis. This synopsis is structured according to the paper's original sections.
+
+### 1. Introduction
+The paper begins by highlighting the significant social consequences of physical attractiveness, which influences everything from mate selection to hiring decisions. The authors note that while cultural standards of beauty exist, certain features appear to be universally attractive. From an evolutionary perspective, these preferences are not arbitrary; they are believed to guide individuals toward mates who can enhance their reproductive success. The paper aims to review the specific facial traits linked to attractiveness and explore why preferences for these traits can vary between individuals.
+
+### 2. What Makes a Face Attractive?
+This section delves into the specific facial cues that are widely considered attractive, grounding them in evolutionary theories.
+
+**(a) Symmetry:** Symmetrical faces are generally preferred across studies. The evolutionary explanation for this preference is that symmetry acts as an indicator of developmental stability and genetic health. Asymmetry can result from illness, genetic mutations, or environmental stressors during development, making it a signal of potentially lower mate quality.
+
+**(b) Averageness:** The "averageness" of a face, meaning how closely it resembles a composite of many faces, is a strong predictor of attractiveness. One evolutionary theory suggests this is because individuals with average features are less likely to carry harmful genetic mutations. Another theory posits that average faces are processed more easily by our visual system, leading to a pleasant or attractive sensation. The authors also note that the smoothness of skin texture in computer-averaged composite faces contributes to their appeal, separate from facial shape.
+
+**(c) Secondary sexual characteristics (Sexual Dimorphism):** This subsection explores how masculine and feminine features influence attractiveness. These traits are linked to hormone levels (testosterone in males, estrogen in females) and are thought to signal reproductive fitness.
+*   **Female Faces:** There is strong evidence that femininity in female faces is consistently found to be attractive. This is proposed to be an honest signal of youth, fertility, and higher estrogen levels.
+*   **Male Faces:** The link between masculinity and attractiveness in male faces is more complex. While some studies show a preference for masculine features like a strong jaw, which can signal dominance and good genes, other studies report that more feminine or less dominant male faces are preferred. The authors suggest this variability may be because masculine traits can also be associated with negative personality characteristics, such as a lack of warmth or a lower willingness to invest in offspring.
+
+**(d) Skin colour and texture:** The condition of the skin is a powerful cue for attractiveness because it provides a visible signal of current health and, to some extent, age. The paper notes that smooth skin texture and a more homogenous skin tone are perceived as more attractive, likely because they indicate youth and the absence of disease.
+
+**(e) Cues to personality:** The authors argue that since personality traits are critical in partner choice, it is likely that personality attributions from a face affect its attractiveness. For instance, a face that appears trustworthy or cooperative may be rated as more attractive, especially by individuals seeking a long-term partner. This ties back to the variable preference for masculine male faces; women who prioritize cooperation may avoid men with highly masculine faces if they associate that trait with a lack of prosocial behavior.
+
+### 3. Individual Differences in Face Preferences
+This section examines why "beauty is not entirely in the eye of the beholder" and how individual circumstances shape attractiveness judgments.
+
+The paper discusses several factors that cause variation in preferences:
+*   **Hormone levels and fertility:** A woman's preferences for masculinity in male faces can change across her menstrual cycle. Studies show that the preference for masculine features is often strongest during the fertile phase of the cycle, when conception is possible.
+*   **Own attractiveness and personality:** An individual's self-perceived attractiveness can influence their standards. More attractive individuals may have stronger preferences for attractive traits in others. Similarly, a person's own personality may guide them toward partners with complementary or similar perceived traits.
+*   **Visual experience and learning:** The paper highlights that visual experience shapes face preferences. This includes both short-term exposure (what you've seen recently) and long-term learning, such as imprinting on the facial characteristics of one's parents. Social learning and cultural transmission also play a significant role in establishing and maintaining beauty standards within a population.
+
+### 4. Conclusions
+The paper concludes that facial attractiveness is guided by sophisticated and flexible psychological systems. These systems integrate a wide range of facial cues—such as symmetry, averageness, and sex-typical features—to make adaptive judgments about potential mates and social partners. The significant variation in preferences observed across individuals and contexts underscores that these judgments are not fixed but are instead strategically tailored to an individual's own condition, hormonal status, and social environment. This flexibility allows individuals to maximize the benefits they receive from their social and mate choices.
+
+## 3. Sources
+1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3130383/
+2. https://pureportal.coventry.ac.uk/en/publications/facial-attractiveness-evolutionary-based-research
+3. https://www.semanticscholar.org/paper/Facial-attractiveness%3A-evolutionary-based-research-Little-Jones/92f7fffe25ed434893f9a9f500ce7d3a
+4. https://pubmed.ncbi.nlm.nih.gov/21536551/
+5. https://royalsocietypublishing.org/doi/10.1098/rstb.2010.0404
+6. https://www.researchgate.net/publication/51110472_Facial_attractiveness_Evolutionary_based_research
+7. https://dspace.stir.ac.uk/handle/1893/20120
+8. https://pure.strath.ac.uk/ws/portalfiles/portal/56157017/strathprints056157.pdf
+9. https://www.jstage.jst.go.jp/article/jjesp/59/1/59_1812/_pdf
+10. http://www.alittlelab.com/wp-content/uploads/2014/11/Little-2014-Facial-attractiveness-WIREs.pdf
+11. https://researchportal.bath.ac.uk/en/publications/facial-attractiveness-evolutionary-based-research

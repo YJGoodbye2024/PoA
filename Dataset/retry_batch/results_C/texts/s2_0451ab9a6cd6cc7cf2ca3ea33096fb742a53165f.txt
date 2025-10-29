@@ -1,0 +1,42 @@
+Based on a deep search and analysis of the specified paper, the following is a detailed breakdown of its abstract and core findings.
+
+## 1. Official Abstract
+> This experiment tested the proposition that the worse the consequences of an accidental occurrence, the greater the tendency of Ss to assign responsibility for the catastrophe to some appropriate person. Also tested was the specific proposition that an accident victim would be assigned increasing responsibility for his accident as its severity increased. Data supported these hypotheses. There seemed to be 2 ways of judging the same behavior as more responsible for the accident when accidental consequences were severe: (a) Ss could perceive the responsible person as more careless when accidental consequences were severe; (b) Ss could perceive the responsible person's behavior correctly, but apply stricter moral standards in judging the behavior when accidental consequences were severe. Data indicated that only the 2nd method of assigning responsibility was utilized by Ss.
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis. It is structured into sections covering the introduction of the concept, the experimental method, the results, and a discussion of the findings.
+
+### Introduction
+The paper begins by observing that while many events are uncontrollable, people have a tendency to assign responsibility for accidents, especially as the severity of the consequences increases. Walster proposes that this is a defensive attribution; by assigning responsibility, observers can believe the world is more controllable and less random, thus reassuring themselves that such an accident would not happen to them. The author hypothesizes that the more severe the consequences of an accident, the more responsibility will be assigned to a person involved. The study also aims to investigate *how* this increased blame is assigned. Two possibilities are explored: 1) observers might perceive the person's actions as more careless as the consequences worsen, or 2) observers might perceive the behavior accurately but judge it against a stricter moral standard.
+
+### Method
+The experiment involved 88 students from an introductory psychology course at the University of Minnesota. Participants were led to believe they were assisting in the research process itself. They were randomly assigned to listen to one of four audio recordings describing a car accident involving a young man named Lennie.
+
+The experiment used a 2x2 design, varying two factors:
+1.  **Severity of Consequences:** The accident was described as either having mild consequences (minor car damage, no injuries) or severe consequences (significant car damage and injury to Lennie or others).
+2.  **Affected Parties:** The accident's consequences were described as affecting only Lennie or affecting other people as well.
+
+After listening to the recording, participants were asked to complete a questionnaire. They rated the extent of Lennie's responsibility for the accident, his carelessness, and the morality of his actions.
+
+### Results
+The primary hypothesis was supported: participants assigned significantly more responsibility to Lennie as the consequences of the accident became more severe.
+
+However, the data did not show that participants perceived Lennie as more careless in the severe-consequence scenarios. Instead, the results indicated that participants applied stricter moral standards to his behavior when the outcome was severe. Behavior that was deemed acceptable in the mild condition was judged more harshly in the severe condition.
+
+The study also found an interesting gender difference. Women assigned more responsibility to Lennie when the *potential* consequences were severe (e.g., he could have hit a person) but not necessarily when he actually did.
+
+### Discussion
+Walster concludes that the tendency to assign more responsibility for severe accidents is a way to defensively attribute blame, making the world seem more just and controllable. When faced with a severe, random accident, it is threatening to believe that the same could happen to oneself. By blaming the victim, one can believe that the victim must have done something to deserve their fate, a belief that protects the observer from feeling vulnerable.
+
+The key finding is the mechanism through which this blame is assigned. It is not a distortion of the perception of the action itself (carelessness) but a shift in the moral judgment of that action. The same act is held to a higher standard when the outcome is tragic. The paper notes that this allows people to maintain a belief in a just world, where terrible things do not happen randomly to good people.
+
+## 3. Sources
+ https://research.amanote.com/publication/10.1037/h0022733/assignment-of-responsibility-for-an-accident
+ https://pubmed.ncbi.nlm.nih.gov/5902079/
+ https://www.researchgate.net/publication/18197779_Assignment_of_responsibility_for_an_accident
+ https://www.semanticscholar.org/paper/Assignment-of-responsibility-for-an-accident.-Walster/e2311497931327144e31168412534575883a8a3b
+ https://www.researchgate.net/publication/232560341_Redress_and_conscientiousness_in_the_attribution_of_responsibility_for_accidents
+ https://scholarworks.lib.csusb.edu/cgi/viewcontent.cgi?article=1883&context=etd-project
+ https://bohrium.com/research/assignment-of-responsibility-for-an-accident-1966-01-01-929
+ https://www.uwsp.edu/psych/stat/dist/walster.pdf
+ https://scholarworks.calstate.edu/concern/theses/m900p021x

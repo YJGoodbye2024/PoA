@@ -1,0 +1,35 @@
+Based on a deep search, the requested paper is a chapter within an edited academic handbook. While the full text of the chapter is not publicly accessible, its context and key arguments can be reconstructed from numerous citations and related scholarly works.
+
+## 1. Official Abstract
+An official abstract for this book chapter could not be located in the public domain. Edited book chapters from this era often do not have standalone abstracts in the same manner as journal articles.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on an analysis of how this chapter is cited and discussed in the field of industrial-organizational and personality psychology.
+
+The paper "Conscientiousness and integrity at work" by Joyce Hogan and Deniz S. Ones is a highly influential chapter that formally bridges two critical concepts in personnel selection: the personality trait of Conscientiousness from the Big Five model and the construct of "integrity" as measured by integrity tests. Prior to this work, integrity was often treated as a separate, purely moral construct. This chapter reframed it within a mainstream personality framework.
+
+The core argument of the chapter is that integrity is not a mysterious or isolated quality but is largely an expression of the personality trait of Conscientiousness. Conscientiousness is characterized by traits like discipline, dutifulness, organization, and responsibility. Hogan and Ones posit that individuals who are high in conscientiousness are more likely to be dependable, follow rules, and act with integrity in a work setting.
+
+The analysis presented in the chapter serves several key functions:
+
+*   **Theoretical Integration:** It places integrity tests, which were sometimes viewed with skepticism, on a more solid theoretical and empirical footing by linking them to the robust, well-validated Big Five personality structure. The authors argue that integrity tests, particularly the "personality-based" type (as opposed to "overt" admission of wrongdoing), are essentially measures of conscientiousness, agreeableness, and emotional stability.
+*   **Predictive Validity:** By framing integrity as a facet of conscientiousness, the work reinforces the validity of using these tests to predict important workplace outcomes. Conscientiousness is a known predictor of overall job performance and a strong negative predictor of Counterproductive Work Behaviors (CWB), such as theft, absenteeism, and rule-breaking. The chapter synthesizes evidence showing that integrity tests are effective tools for screening out applicants who are likely to engage in such detrimental behaviors.
+*   **Practical Application in Selection:** The paper provides a strong rationale for organizations to use integrity tests in personnel selection. It suggests that by selecting for high-integrity (and thus, high-conscientiousness) individuals, companies can build a more reliable, trustworthy, and productive workforce.
+
+In essence, Hogan and Ones's chapter was a landmark publication that helped to demystify the concept of integrity in an occupational context. It argued that integrity is a measurable component of normal personality and that, by measuring it, organizations can effectively predict who will be a reliable and rule-abiding employee.
+
+## 3. Sources
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa-SIFlpDentED613Kr-ov69-rUMLdBb58Vk862ELWTpwwX5LTnwPlD2vM6A_vn9PSMKR8q2cyRSgJFkO_9WsTAdPgvtjCOvLpiZcoVYKK1iLrzo2f78czeZUpP3hw2K3hGryNZdJ7GZa7tAxlxiIy2qahhTde_D4BJ5SNmEQ4kat_R9R4Q2S0lyvvB5Y3Ywc=
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ11zXTqJqrk2EPjYM3eP2VBbkhFHOThOnqpiDZ2feyZ6ck7Q0rC7HF7ll_G5dH0oAK29fODa8aCpbnFC1YDqBL40sQQPpzpgf44EpK0L8QC4nWqZ1QGNXYOAYNHOeuTLeXMdF0BhsrsumFoMlkMjYDWlK4vaj6Bf_JMmW-KQUzmSgkFnyYiLRqISRTw==
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaTFPzrUBtHBgVBIi0S9lfSZbSuanH1F41L1m9cIMctOlOoDg_ZSXPIhpoBWuLcZcomFjlZbTDL3IXBIkV30aW0uCBUUTUfIxCYQ5MQ1qB-bwg2OWBWksiGSc-mQapxwYcCzIuv0n7AYUNCLioc7iPOVBNvufujNpAeFwkfCl6gFzaxppGgRgG19l1erf4Src1eQcZoU0Wbj-RoKaN
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjziI0gZV9uV1C7t7sLd0lXMMsduKas2lN6e7UZQWRAi5tTGsduM5Syc-r7hQ0etRIbOMDLCmyEHcdNtrXMQXXFomoz8O9hg7M7n2Pu7ZYBW8nX4UwpqZKlA3QsZlGttOKgmCO9ZxmJRwhIZvyRRrlkRy3MsGnNEiYO1U=
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfvi9JGZX2-TN6bk3HiaI8-0h_YgyC6rTI2xLlr4srMTO36GNEovHmpaXiONsqkKc7cfKkaKkjtXZkLXgiDnU7DQESf2wc2rarhp4a-VBeglYpjWRhSYSREOcbB3DA2EDLARfTj_ACEl4whdLHrnT7b5cWnn2S
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsS4EdMPXPlcCjiZ_jhzpGRyHVt_EeGjicDJcRgBW9Zrd0Uy4b7CIN9R2eD25PGf-3bJ6FyrUmhBZWvQATKVhlqsoTP7nfr5ccEt3-W6ku8hPHEZYRo5H6pAke4LHL3LeEQ--O7GueYEPlfH-y1ZIxCN27yjcSreWUvpcYuResSOmby3Vp140_du4=
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEKk8kaM3YduuLEdbDuEHgVdYicq5dmi0BDXF8GHYAyPdF7ktflmnszJK5li2xkEZGcwJqlBjzwBHD-jqvHftI1y1zB1WyDG1WBjY4udSWgwkxjeR-IStXhyYCG6pxWrX4nLjiywOAag-z2M_PpRYfqnLqbOfTI2nO80Dq3sXoT7Td9DgUafmymjYFCXIf2wxQ_vvHJg==
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwvv2n_Cyg4DczWP9kbyLWJl9cutENyPfi3hf43F2yiVfvnPjege_wFQ_oAsoPjVW1Mmqhvyn5ppVex_ufDE9w4KhonmdaIs-S3q_PEReKzbnLVlK_hcC-7kJfuyp3KuIRhJyQeSa3JJtKaXKTLoQspKhIz4s=
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXCdLKUxE9OM-_MuL1f3dUYOUuhikSEaBJ3uJOjuTw9bpJ_1QDYfHNlae-Sgu8LInVLK-LmV-PkgabUMwi-FixyRIgixxw6IBZq9yWZcrYS6vQiEH-39DlQWH5DCXlAaxsi0rRXmLzJ723oUnEdDgUOKnIgKEc_ow_90i7VlM7LJn5-Mk7e57rfMqmjGNjyhaDNFKnvKqrveI-LjfuPg==
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED4G2mMUkCOiB70NSdmaoVs0gpP4XJIGOcLFqwPn1Vl0H5giqwjlC_S8a1THAUshyJAGB8ryT_OXBOEbDOQWPPMBtBxXG9UQKzlDjqG78vYmVxiCH8hMbVGo6t_rp2BUGFoNdEPsAFBr8Clm5JN499Trf0vQL9Fm4wel80_35u172CvVIIDaNqq_Q1jacQKouyZRT6cZwovCWZXoHsEUj8TUJ800zQx0It
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGmgiltQlSJS9IrytrI9usuyE5IxSC2OzLE3MHLl72ipA_nLWKi4dGgRe85btdGyfu1iBuLJNkF8v4rCKNZsPqVRPbOfqgvNQ7i_95nW-U7vLeBwLxXrDfh6CF7T3bNnWFiXdTkjGt3_j5Xnx8zZGFbrxPYX1dsYty3OctnNFWwnBHkaYn0nQIVJOgz4w4Kq3Ma98H242yir4rh8G5u06I2EgoOKssc21zjA8VM9TtDEaMhSq-0eucPTJtZrpYqNOx4PzwUtpKPIDaNkwcFBlZDhPrcoou
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Sl4-7wZ8HtZESXFSgNLe8ycqnxbalRbJYAQtj8htnJ2uMrLtISwl43Jv38vgU-dSa8C_JNVLtgqluXI1n0BBj-9rYsu3Dw9KuHwJhkx6-2p_JIpxWf8u3HnI7_L4kpT3tioG4NHRCWQb7BvCDX2Yv0fsPxBmuulCB_rR5ffEVs0GkruLKBqq
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDfkoVRudNAKFWa41pQ3862UNCAI8TMk1q9pQsuHTDxs6_QJDam7WMdhxSG2srr1vsmV7lWJ8XvacccArrtQtDAZe5Oje0L08j6OAAyWAfxXWjma1XtN4Aqn0gXB0IxUqp_5W0xsM=
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbpzLUpHV6HMt4DtrAI2Kzl3J5gb7wYJoBYwdABUP_LezRQoEl4CpKKc5es4PI4De7xAFwEeI66M-MpVcJBV4RkHMHxZYKt8ZMTfZynMPjDwzZwaDLqIXPJIx-El_MPnPkFHDufgY=

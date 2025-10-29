@@ -1,0 +1,41 @@
+## 1. Official Abstract
+"Seven studies using experimental arid naturalistic methods reveal that upper-class individuals behave more unethically than lower-class individuals. In studies 1 and 2, upper-class individuals were more likely to break the law while driving, relative to lower-class individuals. In follow-up laboratory studies, upper-class individuals were more likely to exhibit unethical decision-making tendencies (study 3), take valued goods from others (study 4), lie in a negotiation (study 5), cheat to increase their chances of winning a prize (study 6), and endorse unethical behavior at work (study 7) than were lower-class individuals. Mediator and moderator data demonstrated that upper-class individuals’ unethical tendencies are accounted for, in part, by their more favorable attitudes toward greed."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible. The following is a synopsis organized by the paper's original sections.
+
+### Introduction
+The authors begin by questioning whether the upper or lower class is more prone to unethical behavior. They propose that while lower-class individuals might have stronger motivations to act unethically to gain resources, it is the upper class that is more likely to be unethical. The reasoning is that greater resources, freedom, and independence experienced by the upper class foster self-focused social-cognitive tendencies. This leads to the central hypothesis: "upper-class individuals, relative to lower-class individuals, are more likely to engage in unethical behavior, and that one of the core reasons for this tendency is that upper-class individuals hold more favorable attitudes toward greed."
+
+### Studies 1 and 2: Field Studies of Unethical Driving
+These two studies were naturalistic observations of driving behavior. Social class was assessed by the make, age, and appearance of the vehicles, with higher-status vehicles (e.g., Mercedes, BMW) representing the upper class and lower-status vehicles (e.g., older, less expensive models) representing the lower class.
+
+*   **Study 1:** Researchers observed vehicles at a four-way stop, recording whether drivers cut in front of other vehicles. The findings showed that drivers of high-status cars were significantly more likely to cut off other vehicles instead of waiting their turn.
+*   **Study 2:** The experiment involved observing whether drivers yielded to a pedestrian waiting to enter a crosswalk. Results indicated that drivers in high-status vehicles were more likely to ignore the pedestrian, with 46.2% of them failing to yield, compared to drivers of lower-status vehicles.
+
+### Study 3: Unethical Decision-Making Tendencies
+This laboratory study tested whether upper-class participants would be more likely to make unethical decisions. Participants were presented with eight different scenarios that described an actor benefiting from an unethical action and were asked how likely they would be to engage in the same behavior. Social class was measured using the MacArthur Scale of subjective socioeconomic status. The results confirmed the hypothesis: "social class positively predicted unethical decision-making tendencies."
+
+### Study 4: Unethical Behavior in a Laboratory Setting
+To provide experimental evidence, this study examined whether social class had a causal effect on unethical behavior. Participants were manipulated to feel a sense of higher or lower social class by comparing themselves to people at the top or bottom of the social ladder. They were then presented with a jar of individually wrapped candies, which they were told were for children in a nearby lab, but that they could take some if they wished. Participants who were induced to feel a higher sense of social class took significantly more candy than those in the lower-class condition.
+
+### Study 5: Lying in a Negotiation
+This study investigated the likelihood of lying during a negotiation. Participants, acting as an employer, had to negotiate a salary with a job candidate. They were told that the job was soon to be eliminated but were instructed to negotiate the lowest salary possible. The key ethical choice was whether to be truthful about the job's temporary nature. The results showed that "social class negatively predicted probability of telling the truth," with upper-class participants being more likely to deceive the job candidate.
+
+### Study 6: Cheating to Win a Prize
+This study aimed to test whether a more positive attitude toward greed among the upper class could explain their unethical tendencies. Participants' social class and their attitudes toward greed were measured. They then played a computer-based game of chance where they could "win" a $50 cash prize. The game was secretly rigged to be unwinnable, but a programming "glitch" made it easy to cheat by hitting the space bar to achieve a higher score. The results showed that upper-class participants were more likely to cheat. Crucially, the analysis revealed that "upper-class individuals’ more favorable attitudes toward greed helped explain their heightened proclivity to cheat."
+
+### Study 7: Endorsing Unethical Behavior at Work
+The final study explored whether manipulating attitudes toward greed would moderate the relationship between social class and unethical behavior. Participants were "primed" to see greed in either a positive or neutral light before reporting their likelihood of engaging in unethical behaviors at work (e.g., stealing cash, receiving bribes). In the neutral condition, upper-class participants were more likely to endorse unethical behavior. However, when lower-class participants were primed to see greed positively, their endorsement of unethical behavior rose to the same level as their upper-class counterparts.
+
+### General Discussion
+The authors conclude that the seven studies, using both correlational and experimental methods, consistently show that upper-class individuals tend to behave more unethically than lower-class individuals. This pattern is observed across various contexts, from breaking traffic laws to lying and cheating for financial gain. A key factor driving this difference appears to be the upper class's more favorable attitude toward greed, which arises from a cultural context of wealth, independence, and self-interest. The paper suggests that these unethical tendencies may act as a self-perpetuating cycle, further exacerbating economic inequality.
+
+## 3. Sources
+ https://www.pnas.org/doi/full/10.1073/pnas.1118373109
+ https://www.sciencedaily.com/releases/2012/03/120307145432.htm
+ https://www.pnas.org/doi/10.1073/pnas.1118373109
+ https://pubmed.ncbi.nlm.nih.gov/22371585/
+ https://www.psychologytoday.com/ca/blog/the-good-life/201204/social-class-and-unethical-behavior
+ https://docer.pl/doc/x1n1n11
+ https://journalistsresource.org/economics/higher-social-class-predicts-increased-unethical-behavior/

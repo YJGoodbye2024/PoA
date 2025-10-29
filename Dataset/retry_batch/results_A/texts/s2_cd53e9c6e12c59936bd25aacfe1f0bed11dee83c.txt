@@ -1,0 +1,43 @@
+## 1. Official Abstract
+"Investigated whether altering attributions for failure would enable learned helpless children to deal more effectively with failure in an experimental problem solving situation. 12 8-13 yr olds with extreme reactions to failure were identified by school personnel and were given intensive, relatively long-term experience with 1 of 2 training procedures. It was hypothesized that a procedure which taught the helpless children to take responsibility for failure and to attribute it to lack of effort would result in unimpaired performance following failure in the criterion situation, but that a procedure which provided success experiences only (as in many programmed learning and behavior modification programs) would lead to changes of a lesser magnitude. Results reveal that following training, Ss in the Success Only treatment continued to evidence a severe deterioration in performance after failure, while Ss in the Attribution Retraining treatment maintained or improved their performance. In addition, Ss in the latter condition showed an increase in the degree to which they emphasized insufficient motivation versus ability as a determinant of failure."
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation and critical analysis based on abstracts and secondary academic summaries.
+
+### Introduction & Hypothesis
+The study is grounded in the phenomenon of "learned helplessness," where individuals, after experiencing uncontrollable negative events, fail to exert control even when they become capable of doing so. Dweck observed that some children, when faced with failure, give up entirely, a response she linked to their attributions—the causes they assign to their failures. Children who attribute failure to a lack of ability (a stable, uncontrollable trait) are more likely to become "helpless" than those who attribute it to a lack of effort (an unstable, controllable factor).
+
+The central hypothesis of the study was that directly retraining these attributions would be a more effective method for alleviating learned helplessness than simply providing a series of success experiences. Dweck speculated that a "Success Only" approach might not equip children to handle subsequent failures, whereas teaching them to attribute failure to insufficient effort would build resilience. The study aimed to compare an "Attribution Retraining" treatment against a "Success Only" treatment to see which was superior in changing a child's maladaptive response to failure.
+
+### Methods
+The experiment identified twelve children between the ages of 8 and 13 who showed extreme negative reactions to failure in academic settings. These children were divided into two groups for long-term, intensive training:
+
+1.  **Attribution Retraining Group:** This group was taught to take responsibility for their failures and, crucially, to attribute them to a lack of effort rather than a lack of ability. During training on math problems, when a subject failed, the instructor would explicitly attribute the failure to insufficient effort.
+2.  **Success Only Group:** This group received training designed to provide them with a high rate of success. This approach was common in behavior modification and programmed learning at the time and was intended to raise the child's expectation of success.
+
+The effectiveness of the training was measured by observing the children's performance on problem-solving tasks after experiencing an instance of failure.
+
+### Results
+The findings strongly supported the hypothesis.
+*   Children in the **Attribution Retraining** group showed marked improvement in their response to failure. After the training, they were able to maintain or even improve their performance on tasks following a failure. Furthermore, these children began to increasingly cite a lack of effort or motivation, rather than a lack of ability, as the reason for their failures.
+*   In contrast, children in the **Success Only** group showed no significant improvement. They continued to exhibit a severe deterioration in performance after encountering failure, just as they had before the training.
+
+The study demonstrated that simply experiencing success was not enough to reverse the patterns of learned helplessness. The key was changing the cognitive interpretation of why failure occurred.
+
+### Discussion & Conclusion
+This seminal 1975 study concluded that the way children interpret failure is a critical factor in their persistence and motivation. The research demonstrated that learned helplessness is not an unchangeable condition but can be effectively alleviated by changing a child's attributions.
+
+The key takeaway is that teaching children to attribute their failures to controllable factors, like effort, is far more powerful than simply shielding them from failure or arranging for constant success. Attributing failure to low effort provides a clear path for future success (try harder), whereas attributing it to low ability offers no such path and leads to helplessness. This study laid the foundational groundwork for Dweck's later, more widely known research on "mindset," which distinguishes between a "fixed mindset" (believing ability is innate) and a "growth mindset" (believing ability can be developed through effort).
+
+## 3. Sources
+ Semantic Scholar. (n.d.). *The role of expectations and attributions in the alleviation of learned helplessness.* Retrieved October 29, 2025, from https://www.semanticscholar.org/paper/The-role-of-expectations-and-attributions-in-the-Dweck/e15110230dd6901848521e8833783933433198f1
+ ResearchGate. (n.d.). *The role of expectations and attributions in the alleviation of learned helplessness.* Retrieved October 29, 2025, from https://www.researchgate.net/publication/232551528_The_role_of_expectations_and_attributions_in_the_alleviation_of_learned_helplessness
+ SciSpace. (n.d.). *The role of expectations and attributions in the alleviation of learned helplessness.* Retrieved October 29, 2025, from https://typeset.io/papers/the-role-of-expectations-and-attributions-in-the-alleviation-e15110230d
+ Prof. William A. Welburn. (n.d.). *The Role of Expectations and Attributions in the Alleviation of Learned Helplessness.* Retrieved October 29, 2025, from https://sites.google.com/a/umd.edu/youth-sport-and-society-william-a-welburn-ph-d/home/dweck-study
+ Semantic Scholar. (n.d.). *Learned helplessness and reinforcement responsibility in children.* Retrieved October 29, 2025, from https://www.semanticscholar.org/paper/Learned-helplessness-and-reinforcement-in-children-Dweck-Reppucci/8427f1235336829104443a99e82110263f3c535c
+ ResearchGate. (n.d.). *Effects of attributions for success on the alleviation of learned helplessness and depression.* Retrieved October 29, 2025, from https://www.researchgate.net/publication/16474149_Effects_of_attributions_for_success_on_the_alleviation_of_learned_helplessness_and_depression
+ Cairn.info. (n.d.). *Bibliographie.* Retrieved October 29, 2025, from https://www.cairn.info/la-motivation--9782130591129-page-269.htm
+ Oxford Research Encyclopedias. (n.d.). *History of Social Psychology.* Retrieved October 29, 2025, from https://oxfordre.com/psychology/view/10.1093/acrefore/9780190236557.001.0001/acrefore-9780190236557-e-533
+ University of Washington. (n.d.). *Improving Implicit Beliefs and Expectations in Academic Achievement for Postsecondary Students with Disabilities.* Retrieved October 29, 2025, from https://www.d.umn.edu/~cpd/soe/disability/documents/DweckArticle.pdf
+ Wikipedia. (n.d.). *Learned helplessness.* Retrieved October 29, 2025, from https://en.wikipedia.org/wiki/Learned_helplessness
+ SciSpace. (n.d.). *Learned helplessness theory pdf.* Retrieved October 29, 2025, from https://typeset.io/papers/learned-helplessness-theory-and-evidence-4845j48j0z

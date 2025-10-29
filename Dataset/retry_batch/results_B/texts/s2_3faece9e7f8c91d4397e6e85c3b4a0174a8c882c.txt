@@ -1,0 +1,48 @@
+## 1. Official Abstract
+Consumers want to be happy, and marketers are increasingly trying to appeal to consumers' pursuit of happiness. However, the results of six studies reveal that what happiness means varies, and consumers' choices reflect those differences. In some cases, happiness is defined as feeling excited, and in other cases, happiness is defined as feeling calm. The type of happiness pursued is determined by one's temporal focus, such that individuals tend to choose more exciting options when focused on the future, and more calming options when focused on the present moment. These results suggest that the definition of happiness, and consumers' resulting choices, are dynamic and malleable.
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible, and the following is a synopsis organized by the paper's original sections.
+
+### The Meaning(s) of Happiness
+The authors introduce the central idea that happiness is not a monolithic concept. While positive affect is generally sought after, its specific form can vary. The paper distinguishes between two types of happiness: one characterized by high-arousal positive emotions like excitement, and another by low-arousal positive emotions like calmness. The core hypothesis is that an individual's temporal focus—whether they are oriented toward the future or the present—determines which type of happiness they pursue and, consequently, the choices they make.
+
+### Happiness and Choice
+Building on the idea of varying meanings of happiness, this section proposes that consumer choices will reflect the type of happiness being sought. The researchers predict that a future-focused mindset will lead individuals to prefer "exciting" products, while a present-focused mindset will lead to a preference for "calming" products. This is because excitement is associated with the possibilities of the future, whereas calm is linked to savoring the current moment. The paper outlines a series of experiments designed to test this relationship between temporal focus, the definition of happiness, and consumer choice.
+
+### The Temporal Dimension of Emotion: Pilot Studies
+Two pilot studies were conducted to establish the link between temporal focus and different positive emotions. The first analyzed millions of blog posts, finding that younger bloggers (who are generally more future-oriented) associated happiness with excitement, while older bloggers associated it with calmness. A second pilot study confirmed that when asked to describe a happy experience, future-focused individuals were more likely to recall an exciting memory, whereas present-focused individuals recalled a calm one. These initial findings supported the hypothesis that temporal perspective systematically shifts the emotional meaning of happiness.
+
+### Being Present and Choosing Tea: Experiment 1
+In the first experiment, participants' temporal focus was manipulated by having them complete a sentence-unscrambling task with words related to either the present or the future. Afterward, they were asked to choose between two types of tea, which had been pre-tested and branded as either "exciting" or "calming." The results showed that participants primed with a present focus were significantly more likely to choose the calming tea, while those primed with a future focus were more likely to choose the exciting tea. This provided direct experimental evidence that manipulating temporal focus influences product choice.
+
+### Looking to the Future and Choosing Music: Experiment 2
+This experiment aimed to replicate the findings of the first study using a different product category: music. Participants were again primed with either a present or future focus and then asked to choose between two songs that were pre-tested to be either exciting or calming. The results mirrored those of Experiment 1, with present-focused participants preferring the calming song and future-focused participants preferring the exciting one. This strengthened the conclusion that the effect of temporal focus on choice is consistent across different types of products.
+
+### Age Proxies Temporal Focus: Experiment 3
+Experiment 3 used age as a natural proxy for temporal focus, building on research showing that as people get older, their focus shifts from the future to the present. Both younger and older participants were presented with a choice between an exciting and a calming activity. The study found that younger participants were more likely to choose the exciting option, whereas older participants were more likely to choose the calming one. This demonstrated that naturally occurring differences in temporal focus due to age produce the same effects on choice as experimentally manipulated focus.
+
+### Pursuing Happiness in Bottled Water: Experiment 4
+The final study was designed to test the full theoretical model: temporal focus influences the preferred meaning of happiness, which in turn drives choice. Participants were shown two different brand logos for a new bottled water product—one designed to evoke excitement and the other calm. Their temporal focus was manipulated, and they were asked which brand they would choose. The results confirmed the previous findings. Crucially, a mediation analysis showed that the effect of temporal focus on choice was explained by the specific type of happiness (excitement or calm) that participants reported wanting to feel.
+
+### General Discussion
+The authors conclude that the meaning of happiness is not fixed; it is dynamic and systematically shifts with an individual's temporal focus. When people focus on the future, they tend to seek out excitement, but when they focus on the present, they prefer calm. This has significant implications for marketing and consumer choice, suggesting that brands can more effectively appeal to consumers by aligning their product's emotional positioning with the target audience's likely temporal focus. For example, products aimed at younger consumers might benefit from "exciting" branding, while those for older consumers might be better served by "calming" branding. The research underscores that consumer choices are influenced not just by the pursuit of happiness in general, but by the pursuit of a specific *kind* of happiness.
+
+## 3. Sources
+ https://www.researchgate.net/publication/258182701_How_Happiness_Affects_Choice
+ https://www.cassiemogilner.com/research
+ https://www.semanticscholar.org/paper/How-Happiness-Affects-Choice-Mogilner-Aaker/643b22e176208077558a6791771960e6533f7572
+ https://marketing.wharton.upenn.edu/wp-content/uploads/2016/11/Mogilner-CV-Jan-2016.pdf
+ https://dspace.mit.edu/handle/1721.1/79869
+ https://www.gsb.stanford.edu/faculty-research/faculty/jennifer-aaker
+ https://www.researchgate.net/publication/258182701_How_Happiness_Affects_Choice_Request_PDF
+ https://www.dartmouth.edu/~amitb/BhattacharjeeMogilner_JCR2014.pdf
+ https://academic.oup.com/jcr/article/39/2/429/1795781
+ https://www.econbiz.de/10009316772
+ https://academic.oup.com/jcr/article/39/2/429/1795781?login=false
+ https://www.semanticscholar.org/paper/Psychological-Distancing%3A-Why-Happiness-Helps-You-Labroo-Patrick/455776d65452382173163351336423521360810d
+ https://www.acrwebsite.org/volumes/1024095/volumes/v45/NA-45
+ https://www.econbiz.de/Record/how-happiness-impacts-choice/10009316772
+ https://www.ivey.uwo.ca/cmsmedia/3889243/cb-9834-outline-fall-2023-v2.pdf
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7733475/
+ https://www.cambridge.org/core/books/abs/cambridge-handbook-of-consumer-psychology/consumer-happiness-and-wellbeing/40544520977A9D8893922339C9365288

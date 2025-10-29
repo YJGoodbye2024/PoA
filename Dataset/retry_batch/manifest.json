@@ -1,0 +1,14 @@
+{
+  "split_id": "retry_batch",
+  "task_count": 754,
+  "principle_count": 229,
+  "statuses": [
+    "pdf_download_failed",
+    "deep_search_failed"
+  ],
+  "require_pdf": false,
+  "pipeline_state_file": "pipeline_state.json",
+  "responses_file": "responses_parsed.json",
+  "tasks_file": "tasks.jsonl",
+  "principles_file": "principles.txt"
+}

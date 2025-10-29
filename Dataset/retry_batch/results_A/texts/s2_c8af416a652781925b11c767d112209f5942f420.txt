@@ -1,0 +1,26 @@
+## 1. Official Abstract
+"This article argues that digitally networked communication environments alter traditional notions of trust and presents research that examines how information consumers make judgments about the credibility and accuracy of information they encounter online. Based on this research, the article focuses on the use of cognitive heuristics in credibility evaluation. Findings from recent studies are used to illustrate the types of cognitive heuristics that information consumers employ when determining what sources and information to trust online. The article concludes with an agenda for future research that is needed to better understand the role and influence of cognitive heuristics in credibility evaluation in computer-mediated communication contexts."
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis organized by the paper's original sections.
+
+### **1. Introduction**
+The paper begins by establishing that the internet has fundamentally changed how people access and evaluate information. Traditional gatekeepers of information (e.g., editors, librarians) are now less influential, placing a greater burden on individuals to assess credibility for themselves. The authors argue that this shift, combined with the sheer volume of online information, encourages people to rely on mental shortcuts, or "cognitive heuristics," to make rapid judgments about trustworthiness. The central thesis is that "digitally networked communication environments alter traditional notions of trust" and that understanding the use of these heuristics is crucial to comprehending modern credibility assessment.
+
+### **2. Trust and Credibility in the Digital Media Environment**
+This section differentiates between credibility and trust, defining credibility as a perceived quality of a source or message (believability) and trust as the "willingness of a party to be vulnerable to the actions of another party." In the online world, where uncertainty is high, trust becomes particularly important. The authors note that the characteristics of digital media—such as the lack of traditional cues, the anonymity of sources, and the ease of content manipulation—complicate credibility assessments. Consequently, individuals adapt by developing new evaluation strategies, many of which are heuristic in nature.
+
+### **3. Cognitive Heuristics and Credibility Evaluation**
+The core of the paper details the various cognitive heuristics people use to evaluate online information. The authors explain that heuristics are efficient mental shortcuts that reduce cognitive load, which is necessary for navigating the dense online information environment. They categorize and describe several key heuristics identified through their and others' research:
+
+*   **Reputation Heuristic:** People tend to trust and believe information from sources they perceive as having a good reputation. Online, this can be based on brand recognition (e.g., trusting a well-known news organization's website).
+*   **Endorsement Heuristic:** Information is seen as more credible if it is supported or validated by others. This is a powerful heuristic on social media, where "likes, shares, or positive comments" serve as endorsements. The authors refer to this as a "bandwagon" effect, where people assume that "if others think something is good, then it probably is."
+*   **Consistency Heuristic:** People check for internal consistency within a website or across multiple sources. Information that appears consistent across different sites is judged as more credible.
+*   **Expectancy Violation Heuristic:** This heuristic operates when information or a website's presentation violates a user's expectations, either positively or negatively. A professional-looking design might increase credibility, while a site riddled with typos and broken links will decrease it.
+*   **Self-Confirmation Heuristic:** Individuals are more likely to perceive information as credible if it confirms their pre-existing beliefs or attitudes. This is a powerful bias in online environments, where it is easy to find sources that validate one's own viewpoint.
+
+### **4. Future Research Directions**
+In the concluding section, Metzger and Flanagin propose an agenda for future research. They argue that more work is needed to understand how these heuristics function in different online contexts (e.g., social media vs. e-commerce vs. news sites). They also call for research into how heuristics interact with one another and how individual differences (such as topic expertise or digital literacy) affect their use. A key point is the need to investigate the "outcomes of heuristic processing," such as whether these shortcuts lead to accurate or inaccurate judgments. The authors suggest exploring interventions that could help users apply heuristics more effectively or engage in more systematic evaluation when the situation warrants it.
+
+## 3. Sources
+ Metzger, M. J., & Flanagin, A. J. (2013). Credibility and trust of information in online environments: The use of cognitive heuristics. *Journal of Pragmatics, 59*, 210-220. Retrieved from: https://www.sciencedirect.com/science/article/abs/pii/S037821661300189X and https://api.semanticscholar.org/CorpusID:207413276

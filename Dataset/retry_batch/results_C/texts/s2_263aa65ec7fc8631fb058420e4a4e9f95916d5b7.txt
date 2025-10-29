@@ -1,0 +1,31 @@
+## 1. Official Abstract
+"Controlled interpersonal affect regulation refers to the deliberate regulation of someone else's affect. Building on existing research concerning this everyday process, the authors describe the development of a theoretical classification scheme that distinguishes between the types of strategy used to achieve interpersonal affect regulation. To test the theoretical classification, the authors generated a corpus of 378 distinct strategies using self-report questionnaires and diaries completed by student and working samples. Twenty participants then performed a card-sort of the strategies. Hierarchical cluster analysis was used to determine how well the theoretical classification represented spontaneous understandings of controlled interpersonal affect regulation. The final classification primarily distinguished between strategies used to improve versus those used to worsen others' affect, and between strategies that engaged the target in a situation or affective state versus relationship-oriented strategies. The classification provides a meaningful basis for organizing existing research and making future conceptual and empirical distinctions."
+
+## 2. Core Insights & Analysis
+Full text was accessible for analysis. The paper is structured to first propose a theoretical framework for classifying interpersonal affect regulation strategies and then empirically test and refine that framework.
+
+### **Introduction**
+The authors begin by defining "controlled interpersonal affect regulation" as the deliberate attempt to influence another person's feelings. They argue that while this is a common feature of social life, a comprehensive and systematic classification of the strategies involved was lacking. Such a classification is necessary to compare findings across different studies and to understand the antecedents and consequences of various strategies. The paper's goal is to develop and empirically validate a classification scheme based on two key dimensions derived from theories of self-regulation and interpersonal influence: the **motive** (to improve or worsen affect) and the **means** (the method used to achieve the change).
+
+### **Method**
+To develop and test their classification, the researchers executed a multi-stage study:
+1.  **Strategy Generation:** They created a large collection of 378 distinct interpersonal affect regulation strategies. This corpus was gathered from self-report questionnaires and daily diaries completed by both student and working adult samples, ensuring a broad range of real-world examples.
+2.  **Strategy Sorting:** A group of 20 participants was tasked with sorting these 378 strategies into groups based on their own judgment of similarity. This card-sort method was designed to capture people's intuitive understanding of how these strategies relate to one another.
+3.  **Data Analysis:** The data from the sorting task was analyzed using hierarchical cluster analysis. This statistical technique was used to identify the underlying structure in how the strategies were grouped and to see how well this empirical structure matched the researchers' proposed theoretical framework.
+
+### **Results**
+The hierarchical cluster analysis revealed a clear, four-level structure for classifying the strategies.
+*   **Level 1 (The Primary Distinction):** The most fundamental division was between strategies intended to **improve** another person's feelings and those intended to **worsen** them.
+*   **Level 2 (Means of Regulation):** Within both the "affect-improving" and "affect-worsening" categories, the next major distinction was the means used. The analysis separated strategies that are **problem- or situation-engaging** (e.g., directly addressing an issue, offering a new perspective) from those that are **relationship-oriented** (e.g., showing support, withdrawing affection).
+
+This resulted in a two-by-two framework that formed the core of the classification. The analysis further broke these down into eight sub-categories at a lower level, providing a more detailed taxonomy.
+
+### **Discussion/Conclusion**
+The authors conclude that their empirically derived classification provides a robust and meaningful way to organize the field of interpersonal affect regulation. The final classification, which distinguishes strategies based on the motive (improve vs. worsen) and the means (engaging vs. relationship-oriented), offers a clear structure for future research. It allows scholars to make more precise conceptual and empirical distinctions when studying how people manage each other's emotions. The study provides a foundational framework for organizing existing research and guiding future investigations into the nuances of this critical social process.
+
+## 3. Sources
+ Niven, K., Totterdell, P., & Holman, D. (2009). A classification of controlled interpersonal affect regulation strategies. *Emotion, 9*(4), 498–509. https://doi.org/10.1037/a0015962 (Abstract available at https://pubmed.ncbi.nlm.nih.gov/19653772/)
+ Full text of Niven, K., Totterdell, P., & Holman, D. (2009). *A Classification of Controlled Interpersonal Affect Regulation Strategies*. University of Sheffield. (Available at https://pure.manchester.ac.uk/ws/portalfiles/portal/2598589/POST-PEER-REVIEW-PUBLISHERS-DOCUMENT.PDF)
+ Niven, K., Totterdell, P., & Holman, D. (2009). A classification of controlled interpersonal affect regulation strategies. *Semantic Scholar*. (https://www.semanticscholar.org/paper/A-classification-of-controlled-interpersonal-Niven-Totterdell/0289486a5883a54425408e01a514b8f0c2b29267)
+ Niven, K., Totterdell, P., & Holman, D. (2009). A Classification of Controlled Interpersonal Affect Regulation Strategies. *Research Explorer, The University of Manchester*. (https://www.research.manchester.ac.uk/portal/en/publications/a-classification-of-controlled-interpersonal-affect-regulation-strategies(11598149-74a6-4054-8c88-34903c15d4e6).html)
+ Niven, K., Totterdell, P., & Holman, D. (2009). A Classification of Controlled Interpersonal Affect Regulation Strategies. *ResearchGate*. (https://www.researchgate.net/publication/24492926_A_Classification_of_Controlled_Interpersonal_Affect_Regulation_Strategies)

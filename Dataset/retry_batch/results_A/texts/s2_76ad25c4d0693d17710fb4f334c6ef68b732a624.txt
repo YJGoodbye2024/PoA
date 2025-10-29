@@ -1,0 +1,43 @@
+## 1. Official Abstract
+"One of life's great challenges is successfully regulating emotions. Do some emotion regulation strategies have more to recommend them than others? According to Gross's (1998, Review of General Psychology, 2, 271-299) process model of emotion regulation, strategies that act early in the emotion-generative process should have a different profile of consequences than strategies that act later on. This review focuses on two commonly used strategies for down-regulating emotion. The first, reappraisal, comes early in the emotion-generative process. It consists of changing the way a situation is construed so as to decrease its emotional impact. The second, suppression, comes later in the emotion-generative process. It consists of inhibiting the outward signs of inner feelings. Experimental and individual-difference studies find reappraisal is often more effective than suppression. Reappraisal decreases emotion experience and behavioral expression, and has no impact on memory. By contrast, suppression decreases behavioral expression, but fails to decrease emotion experience, and actually impairs memory. Suppression also increases physiological responding for suppressors and their social partners. This review concludes with a consideration of five important directions for future research on emotion regulation processes."
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis of the paper's core sections.
+
+### Introduction (Emotion Regulation)
+The paper begins by defining emotion regulation as the processes by which individuals influence which emotions they have, when they have them, and how they experience and express them. It introduces the process model of emotion regulation, which distinguishes between two main families of strategies:
+*   **Antecedent-focused strategies:** Occur *before* an emotional response is fully generated. These include situation selection, situation modification, attentional deployment, and cognitive change.
+*   **Response-focused strategies:** Occur *after* an emotional response has already been triggered. This primarily involves response modulation.
+
+The author focuses on comparing one key strategy from each family: **cognitive reappraisal** (antecedent-focused) and **expressive suppression** (response-focused). Reappraisal involves reinterpreting an emotion-eliciting situation to alter its emotional impact. Suppression involves inhibiting the outward expression of an emotion that is already being felt. The central thesis is that these two strategies, due to their different timings in the emotion-generative process, have distinct affective, cognitive, and social consequences.
+
+### Affective Consequences
+This section examines how reappraisal and suppression affect the subjective experience and physiological expression of emotion.
+*   **Reappraisal:** Experimental studies show that reappraisal is successful at decreasing the experience of negative emotions. Because it occurs early, it can "short-circuit" the full emotional response, leading to reduced subjective feeling and physiological activation.
+*   **Suppression:** In contrast, suppression is less effective at diminishing the subjective experience of negative emotion. While it successfully reduces outward emotional expression, it often fails to decrease the inner feeling and can lead to increased sympathetic nervous system activation (a "fight or flight" response). The effort required to inhibit expression creates a physiological cost.
+
+### Cognitive Consequences
+The paper explores the cognitive costs associated with each strategy.
+*   **Reappraisal:** As an antecedent-focused strategy, reappraisal does not appear to have significant cognitive costs. Studies cited show that using reappraisal does not impair memory for information encountered during the emotional event.
+*   **Suppression:** Suppression, being a form of self-monitoring and behavioral inhibition, consumes significant cognitive resources. This cognitive load impairs memory. Experimental evidence shows that individuals who are instructed to suppress their emotions demonstrate poorer recall of details from the event compared to those who use reappraisal or no regulation.
+
+### Social Consequences
+This section discusses the interpersonal effects of using these regulation strategies.
+*   **Reappraisal:** The paper suggests that since reappraisal modifies the emotional experience itself, it does not create a disconnect between inner feelings and outer expression, which should lead to more authentic social interactions.
+*   **Suppression:** Suppression has notable negative social consequences. The act of suppressing emotions can be physiologically taxing not only for the suppressor but also for their social partners, who may experience an increase in their own physiological arousal (e.g., blood pressure). This is attributed to the cognitive effort required to interact with someone who is being inexpressive or inauthentic, making the interaction feel disjointed and stressful.
+
+### Future Directions
+The paper concludes by outlining five key areas for future research:
+1.  **Expanding the range of strategies:** Moving beyond just reappraisal and suppression to study other strategies like distraction.
+2.  **Investigating the regulation of positive emotion:** Most research focuses on down-regulating negative emotions, but regulating positive emotions is also important.
+3.  **Considering long-term consequences:** Examining the cumulative effects of habitual use of certain strategies on well-being and health.
+4.  **Understanding individual differences:** Exploring why people choose different strategies and the role of personality and context.
+5.  **Leveraging neuroscience:** Using neuroimaging to better understand the neural mechanisms underlying different emotion regulation strategies.
+
+## 3. Sources
+ Gross, J. J. (2002). Emotion regulation: affective, cognitive, and social consequences. *Psychophysiology*, 39(3), 281-291. Abstract available at: https://pubmed.ncbi.nlm.nih.gov/12212647/
+ Gross, J. J. (2002). Emotion regulation: Affective, cognitive, and social consequences. *Psychophysiology*, 39(3), 281-291. Full text available at: https://www.scribd.com/document/392557349/Gross-2002-Emotion-Regulation-Affective-Cognitive-and-Social-Consequences
+ Gross, J. J. (2002). Emotion regulation: Affective, cognitive, and social consequences. *Psychophysiology*, 39(3), 281-291. Publisher page: https://www.cambridge.org/core/journals/psychophysiology/article/abs/emotion-regulation-affective-cognitive-and-social-consequences/A20A769585A44236A442A06A33914F5B
+ Gross, J. J. (2002). Emotion regulation: Affective, cognitive, and social consequences. *Psychophysiology*, 39(3), 281-291. Semantic Scholar: https://www.semanticscholar.org/paper/Emotion-regulation%3A-affective%2C-cognitive%2C-and-Gross/08c322f504313da7b37e0915d8d1519213914d3b
+ Gross, J. J. (2002). Emotion regulation: Affective, cognitive, and social consequences. ResearchGate: https://www.researchgate.net/publication/11215249_Emotion_Regulation_Affective_Cognitive_and_Social_Consequences
+ M.E. T., & Legate, N. (n.d.). *Process Model of Emotion Regulation*. Psychology of Human Emotion: An Open Access Textbook. Penn State University. Retrieved from: https://psu.pb.unizin.org/emotional/chapter/process-model-of-emotion-regulation/

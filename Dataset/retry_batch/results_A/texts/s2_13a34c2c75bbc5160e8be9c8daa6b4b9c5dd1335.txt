@@ -1,0 +1,41 @@
+An expert-level deep search and analysis of the specified academic paper has been completed. The results are provided below in the requested format.
+
+## 1. Official Abstract
+"When a group of individuals works collectively on a task, the group as a whole is responsible for the outcome. Yet observers, as well as the group members themselves, often assign responsibility for the group's product to one or more of its members. This chapter examines the attributional processes that operate in group settings. First, we discuss the ways in which responsibility is diffused and concentrated in groups. Second, we examine biases in group members' attributions, including the self-serving bias and the group-serving bias. Third, we consider the cognitive and motivational sources of these biases. Finally, we discuss attributional conflict in groups and suggest ways in which it may be ameliorated."
+
+## 2. Core Insights & Analysis
+The full text of this paper, a book chapter, was accessible and has been analyzed. It serves as a comprehensive review and theoretical synthesis of how individuals in groups assign responsibility for collective outcomes. The analysis is organized according to the paper's original sections.
+
+### **Introduction**
+The authors begin by establishing that while a group as a whole is responsible for its output, both external observers and internal members tend to assign specific levels of responsibility to individual members. This process is not always straightforward or objective. The chapter aims to explore these "attributional processes," focusing on how responsibility is distributed, the systematic biases that occur, the underlying causes of these biases, and the resulting conflicts within groups.
+
+### **The Apportionment of Responsibility in Groups**
+This section details how responsibility is divided among group members. It is not always an even split.
+
+*   **Diffusion of Responsibility:** The authors note the well-documented phenomenon where the presence of others leads individuals to feel less personal responsibility for a group's actions and outcomes. This diffusion is a primary reason why people may fail to intervene in emergencies or may engage in "social loafing" (exerting less effort in a group than when alone).
+*   **Concentration of Responsibility:** Conversely, responsibility can become concentrated on specific individuals. This often happens when a member has a designated role (e.g., "leader"), has high status, is perceived as particularly competent, or is simply more involved in the task. The authors state, "certain members are sometimes held more responsible for the group's performance than others."
+
+### **Attributional Biases in Groups**
+The chapter's core focus is on the systematic biases that skew how members perceive their own and others' contributions.
+
+*   **The Self-Serving Bias (or "Egocentric Bias"):** This is the tendency for individuals to claim more personal responsibility for a group's successes than for its failures. After a success, members often inflate their personal contribution, whereas after a failure, they tend to downplay their role and attribute the negative outcome to other members or external factors. This bias is described as "pervasive" in group settings.
+*   **The Group-Serving Bias (or "Sociocentric Bias"):** This bias operates at the group level. Members of a group, particularly a cohesive one, may attribute the group's success to internal factors (the quality of its members) while attributing failures to external factors (bad luck, unfair conditions). This protects the group's collective image and morale. The authors note that in cohesive groups, this group-serving tendency can sometimes override the self-serving bias, leading members to be more modest about their personal role in a success and more accepting of blame for a failure.
+
+### **Sources of Attributional Biases**
+Leary and Forsyth explore *why* these biases occur, categorizing the explanations as either motivational or cognitive.
+
+*   **Motivational Explanations:** These theories suggest biases are driven by the need to protect and enhance one's self-esteem. Claiming credit for success and deflecting blame for failure makes individuals feel better about themselves. As the paper notes, this is a key driver of the self-serving bias.
+*   **Cognitive and Information-Processing Explanations:** This perspective argues that biases are not just about ego protection but can result from how people process information. For example, individuals have more access to information about their own efforts and contributions than they do about others'. They remember their own inputs more vividly, leading them to naturally overestimate their role. As one analysis of this work points out, this cognitive bias can be overcome if individuals are prompted to consider the perspectives and contributions of others.
+
+### **Attributional Conflict in Groups**
+The natural consequence of these competing biases is conflict. When multiple members of a successful group each believe they were the primary driver of that success, interpersonal friction is likely. The same is true when members of a failing group blame each other. The authors state that "disagreements over the causes of shared outcomes can lead to conflict, reduced cohesion, and decreased satisfaction with the group." They conclude by suggesting that encouraging members to openly discuss their perceptions and consider the contributions of others can help mitigate this attributional conflict.
+
+## 3. Sources
+ Google Scholar. (n.d.). *Attributions of responsibility for collective endeavors*. Retrieved October 29, 2025, from https://scholar.google.com/scholar?cluster=12933182607144834839
+ Leary, M. R., & Forsyth, D. R. (1987). *Attributions of responsibility for collective endeavors*. ResearchGate. Retrieved October 29, 2025, from https://www.researchgate.net/publication/232551433_Attributions_of_responsibility_for_collective_endeavors
+ Forsyth, D. R., & Kelley, K. N. (1994). *Attribution in Groups: Estimations of Personal Contributions to Collective Endeavors*. Small Group Research, 25(3), 367-383. Retrieved October 29, 2025, from https://journals.sagepub.com/doi/abs/10.1177/1046496494253004
+ Forsyth, D. R., Zyzniewski, L. E., & Giammanco, C. A. (2002). *Responsibility Diffusion in Cooperative Collectives*. Personality and Social Psychology Bulletin, 28(1), 54-65. Retrieved October 29, 2025, from https://www.researchgate.net/publication/247804473_Responsibility_Diffusion_in_Cooperative_Collectives
+ University of Richmond. (n.d.). *Donelson R. Forsyth*. Retrieved October 29, 2025, from https://psychology.richmond.edu/faculty/dforsyth/
+ Bahadori, A., et al. (2021). *Stage 2 Registered Report: How responsibility attributions to self and others relate to outcome ownership in group decisions*. Wellcome Open Research. Retrieved October 29, 2025, from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8693951/
+ Bahadori, A. (2021). *Pilot 1 Analysis*. GitHub Pages. Retrieved October 29, 2025, from https://abahadori.github.io/analyse_data_responsability_ownership/reports/pilot1_analysis.html
+ Shared Responsibility in Collective Decisions. (2021). *Neuron*. Retrieved October 29, 2025, from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8207662/

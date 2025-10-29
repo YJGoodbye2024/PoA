@@ -1,0 +1,41 @@
+## 1. Official 's-Hertogenbosch
+De rapide groei van de literatuur over positieve interventies om "geluk" te vergroten, heeft de noodzaak van een overkoepelend conceptueel kader gesuggereerd om de vele en schijnbaar uiteenlopende bevindingen te integreren. In deze review gebruiken we het procesmodel van emotieregulatie (Gross, 1998) om de bestaande literatuur over positieve interventies te organiseren en de theorie te bevorderen door de mechanismen die aan hun effectiviteit ten grondslag liggen te verduidelijken. We hebben voorgesteld dat positieve emoties zowel op de korte als op de langere termijn kunnen worden verhoogd door middel van 5 families van emotieregulatiestrategieën (d.w.z. situatieselectie, situatiemodificatie, aandachtsinzet, cognitieve verandering en responsmodulatie), en laten zien hoe deze emotieregulatiestrategieën kunnen worden toegepast voor, tijdens en na positieve emotionele gebeurtenissen. Wat betreft de toename van positieve emoties op korte termijn, bleek uit onze review dat strategieën voor aandachtsinzet, cognitieve verandering en responsmodulatie de meeste empirische ondersteuning hebben gekregen, terwijl er meer werk nodig is om de effectiviteit van strategieën voor situatieselectie en situatiemodificatie vast te stellen. Wat betreft de toename van positieve emoties op langere termijn, hebben strategieën zoals situatieselectie tijdens een gebeurtenis en aandachtsinzet voor, tijdens en na een gebeurtenis sterke empirische ondersteuning gekregen en staan ze centraal in veel positieve interventies. Er is echter meer werk nodig om de specifieke voordelen van de andere strategieën, met name situatiemodificatie, vast te stellen. Wij stellen dat ons kader voor emotieregulatie bestaande interventies verduidelijkt en de weg wijst voor nieuwe interventies die gebruikt kunnen worden om positieve emoties te verhogen in zowel niet-klinische als klinische populaties.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. A detailed interpretation has been compiled from publicly available abstracts and summaries.
+
+This review paper introduces a new framework for understanding and organizing "positive interventions"—activities designed to increase happiness. The authors use the well-established process model of emotion regulation to categorize these interventions, arguing that this approach clarifies *how* and *why* certain interventions are effective.
+
+The core idea is that happiness can be increased by applying five families of emotion regulation strategies at different points in time relative to a positive event (before, during, and after).
+
+**The Five Families of Emotion Regulation Strategies:**
+The paper organizes positive interventions based on five core strategies from Gross's process model of emotion regulation:
+1.  **Situation Selection:** Choosing to enter situations that are likely to generate positive emotions.
+2.  **Situation Modification:** Actively changing a situation to increase its positive emotional impact.
+3.  **Attentional Deployment:** Directing one's attention towards positive aspects of a situation or away from negative ones.
+4.  **Cognitive Change:** Altering how one appraises a situation to see it in a more positive light.
+5.  **Response Modulation:** Influencing the emotional experience once it has already begun, for example, by savoring or expressing the positive emotion.
+
+**Application and Empirical Support:**
+The authors analyze the existing scientific literature on 157 positive interventions, evaluating the evidence for each strategy.
+
+*   **For Short-Term Increases in Happiness:** The review found the strongest empirical support for interventions that use **attentional deployment** (e.g., focusing on the present moment), **cognitive change** (e.g., practicing gratitude), and **response modulation** (e.g., expressing joy). Strategies involving situation selection and modification have less empirical backing for short-term effects and require more research.
+
+*   **For Long-Term Increases in Happiness:** The analysis shows strong support for two main approaches. The first is **situation selection** during an event, and the second is **attentional deployment** applied before, during, and after an event. These strategies are central components of many successful positive interventions, such as mindfulness-based therapies, using character strengths, performing acts of kindness, and gratitude visits.
+
+**Conclusion and Future Directions:**
+The paper concludes that viewing positive interventions through the lens of emotion regulation helps to unify a diverse field of research. This framework not only clarifies the mechanisms behind existing interventions but also points toward new potential interventions for both clinical and non-clinical populations. The authors highlight the need for more research, particularly on the strategy of situation modification, to fully understand its benefits for increasing positive emotions.
+
+## 3. Sources
+ Current time information in Brussels, BE. The time at the location 'Brussels, BE' is 10:57 AM. The location's timezone is 'Europe/Brussels'. https://www.google.com/search?q=time+in+Brussels,+BE
+ Quoidbach, J., Mikolajczak, M., & Gross, J. J. (2015). Positive interventions: An emotion regulation perspective. *Psychological Bulletin, 141*(3), 655–693. https://doi.org/10.1037/a0038648. As indexed on PubMed: https://pubmed.ncbi.nlm.nih.gov/25621978/
+ University of Pennsylvania. (n.d.). *To increase happiness, regulate your response to life events*. Authentic Happiness. Retrieved October 29, 2025, from https://www.authentichappiness.sas.upenn.edu/news-center/research-summaries/increase-happiness-regulate-your-response-life-events
+ Quoidbach, J., Mikolajczak, M., & Gross, J. J. (2015). Positive Interventions: An Emotion Regulation Perspective. *Psychological Bulletin*. Full-text available from: https://www.researchgate.net/publication/270271500_Positive_Interventions_An_Emotion_Regulation_Perspective
+ Quoidbach, J., Mikolajczak, M., & Gross, J. J. (2015). Positive interventions: An emotion regulation perspective. *Semantic Scholar*. Retrieved October 29, 2025, from https://www.semanticscholar.org/paper/Positive-interventions%3A-An-emotion-regulation-Quoidbach-Mikolajczak/a55231c5353862f935b8665e77134017e7f13a09
+ Esade. (n.d.). *Profesorado e Investigación - Quoidbach, Jordi*. Retrieved October 29, 2025, from https://www.esade.edu/en/faculty-and-research/faculty/jordi-quoidbach
+ Google Scholar. (n.d.). *Jordi Quoidbach*. Retrieved October 29, 2025, from https://scholar.google.com/citations?user=xXN32p4AAAAJ&hl=en
+ Google Scholar. (n.d.). *Jordi Quoidbach*. Retrieved October 29, 2025, from https://scholar.google.it/citations?user=xXN32p4AAAAJ&hl=it
+ Ramon Llull University. (n.d.). *Positive interventions: An emotion regulation perspective*. Retrieved October 29, 2025, from https://recercabombas.upf.edu/en/output/publication/positive-interventions-an-emotion-regulation-perspective
+ PEPSIC. (n.d.). *Links*. Retrieved October 29, 2025, from http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1808-56872020000100002
+ ResearchGate. (n.d.). *(PDF) Positive Interventions: An Emotion Regulation Perspective*. Retrieved October 29, 2025, from https://www.researchgate.net/publication/270271500_Positive_Interventions_An_Emotion_Regulation_Perspective
+ TEDx Talks. (2018, July 5). *Happiness Is a Delicate Balance | Jordi Quoidbach | TEDxESADE* [Video]. YouTube. https://www.youtube.com/watch?v=gKnoy1d9m0s

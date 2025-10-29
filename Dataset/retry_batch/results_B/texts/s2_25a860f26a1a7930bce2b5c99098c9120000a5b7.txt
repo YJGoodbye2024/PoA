@@ -1,0 +1,34 @@
+## 1. Official Abstract
+" In a similar vein, recent work has catalogued the major cognitive biases in medicine; the author lists these and describes a number of strategies for reducing them (''cognitive debiasing''). Principle among them is metacognition, a reflective approach to problem solving that involves stepping back from the immediate problem to examine and reflect on the thinking process. Further research effort should be directed at a full and complete description and analysis of CDRs in the context of medicine and the development of techniques for avoiding their associated adverse outcomes. Considerable potential exists for reducing cognitive diagnostic errors with this approach. The author provides an extensive list of CDRs and a list of strategies to reduce diagnostic errors."
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis of the paper's core arguments, structured by its main sections.
+
+### Introduction
+The paper begins by contextualizing its argument within the broader discussion of patient safety, specifically highlighting a recent comprehensive overview of diagnostic errors by Graber et al.. Dr. Croskerry asserts that while system-related errors can be reduced with simple changes, the greatest challenge lies in minimizing cognitive errors. He criticizes the historical pessimism toward correcting cognitive biases and notes that medicine has been "ponderously slow" to incorporate the last 30 years of advances from cognitive psychology.. The author argues against traditional, "robotic" models of clinical decision-making, calling instead for an analysis of "flesh and blood" decision-making that occurs under real-world constraints like time pressure and limited resources..
+
+### From Cognitive Biases to Cognitive Dispositions to Respond (CDRs)
+A central argument of the paper is the reframing of cognitive errors. Dr. Croskerry suggests that to remove the stigma associated with terms like "bias" and "failed heuristics," the medical community should instead speak of "cognitive dispositions to respond (CDRs)".. This reframing is intended to help clinicians accept the "capricious nature of decision-making" and to understand that these are predictable responses to specific clinical situations.. The paper posits that unmasking these CDRs is the crucial first step toward developing effective "debiasing" techniques.. Dr. Croskerry notes that a review of medical and psychological literature revealed at least 30 distinct CDRs, illustrating the vast extent of cognitive bias on medical decision-making..
+
+### Strategies to Minimize Cognitive Errors
+The paper outlines several strategies to mitigate the impact of CDRs on diagnosis. The principal strategy recommended is **metacognition**, defined as "a reflective approach to problem solving that involves stepping back from the immediate problem to examine and reflect on the thinking process".. This involves consciously considering one's own reasoning for potential flaws.
+
+Other key strategies mentioned include:
+*   **Familiarization:** Clinicians should be familiarized with the various types of CDRs to recognize and avoid them..
+*   **Cognitive Forcing Strategies:** These are conscious interventions designed to counteract specific, known biases.
+*   **Lateral Thinking:** To avoid premature diagnostic closure, the author suggests actively asking, "What else might this be?"..
+*   **Addressing Visceral Bias:** The paper acknowledges that affective sources of error, such as a clinician's feelings about a patient (countertransference), are widely underestimated and can lead to poor decisions..
+
+### Conclusion
+Dr. Croskerry concludes with a call to action for medical educators and decision-makers. He urges them to appreciate the significant impact of cognitive errors, reject the idea that these errors are inevitable, and dismiss the pessimism surrounding debiasing techniques.. He emphasizes that the real solutions to cognitive diagnostic errors lie in dedicated research to fully describe and analyze CDRs within the context of medical practice.. By developing and implementing effective cognitive debiasing techniques, he argues, it should be possible to not only reduce but, in many cases, eliminate a significant number of cognitive diagnostic errors..
+
+## 3. Sources
+ Semantic Scholar, *The Importance of Cognitive Errors in Diagnosis and Strategies to Minimize Them*. URL: https://api.semanticscholar.org/CorpusID:12580033
+ Kellogg School of Management, Northwestern University, *The Importance of Cognitive Errors in Diagnosis and Strategies to Minimize Them*. URL: https://www.kellogg.northwestern.edu/faculty/bodenhausen/personal%20folder/documents/Croskerry_2003.pdf
+ ResearchGate, *The Importance of Cognitive Errors in Diagnosis and Strategies to Minimize Them*. URL: https://www.researchgate.net/publication/10683319_The_Importance_of_Cognitive_Errors_in_Diagnosis_and_Strategies_to_Minimize_Them
+ Swiss Medical Weekly, *Diagnostic errors and flaws in clinical reasoning: mechanisms and prevention in practice*. URL: https://smw.ch/article/doi/smw.2012.13706
+ PubMed, *The importance of cognitive errors in diagnosis and strategies to minimize them*. URL: https://pubmed.ncbi.nlm.nih.gov/12915363/
+ AHRQ Patient Safety Network, *The importance of cognitive errors in diagnosis and strategies to minimize them*. URL: https://psnet.ahrq.gov/issue/importance-cognitive-errors-diagnosis-and-strategies-minimize-them
+ AHRQ Patient Safety Network, *PDF summary of "The importance of cognitive errors in diagnosis and strategies to minimize them."*. URL: https://psnet.ahrq.gov/sites/default/files/media/file/croskerry-p-2003-aug-5.pdf
+ BMJ Quality & Safety, *Cognitive debiasing 1: origins of bias and theory of debiasing*. URL: https://qualitysafety.bmj.com/content/22/Suppl_2/ii58
+ BMJ Quality & Safety, *Cognitive interventions to reduce diagnostic error: a narrative review*. URL: https://qualitysafety.bmj.com/content/21/4/294

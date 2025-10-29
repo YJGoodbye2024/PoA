@@ -1,0 +1,41 @@
+## 1. Official Abstract
+"One aspect of brainstorming that has received little research attention is how the brainstorming problem should be presented to the group, whether as one all-encompassing question or as a series of separate questions each focusing on one aspect of the problem. This paper reports the results of two experiments in which subjects (MBAs in the first, senior executives in the second) electronically brainstormed on intact problems (where all parts of the problem were presented simultaneously) or on decomposed problems (where three subcategories of the problem were sequentially posed to the groups). In both experiments, groups using the decomposed process generated 60% more ideas. We attribute these differences to the ability of time constraints to increase the rate of idea generation, and the ability of problem decomposition to refocus members' attention more evenly across the entire problem."
+
+## 2. Core Insights & Analysis
+Full text was accessible for analysis.
+
+### **Introduction & Theory**
+The paper addresses a gap in brainstorming research: how the presentation of a problem—either as a single, all-encompassing question or as a series of focused sub-problems—affects the performance of electronic brainstorming (EBS) groups. The authors build on Rosch's theory that problems possess a hierarchical structure, which can be broken down from a "superordinate" level (the main problem) to a "basic" level (more specific categories). The central research question is whether presenting a problem at the superordinate level or the basic level leads to better idea generation.
+
+The theoretical foundation rests on two pillars: cognitive and social phenomena.
+*   **Cognitive Factors:** Individuals tend to fixate on a limited number of idea categories, leading to "cognitive inertia." Decomposing a task into smaller parts can help individuals systematically focus their attention across the entire problem space, potentially overcoming this inertia.
+*   **Social Factors:** While groups bring diverse perspectives, they also suffer from social pressures that enforce a "one-track" discussion, discouraging members from introducing unrelated ideas. The structure of EBS, which allows for parallel and anonymous contributions, helps mitigate these social losses (like production blocking), but the cognitive inertia may remain. The study hypothesizes that imposing an external process structure (problem decomposition) can counteract this cognitive inertia and improve group performance.
+
+### **Methods**
+The authors conducted two separate experiments to test their hypothesis.
+*   **Experiment 1:** This experiment involved MBA student subjects.
+*   **Experiment 2:** This experiment used senior executives as subjects to enhance the generalizability of the findings.
+
+In both experiments, groups were assigned to one of two conditions:
+1.  **Single Question (Intact Problem):** Groups were presented with one broad problem and given 45 minutes to brainstorm solutions using EBS software.
+2.  **Multiple Questions (Decomposed Problem):** The problem was broken down into three distinct subcategories. Groups spent 15 minutes brainstorming on each subcategory sequentially.
+
+The researchers measured performance primarily by the quantity of unique ideas generated.
+
+### **Results**
+The results were consistent and significant across both experiments. Groups that used the decomposed process (multiple, sequential questions) generated approximately 60% more ideas than groups that worked on the single, intact problem. This finding supported the hypothesis that process structuring significantly enhances idea generation in electronic brainstorming. The paper notes that the increased performance is attributed to two main factors: the ability of problem decomposition to refocus the group's attention more evenly across different facets of the problem and the effect of shorter, time-constrained intervals for each sub-problem, which increased the rate of idea generation.
+
+### **Discussion and Conclusion**
+The authors conclude that how a problem is posed to a group is a critical factor in brainstorming effectiveness. Structuring the process by decomposing a large problem into smaller, sequential sub-problems is a highly effective intervention for improving the productivity of electronic brainstorming groups. This structure forces groups to move beyond their initial trains of thought and explore a wider range of solution categories, thus overcoming the cognitive inertia that can limit creativity. The time constraints imposed by the sequential tasks also appear to create a sense of urgency that boosts the rate of idea contribution. The research demonstrates that simply providing technology (EBS) is not enough; performance can be significantly enhanced by thoughtfully structuring the task and process.
+
+## 3. Sources
+ https://pubsonline.informs.org/doi/10.1287/isre.7.2.268
+ https://www.dtmethod.com/bibliography
+ https://ideas.repec.org/a/inm/orisre/v7y1996i2p268-277.html
+ https://sci-hub.se/10.1287/isre.7.2.268
+ https://www.researchgate.net/publication/238698198_Structuring_Time_and_Task_in_Electronic_Brainstorming
+ https://www.researchgate.net/publication/220412133_Process_Structuring_in_Electronic_Brainstorming
+ https://pubsonline.informs.org/doi/pdf/10.1287/isre.7.2.268
+ https://projekter.aau.dk/projekter/files/296568897/IMAGINATION_FROM_EVALUATION_A_DESIGN_INQUIRY_INTO_SUPPORTING_CREATIVE_DESIGN_IDEATION_THESIS.pdf
+ https://pubsonline.informs.org/doi/abs/10.1287/isre.10.2.116
+ https://www.semanticscholar.org/paper/The-cognitive-network-model-of-creativity%3A-a-new-a-Santanam-Nijstad/d11b343314972554790515438a26227448882798

@@ -1,0 +1,42 @@
+## 1. Official Abstract
+> After having received feedback about the correct answer to a question, a memory judgment about one's own past answer, the original judgment (OJ), is often biased toward the feedback. The authors present a multinomial model that explains this hindsight bias effect in terms of both memory impairments and reconstruction biases for nonrecollected OJs. The model was tested in 4 experiments. As predicted, the parameters measuring OJ recollection could be influenced selectively by contrasting items whose OJs were or were not retrieved successfully earlier (Experiment 1). Increasing the feedback-recall delay reduced reconstruction biases exclusively (Experiment 2), whereas discrediting the feedback enhanced recollection of the OJs to feedback items (Experiment 3). In Experiment 4, the model's guessing parameters, but no other parameters, varied as a function of the number of response alternatives. The authors discuss implications for hindsight bias theories.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. A detailed interpretation based on reliable third-party academic sources is provided below.
+
+### Detailed Interpretation
+
+The 1998 paper by Erdfelder and Buchner, "Decomposing the hindsight bias," introduced a seminal quantitative framework for understanding the cognitive mechanisms behind the hindsight bias—the tendency for people to overestimate their prior knowledge after learning the actual outcome of an event. Prior to this work, theories debated whether the bias stemmed from an actual impairment of the original memory or from a biased reconstruction process. The authors' primary contribution was the development and validation of a **multinomial processing tree (MPT) model**, which allows researchers to disentangle and separately measure these distinct processes.
+
+**The Multinomial Processing Tree Model (HB13)**
+
+The core of the paper is a sophisticated mathematical model, later referred to as the "HB13 model," designed to separate the cognitive processes contributing to hindsight bias. The model operates by analyzing the frequency of different response patterns in a typical hindsight bias experiment. In such an experiment, a participant first gives an "original judgment" (OJ) to a difficult question, is later shown the "correct judgment" (CJ), and is finally asked to recall their original judgment (ROJ).
+
+The model posits that when a person tries to recall their original answer, they go through a series of cognitive steps. It decomposes the hindsight bias into two primary, unobservable components:
+
+1.  **Recollection Impairment:** This refers to the failure to directly remember the original judgment (OJ) after being exposed to the correct answer (CJ). The model measures the probability of successfully recollecting the original judgment.
+2.  **Reconstruction Bias:** This process occurs when recollection fails. Instead of remembering their original answer, the person attempts to reconstruct it. This reconstruction is often biased by the new information they have—the correct answer. The model quantifies the probability of this biased reconstruction.
+
+By fitting the frequencies of observable outcomes (the relationships between OJ, CJ, and ROJ) to the model, researchers can estimate the probabilities of these underlying cognitive events (i.e., the parameters for recollection and reconstruction).
+
+**Experimental Validation and Key Findings**
+
+The authors conducted four experiments to validate their model, demonstrating that its parameters could be selectively influenced by different experimental manipulations, which supported the psychological reality of the distinct recollection and reconstruction processes. For instance, factors expected to affect memory (like prior retrieval of the OJ) selectively influenced the recollection parameter, while other factors (like the delay before recalling the OJ) specifically affected the reconstruction parameter.
+
+A key conclusion drawn from their investigation is that the hindsight bias is largely driven by **biased reconstruction processes** rather than a simple failure to remember the original answer. This finding suggests that the original memory trace often coexists with the outcome information, rather than being overwritten by it.
+
+**Impact and Significance**
+
+Erdfelder and Buchner's MPT model provided a powerful analytical tool that has been widely adopted and influential in the field of cognitive psychology. It moved the study of hindsight bias from a purely descriptive phenomenon to one where the underlying mechanisms could be quantitatively measured and tested. The model has been used in numerous subsequent studies to explore hindsight bias across different age groups, in various domains (e.g., visual and verbal tasks), and to understand its relationship with other cognitive functions like inhibitory control.
+
+## 3. Sources
+ https://www.researchgate.net/publication/23894414_Decomposing_the_Hindsight_Bias_A_Multinomial_Processing_Tree_Model_for_Separating_Recollection_and_Reconstruction_in_Hindsight
+ https://www.researchgate.net/figure/Erdfelder-and-Buchners-1998-multinomial-processing-tree-model-for-hindsight-bias-A_fig1_303387813
+ https://www.tandfonline.com/doi/full/10.1080/09541446.2018.1485906
+ https://www.sowi.uni-mannheim.de/erdfelder/
+ https://www.sowi.uni-mannheim.de/erdfelder/publications/
+ https://www.researchgate.net/figure/Erdfelder-and-Buchners-1998-multinomial-processing-tree-model-for-the-hindsight-bias_fig1_264930112
+ https://www.semanticscholar.org/paper/Decomposing-the-Hindsight-Bias-%3A-A-Multinomial-Tree-Erdfelder-Buchner/9712a420807c453531b463a56247385202868065
+ https://scholar.google.com/citations?user=u_wzC9sAAAAJ&hl=de
+ https://www.researchgate.net/figure/Multinomial-processing-tree-model-of-hindsight-bias-Erdfelder-Buchner-1998-A_fig1_232551913
+ https://www.researchgate.net/publication/23894414_Decomposing_the_Hindsight_Bias_A_Multinomial_Processing_Tree_Model_for_Separating_Recollection_and_Reconstruction_in_Hindsight/link/542d17460cf277d58e8b40f3/download

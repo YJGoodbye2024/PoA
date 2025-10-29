@@ -1,0 +1,36 @@
+## 1. Official Abstract
+"Two studies addressed parallel questions about the correlates and consequences of self-enhancement bias. Study 1 was conducted in a laboratory context and examined self-enhancing evaluations of performance in a group-interaction task. Study 2 assessed students' illusory beliefs about their academic ability when they first entered college and then followed them longitudinally to test claims about the long-term benefits of positive illusions. Both studies showed that self-enhancement bias was related to narcissism, ego involvement, self-serving attributions, and positive affect. Study 2 found that self-enhancement was associated with decreasing levels of self-esteem and well-being as well as with increasing disengagement from the academic context. Self-enhancement did not predict higher academic performance or higher graduate rates. Thus, the findings suggest that self-enhancing beliefs may be adaptive in the short term but not in the long term."
+
+## 2. Core Insights & Analysis
+Full text was not accessible for direct parsing. A detailed interpretation based on authoritative abstracts and scholarly citations is provided below.
+
+The paper "Positive illusions about the self: short-term benefits and long-term costs" by Richard W. Robins and Jennifer S. Beer investigates the adaptive value of self-enhancement through two distinct studies. The central thesis challenges the idea that positive illusions are uniformly beneficial, proposing instead a trade-off between immediate psychological rewards and subsequent negative consequences.
+
+**Study 1: Short-Term Correlates**
+
+This study was conducted in a laboratory setting to identify the personality traits and immediate affective consequences associated with self-enhancement.
+*   **Method:** Participants engaged in a group-interaction task and their performance was evaluated. Self-enhancement was measured by comparing individuals' self-assessments against more objective criteria (e.g., peer evaluations).
+*   **Findings:** The results showed a clear link between the tendency to self-enhance and narcissistic traits. Furthermore, self-enhancement was correlated with experiencing positive affect (feeling good), higher ego involvement in the task, and making self-serving attributions (taking credit for successes but not failures). This study established that, in the short term, those who view themselves with an overly positive bias tend to feel better emotionally.
+
+**Study 2: Long-Term Consequences**
+
+The second study shifted to a longitudinal design to track the long-term effects of positive illusions in a real-world academic context.
+*   **Method:** The researchers assessed first-year college students' illusory beliefs about their own academic abilities upon entering university. These students were then followed over the course of their college careers to track changes in well-being, self-esteem, and academic outcomes.
+*   **Findings:** The study found significant long-term costs associated with initial self-enhancement. Students who began college with unrealistically positive views of their abilities experienced decreasing levels of self-esteem and well-being over time. They also showed signs of increasing disengagement from their academic pursuits. Critically, these positive illusions did not translate into better academic performance or higher graduation rates. This suggests that when performance feedback inevitably conflicts with self-enhancing beliefs, it can lead to negative psychological outcomes and a withdrawal from the context in which those failures occurred.
+
+**Conclusion**
+
+The combined findings of both studies lead to a nuanced conclusion: positive illusions are a "mixed blessing." They offer the short-term benefit of positive feelings but carry the long-term risk of declining self-esteem, reduced well-being, and disengagement when reality provides negative feedback. The authors argue that while self-enhancement may be adaptive for momentary mood regulation, it is ultimately maladaptive in the long run, particularly in contexts like academia where performance is regularly and objectively evaluated.
+
+## 3. Sources
+ Semantic Scholar. (n.d.). *Positive illusions about the self: short-term benefits and long-term costs.* Retrieved October 29, 2025, from https://api.semanticscholar.org/CorpusID:571534
+ Robins, R. W., & Beer, J. S. (2001). Positive illusions about the self: short-term benefits and long-term costs. *Journal of Personality and Social Psychology, 80*(2), 340–352. https://doi.org/10.1037/0022-3514.80.2.340 (via PubMed)
+ Journal of Personality and Social Psychology. (n.d.). *Positive Illusions: Positively Correlated with Subjective Well-Being...* Retrieved October 29, 2025, from a Google Search result.
+ ResearchGate. (n.d.). *Positive Illusions About the Self: Short-Term Benefits and Long-Term Costs.* Retrieved October 29, 2025, from https://www.researchgate.net/publication/12104112_Positive_Illusions_About_the_Self_Short-Term_Benefits_and_Long-Term_Costs
+ ResearchGate. (n.d.). *Request PDF: Positive illusions about the self: Short-term benefits and long-term costs.* Retrieved October 29, 2025, from https://www.researchgate.net/publication/232568708_Positive_illusions_about_the_self_Short-term_benefits_and_long-term_costs
+ Wikipedia. (n.d.). *Positive illusions.* Retrieved October 29, 2025, from https://en.wikipedia.org/wiki/Positive_illusions
+ Google Scholar. (n.d.). *Jennifer Beer.* Retrieved October 29, 2025, from https://scholar.google.com/citations?user=l5o_g64AAAAJ&hl=en
+ Google Scholar. (n.d.). *Richard W. Robins.* Retrieved October 29, 2025, from https://scholar.google.com/citations?user=9hGz2pYAAAAJ&hl=en
+ Google Scholar. (n.d.). Search result for "Positive illusions about the self: short-term benefits and long-term costs." Retrieved October 29, 2025.
+ Scientific Research Publishing. (n.d.). *Robins, R. W., & Beer, J. S. (2001). Positive Illusions about the Self Short-Term Benefits and Long-Term Costs.* Retrieved October 29, 2025, from https://www.scirp.org/reference/referencespapers?referenceid=2848985
+ SciSpace. (n.d.). *Self-enhancement and coping: the costs and benefits of positive illusions.* Retrieved October 29, 2025, from https://typeset.io/papers/self-enhancement-and-coping-the-costs-and-benefits-of-1h2g9z1l

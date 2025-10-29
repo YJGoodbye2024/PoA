@@ -1,0 +1,48 @@
+## 1. Official Abstract
+"This article describes a procedure for the study of destructive obedience in the laboratory. It consists of ordering a naive S to administer increasingly more severe punishment to a victim in the context of a learning experiment. Punishment is administered by means of a shock generator with 30 graded switches ranging from Slight Shock to Danger: Severe Shock. The victim is a confederate of the E. The primary dependent variable is the maximum shock the S is willing to administer before he refuses to continue further. 26 Ss obeyed the experimental commands fully, and administered the highest shock on the generator. 14 Ss broke off the experiment at some point after the victim protested and refused to provide further answers. The procedure created extreme levels of nervous tension in some Ss. Profuse sweating, trembling, and stuttering were typical expressions of this emotional disturbance. One unexpected sign of tension––yet to be explained––was the regular occurrence of nervous laughter, which in some Ss developed into uncontrollable seizures. The variety of interesting behavioral dynamics observed in the experiment, the reality of the situation for the S, and the possibility of parametric variation within the framework of the procedure, point to the fruitfulness of further study."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### Introduction
+
+The paper begins by contextualizing the study of obedience as a fundamental, yet often overlooked, element of social life. Milgram notes that "Obedience is the psychological mechanism that links individual action to political purpose. It is the dispositional cement that binds men to systems of authority." He references the atrocities of World War II as a stark example of how a large number of individuals could be compelled to carry out malevolent acts under orders. The central question posed is how to study this phenomenon in a laboratory setting. The paper rejects the idea that only a "very small proportion of the population" possesses the sadistic tendencies to inflict pain on others under orders, suggesting instead that the capacity for such actions may be more widespread. The study aims to create a situation where a person is ordered to harm another, allowing for a direct observation of obedience and defiance.
+
+### Method
+
+The experiment was designed to appear as a study on the effect of punishment on memory and learning.
+
+*   **Participants:** The subjects were 40 males aged 20 to 50 from the New Haven area, recruited through newspaper ads and mail solicitation for a study at Yale University. They represented a range of occupations, including postal clerks, teachers, engineers, and laborers.
+*   **Personnel:** The "experimenter" was a 31-year-old biology teacher who maintained an impassive and stern demeanor. The "victim" was a 47-year-old accountant, described as mild-mannered and likable, who was a trained accomplice in the experiment.
+*   **Procedure:** Upon arrival, a rigged drawing ensured the naive subject was always assigned the role of "teacher" while the accomplice became the "learner." The learner was strapped into an "electric chair" apparatus in an adjacent room, and the teacher was seated in front of a formidable-looking shock generator. This generator featured 30 switches in 15-volt increments, from 15 to 450 volts, with labels ranging from "Slight Shock" to "Danger: Severe Shock."
+*   **Task:** The teacher's task was to administer a shock to the learner for every incorrect answer on a word-pair memory test, increasing the shock level by one step each time. The learner's responses were standardized and pre-recorded. As the shocks increased, the learner's protests escalated from grunts to shouts of pain, complaints about his heart condition, and eventually, an agonized scream followed by silence. If the teacher hesitated, the experimenter would provide a sequence of prods: "Please continue," "The experiment requires that you continue," "It is absolutely essential that you continue," and "You have no other choice, you must go on."
+
+### Results
+
+The primary measure of obedience was the maximum shock level a participant administered. The findings were stark:
+
+*   **Levels of Obedience:** Of the 40 subjects, all proceeded to at least the 300-volt level, where the victim kicks the wall in protest. A significant majority, 26 subjects (65%), continued to obey the experimenter's commands and administered the maximum 450-volt shock. Only 14 subjects (35%) defied the experimenter and broke off the experiment before reaching the highest level.
+*   **Emotional Strain:** The experiment induced extreme tension and emotional distress in the participants. Milgram reports that subjects exhibited signs of nervousness such as sweating, trembling, stuttering, and biting their lips. A frequent and unexpected reaction was "nervous laughter and smiling," which in some subjects evolved into "full-blown, uncontrollable seizures." One observer described a participant, a mature businessman, who was "reduced to a twitching, stuttering wreck" yet "continued to respond to every word of the experimenter, and obeyed to the end."
+*   **Subject-Victim Dynamics:** The conflict for the subjects was between the demands of the authority figure (the experimenter) and the pleas of the suffering victim. Despite their visible distress, the majority of subjects resolved this conflict by obeying the experimenter.
+
+### Discussion
+
+Milgram expressed surprise at the high level of obedience observed. He had surveyed Yale seniors and colleagues prior to the experiment, and their consensus prediction was that only a pathological fringe (around 1-3%) would go to the maximum shock level. The results dramatically contradicted this expectation.
+
+The paper posits that two main forces were at play: factors binding the subject to the experiment and factors driving them to quit. The binding factors included the perceived legitimacy of the institution (Yale University), the sense that they had voluntarily obligated themselves to participate, and the ambiguity of whether the shocks were truly dangerous. The driving forces were the victim's audible suffering and the violation of the moral standard not to harm others.
+
+Milgram concludes that for many individuals, obedience is a "deeply ingrained behavior tendency" that can override their training in ethics, sympathy, and moral conduct. The study demonstrates the powerful influence of authority, where an ordinary person can become an agent in a destructive process, even when their actions conflict with their personal conscience.
+
+## 3. Sources
+ https://en.wikipedia.org/wiki/Milgram_experiment
+ https://www.radford.edu/~jaspelme/gradsoc/gradsoc-old/Obedience.pdf
+ https://pubmed.ncbi.nlm.nih.gov/14049516/
+ https://www.simplypsychology.org/milgram.html
+ https://www.semanticscholar.org/paper/BEHAVIORAL-STUDY-OF-OBEDIENCE.-Milgram/e08182d8833926ac335f60c18840b3d843373b18
+ https://www.scribd.com/doc/102824395/Milgram-1963-PDF
+ https://www.researchgate.net/publication/15295311_Behavioral_Study_of_obedience
+ https://www.columbia.edu/cu/psychology/terrace/w1001/readings/milgram.pdf
+ https://www.scribd.com/document/442717988/Behavioral-Study-of-Obedience123124
+ http://www.demenzemedicinagenerale.net/images/mens-sana/Milgram_Behavioral_Study_of_Obedience_1963.pdf
+ https://www.scirp.org/reference/referencespapers?referenceid=1460395
+ https://www.scribd.com/document/399303873/Behavioral-Study-of-Obedience

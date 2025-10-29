@@ -1,0 +1,39 @@
+## 1. Official Abstract
+"In this experiment, teachers were given objective information, presumably about a child's scholastic and social potential, accompanied by a photograph of an attractive or an unattractive boy or girl. It was found that the child's attractiveness was significantly associated with the teacher's expectations about how intelligent the child was, how interested in education his parents were, how far he was likely to progress in school, and how popular he would be with his peers."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### Introduction
+The study builds on the "Pygmalion in the Classroom" research by Rosenthal and Jacobson (1968), which demonstrated that a teacher's expectations can significantly impact a student's performance, acting as a self-fulfilling prophecy. The authors note that while the *Pygmalion* study focused on artificially induced expectations, real-world expectations are formed from various sources of information. Two of the most common sources are a child's school record and their physical appearance. This experiment was designed to isolate and examine the effect of a student's physical attractiveness on a teacher's expectations of their intellectual and social potential, while holding their academic and behavioral records constant. The central hypothesis was that a child's attractiveness would strongly and positively bias a teacher's judgments.
+
+### Method
+The experiment involved 441 fifth-grade teachers from 441 different schools in Missouri. Each teacher received a standardized "Student's Summary Record" which included a report card with identical, average-to-good grades in all subjects (reading, language, arithmetic, etc.) and positive evaluations of personal traits like "healthful living" and "work habits."
+
+Crucially, a photograph of the student was attached to the corner of the report card. The photographs were selected from a pool previously rated for attractiveness and were categorized as either "attractive" or "unattractive" for both boys and girls. Each teacher received a report card with one of these photographs.
+
+After reviewing the student's file, the teachers were asked to provide their professional estimates on four key items:
+1.  The pupil's IQ.
+2.  The pupil's social status with peers.
+3.  The parents' attitudes toward school and their interest in the child's academic achievement.
+4.  The pupil's likely future educational accomplishments.
+
+### Results
+The study found a significant main effect of physical attractiveness on teachers' expectations. The data showed that the physical appearance of the student had a strong influence on the teachers' judgments across multiple domains.
+
+*   **Perceived Educational Potential**: This was a composite measure of the teacher's expectations regarding the student's IQ, parental interest, and future education. The results clearly indicated that teachers expected attractive children to have higher IQs, more interested parents, and a brighter educational future compared to their less attractive counterparts.
+*   **Perceived Social Potential**: Teachers also expected attractive children to have significantly better relationships with their peers than unattractive children. The authors note that in this assumption, the teachers were "undoubtedly perceiving reality clearly," as other studies have confirmed a link between attractiveness and popularity.
+*   **Influence of Teacher and Student Sex**: The analysis found no significant interaction effects related to the sex of the teacher or the sex of the student. An attractive child, whether a boy or a girl, received equally favorable expectations from both male and female teachers.
+
+In essence, the study concluded that there is "little question but that the physical appearance of a student affected the expectations of the teachers we studied."
+
+## 3. Sources
+ Influence of Children's Physical Attractiveness on Teacher Expectations. (n.d.). Retrieved from https://www.tandfonline.com/doi/abs/10.1080/00224545.1988.9713751
+ Physical Attractiveness - a Source of Teacher Bias? (n.d.). Retrieved from https://ro.ecu.edu.au/cgi/viewcontent.cgi?article=2787&context=theses_hons
+ The Impact of Physical Attractiveness on Achievement and Psychological Well-Being. (n.d.). Retrieved from https://www.researchgate.net/publication/272332617_The_Impact_of_Physical_Attractiveness_on_Achievement_and_Psychological_Well-Being
+ Clifford, M. M., & Walster, E. (1973). Research Note: The Effect of Physical Attractiveness on Teacher Expectations. *Sociology of Education*, 46(2), 248–258. Retrieved from https://www.elainehatfield.com/wp-content/uploads/2020/07/035-The-effect-of-physical-attractiveness-on-teacher-expectations.pdf
+ Clifford, M. M., & Walster, E. (n.d.). The Effect of Physical Attractiveness on Teacher Expectations. *Semantic Scholar*. Retrieved from https://www.semanticscholar.org/paper/The-Effect-of-Physical-Attractiveness-on-Teacher-Clifford-Walster/862734185590924982705e426514757c91350485
+ social comparison tendencies and the reward value of same- sex beauty among heterosexual - Digital Commons @ Cal Poly Humboldt. (n.d.). Retrieved from https://digitalcommons.humboldt.edu/cgi/viewcontent.cgi?article=1418&context=etd
+ Beauty as Status. (n.d.). Retrieved from https://www.researchgate.net/publication/228135891_Beauty_as_Status
+ The Effect of Physical Attractiveness on Teacher Expectations - Research Solutions Pages. (n.d.). Retrieved from https://www.researchsolutions.com/document/the-effect-of-physical-attractiveness-on-teacher-expectations/10.2307-2112099/
+ Proceedings of the 15th International Scientific Conference INPROFORUM - Jihočeská univerzita v Českých Budějovicích. (n.d.). Retrieved from https://www.ef.jcu.cz/documents/20182/1075796/sbornik-inproforum-2021.pdf/926615b1-0941-4519-9403-1250325492d2

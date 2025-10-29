@@ -1,0 +1,32 @@
+## 1. Official Abstract
+" The 'tragedy of the commons' is the problem of sustaining a public resource that everyone is free to overuse, and it appears in many social dilemmas, such as our inability to maintain the global climate. This type of problem is studied using public goods experiments, which usually confirm that the collective benefit will not be produced. Because individuals and countries often participate in several social games simultaneously, the interaction of these games may provide a sophisticated way by which to maintain the public resource. Indirect reciprocity, 'give and you shall receive', is built on reputation and can sustain a high level of cooperation, as shown by game theorists. Here we show, through alternating rounds of public goods and indirect reciprocity games, that the need to maintain reputation for indirect reciprocity maintains contributions to the public good at an unexpectedly high level. But if rounds of indirect reciprocation are not expected, then contributions to the public good drop quickly to zero. Alternating the games leads to higher profits for all players. As reputation may be a currency that is valid in many social games, our approach could be used to test social dilemmas for their solubility."
+
+## 2. Core Insights & Analysis
+Full text was not accessible. A detailed interpretation based on a comprehensive analysis by the authors in a later publication is provided below.
+
+The central thesis of the paper is that reputation can act as a crucial link between different social scenarios, encouraging cooperation in situations prone to the "tragedy of the commons." The study demonstrates that when people's actions in a public goods game can affect their reputation in a subsequent social interaction based on indirect reciprocity, they are significantly more likely to contribute to the public good.
+
+**Experimental Design and Methods**
+The experiment involved human participants playing two types of games in alternating rounds: a public goods game and an indirect reciprocity game.
+
+*   **Public Goods Game:** In this game, a group of players decides whether to contribute to a common pool. The contents of the pool are multiplied and then distributed equally among all players, regardless of whether they contributed. The rational strategy for a self-interested individual is to not contribute and instead free-ride on the contributions of others.
+*   **Indirect Reciprocity Game:** In this game, individuals can choose to help others. Their decision to help is often based on the recipient's reputation for helping others in the past. A positive reputation for being helpful increases the likelihood of receiving help.
+
+In the experiment, participants played a series of these games. Crucially, their behavior in the public goods game was made known and influenced their reputation in the indirect reciprocity game.
+
+**Results and Discussion**
+The key finding was that contributions to the public good were maintained at a surprisingly high level when the public goods game was alternated with the indirect reciprocity game. Players who contributed to the public resource gained a good reputation, which was then "rewarded" in the subsequent indirect reciprocity rounds. This indicates that the desire to build and maintain a positive reputation—a valuable asset in the reciprocity game—overcame the selfish incentive to free-ride in the public goods game.
+
+To confirm this causal link, the researchers informed the players after 16 rounds that only public goods games would follow, removing the "risk" of their reputation being tested in reciprocity rounds. The result was a collapse in contributions to the public good, demonstrating that the potential for future social reward was the primary driver of cooperation.
+
+The authors conclude that reputation can be seen as a "universal currency" that is transferable across different social contexts. The knowledge that one's actions in one domain (like a public goods dilemma) can be observed and will have consequences in another social domain (like reciprocal exchanges) motivates individuals to invest in their reputation by acting cooperatively. This suggests that many social dilemmas might be solvable if mechanisms are in place that allow reputation to be built and to have tangible future consequences.
+
+## 3. Sources
+ https://pubmed.ncbi.nlm.nih.gov/11807552/
+ https://ideas.repec.org/a/nat/nature/v415y2002i6870d10.1038_415424a.html
+ https://www.semanticscholar.org/paper/Reputation-helps-solve-the-%E2%80%98tragedy-of-the-Milinski-Semmann/e34f40243160a2de35015e5861110a1cb5003f9f
+ https://www.scispace.com/paper/reputation-a-universal-currency-for-human-social-interactions-milinski-2016
+ https://pure.mpg.de/rest/items/item_2326985/component/file_2326986/content
+ https://link.springer.com/article/10.1007/s12110-020-09379-6
+ https://www.researchgate.net/publication/11422471_Reputation_Helps_Solve_the_Tragedy_of_the_Commons
+ https://www.researchgate.net/publication/271233891_The_Role_of_Information_in_the_Tragedy_of_the_Commons

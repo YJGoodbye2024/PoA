@@ -1,0 +1,35 @@
+## 1. Official Abstract
+" This abstract was borrowed from another version of this item. "
+
+>This pape­r inve­stigates the­ role of se­asonal affe­ctive disorde­r (SAD) in the se­asonal time-variation of stock marke­t re­turns. SAD is an exte­nsively docume­nte­d me­dical condition whe­reby the­ shortness of the­ days in fall and winte­r le­ads to de­pre­ssion for many pe­ople. Expe­rime­ntal re­se­arch in psychology and e­conomics indicate­s that de­pre­ssion, in turn, cause­s he­ighte­ne­d risk ave­rsion. Building on the­se­ links be­twe­e­n the­ le­ngth of day, de­pre­ssion, and risk ave­rsion, we­ provide­ inte­rnational e­vide­nce­ that stock marke­t re­turns vary se­asonally with the­ le­ngth of the­ day, a re­sult we­ call the­ SAD e­ffe­ct. Using data from nume­rous stock e­xchange­s and controlling for we­ll-known marke­t se­asonals as we­ll as othe­r e­nvironme­ntal factors, stock re­turns are­ shown to be­ significantly re­late­d to the­ amount of daylight through the­ fall and winte­r. Patte­rns at diffe­re­nt latitude­s and in both he­misphe­re­s provide­ compe­lling e­vide­nce­ of a link be­twe­e­n se­asonal de­pre­ssion and se­asonal variation in stock re­turns: Highe­r latitude­ marke­ts show more­ pronounce­d SAD e­ffe­cts and re­sults in the­ Southe­rn He­misphe­re­ are­ six months out of phase­, as are­ the­ se­asons. Ove­rall, the­ e­conomic magnitude­ of the­ SAD e­ffe­ct is large­.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on analyses and summaries from reliable third-party sources.
+
+### **Introduction & Hypothesis**
+The paper introduces the theory that Seasonal Affective Disorder (SAD), a medically documented form of depression linked to the shortening of daylight hours in fall and winter, influences stock market returns. The core hypothesis is that the depression associated with SAD leads to heightened risk aversion among investors. This increased risk aversion during fall and winter is proposed to cause a seasonal variation in stock returns, an anomaly the authors name the "SAD effect." The authors' alternative hypothesis, against the null that there is no effect, is that the seasonal depression brought on by shorter days leads to comparatively lower returns in the fall and higher returns in the winter, particularly after the winter solstice.
+
+### **Methodology**
+To test their hypothesis, the authors use the length of the night as a proxy variable to measure the potential impact of SAD on investors. Their model analyzes the relationship between the amount of daylight and daily stock returns across numerous international stock exchanges. The study examines data from the United States (including the S&P 500), Sweden, the United Kingdom, Germany, Canada, New Zealand, Japan, Australia, and South Africa, with some datasets extending as far back as 1928. A crucial part of the methodology is controlling for other well-known market seasonalities and environmental factors to isolate the SAD effect.
+
+### **Results & Key Findings**
+The study's results strongly support the existence of a SAD effect that is both statistically significant and economically substantial. The core findings are:
+*   **Lower Autumn Returns:** Stock markets exhibit lower returns in the autumn months when daylight hours are decreasing and SAD effects are presumed to begin. This is attributed to SAD-affected investors becoming more risk-averse and rebalancing their portfolios toward safer assets, thus selling stocks and depressing prices.
+*   **Higher Winter/Spring Returns:** Conversely, stock markets show abnormally high returns after the winter solstice and into the spring, as the days begin to lengthen and the depressive symptoms of SAD fade. This leads to decreased risk aversion and a rebalancing back into riskier assets like stocks, driving prices up.
+*   **Geographic Corroboration:** The evidence is strengthened by geographic comparisons. Markets at higher latitudes (e.g., Sweden) show a more pronounced SAD effect, which corresponds to the greater variation in daylight hours at those latitudes. Furthermore, the effect in the Southern Hemisphere is six months out of phase with the Northern Hemisphere, mirroring the reversal of the seasons. This cross-hemisphere evidence helps rule out other explanations and provides compelling support for the link between seasonal depression and stock returns.
+
+### **Conclusion & Implications**
+The paper concludes that there is a significant link between seasonal depression, as proxied by the length of day, and seasonal patterns in stock market returns. The economic magnitude of this "SAD effect" is large. One analysis of the paper suggests that a trading strategy based on this anomaly—buying stocks in the fall when they are cheaper due to the SAD effect and selling them in late winter or spring—could have yielded substantial excess returns compared to the overall market. The paper's findings contribute significantly to the field of behavioral finance by demonstrating how a psychological phenomenon tied to a natural, seasonal cycle can have a measurable impact on aggregate financial market behavior.
+
+## 3. Sources
+ ResearchGate. (2025, August 8). *Winter Blues: A SAD Stock Market Cycle | Request PDF*. Retrieved from ResearchGate.
+ IDEAS/RePEc. (n.d.). *Winter Blues: A SAD Stock Market Cycle*. Retrieved from https://ideas.repec.org/a/aea/aecrev/v93y2003i1p324-343.html
+ American Economic Association. (n.d.). *Winter Blues: A SAD Stock Market Cycle*. Retrieved from https://www.aeaweb.org/articles?id=10.1257/000282803321455322
+ B.BIAS. (2022, December 4). *A SAD Stock Market Cycle – How the seasons of the year affect investor behavior*. Retrieved from https://b-bias.com/2022/12/04/a-sad-stock-market-cycle-how-the-seasons-of-the-year-affect-investor-behavior/
+ ResearchGate. (2025, August 8). *Winter blues: A SAD stock market cycle | Request PDF*. Retrieved from ResearchGate.
+ MNB. (n.d.). *The Effect of Seasonal Depression on Stock Market Returns*. Retrieved from https://www.mnb.hu/letoltes/fer-22-2-st3-en-final-kovacs-t-et-al.pdf
+ ProQuest. (n.d.). *Winter blues: A SAD stock market cycle*. Retrieved from https://www.proquest.com/docview/217094019
+ EconBiz. (n.d.). *Winter Blues: A SAD Stock Market Cycle*. Retrieved from https://www.econbiz.de/Record/winter-blues-a-sad-stock-market-cycle-kamstra-mark-j/10002047926
+ IDEAS/RePEc. (n.d.). *Winter blues and time variation in the price of risk*. Retrieved from https://ideas.repec.org/p/atl/wpaper/2004-8.html
+ LIUC Università Carlo Cattaneo. (n.d.). *Winter Blues: A SAD Stock Market Cycle*. Retrieved from https://biblio.liuc.it/record/103986/files/103986.pdf
+ TSpace, University of Toronto. (n.d.). *This is Your Portfolio on Winter: Seasonal Affective Disorder and Risk Aversion in Financial Decision Making*. Retrieved from https://tspace.library.utoronto.ca/handle/1807/32737

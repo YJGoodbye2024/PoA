@@ -1,0 +1,57 @@
+## 1. Official Abstract
+"Aﬀection is central to the communicative processes of personal relationships. While several empirical investigations have examined the communication of aﬀection, there is little consistency from study to study in how aﬀectionate communication is operationally deﬁned, making it diﬃcult to interpret the ﬁndings of such research and to compare ﬁndings across studies. The present paper reports the results of a multi‐phase scale development procedure and two supplemental studies, involving a total of 781 participants, utilizing and validating a new self‐report measure of aﬀectionate communication. The resulting scale, the Aﬀectionate Communication Index, is oﬀered as a practical and psychometrically sound operational deﬁnition for the overt communication of aﬀection in personal relationships."
+
+## 2. Core Insights & Analysis
+Full text was accessible. The analysis below is a synopsis based on the paper's original structure.
+
+### **Introduction & Rationale**
+The paper opens by establishing that affection is a fundamental aspect of human relationships, yet its scientific measurement lacks consistency. The authors argue that existing methods to measure affectionate communication are either too impractical for large-scale studies or lack psychometric validation. This inconsistency makes it difficult to compare findings across different studies and hinders the theoretical advancement of how affection functions in relationships. The primary goal of this research program was to develop and validate a new instrument for measuring affectionate communication that is "economical, easily administered, grounded in ecologically valid operational indicators of affection, and high in psychometric adequacy."
+
+### **Scale Development Procedures**
+The creation of the Affectionate Communication Index (ACI) occurred in multiple phases:
+
+*   **Study 1: Item Generation:** The researchers began by asking 100 participants to list behaviors they considered to be affectionate. This process generated a list of 43 distinct behaviors. The most frequently cited actions included hugging, kissing, and saying "I love you."
+*   **Study 2: Item Reduction and Factor Analysis:** A new group of 200 participants rated the 43 behaviors on how affectionate they were. The authors used this data to perform a factor analysis, which is a statistical method for grouping related items. This process reduced the initial list to 19 items that reliably represented three underlying dimensions of affectionate communication:
+    *   **Verbal Affection:** Behaviors like saying "I love you" or expressing feelings of fondness.
+    *   **Nonverbal Affection:** Physical behaviors such as hugging, kissing, and holding hands.
+    *   **Supportive Affection:** Actions that demonstrate support, such as doing favors for someone or offering encouragement.
+
+### **Supplemental Studies (Validation)**
+To test the new 19-item ACI, the authors conducted two additional studies to establish its validity and reliability.
+
+*   **Study 3: Concurrent Validity:** This study involved 179 participants and aimed to see if the ACI correlated with other established communication measures in expected ways. The results showed that the ACI was positively associated with relationship satisfaction, closeness, and the perceived importance of family conversations. This demonstrated that the scale measures a construct that behaves as affection should within a relational context.
+*   **Study 4: Known-Groups Validity:** The final study tested whether the ACI could distinguish between groups known to differ in their expression of affection. The researchers compared affectionate communication in father-son relationships with that in male-male friendships, involving 302 participants. As hypothesized, fathers and sons reported significantly different levels of affectionate communication than male friends, confirming that the ACI can detect variations between different types of relationships.
+
+### **General Discussion & Conclusion**
+The authors conclude that the four-study process resulted in the **Affectionate Communication Index (ACI)**, a reliable and valid 19-item self-report scale. They propose the ACI as a "practical and psychometrically sound operational definition for the overt communication of affection in personal relationships." The paper highlights that the ACI addresses the critical need for a consistent measurement tool in the field of interpersonal communication. By grounding the scale in behaviors people actually identify as affectionate and confirming its statistical integrity, the ACI provides a robust foundation for future research on the role of affection in relational well-being, health, and development.
+
+## 3. Sources
+ University of Arizona. (1998). *The measurement of affectionate communication*. Retrieved from https://research.arizona.edu/publications/measurement-affectionate-communication
+
+ Floyd, K., & Morman, M. T. (1998). *The measurement of affectionate communication*. Full text accessible via ResearchGate, linked from Semantic Scholar. Retrieved from https://www.semanticscholar.org/paper/The-measurement-of-affectionate-communication-Floyd-Morman/2acf8f4478ca4f88832df48169a21186
+
+ Floyd, K. (n.d.). *1998 — Publications*. Kory Floyd, PhD. Retrieved from https://www.koryfloyd.com/1998
+
+ Arizona State University. (n.d.). *The measurement of affectionate communication*. Retrieved from https://research.asu.edu/publications/measurement-affectionate-communication
+
+ Baylor University. (n.d.). *Mark T. Morman, Ph.D. - Vita*. Retrieved from https://www.baylor.edu/communication/doc.php/224776.pdf
+
+ Google Scholar. (n.d.). *Mark T. Morman*. Retrieved from https://scholar.google.com/citations?user=9g6p4OUAAAAJ&hl=en
+
+ Semantic Scholar. (1998). *The measurement of affectionate communication*. Retrieved from https://www.semanticscholar.org/paper/The-measurement-of-affectionate-communication-Floyd-Morman/2acf8f4478ca4f88832df48169a21186
+
+ Taylor & Francis Online. (2009, May 21). *The measurement of affectionate communication*. Communication Quarterly, 46(2), 144-162. Retrieved from https://www.tandfonline.com/doi/abs/10.1080/01463379809370092
+
+ Research.com. (n.d.). *Kory Floyd: Psychology H-index & Awards - Academic Profile*. Retrieved from https://research.com/u/kory-floyd
+
+ Floyd, K. (n.d.). *The Lonely States of America: Prevalence and Demographic Risk Factors for Affection Deprivation among U.S. Adults*. Retrieved from https://www.koryfloyd.com/s/Floyd-Morman-2022-JSP-published.pdf
+
+ ResearchGate. (2025, August). *Affectionate communication, health, and relationships*. Retrieved from https://www.researchgate.net/publication/382992383_Affectionate_communication_health_and_relationships
+
+ Floyd, K. (2020, August 12). *Affectionate communication and health: A meta-analysis*. Retrieved from https://www.koryfloyd.com/s/Hesse-et-al-2020-JOC-published.pdf
+
+ DeepDyve. (2023, March 1). *Affection deprivation is more aversive than excessive affection: A test of affection exchange theory*. Personal Relationships. Retrieved from https://www.deepdyve.com/lp/wiley/affection-deprivation-is-more-aversive-than-excessive-affection-a-M64D5lYl0l
+
+ ProQuest. (n.d.). *Testing the Effects of an Affectionate Communication Intervention to Bolster Mental Health during the COVID-19 Pandemic*. Retrieved from https://www.proquest.com/openview/12d083163156291244e3966567115849/1
+
+ Ovid. (n.d.). *Fathers' and sons' reports of fathers' affectionate...*. Retrieved from https://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=psyc&NEWS=N&AN=2005-13271-001

@@ -1,0 +1,38 @@
+## 1. Official Abstract
+"We examine the extent of the Status Quo Bias (SQB) in a real-world repeated decision situation. Individuals who are subject to a SQB tend to choose an alternative that was chosen previously (i.e. their status quo), even if it is not the optimal choice any more. We examine the US equity mutual fund market and find strong evidence for the existence of a SQB in this market. Furthermore, the SQB is more severe in segments where there are more funds to choose from. Thereby, we deliver the first empirical confirmation of the experimental result of Samuelson and Zeckhauser (1988), that the SQB positively depends on the number of alternatives."
+
+## 2. Core Insights & Analysis
+The full text of the working paper was accessible, allowing for a detailed synopsis organized by the paper's original sections.
+
+### Introduction
+The introduction establishes the concept of Status Quo Bias (SQB), where individuals prefer to stick with a previous choice, even when it is no longer the optimal one. The authors note that while SQB has been demonstrated in experiments, empirical evidence from real-world scenarios is limited. The paper aims to fill this gap by investigating two main questions: 1) Does SQB exist in the decisions of mutual fund investors? and 2) Does the intensity of this bias depend on the number of available alternatives? The U.S. mutual fund industry is presented as an ideal setting for this study due to the large number of options available to investors and the repeated nature of their investment decisions. The paper's primary contribution is to empirically show that SQB not only exists but its effect is magnified as the number of choices increases.
+
+### Theoretical Background and Hypotheses
+This section reviews the existing literature on the status quo bias, tracing it back to the foundational work of Samuelson and Zeckhauser (1988). The authors discuss the psychological underpinnings of SQB, such as regret avoidance, cognitive dissonance, and the effort required to switch from a default option. A key experimental finding highlighted is that the bias becomes stronger as the number of alternatives grows. This leads to the paper's central hypothesis: "The greater the number of alternatives offered, the more pronounced the SQB is." In the context of the mutual fund market, this means investors are more likely to stick with their current fund (the status quo) when they are in a market segment with a larger number of other funds to choose from.
+
+### Data and Methodology
+The study uses data on U.S. equity mutual funds from the CRSP Survivor-Bias-Free Mutual Fund Database, covering the period from 1995 to 2002. The sample is restricted to funds with at least one year of return history and a minimum of $15 million in assets. To measure investor inertia or SQB, the authors analyze the relationship between the money flowing out of a fund in one period and the money flowing into it in the next. Their core idea is that if investors are rational, outflows from a poorly performing fund should not be followed by significant inflows. However, if investors exhibit SQB, a portion of the money that flows out will automatically flow back in, as investors stick with their previous choice.
+
+The methodology involves a two-stage regression analysis. In the first stage, they estimate the "normal" fund flow based on factors like past performance, risk, and fund age. The unexplained part of the fund flow (the residual) is then used in the second stage. In this second stage, they test whether the previous period's fund outflow can predict the current period's "abnormal" inflow. A positive relationship would indicate the presence of SQB. To test the main hypothesis, funds are sorted into quartiles based on the number of funds in their market segment (defined by investment objective).
+
+### Empirical Results
+The results provide strong support for the existence of status quo bias. The regression analysis shows a statistically significant positive relationship between a fund's outflows in one quarter and the abnormal inflows it receives in the following quarter. This suggests that a substantial portion of money leaving a fund flows back in, which is attributed to investor inertia.
+
+Crucially, the analysis confirms the paper's main hypothesis. The strength of the SQB is shown to be directly related to the number of available alternatives. For funds in the quartile with the fewest alternatives (fewer than 25), the bias is present but smaller. In contrast, for funds in the quartile with the most alternatives (more than 100), the status quo bias is approximately three times larger. This finding is robust across various model specifications, including controls for momentum effects and different measures of fund flow. The authors conclude that when faced with a larger choice set, investors are more likely to default to their existing investment, demonstrating a stronger SQB.
+
+### Conclusion
+The paper concludes that there is strong empirical evidence of status quo bias among U.S. mutual fund investors. The study's key contribution is demonstrating that the magnitude of this bias is positively correlated with the number of alternatives available to the investor. When the number of choices is large, the cognitive burden of making a new decision increases, leading investors to stick with their current fund, even if it might be suboptimal. This provides the first real-world, empirical confirmation of an effect previously documented primarily in experimental settings.
+
+## 3. Sources
+ IDEAS/RePEc, *Status quo bias and the number of alternatives: An empirical illustration from the mutual fund industry*, https://ideas.repec.org/p/zbw/cfrwps/0507.html
+ Semantic Scholar, *Status Quo Bias and the Number of Alternatives: An Empirical Illustration from the Mutual Fund Industry*, https://www.semanticscholar.org/paper/Status-Quo-Bias-and-the-Number-of-Alternatives%3A-An-Kempf-Ruenzi/8282362b0833297a7e80a562153545164d17e57c
+ IDEAS/RePEc, *Stefan Ruenzi*, https://ideas.repec.org/e/pru10.html
+ Centre for Financial Research (CFR) - University of Cologne, *Working Paper im Forschungsbereich Investorenverhalten*, https://cfr-cologne.de/research/working-paper.html
+ ResearchGate, *Status Quo Bias and the Number of Alternatives: An Empirical Illustration from the Mutual Fund Industry | Request PDF*, https://www.researchgate.net/publication/2405963_Status_Quo_Bias_and_the_Number_of_Alternatives_An_Empirical_Illustration_from_the_Mutual_Fund_Industry
+ EconStor, *Status quo bias and the number of alternatives: An empirical illustration from the mutual fund industry*, https://www.econstor.eu/handle/10419/57747
+ Wikipedia, *Status quo bias*, https://en.wikipedia.org/wiki/Status_quo_bias
+ Journal of Business Strategy Finance and Management, *Biases in Managerial Decision Making: Overconfidence, Status Quo, Anchoring, Hindsight, Availability*, https://www.bussecon.com/ojs/index.php/jbsfm/article/view/189
+ ResearchGate, *Conflicts of Interest and Competition in the Mutual Fund Industry*, https://www.researchgate.net/publication/240596_Conflicts_of_Interest_and_Competition_in_the_Mutual_Fund_Industry
+ ResearchGate, *(PDF) Analysis of the Status Quo Behavioural Concept During the Global Economic Crisis*, https://www.researchgate.net/publication/344265415_Analysis_of_the_Status_Quo_Behavioural_Concept_During_the_Global_Economic_Crisis
+ Journal of Finance and Accounting, *Decision Making in Financial Markets: A Thematic Review and Discussion*, https://www.macrothink.org/journal/index.php/ajfa/article/view/17498
+ Google Scholar, *Stefan Ruenzi*, https://scholar.google.com/citations?user=x_q-3RIAAAAJ&hl=en

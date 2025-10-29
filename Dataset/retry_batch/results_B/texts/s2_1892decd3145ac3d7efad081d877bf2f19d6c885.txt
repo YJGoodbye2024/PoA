@@ -1,0 +1,38 @@
+## 1. Official Abstract
+"_**Please note:** A direct verbatim abstract from the publisher was not available. The following text is the introductory paragraph of the paper which serves as an abstract._"
+
+"There is a considerable amount of evidence that when individuals are faced with decisions involving the continuance or discontinuance of a previously initiated course of action, sunk costs count. A sunk cost, as defined by Arkes and Blumer (1985), involves any prior investment of 'money, effort, or time' (p. 124). Sunk cost effects on decision-making are, of course, irrational from the perspective of both classical economic and normative decision theories, where individuals are assumed to evaluate decision alternatives on the basis of incremental gains and losses. By definition, any sunk cost related to some course of action is a constant, whether or not one chooses to continue the action; thus, consideration of sunk costs should not enter into decisions to continue or abandon an activity. The typical situation in which sunk cost effects are observed is one in which some decisionmaker is faced with the choice of withdrawing from a course of action, where an initial investment has been made and returns have not resulted in recovery of that investment, or making an additional investment in order to continue with the action. It is our belief that the influence of sunk costs on the perceived utilities of persistence and withdrawal is to some extent a function of the way individuals organize and process information in their decision-making behavior."
+
+## 2. Core Insights & Analysis
+Full text was not accessible through direct institutional channels, but a comprehensive version of the paper was located, allowing for the following synopsis organized by the paper's apparent structure.
+
+### Introduction & Theoretical Background
+The paper investigates why decision-makers are influenced by sunk costs, which are prior, unrecoverable investments of money, effort, or time. From a rational economic perspective, sunk costs should be ignored, as decisions should only be based on future incremental gains and losses. However, extensive evidence shows that people do factor these past costs into their choices.
+
+The authors propose that this phenomenon can be explained through the lens of Kahneman and Tversky's prospect theory, specifically the concept of "mental accounting." They argue that individuals create mental accounts for specific projects, and the sunk cost is evaluated relative to a reference point, such as the total project budget. The core hypothesis is that the *relative* size of the sunk cost (its proportion of the total budget) has a more significant impact on the decision to persist with a project than the *absolute* dollar amount of the sunk cost.
+
+### Experiments
+Two experiments were conducted to test this hypothesis. Both experiments involved presenting subjects with different decision problems where the absolute and relative magnitudes of sunk costs were manipulated independently.
+
+*   **Experiment 1:** The subjects were undergraduate business students.
+*   **Experiment 2:** The subjects were MBA students who participated voluntarily.
+
+In each scenario, participants were asked to state the probability that they would commit the remaining funds to continue a course of action they had initiated.
+
+### Results
+The findings were described as "very consistent" across both experiments. The key result was that the **relative magnitude** of the sunk cost had a significant and strong impact on the subjects' reported likelihood of continuing the project. In contrast, the **absolute magnitude** (the specific dollar amount) of the sunk cost showed no significant effect on their decisions.
+
+This supports the idea that decision-makers are influenced not by the sheer amount of money already spent, but by how that amount compares to a reference point, like the total budget.
+
+### Discussion/Conclusion
+The results strongly support the authors' hypothesis, which is rooted in prospect theory. The study concludes that sunk cost effects are heavily influenced by the "topical organization of mental accounts." When a sunk cost represents a large portion of a project's budget, decision-makers are more likely to persist, seemingly to protect the initial investment and see the "account" through to completion. This happens regardless of the absolute value of that investment. The findings suggest that the way information is framed and mentally categorized is a crucial underlying factor in the sunk cost fallacy.
+
+## 3. Sources
+ Semantic Scholar, "Effects of absolute and relative sunk costs on the decision to persist with a course of action," https://api.semanticscholar.org/CorpusID:18085481, Accessed October 27, 2025.
+ IDEAS/RePEc, "Effects of absolute and relative sunk costs on the decision to persist with a course of action," https://ideas.repec.org/a/eee/jobhdp/v48y1991i1p55-69.html, Accessed October 27, 2025.
+ Google Scholar, "Howard Garland," https://scholar.google.com/citations?user=... (URL truncated for privacy), Accessed October 27, 2025.
+ National Center for Biotechnology Information, "The Sunk-Time Effect: An Exploration - PMC," https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2873321/, Accessed October 27, 2025.
+ International Journal of Psychological Research, "Loss Aversion as a Potential Factor in the Sunk-Cost Fallacy," https://revistas.usb.edu.co/index.php/ijpr/article/view/3691/3181, Accessed October 27, 2025.
+ ResearchGate, "The sunk cost effect in pigeons and people: A case of within-trials contrast?," https://www.researchgate.net/publication/326804706_The_sunk_cost_effect_in_pigeons_and_people_A_case_of_within-trials_contrast, Accessed October 27, 2025.
+ Gwern.net, "Effects of Absolute and Relative Sunk Costs on the Decision to Persist with a Course of Action," https://gwern.net/doc/psychology/1991-garland.pdf, Accessed October 27, 2025.
+ Stanford University, "UNK the , . of and in," https://nlp.stanford.edu/fsnlp/wsj/attachment/1987-2000.txt/UNK, Accessed October 27, 2025.

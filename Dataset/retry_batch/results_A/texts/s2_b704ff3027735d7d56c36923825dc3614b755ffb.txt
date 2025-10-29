@@ -1,0 +1,34 @@
+## 1. Official Abstract
+"Human cognition is often biased, from judgments of the time of impact of approaching objects all the way through to estimations of social outcomes in the future. We propose these effects and a host of others may all be understood from an evolutionary psychological perspective. In this article, we elaborate error management theory (EMT; Haselton & Buss, 2000). EMT predicts that if judgments are made under uncertainty, and the costs of false positive and false negative errors have been asymmetric over evolutionary history, selection should have favored a bias toward making the least costly error. This perspective integrates a diverse array of effects under a single explanatory umbrella, and it yields new content-specific predictions."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis. The core of the paper argues that many cognitive biases are not flaws in mental design, but rather adaptive features shaped by natural selection to make the less costly error in situations of uncertainty. The authors refer to this as the "paranoid optimist" phenomenon, where it is advantageous to be paranoid in some domains and optimistic in others, depending on the evolutionary costs of judgment errors.
+
+### Introduction: The "Paranoid Optimist"
+The paper opens by contrasting two common pieces of folk wisdom: "better safe than sorry" and "nothing ventured, nothing gained." The authors propose that these contradictory ideas capture the essence of human psychology, which can be simultaneously cautious and risk-taking. This leads to the concept of the "paranoid optimist," a mind that has evolved to make specific, predictable errors in judgment. The central thesis is that cognitive biases, often seen as design flaws, may actually be "a functional feature of mechanisms for making judgments and decisions" when viewed through an evolutionary lens.
+
+### Error Management Theory (EMT)
+The theoretical foundation of the paper is Error Management Theory (EMT). EMT is derived from signal detection theory and posits that judgment systems are designed to manage errors, not to be perfectly accurate. When making a decision under uncertainty, two types of errors can occur: a false positive (believing something is true when it is not) and a false negative (believing something is not true when it is).
+
+The core principle of EMT is that "if the costs of these two types of error have been recurrently asymmetric over evolutionary history, selection will favor a bias toward making the less costly error." A classic example is interpreting a rustle in the grass: it could be a dangerous snake (requiring flight) or just the wind. The cost of a false negative (assuming it's wind when it's a snake) is death, while the cost of a false positive (fleeing from the wind) is a small expenditure of energy. Therefore, a bias toward assuming the presence of a snake is adaptive.
+
+### Applications of the Error Management Framework
+The authors apply this framework to explain a wide range of documented cognitive biases:
+
+*   **Perceptions of Danger and Auditory Looming:** Humans judge approaching sounds to be arriving sooner than receding sounds that are equidistant. This "auditory looming" bias is adaptive because the cost of underestimating the arrival of a threat is far greater than the cost of overestimating it.
+*   **Interpersonal Perception and Mating:** The paper highlights biases in "mind-reading" between sexes. Citing prior work, it notes that men tend to overperceive women's sexual interest. From an EMT perspective, the reproductive cost for a man of missing a sexual opportunity (a false negative) was historically higher than the cost of a rejected advance (a false positive). Conversely, women are proposed to have a bias toward under-perceiving a potential partner's commitment, as the cost of being deceived and abandoned with a child (a false positive for commitment) was immense.
+*   **Self-Related Biases (The "Optimist"):** The paper addresses why people exhibit positive illusions, such as being unrealistically optimistic and holding overly favorable views of their own qualities. The authors argue that these biases are also products of error management. In social competition, the costs of being overly cautious and failing to act (a false negative about one's own ability) can be greater than the costs of being overconfident and occasionally failing (a false positive). This "functional optimism" can lead to greater effort, persistence, and ultimately, higher achievement. This explains the "optimist" side of the "paranoid optimist" model, where individuals are "predicting paranoia about the environment but optimism about the self."
+
+### Conclusion
+Haselton and Nettle conclude that the error management framework provides a powerful, integrative model for understanding why human cognition is systematically biased. Rather than being design defects, these biases can be seen as "design features" that evolved to produce advantageous outcomes in an uncertain world with asymmetric error costs. The theory explains existing biases and predicts where, in domains not yet studied, new biases might be discovered by analyzing the ancestral costs of false-positive versus false-negative errors.
+
+## 3. Sources
+ Semantic Scholar. *The Paranoid Optimist: An Integrative Evolutionary Model of Cognitive Biases*. URL: https://www.semanticscholar.org/paper/The-Paranoid-Optimist%3A-An-Integrative-Evolutionary-Haselton-Nettle/132b9c2398c8c51506544ab63953d6333903d65b
+ ResearchGate. *(PDF) The Paranoid Optimist: An Integrative Evolutionary Model of Cognitive Biases*. URL: https://www.researchgate.net/publication/7185889_The_Paranoid_Optimist_An_Integrative_Evolutionary_Model_of_Cognitive_Biases
+ PubMed. *The paranoid optimist: an integrative evolutionary model of cognitive biases*. URL: https://pubmed.ncbi.nlm.nih.gov/16430328/
+ Haselton, M. G. *Home Page*. URL: https://www.martiehaselton.com/
+ Nettle, D. *The Paranoid Optimist: An Integrative Evolutionary Model of Cognitive Biases (Full-Text PDF)*. URL: https://www.staff.ncl.ac.uk/daniel.nettle/paranoid%20optimist.pdf
+ Google Scholar. *Martie Haselton Profile*. URL: https://scholar.google.com/citations?user=L42Z3s4AAAAJ&hl=ko&oi=ao
+ Newcastle University ePrints. *The Paranoid Optimist : An Integrative Evolutionary Model of Cognitive Biases*. URL: https://eprint.ncl.ac.uk/pub_detail.aspx?pub_id=29505
+ Semantic Scholar. *[PDF] The Evolution of Cognitive Bias*. URL: https://www.semanticscholar.org/paper/The-Evolution-of-Cognitive-Bias-Haselton-Nettle/b2203c3933c0a597a7605963f4614f2c90220643
+ ResearchGate. *(PDF) The evolution of cognitive bias*. URL: https://www.researchgate.net/publication/284179007_The_evolution_of_cognitive_bias

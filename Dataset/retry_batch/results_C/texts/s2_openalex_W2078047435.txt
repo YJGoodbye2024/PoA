@@ -1,0 +1,46 @@
+## 1. Official Abstract
+> Speculations supported by empirical observations are offered concerning different memory systems (procedural, semantic, and episodic) and corresponding varieties of consciousness (anoetic, noetic, and autonoetic), with special emphasis on episodic memory and autonoetic consciousness as its necessary correlate. Evidence relevant to these speculations is derived from a case study of an amnesic patient who is conscious in some ways but not in others, as well as from simple experiments on recall and recognition by normal subjects.
+
+A French version of the abstract is also available:
+> "Cet article présente plusieurs conjectures soutenues par des observations cmpiriqucspertinentes quant aux différents systémes de mémoire (systéme de régles, mémoire semantique, mémoire épisodique) et aux différents types de conscience qui y correspondent (conscience "anoétique", "noétique", "autonoétique"). L'emphase porte surtout sur la mémoire épisodique et la conscience autonoétique qui lui est associée. Les donnćes pertinentes á ces conjectures proviennent d'une étude de cas d'un patient amnésique qu'on ne peut dire conscient que de certaines façons seulement, et proviennent aussi de simples expériences sur le rappel et la reconnaissance conduites avec des sujets normaux."
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on analyses and citations of the paper in other academic works.
+
+Endel Tulving's 1985 paper, "Memory and consciousness," is a foundational text that formally proposes a hierarchical relationship between memory systems and distinct forms of consciousness. It builds upon his earlier distinction between episodic and semantic memory, introducing a tripartite classification of memory and linking each system to a unique level of conscious awareness. The paper's central thesis is that different memory systems are accompanied by different kinds of consciousness, with a special focus on the unique properties of episodic memory.
+
+### Three Memory Systems and Their Corresponding Forms of Consciousness
+Tulving proposed a model with three memory systems: procedural, semantic, and episodic. Each is associated with a specific form of consciousness:
+*   **Procedural Memory & Anoetic Consciousness:** Procedural memory is the system responsible for skills and learned behaviors (e.g., riding a bike). Tulving associates this with **anoetic** (non-knowing) consciousness. This form of consciousness is limited to the current situation; the organism can respond to its environment but lacks internal awareness or knowledge of the information it possesses.
+*   **Semantic Memory & Noetic Consciousness:** Semantic memory pertains to general knowledge of the world—facts, concepts, and language. This system is linked to **noetic** (knowing) consciousness. This allows for an awareness of information and facts about the world, but this awareness is impersonal and does not involve recollection of the experience of learning that information.
+*   **Episodic Memory & Autonoetic Consciousness:** Episodic memory is the system that allows for the remembrance of personally experienced events, situated in a specific time and place. Tulving argues this is uniquely accompanied by **autonoetic** (self-knowing) consciousness. This is the paper's most significant contribution, defining a form of consciousness that enables "mental time travel." It is the capacity to mentally re-experience one's personal past and to project oneself into a potential future. This form of remembering is a conscious experience of one's "protracted existence across subjective time."
+
+### The Centrality of Autonoetic Consciousness and Episodic Memory
+The paper places special emphasis on the relationship between episodic memory and autonoetic consciousness, suggesting the latter is a necessary component of the former. To remember a past event is not just to know that it happened, but to be consciously aware of oneself re-experiencing that event. This concept of "reliving" an experience is central to the definition of episodic memory.
+
+To empirically ground this distinction, Tulving introduced the "Remember/Know" paradigm. This procedure asks participants to report whether they "remember" the specific context of learning an item (an autonoetic judgment, reflecting episodic memory) or simply "know" that the item is familiar without specific recollection (a noetic judgment, reflecting semantic memory).
+
+### Evidence from Amnesia: The Case of Patient K.C.
+A significant portion of the paper's argument is supported by evidence from neuropsychology, particularly the case study of the amnesic patient K.C. K.C. suffered brain damage that resulted in a severe impairment of his episodic memory, while his semantic memory remained largely intact. He could learn new facts but could not remember any personal experiences from his past, nor could he imagine his own future. Tulving used this dissociation to argue that episodic memory is a distinct system from semantic memory. K.C. possessed noetic consciousness (he knew facts) but lacked autonoetic consciousness (he could not mentally place himself in the past or future). This case provided powerful evidence that one form of memory-related consciousness could be lost while another remained, supporting the proposed taxonomy.
+
+In summary, "Memory and consciousness" established a pivotal framework for understanding memory not just as a storage system, but as an integral component of conscious experience. It posited that the act of remembering is multifaceted and that the ability to travel mentally in time (autonoetic consciousness) is the defining, and uniquely human, characteristic of the episodic memory system.
+
+## 3. Sources
+ https://api.semanticscholar.org/CorpusID:145398563
+ https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Endel+Tulving&btnG=
+ https://link.springer.com/article/10.1007/BF00346399
+ https://www.researchgate.net/publication/145398563_MEMORY_AND_CONSCIOUSNESS
+ https://typeset.io/papers/memory-and-consciousness-2f0g0j0j
+ https://www.alicekim.ca/wp-content/uploads/2022/02/Tulving_1985_Memory-and-Consciousness.pdf
+ https://www.sciencedirect.com/science/article/pii/S002839321100037X
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4478330/
+ https://typeset.io/papers/memory-and-consciousness-1k4b2q4k3l
+ https://www.cell.com/trends/cognitive-sciences/pdf/S1364-6613(14)00205-0.pdf
+ https://www.taylorfrancis.com/books/mono/10.4324/9781315106012/memory-consciousness-brain-endel-tulving
+ https://www.tandfonline.com/doi/full/10.1080/17470218.2021.1916362
+ https://www.tandfonline.com/doi/pdf/10.1080/17470218.2021.1916362
+ https://pubmed.ncbi.nlm.nih.gov/25606713/
+ https://www.researchgate.net/publication/25606713_Autonoetic_consciousness_Reconsidering_the_role_of_episodic_memory_in_future-oriented_self-projection
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2659601/
+ https://www.researchgate.net/figure/Tulvings-1985-representation-of-remembering-and-knowing-Test-items-differ-in-episodic_fig1_228807908
+ https://www.cambridge.org/core/books/abs/cambridge-handbook-of-consciousness/three-forms-of-consciousness-in-retrieving-memories/8573FE870B1D450700508B5139038234

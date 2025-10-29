@@ -1,0 +1,58 @@
+Based on a deep analysis of available academic sources, the work you have specified is identified as Milton Rokeach's seminal 1960 book, **"The Open and Closed Mind: Investigations into the Nature of Belief Systems and Personality Systems."** The reference to "Book Reviews" and the year 1961 likely stems from a review published a year after the book's original release.
+
+Here is the detailed analysis of the target work.
+
+## 1. Official Abstract
+
+While the book does not contain a formal abstract in the modern sense, the following synopsis from a 2015 facsimile reprint and the author's own introduction accurately capture its purpose and scope.
+
+A bookseller's synopsis states: "Based on intensive studies this work probes deeply into the nature of prejudice and dogmatic thinking. In so doing, it sheds light on the processes by which man constructs and organizes his systems of belief and on the relation between an individual's patterns of belief and his underlying personality structure."
+
+In the book's introduction, Rokeach sets the stage for his investigation: "This book is addressed to all those who, for one reason or another, have had occasions to reflect on the nature of their own belief systems and that of others." He clarifies his focus is not on the *content* of a belief, but the *structure* of the belief system itself: "If we focus on ideological structure rather than content, our own ideological biases become more irrelevant. If we do have an ax to grind, it will be with certain ways of adhering to a particular ideology. The ax we frankly grind is simply this: it is not so much what you believe that counts, but how you believe."
+
+## 2. Core Insights & Analysis
+
+Full text was not accessible in a parsable format. The following is a detailed interpretation and critical analysis synthesized from authoritative academic and scholarly sources that have examined the book's core concepts.
+
+### Introduction and Primary Goal
+
+*The Open and Closed Mind* was a groundbreaking work in social psychology that followed in the tradition of studies like *The Authoritarian Personality* by Adorno et al. However, Rokeach sought to correct what he saw as a major limitation in prior research, which tended to conflate authoritarianism with right-wing or fascist ideologies. Rokeach's primary objective was to create a framework for understanding dogmatism that was independent of any specific ideological content. He argued that a person could hold liberal beliefs in a dogmatic, intolerant way, just as a person could hold conservative beliefs with an open mind. The book's central thesis is that the structural properties of a person's belief system—how it is organized and how it functions—are more revealing than the specific content of those beliefs.
+
+### The Open and Closed Mind
+
+Rokeach's core contribution is the distinction between open and closed belief systems, which exist on a continuum.
+
+*   **The Open Mind:** An individual with a more open belief system is able to receive, evaluate, and act on new information based on its own intrinsic merits. They can adapt their beliefs in response to new evidence and are more tolerant of differing viewpoints. This cognitive flexibility allows for the synthesis of new and contradictory information.
+
+*   **The Closed Mind (Dogmatism):** A closed belief system is characterized by the rejection of information, not because it is inherently wrong, but because it conflicts with one's existing beliefs or originates from a distrusted source. Rokeach defines dogmatism as a "relatively closed cognitive organization of beliefs and disbeliefs about reality." This cognitive state is marked by rigidity, certainty, and an inability to integrate contradictory beliefs. Dogmatic thinking is often driven by a need to defend against threat, leading to intolerance and a reliance on absolute authority.
+
+### The Structure of Belief Systems
+
+Rokeach proposed a complex structure for how belief systems are organized.
+
+1.  **The Central-Peripheral Dimension:** Not all beliefs are created equal. Beliefs vary along a central-peripheral dimension. **Central beliefs** are the most fundamental and resistant to change; altering them would cause widespread repercussions throughout the entire belief system. **Peripheral beliefs** are less consequential and more easily changed.
+2.  **Primitive Beliefs:** At the innermost core are "primitive beliefs," which represent a person's basic truths about physical reality, social reality, and the self. These are often taken for granted and are extremely resistant to change.
+3.  **The Belief-Disbelief System:** Rokeach conceptualized a person's total cognitive framework as a "belief-disbelief system." This includes not only the beliefs a person accepts but also the entire set of disbeliefs they reject. In a closed system, the disbelief system is seen as a monolithic threat, and there is little differentiation among opposing viewpoints.
+
+### The Role of Authority
+
+For the dogmatic or closed-minded individual, authority becomes the primary arbiter of truth. Information is evaluated not on its logical merit but on the basis of its source. High dogmatics tend to rely heavily on the pronouncements of authorities they trust and reject information from those they do not. This reliance on authority acts as a "screening process" for new information, protecting the closed system from being challenged.
+
+## 3. Sources
+
+ Jean-Pierre Deconchy's analysis of Milton Rokeach's work. (2024, August 11). *vertexaisearch.cloud.google.com*.
+ Coser, L. A. (1960). The Open and Closed Mind, by Milton Rokeach. *Commentary Magazine*.
+ Rokeach, M. (1968). *Beliefs, attitudes, and values: a theory of organization and change*. Jossey-Bass.
+ Book Review-Beliefs, Attitudes, and Values: A Theory of Organization and Change. (2025, August 11). *vertexaisearch.cloud.google.com*.
+ Klineberg, O. (1960). The Open and Closed Mind: Investigations into the Nature of Belief Systems and Personality Systems, by Milton Rokeach. *Political Science Quarterly*.
+ Rokeach, M. (2015). *The Open and Closed Mind: Investigations into the Nature of Belief Systems and Personality Systems*. AbeBooks. (Reprint of 1960 Edition).
+ Rokeach, M. (1960). The Open and Closed Mind: Investigations into the Nature of Belief Systems and Personality Systems. *Scientific Research Publishing*.
+ A re-examination of certain aspects of Rokeach's study on dogmatism. *vertexaisearch.cloud.google.com*.
+ The open and closed mind: A review of dogmatism. (2025, September 27). *ResearchGate*.
+ Rokeach, M. (1968). *Beliefs, Attitudes, and Values: A Theory of Organization and Change*. Google Books.
+ Rokeach, M. (1960). The Open and Closed Mind Investigations into the Nature of Belief Systems and Personality Systems. *Scientific Research Publishing*.
+ The Self and the Other in the Dogmatic Discourse: The Cognitive and Emotional Structure of the Authoritarian and Destructive Personality. (2023, December 28). *ALBAHITH ALALAMI*.
+ Draper, S. E. (n.d.). Dogmatic Orientations Toward Worldly and Otherworldly Authority. *Baylor University*.
+ On Open and Closed Minds: a talk in the honour of Victoria Chick. *Post-Keynesian Economics Society*.
+ Rokeach, M. (1960). *The Open and Closed Mind*. (PDF).
+ A Comparative Study of Belief Systems of College Students Majoring in Different Fields. *CORE*.

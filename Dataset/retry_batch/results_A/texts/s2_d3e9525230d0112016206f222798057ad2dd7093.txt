@@ -1,0 +1,37 @@
+## 1. Official Abstract
+The ways in which the John R. P. French, Jr., & Bertram H. Raven bases-of-power model has evolved are described. Six bases of power were originally proposed: coercion, reward, legitimacy, expert, reference, & informational. Coercive & reward power were further differentiated into personal & impersonal forms. Legitimate power was seen as including the power of reciprocity, of equity, & of dependence. A power/interaction model is presented that follows the sequence of motivation for influence, assessment of available bases of power, preparatory actions, deployment of power, assessment of the effects of the influence attempt, & consequences for the relationship between the agent & target.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on an analysis of reliable third-party and secondary academic sources.
+
+Bertram Raven's 1992 paper, "A power/interaction model of interpersonal influence: French and Raven thirty years later," represents a significant evolution of the foundational 1959 "Bases of Social Power" theory. The original model identified six key bases of power: Coercive, Reward, Legitimate, Referent, Expert, and Informational. The 1992 paper introduces a more complex and dynamic framework called the "Power/Interaction Model of Interpersonal Influence."
+
+This updated model moves beyond a simple typology of power bases to describe the process of influence as a sequence of rational decisions made by the influencing agent. The agent is depicted as a decision-maker who assesses the situation, their own motivations, and the potential costs and benefits before choosing an influence strategy.
+
+Key developments in the Power/Interaction Model include:
+*   **Expansion and Differentiation of Power Bases:** The model refines the original six bases into a more nuanced set of eleven. This was achieved by differentiating the existing categories. For instance, Reward and Coercive power were each split into "personal" and "impersonal" forms. Legitimate power was expanded to include Legitimacy of Position, Reciprocity, Equity, and Dependence.
+*   **A Sequential Model of Influence:** The paper presents influence as a multi-stage process. This sequence involves the agent's initial motivation to influence, an assessment of the power bases available to them, preparatory actions, the actual deployment of a power strategy, and an evaluation of the outcome. This process also considers the long-term consequences for the relationship between the agent and the target.
+*   **Shift from Power Bases to Influence Process:** The focus shifts from a static list of power sources to the dynamic, interpersonal process of using that power. The model outlines the cognitive steps an influencer might take, thereby providing a guide for selecting the most appropriate form of social power for a given scenario.
+
+Subsequent research has built directly upon this 1992 model. For example, new measurement instruments, such as the Interpersonal Power Inventory (IPI), were developed to assess the eleven expanded bases of power proposed by Raven. The distinction between "soft" power bases (like Expert and Informational) and "harsh" ones (like Coercion) became a key element in analyzing influence tactics in various settings, including schools and organizations. The model thus provided a more sophisticated theoretical foundation for empirical research into how social influence operates in practice.
+
+## 3. Sources
+ GESIS - Leibniz Institute for the Social Sciences. (n.d.). *A Power/Interaction Model of Interpersonal Influence: French and Raven Thirty Years Later*. sowiport. https://sowiport.gesis.org/search/id/csa-sa-93Z4338
+
+ Scientific Research Publishing. (n.d.). *Raven, B. H. (1992). A power/interaction model of interpersonal influence. Journal of Social Behavior and Personality, 7, 217-244*. https://www.scirp.org/(S(i43dyn45teexjx455qlt3d2q))/reference/referencespapers.aspx?referenceid=1389255
+
+ School of Social and Political Science. (n.d.). *Social Power Social Power*. University of Edinburgh. https://www.sps.ed.ac.uk/sites/default/files/2020-10/Power%20Syllabus%202018.pdf
+
+ ResearchGate. (n.d.). *Bases of leader power and effectiveness | Request PDF*. https://www.researchgate.net/publication/319220976_Bases_of_leader_power_and_effectiveness
+
+ GESIS - Leibniz Institute for the Social Sciences. (n.d.). *From Power to Action*. sowiport. https://sowiport.gesis.org/search/id/gesis-solis-00366601
+
+ The Decision Lab. (n.d.). *Expert Power*. https://thedecisionlab.com/reference-guide/organizational-psychology/expert-power
+
+ ResearchGate. (n.d.). *School Psychologist and Teacher Perceptions of Social Power in Consultation | Request PDF*. https://www.researchgate.net/publication/329580879_School_Psychologist_and_Teacher_Perceptions_of_Social_Power_in_Consultation
+
+ Calaméo. (n.d.). *The Concise Corsini Encyclopedia of Psychology and Behavioral Science*. https://www.calameo.com/books/0054553335238290f631f
+
+ F1000Research. (2024). *Social influence and external feedback control in humans*. https://f1000research.com/articles/12-438/v2
+
+ Cambridge University Press. (n.d.). *Parent–child conversations (Part II) - Talking about Right and Wrong*. https://www.cambridge.org/core/books/abs/talking-to-children/parentchild-conversations-part-ii-talking-about-right-and-wrong/6E16B6C3314A0A485899732B03889158

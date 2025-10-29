@@ -1,0 +1,44 @@
+## 1. Official Abstract
+A motion picture which shows movements of three geometrical figures was the material of the investigation. It was presented to a first group of 34 Ss with the instruction to describe it; to a second group (36 Ss) with the instruction to interpret the movements as actions of persons and to answer a number of questions relating to them. A third group (44 Ss) was treated like the second except that the picture was shown in reverse and with fewer questions. The reports show that all but one S of Group I, all of Group II, and all but two of Group III interpreted the picture in terms of actions of animated beings, chiefly of persons. These results show the possibility of investigating thus the perception of behavior of persons. The stimulus has many geometrical and temporal features which can be defined in an exact way and which can be varied infinitely. The tentative analysis of the answers to the questionary seems also to point to the great importance which causal interpretation plays in the organization of the events into a story. A few events stand out and are seen by all Ss in the same way; these events are organized into a meaningful whole which contains causal centers (persons).
+
+## 2. Core Insights & Analysis
+Full text was accessible for synopsis. The analysis is structured according to the paper's implied sections.
+
+### **Introduction & Aims**
+Heider and Simmel's paper, "An Experimental Study of Apparent Behavior," published in the *American Journal of Psychology* in 1944, sought to investigate how people perceive and interpret the behavior of others. The authors noted that while studies on judging emotions from facial expressions existed, they often neglected the importance of the "situation." The primary aim was to shift the focus from the *correctness* of a person's judgment to understanding how interpretations are dependent on specific "stimulus-configurations." Instead of showing a face out of context, the experiment presented a situation defined by movement, providing a new method for studying the attribution of intentions and personality.
+
+### **Methodology**
+The core of the experiment was a short, silent animated film featuring simple geometric shapes: a large triangle (T), a small triangle (t), and a circle (c). These figures moved around a screen that also contained a large rectangle with a section that could open and close like a door or gate.
+
+The researchers presented the film to three distinct groups of participants under different instructions:
+*   **Group 1 (34 participants):** This group was given the general instruction to simply "write down what happened in the picture."
+*   **Group 2 (36 participants):** This group was explicitly prompted to view the shapes as people, asked to interpret their movements as actions, and then answer specific questions about their personalities and what happened.
+*   **Group 3 (44 participants):** This group was shown the film played in reverse and was given instructions similar to Group 2.
+
+### **Results**
+The findings were remarkably consistent across the groups, revealing a profound tendency to anthropomorphize the shapes.
+*   **Spontaneous Social Interpretation:** Nearly all participants, regardless of the instructions, described the film using social and human-like narratives. In the first group, only one participant described the scene in purely geometric terms. In the second group, all participants provided social interpretations. In the third group (with the reversed film), only two participants stuck to geometric descriptions.
+*   **Consistent Narratives:** The stories were not random. A dominant narrative emerged in which the large triangle (T) was characterized as an aggressive "bully." This character was often seen chasing the small triangle (t) and the circle (c), who were perceived as a couple or friends trying to escape. The small triangle was frequently cast as the "hero" and the circle as the "damsel in distress."
+*   **Attribution of Motives and Personality:** Participants attributed intentions, emotions, and personalities to the shapes based entirely on their movements. For example, the large triangle's actions were described as "fighting" and being "relentless," while the other two shapes' rapid movements were seen as "escaping." The act of the large triangle forcing its way out of the rectangle was interpreted as rage and frustration.
+
+### **Discussion and Conclusion**
+Heider and Simmel concluded that the perception of behavior is fundamentally about causal interpretation. The movements of the shapes were not seen as random but were organized into a meaningful story with the shapes acting as causal centers, akin to persons with intentions. The study powerfully demonstrated that humans have a strong, almost automatic tendency to attribute social meaning and intentionality to even the most abstract moving objects. This landmark experiment laid a foundational stone for modern social psychology, particularly in the fields of attribution theory and Theory of Mind, by showing how readily we project a social world onto ambiguous stimuli.
+
+## 3. Sources
+ https://pubmed.ncbi.nlm.nih.gov/16472813/
+ https://www.semanticscholar.org/paper/An-experimental-study-of-apparent-behavior-Heider-Simmel/350583091b3260a9757393435345750318625488
+ https://www.scirp.org/reference/referencespapers?referenceid=2712952
+ https://minddevlab.yale.edu/sites/default/files/files/The%20perceived%20intentionality%20of%20groups.pdf
+ https://www.all-about-psychology.com/an-experimental-study-of-apparent-behavior.html
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2024.1388835/full
+ https://arxiv.org/pdf/2502.12098
+ https://finder.mines.edu/record=b3803874
+ https://en.wikipedia.org/wiki/Anthropomorphism
+ https://www.youtube.com/watch?v=wp8t_b2t3gI
+ https://academic.oup.com/scan/article/8/5/459/1648003
+ https://www.youtube.com/watch?v=sB6N0_2H2a8
+ https://www.youtube.com/watch?v=l_I95cE82A4
+ https://www.youtube.com/watch?v=VTzTMi-yCg0
+ https://www.reddit.com/r/todayilearned/comments/htj697/til_we_are_designed_to_create_stories_as_soon_as/
+ https://www.youtube.com/watch?v=8FIE_9To43A
+ https://gwern.net/doc/psychology/1944-heider.pdf

@@ -1,0 +1,44 @@
+## 1. Official Abstract
+"It is unclear whether positive emotionality in general, or some specific positive emotions (e.g. other-oriented ones), but not others (e.g. self-oriented and, possibly, stimulus-oriented ones), enhance prosocial thoughts, dispositions, and behavior. We focus here on awe and argue that, although being primarily stimulus-oriented and not necessarily social in its very nature, awe should enhance prosociality for several theoretical reasons. In replicating and extending previous initial research, we found in two online experiments that the induction of awe (video clip or recall), compared to the induction of amusement or a neutral condition, leads to increased prosocial behavioral intentions of generosity (spontaneous sharing of hypothetical gains) and help of a person in need – in hypothetical everyday life situations. Awe’s effect on prosociality was independent from participants’ religiosity (in both experiments) but seemed to be clearer for those in need of such affective stimulation, i.e. less agreeable participants (Experiment 2)."
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis structured according to the paper's original sections.
+
+### **Introduction**
+The authors begin by questioning whether all positive emotions uniformly promote prosocial behavior or if specific emotions have distinct effects. They note that while other-oriented positive emotions like compassion and elevation are known to foster prosociality, the impact of a stimulus-oriented emotion like awe is less clear. Awe is defined by its two core components: a sense of vastness and the need for cognitive accommodation. The paper posits several theoretical reasons why awe, despite not being inherently social, should enhance prosociality. These reasons include awe's ability to diminish the self, increase feelings of connectedness, and promote a broader, more existential outlook on life. The authors aim to replicate and extend initial findings by testing if awe, compared to amusement (a different positive emotion) and a neutral state, increases generosity and helping behaviors.
+
+### **Experiment 1**
+The first experiment was designed to test whether inducing awe would increase generosity compared to amusement and a neutral condition.
+
+*   **Methods:** 120 participants were recruited online and randomly assigned to one of three conditions: awe, amusement, or neutral. The awe and amusement conditions involved watching 3-minute video clips (depicting vast natural landscapes for awe and funny animal clips for amusement), while the neutral condition involved watching a video about the history of watches. Immediately after, participants' emotional states were measured to confirm the videos elicited the intended feelings. Prosociality was then measured through a "spontaneous sharing task" where participants were told they had won a lottery and could hypothetically share any percentage of their winnings with other, less fortunate participants.
+*   **Results:** The manipulation was successful; participants in the awe condition reported significantly more awe, while those in the amusement condition reported more amusement. Crucially, participants who experienced awe were significantly more generous, choosing to share a larger portion of their hypothetical winnings compared to participants in both the amusement and neutral conditions. This effect was not influenced by the participants' religious beliefs.
+
+### **Experiment 2**
+The second experiment aimed to replicate the findings of the first using a different method of inducing awe and a different measure of prosociality. It also investigated the potential moderating role of the personality trait "agreeableness."
+
+*   **Methods:** This online experiment involved 129 participants. This time, emotions were induced through a recall task: participants were asked to write about a time they felt awe, a time they felt amused, or about their daily routine (neutral condition). Prosociality was measured by assessing their willingness to help an unknown person in need across five different hypothetical scenarios (e.g., giving directions, helping someone who fell). Participants also completed a personality questionnaire to measure agreeableness.
+*   **Results:** The awe induction again proved effective. Participants in the awe condition reported a significantly higher willingness to help across the five situations compared to those in the neutral and amusement conditions. Interestingly, the effect of awe on helping was particularly pronounced for individuals who scored lower on agreeableness. The authors suggest that "awe seemed to be clearer for those in need of such affective stimulation, i.e. less agreeable participants." As in the first experiment, religiosity did not impact the results.
+
+### **General Discussion**
+In the final section, the authors conclude that their findings from two experiments provide robust evidence that the emotion of awe causally increases prosocial intentions, specifically generosity and helping. They emphasize that awe's effect is distinct from that of general positive affect, as the positive emotion of amusement did not produce the same increase in prosociality.
+
+The paper highlights that awe promotes prosocial behavior by making the self feel smaller and more connected to a larger collective, a concept supported by concurrent research from Piff et al. (2015). The finding that less agreeable individuals were more affected by the awe induction suggests that awe can be a powerful tool for stimulating prosocial feelings in those who are not naturally predisposed to it. The authors propose that future research could explore the long-term effects of experiencing awe and its potential applications in fostering a more altruistic society.
+
+## 3. Sources
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549289/
+ https://www.mdpi.com/2076-328X/12/6/179
+ https://scholar.google.com/citations?user=d_x7a-EAAAAJ&hl=th&oi=sra
+ https://dial.uclouvain.be/pr/boreal/object/boreal:235252/datastream/PDF_01/view
+ https://www.semanticscholar.org/paper/Awe's-effects-on-generosity-and-helping-Prade-Saroglou/52f074b1a5db4645b7b02b588420c2ae
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2019.01246/full
+ https://www.tandfonline.com/doi/full/10.1080/17439760.2015.1127992
+ https://www.tandfonline.com/doi/abs/10.1080/17439760.2015.1127992
+ https://www.researchgate.net/publication/290442348_Awe's_effects_on_generosity_and_helping
+ https://www.frontiersin.org/articles/10.3389/fpsyt.2021.649347/full
+ https://soar.suny.edu/handle/20.500.12648/12061
+ https://trace.tennessee.edu/utk_chanhonoproj/2503
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2024.1329241/full
+ https://scottbarrykaufman.com/wp-content/uploads/2018/07/j.1754-0739.2010.01012.x-1.pdf
+ https://repository.ubn.ru.nl/bitstream/handle/2066/212876/212876.pdf
+ https://www.proquest.com/openview/18146747141544257125345091761005/1?pq-origsite=gscholar&cbl=18750&diss=y
+ https://www.semanticscholar.org/paper/Awe-and-Prosocial-Behavior%3A-The-Mediating-Role-of-Li-Li/52174697950c4436531390f7797745778848d085

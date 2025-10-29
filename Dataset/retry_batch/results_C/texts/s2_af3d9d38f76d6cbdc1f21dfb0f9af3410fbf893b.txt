@@ -1,0 +1,45 @@
+## 1. Official Abstract
+> Respondents evaluated the thought disorder in vocabulary definitions that had ostensibly been obtained from patients at two different mental hospitals. In some experiments, a preliminary "induction series" of definitions was presented to establish a clear stereotype concerning the relative intellectual quality of the two hospital populations. To establish extreme stereotypes, the definitions from one hospital were consistently more bizarre and thought-disordered than those from the other. Moderate stereotypes were established by replacing some of the extreme definitions with midscale definitions. Following this induction series, respondents selected the more pathological definition in a series of midscale test pairs (one definition in each pair was said to come from a patient at Metropolitan Hospital, the other from a patient at Central). Moderate hospital stereotypes yielded clear evidence of assimilation; that is, the test definition that seemed to emanate from the more disturbed of the two hospital populations was regarded as more pathological than the definition with which it had been paired. Stereotypes that were extreme (and, hence, more distant from the midscale test items) yielded contrast effects.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on an analysis of citing scholarly works.
+
+The 1988 paper by Melvin Manis, Thomas E. Nelson, and Jonathan Shedler, "Stereotypes and social judgment: Extremity, assimilation, and contrast," is a foundational study in social cognition that investigates the conditions under which stereotypes influence our judgments of individuals. The central thesis is that the psychological "distance" between a stereotype and a specific observation determines whether our judgment will assimilate toward the stereotype or contrast away from it.
+
+#### **Assimilation vs. Contrast Effects**
+
+The core of the paper is the exploration of two opposing ways stereotypes can affect judgment:
+
+*   **Assimilation Effect:** This occurs when a judgment about an individual is pulled toward the perceiver's stereotype of the group to which that individual belongs. For example, if a person holds a stereotype that a certain group is unintelligent, they might judge a moderately intelligent member of that group as less intelligent than they actually are. The study found that moderate stereotypes, which are not vastly different from the target being judged, lead to assimilation. In this scenario, the stereotype acts as a lens through which the individual is viewed, coloring the perception to be more in line with the pre-existing belief.
+
+*   **Contrast Effect:** This is the opposite phenomenon, where a judgment about an individual is pushed away from the perceiver's stereotype. This happens when the stereotype is extreme and the individual being judged is only moderately different from it. For instance, if someone holds an extremely aggressive stereotype about a group, a member of that group who displays mild assertiveness might be perceived as even less aggressive than they are, because they are being contrasted with the extreme expectation. The stereotype, in this case, serves as a stark background, making the individual's moderate qualities stand out as different.
+
+#### **Experimental Design and Findings**
+
+To test this, Manis and his colleagues conducted experiments where participants were asked to evaluate the level of "thought disorder" in vocabulary definitions supposedly written by patients from two different mental hospitals.
+
+1.  **Inducing Stereotypes:** The researchers first created stereotypes about the two hospitals. An "extreme" stereotype was induced by showing participants definitions from one hospital that were consistently bizarre and thought-disordered, while definitions from the other were normal. A "moderate" stereotype was created by mixing in some less extreme examples.
+
+2.  **Testing Judgments:** After establishing these stereotypes, participants were presented with pairs of new, mid-scale definitions (one from each "hospital") and asked to judge which was more pathological.
+
+The key finding was that participants who were primed with a **moderate** stereotype showed an **assimilation effect**. They rated the definition from the "more disturbed" hospital as more pathological, even when it was paired with a comparable definition from the other hospital. Conversely, participants primed with an **extreme** stereotype displayed a **contrast effect**; the new, moderately disordered definitions seemed less pathological when compared against the extreme examples they had seen earlier.
+
+#### **Significance and Impact**
+
+This study was significant because it helped to reconcile seemingly contradictory findings in the literature on stereotyping. It demonstrated that stereotypes do not always lead to biased judgments in a straightforward, assimilative way. Instead, their effect is nuanced and depends on the extremity of the stereotype and its relationship to the specific person or behavior being evaluated.
+
+The paper is frequently cited in research on social judgment, particularly in discussions of how context and expectations shape perception. For example, it provides a framework for understanding why a woman who is moderately assertive might be perceived as extremely so (a contrast effect) if the observer holds a strong stereotype of women as passive. The concepts of assimilation and contrast explored by Manis, Nelson, and Shedler have been influential in the development of later models of social cognition, such as the "shifting standards model," which further explains how we use different benchmarks to judge members of different stereotyped groups.
+
+In essence, the paper provides a critical insight: the influence of a stereotype is not a simple, one-way street. The interaction between the stereotype and the reality of the individual being judged determines the outcome, leading to judgments that can either conform to or diverge from the initial stereotype.
+
+## 3. Sources
+ Manis, M., Nelson, T. E., & Shedler, J. (1988). Stereotypes and social judgment: Extremity, assimilation, and contrast. *Journal of Personality and Social Psychology, 55*(1), 28–36. Abstract available at: https://psycnet.apa.org/record/1988-33304-001
+ Wilson, A. E., & Hugenberg, K. (2010). Affective Assimilation and Contrast: Effects of Expectations and Prior Stimulus Exposure. *Basic and Applied Social Psychology, 27*(2), 145-157. Available at: https://www.tandfonline.com/doi/abs/10.1207/s15324834basp2702_5
+ ResearchGate. (n.d.). *Stereotypes and Social Judgment: Extremity, Assimilation, and Contrast*. Retrieved October 28, 2025, from https://www.researchgate.net/publication/232519914_Stereotypes_and_Social_Judgment_Extremity_Assimilation_and_Contrast
+ Johnston, L., & Hewstone, M. (1992). Previous Conceptions of the Typical Group Member and the Contact Hypothesis. *European Journal of Social Psychology, 22*(4), 387-404. Available at: https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.2420220407
+ Giurge, L. M., & van Dijke, M. (2022). Gender Differences in the Perceived Behavior of Narcissistic Leaders. *Frontiers in Psychology, 13*, 809193. Available at: https://www.frontiersin.org/articles/10.3389/fpsyg.2022.809193/full
+ Bhattacharjee, S., Moreno, K. K., & Wright, A. M. (2012). Auditors' Judgment Errors When Working on Multiple Tasks and in Multiple Client Environments: A Research Summary and Practice Implications. *Current Issues in Auditing, 6*(2), P12-P19. Available at: https://meridian.allenpress.com/cia/article/6/2/P12/189332/Auditors-Judgment-Errors-When-Working-on-Multiple
+ Giurge, L. M., & van Dijke, M. (2022). Gender Differences in the Perceived Behavior of Narcissistic Leaders. *PMC - NIH*. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8959902/
+ ResearchGate. (n.d.). *Melvin MANIS | University of Michigan, Ann Arbor | U-M | Department of Psychology | Research profile*. Retrieved October 28, 2025, from https://www.researchgate.net/profile/Melvin-Manis
+ Sinclair, A. (1997). Maintaining the rage: from “glass and concrete ceilings” and metaphorical sex changes to psychological audits and renegotiating organizational scripts ‐ part 1. *Gender in Management, 12*(5), 182-195. Available at: https://www.emerald.com/insight/content/doi/10.1108/09684889710176041/full/html
+ Biernat, M. (2012). Stereotypes and Shifting Standards. *Oregon State University Libraries and Press*. Available at: https://open.oregonstate.education/socialpsychology/chapter/stereotypes-and-shifting-standards/

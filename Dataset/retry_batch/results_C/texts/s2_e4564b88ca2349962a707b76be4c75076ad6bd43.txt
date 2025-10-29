@@ -1,0 +1,37 @@
+## 1. Official Abstract
+" The Sunk cost effect is manifested in a greater tendency to continue an endeavor once an investment in money, effort, or time has been made. Evidence that the psychological justification for this behavior is predicated on the desire not to appear wasteful is presented. In a field study, customers who had initially paid more for a season subscription to a theater series attended more plays during the next 6 months, presumably because of their higher sunk cost in the season tickets. Several questionnaire studies corroborated and extended this finding. It is found that those who had incurred a sunk cost inflated their estimate of how likely a project was to succeed compared to the estimates of the same project by those who had not incurred a sunk cost. The basic sunk cost finding that people will throw good money after bad appears to be well described by prospect theory (D. Kahneman & A. Tversky, 1979, Econometrica, 47, 263–291). Only moderate support for the contention that personal involvement increases the sunk cost effect is presented. The sunk cost effect was not lessened by having taken prior courses in economics. Finally, the sunk cost effect cannot be fully subsumed under any of several social psychological theories." ([Source](https://www.researchgate.net/publication/222896334_The_psychology_of_sunk_cost))
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis of the paper's core sections.
+
+### **Introduction**
+The paper introduces the sunk cost effect, which is the tendency to continue an endeavor after an investment of money, effort, or time has been made. The authors posit that the primary psychological driver for this behavior is the desire to avoid appearing wasteful. They provide a hypothetical example adapted from Thaler (1980): a couple who, despite bad weather and feeling unwell, decide to attend a basketball game because they have already paid for the tickets and do not want to "waste the twelve dollars". The paper outlines that its analysis will proceed in three stages: demonstrating the sunk cost effect through various studies, investigating its potential causes, and exploring its theoretical boundaries.
+
+### **Questionnaire Studies**
+Arkes and Blumer conducted a series of ten questionnaire-based experiments to demonstrate the sunk cost phenomenon. Key findings from these studies include:
+*   **Study 1:** 54% of subjects who were asked to assume they had spent $100 on a ski trip to Michigan and later found a better, cheaper trip to Wisconsin for $50, chose the less enjoyable Michigan trip. In contrast, when the initial trip was free, only 33% chose the less enjoyable option.
+*   **Study 3:** When asked to imagine being a plane company president who has invested $10 million in a research project for a radar-blank plane, 85% of participants chose to invest the final 10% of the budget even after learning a competitor had already produced a superior model. When no prior investment had been made, only 17% chose to invest.
+*   **Study 5 & 6:** The sunk cost effect was not significantly lessened for individuals who had taken courses in economics, suggesting that formal economic training on the irrelevance of sunk costs does not necessarily prevent the bias.
+*   **Study 7:** Participants who had hypothetically invested in a project rated its likelihood of success significantly higher than those who had not invested, suggesting that sunk costs can distort judgment about future outcomes.
+
+### **Field Experiment: The Theater Study**
+To test the sunk cost effect in a real-world setting, the researchers tracked the attendance of patrons at the Ohio University Theater series over a six-month period. Patrons had purchased season tickets at one of three price points: full price ($15), a $2 discount, or a $7 discount. The central finding was that those who paid more for their tickets attended more plays. This supports the hypothesis that the higher financial investment (sunk cost) created a stronger impetus to use the tickets to avoid the feeling of having wasted money.
+
+### **General Discussion**
+In the final section, the authors consolidate their findings and discuss the underlying psychology. They conclude that the "desire not to be wasteful" is a powerful motivator behind the sunk cost effect. The results are interpreted through the lens of Kahneman and Tversky's prospect theory, suggesting that the initial investment establishes a mental account that is yet to be "closed." Continuing the endeavor is seen as the only way to close this account and avoid registering a certain loss.
+
+The authors also consider and find limited support for other explanations, such as cognitive dissonance or self-justification. They note that the effect is robust, appearing across a variety of contexts and not being significantly mitigated by expertise in economics.
+
+## 3. Sources
+ https://coglode.com/concepts/sunk-cost-effect
+ https://thedecisionlab.com/reference-guide/psychology/the-psychology-of-sunk-cost
+ https://www.semanticscholar.org/paper/The-Psychology-of-Sunk-Cost-Arkes-Blumer/699c3633893a0d760d332205545a98a0c2834b67
+ https://scholar.google.com/citations?user=G-f6kFIAAAAJ&hl=en
+ https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/sunk-cost-fallacy/
+ https://www.researchgate.net/publication/222896334_The_psychology_of_sunk_cost
+ https://www.scirp.org/reference/referencespapers?referenceid=2753046
+ https://dergipark.org.tr/en/pub/ad/issue/55024/668407
+ https://www.coursehero.com/file/199852277/The-Psychology-of-Sunk-Cost-Arkes-and-Blumer-1985pdf/
+ https://www.tandfonline.com/doi/abs/10.1080/23792981.2019.1656839
+ https://docs.iza.org/dp13428.pdf
+ https://www.scirp.org/reference/referencespapers?referenceid=2938814

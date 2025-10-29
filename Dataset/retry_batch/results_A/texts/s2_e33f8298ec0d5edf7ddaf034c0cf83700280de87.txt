@@ -1,0 +1,39 @@
+A deep search for the specified paper has been completed. Below is the retrieved information, structured according to the task directive.
+
+## 1. Official Abstract
+> Determined conditions under which people infer their attitudes directly from their behavior. 72 female undergraduates were given false physiological feedback which was either consistent or inconsistent with a prior attitude. In addition, Ss either expected or did not expect the attitude to have important consequences for their future behavior. When attitudes were reassessed, type of feedback was only weakly related to use of feedback as a basis for one's attitude. However, it was clear that Ss used the feedback as a basis for their attitude only when they expected no future consequences to result from their attitudes.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on the abstract and analysis from related academic literature.
+
+### Detailed Interpretation
+
+**Context and Theory:**
+Shelley E. Taylor's 1975 paper, "On inferring one's attitudes from one's behavior: Some delimiting conditions," is a significant contribution to the field of social psychology, specifically within the domains of self-perception and attitude formation. The research investigates the boundaries of Daryl Bem's self-perception theory, which posits that people sometimes infer their own attitudes by observing their own behavior and the context in which it occurs, much as they would infer the attitudes of others. Taylor's study sought to identify specific conditions that limit or "delimit" this process.
+
+**Experimental Design:**
+The study was conducted as a laboratory experiment involving 72 female undergraduate students. The methodology centered on providing participants with manipulated, false physiological feedback about their reactions. This feedback was designed to be either consistent or inconsistent with an attitude they had previously expressed. This technique creates a situation where the participant's behavior (in this case, their supposed physiological response) is at odds with their pre-existing attitude.
+
+A crucial second variable was introduced: the perceived future relevance of the attitude. Participants were divided into two groups:
+1.  One group was led to believe that their attitude would have important consequences for their future behavior.
+2.  The other group was led to expect no such future consequences.
+
+**Core Findings:**
+The central finding of the experiment was that the process of inferring one's attitude from one's behavior is not universal; it is critically moderated by the perceived implications of that attitude for the future.
+
+The study found that participants only significantly used the false behavioral feedback to redefine their attitudes when they believed there were **no future consequences** attached to holding that attitude. In other words, when an attitude was perceived as low-stakes and not predictive of future actions or outcomes, individuals were more likely to adjust their stated attitude to align with their observed (albeit manipulated) behavior.
+
+Conversely, when participants expected their attitude to have important future ramifications, they were far less likely to be swayed by the behavioral feedback. The initial, pre-existing attitude held more weight under these conditions. The type of feedback (whether it was consistent or inconsistent with their prior attitude) had only a weak effect on the outcome, underscoring that the primary "delimiting condition" was the expectation of future relevance.
+
+**Conclusion and Impact:**
+Taylor's research provides a crucial qualification to self-perception theory. It demonstrates that individuals do not passively infer attitudes from behavior in all situations. The cognitive process is more discerning, taking into account the functional value and future implications of the attitude in question. When an attitude matters for the future, people appear to rely on more stable, internal sources of information rather than simply observing their recent behavior. This paper is frequently cited in discussions of attitude-behavior consistency, cognitive dissonance, and the processes by which past actions influence future beliefs and decisions.
+
+## 3. Sources
+ American Psychological Association. (n.d.). *On inferring one's attitudes from one's behavior: Some delimiting conditions*. APA PsycNet. Retrieved October 29, 2025, from https://psycnet.apa.org/record/1975-10601-001
+ Azar, B. (2010). Profile of Shelley E. Taylor. *Proceedings of the National Academy of Sciences*, *107*(46), 19653–19655. https://www.pnas.org/doi/10.1073/pnas.1015736107
+ Wikipedia. (n.d.). *Shelley E. Taylor*. Retrieved October 29, 2025, from https://en.wikipedia.org/wiki/Shelley_E._Taylor
+ Albarracín, D., & Wyer, R. S. (2000). The Cognitive Impact of Past Behavior: Influences on Beliefs, Attitudes, and Future Behavioral Decisions. *Journal of Personality and Social Psychology*, *79*(1), 5–22. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4500278/
+ Gaes, G. G., Kalle, R. J., & Tedeschi, J. T. (1978). Forgetting as an Impression Management Strategy in the Forced-Compliance Situation. *The Journal of Social Psychology*, *114*(1), 15-22.
+ Petty, R. E. (n.d.). *Richard E. Petty C.V.* Retrieved October 29, 2025, from https://u.osu.edu/petty.1/files/2014/09/vita-10-14-16-2e87d9f.pdf
+ ResearchGate. (n.d.). *On inferring one's attitudes from one's behavior: Some delimiting conditions*. Retrieved October 29, 2025, from a URL similar to https://www.researchgate.net/publication/232535008_On_inferring_one's_attitudes_from_one's_behavior_Some_delimiting_conditions
+ Various Authors. (n.d.). Citations of "On inferring one's attitudes from one's behavior: Some delimiting conditions". Retrieved October 29, 2025, from various academic sources citing the paper.

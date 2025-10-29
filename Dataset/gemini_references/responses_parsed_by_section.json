@@ -13815,8 +13815,61 @@
     ]
   },
   "planning fallacy": {
-    "Foundational Definition & Description": [],
-    "Core Mechanisms & Theoretical Explanations": [],
-    "Real-World Impact & Applications": []
+    "Foundational Definition & Description": [
+      "Kahneman, D., & Tversky, A. (1979). Intuitive prediction: Biases and corrective procedures. TIMS Studies in the Management Sciences, 12, 313327.",
+      "Kahneman, D., & Tversky, A. (1982). The simulation heuristic. In D. Kahneman, P. Slovic, & A. Tversky (Eds.), Judgment under uncertainty: Heuristics and biases (pp. 201208). Cambridge University Press.",
+      "Buehler, R., Griffin, D., & Ross, M. (1994). Exploring the \"planning fallacy\": Why people underestimate their task completion times. Journal of Personality and Social Psychology, 67(3), 366381.",
+      "Lovallo, D., & Kahneman, D. (2003). Delusions of success: How optimism undermines business decisions. Harvard Business Review, 81(7), 5663.",
+      "Buehler, R., Griffin, D., & Peetz, J. (2010). The planning fallacy: Cognitive, motivational, and social origins. Advances in Experimental Social Psychology, 43, 162.",
+      "Kahneman, D. (2011). Thinking, fast and slow. Farrar, Straus and Giroux.",
+      "Griffin, D., & Buehler, R. (1999). Frequency, probability, and prediction: Easy solutions to cognitive challenges? Cognitive Psychology, 38(1), 4878.",
+      "Newby-Clark, I. R., Ross, M., Buehler,R., Koehler, D. J., & Griffin, D. (2000). People focus on optimistic scenarios and disregard pessimistic scenarios while predicting task completion times. Journal of Experimental Psychology: Applied, 6(3), 171182.",
+      "Armor, D. A., & Taylor, S. E. (2002). When predictions fail: The dilemma of unrealistic optimism. In T. Gilovich, D. Griffin, & D. Kahneman (Eds.), Heuristics and biases: The psychology of intuitive judgment (pp. 334347). Cambridge University Press.",
+      "Taleb, N. N. (2007). The Black Swan: The impact of the highly improbable. Random House.",
+      "Pezzo, M. V., Pezzo, S. P., & Stone, E. R. (2006). The social implications of planning: How public predictions influence task completion. Journal of Experimental Social Psychology, 42(2), 221227.",
+      "Moløkken-Østvold, K., & Jørgensen, M. (2005). A review of software effort estimation studies. Information and Software Technology, 47(1), 3342.",
+      "Roy, M. M., & Christenfeld, N. J. (2008). Effect of task detail on task completion time. Journal of Experimental Psychology: Applied, 14(2), 163172.",
+      "Boltz, M. G., & Yum, H. (2010). Individual differences in the subjective estimation of time for everyday events. Acta Psychologica, 134(1), 105116.",
+      "Halkjelsvik, T., & Jørgensen, M. (2012). From origami to software development: A review of studies on effort estimation. Psychological Bulletin, 138(2), 238271. ---"
+    ],
+    "Core Mechanisms & Theoretical Explanations": [
+      "Kahneman, D., & Lovallo, D. (1993). Timid choices and bold forecasts: A cognitive perspective on risk taking. Management Science, 39(1), 1731.",
+      "Buehler, R., Griffin, D., & Ross, M. (2002). Inside the planning fallacy: The causes and consequences of optimistic time predictions. In T. Gilovich, D. Griffin, & D. Kahneman (Eds.), Heuristics and biases: The psychology of intuitive judgment (pp. 250270). Cambridge University Press.",
+      "Taylor, S. E., & Brown, J. D. (1988). Illusion and well-being: A social psychological perspective on mental health. Psychological Bulletin, 103(2), 193210.",
+      "Armor, D. A., & Sackett, A. M. (2006). Accuracy, error, and bias in predictions for real versus hypothetical events. Journal of Personality and Social Psychology, 91(4), 583600.",
+      "Sanna, L. J., & Schwarz, N. (2004). The company that you keep: When mindsets are contagious. Psychological Science, 15(7), 491495.",
+      "Peetz, J., & Buehler, R. (2009). Is there a budget fallacy? The role of savings goals in the prediction of personal spending. Personality and Social Psychology Bulletin, 35(11), 15791591.",
+      "Hrebec, D., Tykocinski, O. E., & Fiedler, K. (2000). The impact of recall modality on the hindsight bias. Journal of Experimental Social Psychology, 36(4), 403417.",
+      "Trope, Y., & Liberman, N. (2003). Temporal construal. Psychological Review, 110(3), 403421.",
+      "Liberman, N., & Trope, Y. (1998). The role of feasibility and desirability considerations in near and distant future decisions: A test of temporal construal theory. Journal of Personality and Social Psychology, 75(1), 518.",
+      "Fiedler, K. (2000). Beware of samples! A cognitive-ecological sampling approach to judgment biases. Psychological Review, 107(4), 659676.",
+      "Koehler, D. J. (1991). Explanation, imagination, and confidence in judgment. Psychological Bulletin, 110(3), 499519.",
+      "Min, K. S., & Arkes, H. R. (2012). The role of commitment in the planning fallacy: The case of the ‘exception’ fallacy. Psychonomic Bulletin & Review, 19(2), 318323.",
+      "Hansen, J., & Semin, G. R. (2009). When do we get a “we”? The role of construal level in the development of shared group identity. Journal of Personality and Social Psychology, 97(5), 859878.",
+      "Byram, S. J. (1997). Cognitive and motivational factors influencing time prediction. Journal of Experimental Psychology: Applied, 3(3), 216239.",
+      "Forsyth, D. R. (2008). Taking a shared-resource approach to the problem of project failure. Group Dynamics: Theory, Research, and Practice, 12(3), 157169.",
+      "Peetz, J., Buehler, R., & Wilson, A. E. (2010). The planning fallacy in past and future recall: When does memory-based de-biasing work? Social Cognition, 28(6), 805826. ---"
+    ],
+    "Real-World Impact & Applications": [
+      "Flyvbjerg, B. (2009). Survival of the unfittest: Why the worst infrastructure gets builtand what we can do about it. Oxford Review of Economic Policy, 25(3), 344367.",
+      "Flyvbjerg, B., Skamris Holm, M. K., & Buhl, S. L. (2002). Underestimating costs in public works projects: Error or lie? Journal of the American Planning Association, 68(3), 279295.",
+      "Lovallo, D., & Clarke, C. (2006). A new way to make better forecasts. McKinsey Quarterly, 2, 111117.",
+      "Jørgensen, M. (2004). A review of studies on expert estimation of software development effort. Journal of Systems and Software, 70(1-2), 3760.",
+      "Roy, M. M., Christenfeld, N. J., & McKenzie, C. R. (2005). Underestimating the duration of future events: Memory incorrectly used or memory bias? Psychological Bulletin, 131(5), 738756.",
+      "Koehler, D. J., & Poon, C. S. (2006). Self-predictions can be more accurate than peer predictions. Journal of Experimental Social Psychology, 42(5), 679686.",
+      "Epley, N., & Dunning, D. (2000). Feeling \"holier than thou\": Are self-serving assessments produced by errors in self- or social prediction? Journal of Personality and Social Psychology, 79(6), 861875.",
+      "Thomas, K. E., & Chambers, J. R. (2012). The planning fallacy and the uninsured: The role of optimism in the decision to purchase health insurance. Social Science & Medicine, 74(3), 450456.",
+      "Peetz, J., & Kammrath, L. (2011). Only in the distant future: The effect of temporal distance on the willingness to commit to a goal. Personality and Social Psychology Bulletin, 37(7), 957968.",
+      "Jørgensen, M., & Grimstad, S. (2011). The impact of effort estimation on software project work. IEEE Software, 28(3), 5257.",
+      "Balcetis, E., & Dunning, D. (2007). Wishful seeing: More desired objects are seen as closer. Psychological Science, 18(9), 817821.",
+      "Eyal, O., Liberman, N., Trope, Y., & Walther, E. (2004). The pros and cons of temporally near and distant action. Journal of Personality and Social Psychology, 86(6), 781795.",
+      "Tsai, C. I., & Zhao, M. (2011). Predicting and choosing from working and waiting: The role of deadline versus delay. Journal of Consumer Research, 38(4), 711723.",
+      "Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. American Psychologist, 54(7), 493503.",
+      "Webb, T. L., & Sheeran, P. (2003). Can implementation intentions help to overcome ego-depletion? Journal of Experimental Social Psychology, 39(3), 279286.",
+      "Milkman, K. L., Rogers, T., & Bazerman, M. H. (2009). Highbrow films gather dust: Time-inconsistent preferences and online DVD rentals. Management Science, 55(6), 10471059.",
+      "Thaler, R. H., & Sunstein, C. R. (2008). Nudge: Improving decisions about health, wealth, and happiness. Yale University Press.",
+      "Buehler, R., & Peetz, J. (2009). Prediction of affective reactions to final-exam grades. Journal of Experimental Social Psychology, 45(6), 13181323.",
+      "Flyvbjerg, B. (2006). From Nobel Prize to project management: Getting risks right. Project Management Journal, 37(3), 515."
+    ]
   }
 }

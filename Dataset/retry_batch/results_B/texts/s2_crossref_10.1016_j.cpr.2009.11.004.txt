@@ -1,0 +1,95 @@
+## 1. Official 's personal copy
+Clinical Psychology Review 30 (2010) 217–237
+Contents lists available at ScienceDirect
+Clinical Psychology Review
+journal homepage: www.elsevier.com/locate/cpr
+
+Emotion-regulation strategies across psychopathology: A meta-analytic review
+Amelia Aldao a,1, Susan Nolen-Hoeksema a,⁎, Susanne Schweizer b,2
+a Department of Psychology, Yale University, 2 Hillhouse Ave, New Haven, CT 06520, United States
+b MRC Cognition and Brain Sciences Unit, 15 Chaucer Road, Cambridge, CB2 7EF, UK
+
+a r t i c l e i n f o a b s t r a c t
+
+Article history: We examined the relationships between six emotion-regulation strategies (acceptance, avoidance, problem
+Received 29 August 2009 solving, reappraisal, rumination, and suppression) and symptoms of four psychopathologies (anxiety,
+Received in revised form 12 November 2009 depression, eating, and substance-related disorders). We combined 241 effect sizes from 114 studies that
+Accepted 13 November 2009 examined the relationships between dispositional emotion regulation and psychopathology. We focused on
+dispositional emotion regulation in order to assess patterns of responding to emotion over time. First, we
+Keywords: examined the relationship between each regulatory strategy and psychopathology across the four disorders. We
+Emotion regulation found a large effect size for rumination, medium to large for avoidance, problem solving, and suppression, and
+Psychopathology
+small to medium for reappraisal and acceptance. These results are surprising, given the prominence of
+Meta-analysis
+reappraisal and acceptance in treatment models, such as cognitive-behavioral therapy and acceptance-based
+treatments, respectively. Second, we examined the relationship between each regulatory strategy and each of the
+four psychopathology groups. We found that internalizing disorders were more consistently associated with
+regulatory strategies than externalizing disorders. Lastly, many of our analyses showed that whether the sample
+came from a clinical or normative population significantly moderated the relationships. This finding underscores
+the importance of adopting a multi-sample approach to the study of psychopathology.
+© 2009 Elsevier B.V. All rights reserved.
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis of the paper's core arguments and findings, organized by its original sections.
+
+### Introduction
+The introduction establishes the growing interest in emotion regulation as a key process in the development and maintenance of psychopathology. The authors define emotion regulation as the processes by which individuals influence "which emotions they have, when they have them, and how they experience and express them." They outline six specific regulation strategies to be investigated:
+*   **Strategies theorized to be protective:** Reappraisal, problem-solving, and acceptance.
+*   **Strategies theorized to be risk factors:** Suppression (both thought and expressive), avoidance (both experiential and behavioral), and rumination.
+
+The paper poses two primary research questions for its meta-analysis:
+1.  What is the strength of the relationship between each of the six emotion-regulation strategies and psychopathology in general?
+2.  Is there specificity in the relationship between certain strategies and different types of psychopathology (namely, depression, anxiety, eating disorders, and substance-related disorders)?
+
+### Method
+The authors conducted a comprehensive literature search using PsycINFO and PubMed databases for studies published up to July 2009. Their search terms combined keywords for each of the six emotion-regulation strategies with terms for the four categories of psychopathology.
+
+To be included, studies had to be empirical, written in English, and provide sufficient statistical information to calculate an effect size (Pearson's *r*) for the relationship between a dispositional emotion-regulation strategy and symptoms of psychopathology. This process yielded 114 studies, from which 241 independent effect sizes were calculated.
+
+The meta-analytic procedure involved converting Pearson's *r* values to Fisher's *z* scores for analysis and then converting them back to *r* for interpretation. The authors used a random-effects model to account for variability between studies and assessed for publication bias using funnel plots and fail-safe N calculations. They also conducted moderator analyses to determine if factors like the type of sample (clinical vs. non-clinical) influenced the results.
+
+### Results
+The results of the meta-analysis were organized around the core research questions.
+
+**1. Overall Relationship Between Strategies and Psychopathology:**
+The analysis revealed that all six emotion-regulation strategies were significantly associated with overall psychopathology.
+*   **Rumination** showed a large mean effect size (*r* = .51), indicating a strong positive association with psychopathology.
+*   **Avoidance**, **Problem-Solving** (inversely), and **Suppression** had medium-to-large effect sizes (*r* = .36, -.33, and .30, respectively).
+*   **Reappraisal** (inversely) and **Acceptance** (inversely) showed small-to-medium effect sizes (*r* = -.25 and -.23, respectively).
+
+The authors note the "surprising" weakness of the associations for reappraisal and acceptance, given their central role in prominent therapies like CBT and acceptance-based treatments.
+
+**2. Specificity of Relationships to Different Disorders:**
+The study found that the strength of these associations varied across the different classes of disorders.
+*   **Internalizing Disorders (Depression and Anxiety):** Most emotion regulation strategies were significantly associated with symptoms of depression and anxiety. Rumination, in particular, had a consistently large effect size for both.
+*   **Externalizing Disorders (Eating and Substance-Related):** The relationships were weaker and less consistent for these disorders. For substance-related disorders, only avoidance and rumination showed a significant, albeit smaller, association. The authors suggest this indicates that "internalizing disorders were more consistently associated with regulatory strategies than externalizing disorders."
+
+**3. Moderator Analysis:**
+A key finding was the moderating effect of the sample population. The relationships between emotion-regulation strategies and psychopathology were significantly stronger in clinical samples compared to normative (non-clinical) samples for nearly all strategies analyzed. This highlights that these regulatory processes are particularly pronounced in individuals who have been diagnosed with a mental disorder.
+
+### Discussion
+The authors interpret their findings as strong evidence that emotion regulation is a significant transdiagnostic process. The consistent association of strategies like rumination, avoidance, and poor problem-solving across different disorders supports this view.
+
+They discuss the unexpectedly small effect sizes for reappraisal and acceptance, suggesting several possibilities: these strategies might be less impactful than theory suggests, their protective effects may be context-dependent, or the self-report measures used in the studies may not capture their nuances effectively.
+
+The paper also emphasizes the finding that associations are stronger in clinical populations, which "underscores the importance of adopting a multi-sample approach to the study of psychopathology."
+
+**Limitations and Future Directions:**
+The authors acknowledge several limitations, including:
+*   The reliance on cross-sectional data, which prevents causal conclusions.
+*   The use of self-report measures for both emotion regulation and psychopathology, which could inflate correlations.
+*   The grouping of related but distinct disorders (e.g., different anxiety disorders) into broad categories.
+
+They conclude by calling for future research using longitudinal and experimental designs to clarify the causal role of emotion regulation strategies in the development and maintenance of psychopathology. They also suggest a need for more nuanced investigations into how different strategies interact and operate in specific contexts and disorders.
+
+## 3. Sources
+ https://pubmed.ncbi.nlm.nih.gov/20006201/
+ https://www.researchgate.net/publication/40021969_Emotion-regulation_strategies_across_psychopathology_A_meta-analytic_review
+ https://www.semanticscholar.org/paper/Emotion-regulation-strategies-across-psychopathology%3A-Aldao-Nolen-Hoeksema/863c893a02c913501704610344485542848a60d8
+ https://ouci.dntb.gov.ua/en/works/bGlkPTgwOTM3MA==/
+ https://peplab.yale.edu/sites/default/files/files/Aldao_Nolen-Hoeksema_%26_Schweizer_2010.pdf
+ https://www.researchgate.net/publication/272379555_EMOTION_REGULATION_STRATEGIES_AS_TRANSDIAGNOSTIC_PROCESSES_A_CLOSER_LOOK_AT_THE_INVARIANCE_OF_THEIR_FORM_AND_FUNCTION
+ https://www.researchgate.net/publication/285210343_Effects_of_Emotion_Regulation_Strategies_on_Psychopathology
+ http://www.scielo.org.za/scielo.php?script=sci_nlinks&ref=2673411&pid=S2224-0020202100010000800002&lng=en
+ https://www.scribd.com/document/359286469/Aldao-Nolen-Hoeksema-Schweizer-2010-pdf
+ https://www.pnas.org/doi/pdf/10.1073/pnas.1304850110

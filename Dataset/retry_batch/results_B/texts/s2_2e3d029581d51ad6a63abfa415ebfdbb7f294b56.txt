@@ -1,0 +1,47 @@
+## 1. Official Abstract
+"Psychological studies show that most people are overconfident about their own relative abilities, and unreasonably optimistic about their futures (e.g., Shelly E. Taylor and J. D. Brown, 1988; Neil D. Weinstein, 1980). When assessing their position in a distribution of peers on almost any positive trait—like driving ability (Ola Svenson, 1981), income prospects, or longevity—a vast majority of people say they are above the average, although of course, only half can be (if the trait is symmetrically distributed). This paper explores whether optimistic biases could plausibly and predictably influence economic behavior in one particular setting—entry into competitive games or markets."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### I. Introduction
+The paper sets out to experimentally test whether overconfidence about one's relative skill leads to excessive entry into competitive markets, a phenomenon observed in the high failure rates of new businesses. The authors note that empirical data shows a majority of new businesses fail within a few years. They propose to distinguish between three potential causes for this high rate of failure:
+1.  **Rational Entry:** Entrants correctly anticipate positive profits on average.
+2.  **Competitive "Blind Spots":** Entrants understand their own skills but fail to anticipate the number of competitors, leading to unexpectedly low or negative profits.
+3.  **Overconfidence:** Entrants accurately forecast the level of competition and resulting negative average industry profits, but believe their own skill is high enough to be profitable.
+
+The study is designed to isolate the overconfidence explanation by providing subjects with enough information to forecast the number of entrants and the resulting industry-wide profit.
+
+### II. Experimental Design
+The experiment is based on a market entry game where a group of N subjects decides whether to enter a market with a known capacity, c.
+
+*   **Payoffs:** An entrant's payoff depends on the total number of entrants (E). If E > c, entrants lose money; if E < c, they make money. Staying out yields a fixed, smaller profit.
+*   **Skill vs. Randomness:** The core of the experiment lies in two conditions. In the **random-entry** condition, a subject's profit is determined by their rank, which is randomly assigned. In the **skill-based** entry condition, a subject's rank is determined by their performance on a trivia quiz or logic puzzle relative to other entrants.
+*   **Hypothesis:** The central hypothesis is that "excess entry will be greater when entry is based on skill." This is because overconfidence is about perceived skill, not luck. People tend to believe they are better than average, which should lead more people to enter when they believe their superior skill will determine the outcome.
+*   **Reference Group Neglect:** The design also tests a phenomenon the authors call "reference group neglect." Some sessions recruited subjects by explicitly stating that their earnings would depend on their skill. The authors predicted this would attract subjects who were already confident in their abilities, leading to even greater overconfidence and more excess entry, as these subjects would fail to consider that they were now competing against a group of similarly self-selected, confident individuals.
+
+### III. Results
+The experimental results strongly supported the authors' hypotheses.
+
+*   **Excess Entry in Skill-Based Conditions:** The number of entrants was significantly higher in the skill-based conditions compared to the random-entry conditions. This led to "substantial overentry," where the average number of entrants (E) consistently exceeded the market capacity (c), resulting in negative average profits for those who entered.
+*   **Overconfidence Confirmed:** Before making their entry decision, subjects were asked to forecast the total number of entrants and to estimate their own rank. In the skill-based games, most subjects who chose to enter correctly predicted that the total profit for all entrants would be negative. However, they simultaneously believed that their own skill was high enough to place them in a profitable rank. This directly confirms the overconfidence hypothesis: "Most subjects who enter think the total profit earned by all entrants will be negative, but their own profit will be positive."
+*   **Reference Group Neglect Confirmed:** The effect was most dramatic in the sessions where subjects were pre-selected for their interest in a skill-based task. In these groups, the overconfidence was magnified, leading to the most significant levels of excess entry and the largest aggregate losses. This supports the "reference group neglect" hypothesis, where individuals fail to adjust their self-assessment when the reference group becomes more competitive.
+
+### IV. Conclusion
+The paper concludes that overconfidence, specifically the overestimation of one's relative skill, is a robust and predictable cause of excess entry in competitive settings. The experimental findings are consistent with the idea that many individuals enter markets (or other competitive endeavors) even when they know the odds are against the average competitor, because they believe they are better than average.
+
+The authors suggest that this psychological bias can explain the high rates of business failure observed in the real world. The study highlights the importance of considering psychological factors in economic models of competition and entry. The concept of "reference group neglect" is introduced as a key mechanism that amplifies overconfidence, as individuals fail to appreciate that they are competing against others who are just as confident and skilled as they are.
+
+## 3. Sources
+ https://www.aeaweb.org/articles?id=10.1257/aer.89.1.306
+ https://typeset.io/papers/overconfidence-and-excess-entry-an-experimental-approach-1j7gqj2x
+ https://ideas.repec.org/a/aea/aecrev/v89y1999i1p306-318.html
+ https://www.semanticscholar.org/paper/Overconfidence-and-Excess-Entry%3A-An-Experimental-Camerer-Lovallo/f3762b217f093539201538f8734937740e53a51f
+ https://scholar.google.com/citations?user=3Qo6f44AAAAJ&hl=it&oi=ao
+ https://biblio.liuc.it/record/113115/export/xm
+ https://economics.ucsd.edu/undergraduate-program/honors-program/documents/2006-honors-theses/Camerer_Lovallo_AER_1999.pdf
+ https://www.researchgate.net/publication/23523737_Overconfidence_and_Excess_Entry_An_Experimental_Approach
+ https://www.humanityars.org/our-work/overconfidence-and-excess-entry-in-entrepreneurship
+ https://ideas.repec.org/a/ebl/ecbull/v31y2011i3p2549-2557.html
+ https://discovery.library.pdx.edu/permalink/01ALLIANCE_PSU/1plf82c/cdi_proquest_journals_211116225
+ https://www.scirp.org/reference/referencespapers?referenceid=2257088

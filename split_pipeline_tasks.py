@@ -196,7 +196,8 @@ def write_manifest(
         encoding="utf-8",
     )
 
-    principle_list = ", ".join(sorted({task.principle for task in tasks if task.principle}))
+    principle_list = ", ".join(
+        sorted({task.principle for task in tasks if task.principle}))
     readme_content = README_TEMPLATE.format(
         split_id=split_id,
         task_count=counts["tasks"],
@@ -256,7 +257,8 @@ def main() -> None:
         raise ValueError("Number of splits must be at least 1.")
 
     state = load_pipeline_state(args.pipeline_state)
-    pending = collect_pending_tasks(state, include_deep=args.include_deep, include_failed_pdf=args.include_failed_pdf)
+    pending = collect_pending_tasks(
+        state, include_deep=args.include_deep, include_failed_pdf=args.include_failed_pdf)
 
     if not pending:
         print("No pending tasks found with the requested filters.")

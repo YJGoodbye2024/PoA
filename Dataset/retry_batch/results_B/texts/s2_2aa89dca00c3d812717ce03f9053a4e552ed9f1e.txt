@@ -1,0 +1,42 @@
+An analysis of the 1999 paper, "Nonlinear Decision Weights in Choice Under Uncertainty," by George Wu and Richard Gonzalez is provided below. The paper was published in the journal *Management Science*.
+
+## 1. Official Abstract
+"in a two-stage model of choice under uncertainty. In the first stage, events are taken into subjective probability judgments, and the second stage takes probability judgments into decision weights. We then characterize the curvature of the decision weights by extending a condition employed by Wu and Gonzalez (1996) in the domain of risk to the domain of uncertainty and show that the nonlinearity of decision weights can be decomposed into subadditivity of probability judgments and the curvature of the probability weighting function. Empirical tests support the proposed two-stage model and indicate that decision weights are concave then convex. More specifically, our results lend support for a new property of subjective probability judgments, interior additivity (subadditive at the boundaries, but additive away from the boundaries), and show that the probability weighting function is inverse S-shaped as in Wu and Gonzalez (1996)."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis. Below is a synopsis organized by the paper's original sections.
+
+### Introduction
+The authors begin by noting that in real-world decisions, outcomes are tied to uncertain events, and the psychological "decision weight" of an event often differs from its objective probability. The paper aims to investigate two primary sources for this nonlinearity:
+1.  **Subadditive probability judgments**: This refers to the phenomenon where the subjective probability of an event A is greater than the increase in probability when A is added to another event B (i.e., r(A) > r(A ∪ B) - r(B)).
+2.  **Nonlinear weighting of probabilities**: This describes the tendency to overweight small probabilities and underweight medium-to-large ones, a pattern captured by an "inverse S-shaped" probability weighting function.
+
+The paper proposes a two-stage model to accommodate these factors within the framework of prospect theory. The model characterizes the decision weighting function as a composition of two separate functions: one that maps events to subjective probabilities, and a second that maps those subjective probabilities to decision weights.
+
+### A Two-Stage Model
+This section formally defines the model. The authors propose that the valuation of a prospect with uncertain events is separable in events and outcomes. They introduce a "decision weighting function" and present a condition to characterize its nonlinearity. This condition helps to "tease apart the possible sources of nonlinearity of the decision weighting function, i.e., whether the nonlinearity is due to subadditivity of probability judgments or nonlinearity of the probability weighting function." The empirical tests of this condition are expected to show an inverted U-shaped pattern, which would indicate that the decision weighting function is concave for low-probability events and convex for medium-to-high probability events.
+
+### Empirical Tests
+The core of the paper is an empirical study designed to test the proposed two-stage model. The authors conducted experiments to measure both subjective probability judgments and decision weights. The results from these tests supported the model's predictions.
+
+The findings indicated that decision weights for uncertainty exhibit a pattern of being concave and then convex. This shape is driven by two distinct psychological processes:
+1.  **Subadditivity of Subjective Probabilities**: The study's results supported a property the authors call "interior additivity," which means that subjective probability judgments are additive away from the boundaries (0 and 1) but subadditive at the boundaries.
+2.  **Inverse S-Shaped Probability Weighting Function**: The function that translates subjective probabilities into decision weights was found to be inverse S-shaped, consistent with previous research in decision making under risk. This confirms the pattern of overweighting small probabilities and underweighting larger ones.
+
+In essence, the nonlinearity in how people weigh uncertain events is not a single phenomenon but a combination of how they judge probabilities and how they transform those judgments into decision weights.
+
+### Discussion
+The authors conclude by summarizing their main contribution: decomposing the decision weighting function for uncertainty into two components—a subjective probability function and a probability weighting function. Their empirical results validate this two-stage model. The research provides a more complete picture of decision-making under uncertainty by showing how subadditive probability judgments and an inverse S-shaped weighting function combine to produce the overall shape of decision weights.
+
+## 3. Sources
+ Wu, G., & Gonzalez, R. (1999). Nonlinear Decision Weights in Choice Under Uncertainty. *Management Science*, 45(1), 74–85. https://doi.org/10.1287/mnsc.45.1.74
+ SciSpace. (n.d.). *Averting Risk in the Face of Large Losses: Bernoulli Vs...* Retrieved from https://typeset.io/papers/averting-risk-in-the-face-of-large-losses-bernoulli-vs-1y98y4c90z
+ Wu, G., & Gonzalez, R. (1999). Nonlinear Decision Weights in Choice Under Uncertainty. *ResearchGate*. Retrieved from https://www.researchgate.net/publication/23933909_Nonlinear_Decision_Weights_in_Choice_Under_Uncertainty
+ Wu, G., & Gonzalez, R. (1999). Nonlinear Decision Weights in Choice Under Uncertainty. *IDEAS/RePEc*. Retrieved from https://ideas.repec.org/a/inm/ormnsc/v45y1999i1p74-85.html
+ Google Scholar. (n.d.). *George Wu*. Retrieved from https://scholar.google.com/citations?user=G_t487sAAAAJ&hl=nl&oi=ao
+ Wu, G., & Gonzalez, R. (1999). Nonlinear decision weights in choice under uncertainty. *ProQuest*. Retrieved from https://www.proquest.com/docview/213184347
+ University of Chicago Booth School of Business. (n.d.). *George Wu*. Retrieved from https://www.chicagobooth.edu/faculty/directory/w/george-wu
+ Google Scholar. (n.d.). *George Wu*. Retrieved from https://scholar.google.com/citations?user=G_t487sAAAAJ&hl=fil&oi=ao
+ Research.com. (n.d.). *Richard Gonzalez: Psychology H-index & Awards - Academic Profile*. Retrieved from https://research.com/u/richard-gonzalez
+ Wu, G., & Gonzalez, R. (1999). Nonlinear Decision Weights in Choice Under Uncertainty. *PubsOnLine*. Retrieved from https://pubsonline.informs.org/doi/pdf/10.1287/mnsc.45.1.74
+ Semantic Scholar. (n.d.). *Figure 2 from On the Shape of the Probability Weighting Function*. Retrieved from https://www.semanticscholar.org/paper/On-the-Shape-of-the-Probability-Weighting-Function-Gonzalez-Wu/3081e741639f28038751515286e10793796d741a/figure/1

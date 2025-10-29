@@ -1,0 +1,41 @@
+## 1. Official Abstract
+"_T_hree _s_tudies _e_xamined _a_ffective, _s_elf-_e_valuative, _a_nd _b_ehavioral _r_esponses _t_o _o_bjective _a_nd _s_ocial _c_omparison _i_nformation. _I_n _t_he _f_irst _s_tudy, 437 _m_ale _a_nd _f_emale _c_ollege _u_ndergraduates _i_magined _t_hey _h_ad _a_ 30% _o_r 60% _r_isk _o_f _e_xperiencing _a_ _n_egative _e_vent _a_nd _t_hat _t_he _a_verage _p_erson's _r_isk _w_as _h_igher _o_r _l_ower. _A_ll _t_ypes _o_f _r_esponses _w_ere _s_ensitive _t_o _r_elative _b_ut _n_ot _a_bsolute _r_isk. _I_n _t_he _s_econd _s_tudy, 60 _m_ale _a_nd _f_emale _c_ollege _u_ndergraduates _l_earned _t_hat _t_hey _s_cored 40% _o_r 60% _o_n _a_ _t_ask _a_nd _t_hat _t_his _s_core _w_as _a_bove _o_r _b_elow _a_verage. _S_ubsequent _b_ehaviors _w_hose _o_utcomes _d_epended _l_argely _o_n _o_bjective _a_bility _s_till _r_eflected _a_ttention _t_o _r_elative _s_tanding. _T_his _e_ffect _o_f _c_omparative _f_eedback _w_as _s_hown _t_o _b_e _m_ediated _b_y _c_hanges _i_n _s_elf-_e_valuation. _A_ _t_hird, _f_ollow-_u_p _s_tudy _d_emonstrated _t_hat _a_ttention _t_o _c_omparative _f_eedback (_i_n _t_he _c_ontext _o_f _o_bjective _i_nformation) _h_inges _o_n _i_ts _d_esirability. _I_mplications _f_or _s_ocial _c_omparison _t_heory _a_re _d_iscussed._"
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis of the paper's core sections.
+
+### Introduction
+The paper challenges a core tenet of social comparison theory, which posits that people rely on social comparisons primarily when objective, nonsocial standards for evaluation are unavailable. The author, W. Klein, argues that even when clear objective information is present, people are highly sensitive to social comparison feedback, which significantly influences their feelings, self-evaluations, and behaviors. The research aims to demonstrate that one's relative standing against others often matters more than one's absolute, objective performance or status. The introduction posits that individuals' affective responses (feelings), self-evaluations (judgments of ability), and subsequent behaviors are powerfully shaped by whether they perceive themselves as better or worse than average, regardless of the objective numbers.
+
+### Study 1: Responses to Health Risk Information
+This study investigated how individuals react to information about their risk of a negative health event.
+
+*   **Methods:** 437 undergraduate students were asked to imagine they had either a 30% (low objective risk) or 60% (high objective risk) chance of experiencing a negative event. They were also told that the average person's risk was either higher (favorable social comparison) or lower (unfavorable social comparison) than their own. Participants then rated their affective responses (e.g., worry, relief), self-evaluations (e.g., perceived health, vulnerability), and behavioral intentions (e.g., intention to seek more information).
+*   **Results:** The findings showed that participants' responses were almost entirely driven by the social comparison information. Whether their objective risk was 30% or 60% had little to no impact on their feelings, self-perceptions, or behavioral intentions. Instead, participants who were told their risk was lower than average reported more positive feelings, better self-evaluations, and less intention to take action, while those whose risk was higher than average reported the opposite, regardless of their absolute risk level.
+
+### Study 2: Responses to Performance Feedback
+This study extended the investigation from hypothetical scenarios to actual performance feedback.
+
+*   **Methods:** 60 undergraduate students took a "social perceptiveness test." They were then given bogus feedback, being told they scored either 40% or 60% correct (objective feedback). This score was framed as being either above or below the average score of other students (social comparison feedback). Participants then rated their performance and mood, and were given a chance to engage in a related behavioral task: helping another student prepare for the same test.
+*   **Results:** As in the first study, social comparison feedback was the dominant influence. Participants who were told they scored above average rated their performance more favorably and felt better, regardless of whether their objective score was 40% or 60%. Crucially, this perception affected their behavior; those who received favorable comparative feedback were more likely to help another student. The study demonstrated that this link between social comparison and behavior was mediated by self-evaluation. Favorable comparison boosted self-evaluation, which in turn led to the helping behavior.
+
+### Study 3: The Role of Desirability
+The final study aimed to determine a boundary condition for the powerful effects of social comparison, testing whether the desirability of the feedback mattered.
+
+*   **Methods:** This study replicated the performance feedback design of Study 2 but with a key addition. After receiving objective and social comparison feedback, participants were asked how much they would be willing to pay to find out the average score on the test.
+*   **Results:** The findings demonstrated that people's interest in social comparison information is strategic. Participants who received unfavorable comparative feedback (being told they were below average) were less interested in it and less willing to pay for it. The author concludes that attention to comparative feedback, especially when objective information is available, depends on its desirability. People are keen to engage with social comparisons when the information is flattering but may disregard it when it is not.
+
+### General Discussion
+The paper concludes that objective standards are often insufficient to determine people's reactions to information about themselves. Across three studies, the consistent finding is that social comparison information exerts a powerful, and often dominant, influence on affect, self-evaluation, and behavior, even when clear objective data is available. This challenges the traditional view that social comparison is a fallback mechanism for when objective standards are absent. The research shows that people's feelings and actions are not dictated by their absolute performance or risk level, but by their perceived standing relative to others. However, this effect is not absolute; people are not passive recipients of this information. They selectively attend to comparative feedback, showing more interest when it is positive and desirable. These findings have significant implications for understanding how people interpret performance reviews, health statistics, and other everyday feedback.
+
+## 3. Sources
+ https://www.researchgate.net/publication/14294520_Objective_standards_are_not_enough_Affective_self-evaluative_and_behavioral_responses_to_social_comparison_information
+ https://thedecisionlab.com/reference-guide/psychology/social-comparison-theory
+ https://pubmed.ncbi.nlm.nih.gov/9108694/
+ https://scholar.google.com/citations?user=G4b9gYcAAAAJ&hl=en
+ https://www.researchgate.net/publication/232551525_Objective_Standards_Are_Not_Enough_Affective_Self-Evaluative_and_Behavioral_Responses_to_Social_Comparison_Information
+ https://www.cairn.info/revue-movement-and-sport-sciences-2021-2-page-1.htm
+ https://www.semanticscholar.org/paper/Flawed-Self-Assessment-Dunning-Heath/192c8584335b2120657386d94e43246193d0d12a
+ https://www.researchgate.net/publication/232551525_Affect_Generated_by_Social_Comparisons_Among_Nurses
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2021.729112/full
+ https://www.cambridge.org/core/books/abs/cambridge-handbook-of-psychology-health-and-medicine/communicating-risk/133534571A5826978513511859664673

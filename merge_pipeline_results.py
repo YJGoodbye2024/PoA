@@ -4,16 +4,18 @@ Helper script to package and merge pipeline results across machines.
 
 Usage examples:
 
-  # On remote machine after processing a split:
+  # 把机器上的结果打包到results，方便传回主机:
   python merge_pipeline_results.py prepare \
       --dataset-root Dataset/papers_info \
       --split-dir Dataset/task_splits/split_1 \
       --output Dataset/task_splits/split_1/results
 
-  # Back on the main machine, after collecting results directories:
-  python merge_pipeline_results.py apply \
-      --dataset-root Dataset/papers_info \
-      --results Dataset/task_splits/split_1/results Dataset/task_splits/split_2/results
+  # 各子机器的resultt传回后，合并到主机的Dataset:
+  python merge_pipeline_results.py apply \  
+  --dataset-root Dataset/papers_info \
+  --results Dataset/retry_batch/results_A \
+            Dataset/retry_batch/results_B \
+            Dataset/retry_batch/results_C
 """
 from __future__ import annotations
 
@@ -88,7 +90,8 @@ def subset_pipeline_state(state_path: Path, paper_keys: Sequence[str]) -> Dict[s
         else:
             missing.append(key)
     if missing:
-        print(f"[warn] Missing {len(missing)} entries in pipeline_state for provided keys.")
+        print(
+            f"[warn] Missing {len(missing)} entries in pipeline_state for provided keys.")
     return subset
 
 
@@ -136,7 +139,8 @@ def copy_artifacts(
 
 
 def write_json(path: Path, payload: Dict) -> None:
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    path.write_text(json.dumps(payload, ensure_ascii=False,
+                    indent=2), encoding="utf-8")
 
 
 def write_jsonl(path: Path, records: Iterable[Dict]) -> None:
@@ -153,7 +157,8 @@ def prepare_results(dataset_root: Path, split_dir: Path, output_dir: Path, force
 
     logs_dir = dataset_root / "logs"
     pipeline_path = logs_dir / "pipeline_state.json"
-    subset = subset_pipeline_state(pipeline_path, [spec.paper_key for spec in specs])
+    subset = subset_pipeline_state(
+        pipeline_path, [spec.paper_key for spec in specs])
     write_json(output_dir / "pipeline_state.json", subset)
 
     errors_records = filter_log(logs_dir / "errors.jsonl", specs)
@@ -250,9 +255,11 @@ def apply_results(dataset_root: Path, result_dirs: Sequence[Path]) -> Dict[str, 
             updated_keys.add(key)
 
         errors_path = result_dir / "errors.jsonl"
-        errors_appended += append_jsonl(logs_dir / "errors.jsonl", read_jsonl(errors_path))
+        errors_appended += append_jsonl(logs_dir /
+                                        "errors.jsonl", read_jsonl(errors_path))
         not_found_path = result_dir / "not_found.jsonl"
-        not_found_appended += append_jsonl(logs_dir / "not_found.jsonl", read_jsonl(not_found_path))
+        not_found_appended += append_jsonl(logs_dir /
+                                           "not_found.jsonl", read_jsonl(not_found_path))
 
         src_pdfs = result_dir / "pdfs"
         if src_pdfs.exists():
@@ -333,11 +340,14 @@ def main() -> None:
 
     args = parser.parse_args()
     if args.command == "prepare":
-        summary = prepare_results(args.dataset_root, args.split_dir, args.output, args.force)
-        print(json.dumps({"prepare_summary": summary}, ensure_ascii=False, indent=2))
+        summary = prepare_results(
+            args.dataset_root, args.split_dir, args.output, args.force)
+        print(json.dumps({"prepare_summary": summary},
+              ensure_ascii=False, indent=2))
     elif args.command == "apply":
         summary = apply_results(args.dataset_root, args.results)
-        print(json.dumps({"apply_summary": summary}, ensure_ascii=False, indent=2))
+        print(json.dumps({"apply_summary": summary},
+              ensure_ascii=False, indent=2))
     else:
         parser.print_help()
 

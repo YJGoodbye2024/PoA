@@ -1,0 +1,39 @@
+Based on a deep analysis of the specified academic paper, here are the requested findings.
+
+## 1. Official Abstract
+"In two studies, we examined the inhibition of rejection information. In Study 1, we developed a Rejection Stroop task with the purpose of measuring an attentional bias to rejection words hypothesized to characterize individuals with low self-esteem. Results indicated that people with low self-esteem experienced significantly more interference on rejection words than on acceptance words, whereas for people with high self-esteem there was no such difference. In Study 2, we developed a task to train the response of inhibiting rejection information by repeatedly identifying the smiling/accepting face in a 4 × 4 matrix of frowning faces. Results showed that after this inhibition training, people with chronic low self-esteem experienced significantly less interference on rejection words on the Rejection Stroop than their counterparts in the control condition. People with high self-esteem, on the other hand, did not exhibit different amounts of interference on rejection or acceptance words between conditions. The present findings suggest that it is possible to measure people's attentional bias to rejection and teach people skills that help them deal with negative social information."
+
+## 2. Core Insights & Analysis
+The full text was accessible for analysis. The paper was published in the *Journal of Social and Clinical Psychology* and is structured around two distinct studies designed to first measure and then modify attentional biases related to social rejection.
+
+### **Introduction**
+The authors ground their research in sociometer theory, which posits that self-esteem functions as a gauge of one's social inclusion or exclusion. According to this theory, individuals with low self-esteem are predisposed to perceive others as rejecting, while those with high self-esteem generally perceive others as accepting. This leads to a key cognitive difference: people with low self-esteem are more sensitive and attentive to potential rejection, whereas those with high self-esteem may have a protective bias that inhibits such negative information. The paper aims to first develop a tool to measure this attentional bias and then to test a method for training individuals to inhibit rejection-related information.
+
+### **Study 1: Measuring Attentional Bias**
+The first study's goal was to create and validate a tool to measure attentional bias toward social rejection.
+
+*   **Methods:** The researchers developed a "Rejection Stroop" task. This is an adaptation of the emotional Stroop task, where participants are shown words with emotional significance and asked to name the color of the ink the word is printed in, ignoring the word's meaning. Slower reaction times (interference) in naming the color of certain words indicate that the meaning of those words is capturing the participant's attention. In this study, words related to social rejection (e.g., "rejected," "unwanted") and social acceptance (e.g., "welcomed," "liked") were used. The hypothesis was that individuals with low self-esteem would show greater interference for rejection words compared to acceptance words.
+*   **Results:** The findings confirmed the hypothesis. As the authors state, "people with low self-esteem exhibited significantly more Stroop interference on rejection words than on acceptance words, whereas people with high self-esteem did not." This result suggests that the Rejection Stroop task is an effective measure of the differing attentional biases between individuals with high and low self-esteem regarding social feedback.
+
+### **Study 2: Training Bias Reduction**
+The second study investigated whether it was possible to train individuals to develop a more adaptive attentional response to negative social cues.
+
+*   **Methods:** A new task was designed to train the inhibition of rejection information. Participants were shown a 4x4 matrix of 16 faces and were instructed to find the single smiling/accepting face within a "crowd" of 15 frowning/rejecting faces as quickly as possible. This task was repeated over many trials. The theory is that by repeatedly practicing the disengagement of attention from negative stimuli (frowning faces) to focus on a positive one (the smiling face), individuals could develop a new, more automatic attentional habit. Participants with low self-esteem were assigned to either this training condition or a control condition. Their performance on the Rejection Stroop task from Study 1 was measured before and after the intervention.
+*   **Results:** The training was successful. Individuals with low self-esteem who underwent the bias reduction training showed significantly less interference on rejection words in the post-training Stroop task compared to those in the control group. This indicates that their attentional bias toward rejection had been reduced. People with high self-esteem showed no significant changes, as they did not exhibit the initial bias.
+
+### **General Discussion**
+The authors conclude that the two studies successfully demonstrate that it is possible to both measure and modify the attentional biases that characterize low self-esteem. The findings support the idea that the sensitivity to rejection seen in people with low self-esteem is not immutable. Cognitive training tasks, such as the "face-in-the-crowd" paradigm, can help individuals "teach people skills that help them deal with negative social information." This suggests a promising avenue for interventions aimed at improving self-esteem and resilience by targeting the underlying cognitive mechanisms that maintain negative self-perceptions.
+
+## 3. Sources
+ https://guilfordjournals.com/doi/abs/10.1521/jscp.23.4.584.40306
+ https://dandeneau.uqam.ca/en/publications/
+ https://www.researchgate.net/publication/228416625_The_Inhibition_of_Socially_Rejecting_Information_Among_People_with_High_Versus_Low_Self-Esteem_The_Role_of_Attentional_Bias_and_the_Effects_of_Bias_Reduction_Training
+ https://selfesteemgames.mcgill.ca/research/DandeneauBaldwin2004.pdf
+ https://www.tandfonline.com/doi/abs/10.1080/1047840X.2011.603394
+ https://www.mcgill.ca/psychology/mark-baldwin/publications
+ https://www.mcgill.ca/psychology/mark-baldwin
+ https://scholar.google.com/citations?user=z-Yw2DAAAAAJ&hl=th
+ https://scholar.google.com/citations?user=z-Yw2DAAAAAJ&hl=en
+ https://repository.uwl.ac.uk/id/eprint/7097/1/UWLRepository_Final_Thesis_Gareth_Richards.pdf
+ https://www.frontiersin.org/articles/10.3389/fnhum.2015.00441/full
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4543415/

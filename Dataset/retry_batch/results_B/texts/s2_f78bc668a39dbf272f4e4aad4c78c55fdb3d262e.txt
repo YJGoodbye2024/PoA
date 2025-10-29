@@ -1,0 +1,38 @@
+## 1. Official R&eacute;sum&eacute;
+"La cryptomnésie, ou plagiat par inadvertance, a été examinée expérimentalement dans trois enquêtes. Les sujets devaient générer des exemples de catégories, en alternance avec 3 autres sujets dans les expériences 1 et 2 ou avec une liste écrite standardisée dans l'expérience 3. Après cette étape de génération, les sujets ont tenté de se rappeler les éléments qu'ils venaient de générer et un nombre égal d'éléments entièrement nouveaux de chaque catégorie. Le plagiat des réponses générées par d'autres s'est produit dans les trois tâches (génération, rappel des siennes et rappel des nouvelles) dans chaque expérience, malgré les instructions d'éviter de telles intrusions. La quantité de plagiat était plus importante dans les séquences de génération plus complexes et pour les éléments produits à partir de catégories orthographiques par rapport aux catégories sémantiques. La source la plus probable des réponses plagiées était la personne qui avait répondu juste avant le sujet dans la séquence de génération. Des pistes pour de futures recherches sont discutées."
+
+## 2. Aperçus et Analyse Fondamentaux
+Le texte intégral était accessible pour l'analyse.
+
+### Introduction
+Les auteurs introduisent la cryptomnésie, ou plagiat involontaire, comme le fait de générer une idée en croyant qu'elle est originale alors qu'elle est en réalité un souvenir d'une expérience antérieure. Ils la définissent techniquement comme "...la présence dans la conscience normale de phénomènes qui sont objectivement des souvenirs, mais qui ne sont pas subjectivement reconnus comme tels." L'article vise à créer un paradigme expérimental pour étudier ce phénomène en laboratoire. Les auteurs notent que la cryptomnésie est une forme de "source amnesia" (amnésie de la source), où le contenu d'un souvenir est séparé de la conscience de son origine. L'étude a été conçue pour observer si les participants plagieraient involontairement les idées des autres dans une tâche de génération créative, même lorsqu'ils sont explicitement invités à ne générer que leurs propres idées ou des idées entièrement nouvelles.
+
+### Méthodes
+L'étude comprenait trois expériences distinctes pour étudier la cryptomnésie.
+
+*   **Expériences 1 et 2 :** Des groupes de quatre étudiants de premier cycle ont participé à une tâche de génération d'idées. Ils ont généré à tour de rôle des exemples pour différentes catégories (par exemple, des sports, des instruments de musique). Après la phase de génération, les participants ont été soumis à deux tâches de rappel : d'abord, rappeler uniquement les éléments qu'ils avaient personnellement générés ("rappel des siens"), puis générer des exemples entièrement nouveaux pour les mêmes catégories qui n'avaient été mentionnés par personne ("rappel des nouveaux"). L'expérience 2 a reproduit la première mais a utilisé des catégories orthographiques (par exemple, des mots commençant par la lettre 'A') au lieu de catégories sémantiques pour voir si le type de tâche influençait les taux de plagiat.
+*   **Expérience 3 :** Cette expérience a remplacé les trois autres participants par une liste écrite standardisée d'exemples. Les sujets ont lu à haute voix un exemple de la liste, puis ont généré leur propre exemple. Cette configuration visait à déterminer si le plagiat se produisait lorsque la source des idées des autres était présentée sous une modalité différente (visuelle/écrite) de leurs propres réponses générées oralement.
+
+### Résultats
+Le plagiat par inadvertance a été observé de manière constante dans les trois expériences et dans toutes les conditions de la tâche.
+
+*   Dans l'expérience 1, un nombre significatif d'intrusions (plagiat) s'est produit dans les trois phases : génération, rappel des siens et rappel des nouveaux. Fait marquant, la source la plus fréquente d'idées plagiées était la personne qui avait répondu immédiatement avant le participant.
+*   L'expérience 2 a révélé que le plagiat était encore plus fréquent lors de la génération à partir de catégories orthographiques que de catégories sémantiques, ce qui suggère que la nature plus complexe ou exigeante de la tâche augmentait l'incidence de la cryptomnésie.
+*   Dans l'expérience 3, les participants ont plagié les éléments de la liste écrite, bien que le taux de plagiat ait été plus faible que dans les expériences de groupe. Cela a démontré que la cryptomnésie peut se produire même lorsque les sources sont présentées sous différentes modalités.
+*   Une analyse a montré que les individus qui plagiaient dans une tâche n'étaient pas nécessairement les mêmes que ceux qui plagiaient dans une autre, indiquant que la cryptomnésie n'est pas un trait limité à quelques individus "sujets au plagiat", mais plutôt un phénomène de mémoire plus général.
+
+### Discussion/Conclusion
+Les auteurs concluent que leurs expériences ont réussi à démontrer la cryptomnésie dans un cadre contrôlé. Les résultats soutiennent l'idée que la cryptomnésie est un véritable échec de la mémoire de la source, où les individus ne parviennent pas à surveiller correctement l'origine de leurs idées.
+
+Le fait que le plagiat se produise le plus souvent à partir de la personne ayant répondu juste avant suggère un échec de l'encodage de la source ; l'idée est traitée, mais son origine (l'autre personne) ne l'est pas. L'augmentation du plagiat dans des conditions de tâche plus complexes (catégories orthographiques) suggère que lorsque les ressources cognitives sont davantage sollicitées pour la tâche principale de génération d'idées, moins de ressources sont disponibles pour surveiller et encoder la source des informations.
+
+Les auteurs suggèrent que ce phénomène est un aspect normal du fonctionnement de la mémoire et non nécessairement un défaut de caractère. Ils terminent en discutant des orientations pour les recherches futures, telles que l'exploration de la manière dont le délai entre la génération et le rappel affecte les taux de plagiat et l'examen des différences individuelles dans la susceptibilité à la cryptomnésie.
+
+## 3. Sources
+ Vertex AI Search, Cryptomnesia: Psychology Definition, History & Examples
+ Butler University, Sad mood reduces inadvertent plagiarism: Effects of affective state on source monitoring in cryptomnesia - Digital Commons
+ University of Warwick, Cryptomnesia: Delineating Inadvertent Plagiarism
+ ResearchGate, Cryptomnesia: Delineating Inadvertent Plagiarism | Request PDF
+ Google Scholar, ‪Dana R. Murphy‬
+ Loterre, : Mémoire: cryptomnesia
+ SMU Research Blog, Wall Street Journal: You, An Idea Thief? Say It Isn't So.

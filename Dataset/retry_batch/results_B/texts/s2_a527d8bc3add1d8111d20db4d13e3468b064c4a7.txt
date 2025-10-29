@@ -1,0 +1,41 @@
+## 1. Official Abstract
+"Emotional states can be transferred to others via emotional contagion, leading people to experience the same emotions without their awareness. Emotional contagion is well established in laboratory experiments, with people transferring positive and negative emotions to others. Data from a large real-world social network, collected over a 20-y period suggests that longer-lasting moods (e.g., depression, happiness) can be transferred through networks [Fowler JH, Christakis NA (2008) BMJ 337:a2338], although the results are controversial. In an experiment with people who use Facebook, we test whether emotional contagion occurs outside of in-person interaction between individuals by reducing the amount of emotional content in the News Feed. When positive expressions were reduced, people produced fewer positive posts and more negative posts; when negative expressions were reduced, the opposite pattern occurred. These results indicate that emotions expressed by others on Facebook influence our own emotions, constituting experimental evidence for massive-scale contagion via social networks. This work also suggests that, in contrast to prevailing assumptions, in-person interaction and nonverbal cues are not strictly necessary for emotional contagion, and that the observation of others' positive experiences constitutes a positive experience for people."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible. Below is a synopsis organized by the paper's original sections.
+
+### Significance
+The authors state the significance of their research is demonstrating, through a massive experiment on Facebook involving 689,003 users, that emotional states can be transmitted through a social network. This process of emotional contagion was observed to occur even without the subjects' awareness. The study provides experimental proof that this contagion does not require direct interaction between individuals and can happen in the complete absence of nonverbal cues, which are often considered necessary for emotional transfer.
+
+### Introduction
+The paper begins by establishing that emotional contagion, the transfer of emotional states, is a known phenomenon in laboratory settings. It also references prior, more controversial, studies suggesting that longer-term moods like happiness and depression can spread through social networks over long periods. The central research question was whether emotional contagion can occur through the text-based communication on social networks. The experiment aimed to test if exposure to emotional expressions in a user's News Feed would lead them to alter their own posting behavior in a consistent emotional direction.
+
+### Methods
+The study was conducted over one week (January 11-18, 2012) on a large sample of Facebook users who viewed the site in English. Two parallel experiments were conducted:
+1.  **Positivity Reduced Condition:** A group of users had a percentage of positive emotional posts from their friends' News Feeds omitted.
+2.  **Negativity Reduced Condition:** Another group had a percentage of negative emotional posts omitted from their News Feeds.
+
+There were corresponding control groups for each experiment where a random percentage of posts were omitted, regardless of their emotional content. The emotional content of posts was determined using the Linguistic Inquiry and Word Count (LIWC) software. The researchers then analyzed the emotional content of the posts that the users themselves subsequently wrote during the experimental week. The authors note that because the analysis was done by automated software, it was "consistent with Facebook's Data Use Policy, to which all users agree prior to creating an account on Facebook, constituting informed consent for this research."
+
+### Results
+The results showed that the emotional content users were exposed to in their News Feed directly influenced their own emotional expressions.
+*   When the number of positive posts was reduced, users produced fewer positive posts and slightly more negative posts.
+*   Conversely, when the number of negative posts was reduced, users produced more positive posts and fewer negative posts.
+
+The authors conclude that these results "indicate that emotions expressed by others on Facebook influence our own emotions, constituting experimental evidence for massive-scale contagion via social networks." They also note that the effect size was small but significant. The paper argues that this finding supports the idea that the observation of others' positive experiences can be a positive experience in itself.
+
+### Discussion and Conclusion
+The study concludes that emotional contagion can occur at a massive scale through online social networks. A key finding is that this contagion does not require the nonverbal cues typical of in-person interaction. The authors suggest that while people may believe their emotions are independent, they can be influenced by the experiences of their friends on social media. The paper also touches upon the ethical considerations, noting that the Cornell University Institutional Review Board (IRB) determined the project did not fall under its purview as it was conducted by Facebook for internal purposes. Following its publication, the journal issued an "Editorial Expression of Concern" to address questions raised about the nature of informed consent in the study.
+
+## 3. Sources
+ ResearchGate, Experimental Evidence of Massive-Scale Emotional Contagion Through Social Networks. (URL: https://www.researchgate.net/publication/262798283_Experimental_Evidence_of_Massive-Scale_Emotional_Contagion_Through_Social_Networks)
+ Semantic Scholar, [PDF] Experimental evidence of massive-scale emotional contagion through social networks. (URL: https://www.semanticscholar.org/paper/Experimental-evidence-of-massive-scale-emotional-Kramer-Guillory/08922193f63c299a653f6c493714d5592862d355)
+ PubMed, Experimental evidence of massive-scale emotional contagion through social networks. (URL: https://pubmed.ncbi.nlm.nih.gov/24889601/)
+ PubMed Central, Emotional Contagion: A Brief Overview and Future Directions. (URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8327237/)
+ EPIC.org, In re: Facebook (Psychological Study). (URL: https://epic.org/privacy/facebook/psychological_study.html)
+ PNAS, Experimental evidence of massive-scale emotional contagion through social networks. (URL: https://www.pnas.org/doi/full/10.1073/pnas.1320040111)
+ PNAS, Editorial Expression of Concern: Experimental evidence of massivescale emotional contagion through social networks. (URL: https://www.pnas.org/doi/10.1073/pnas.1412469111)
+ YouTube, Facebook's Emotional Contagion Experiments. (URL: https://www.youtube.com/watch?v=hW4pNB3A_a4)
+ CiNii, Experimental evidence of massive-scale emotional contagion through social networks. (URL: https://ci.nii.ac.jp/naid/10031196147/)
+ Wikipedia, Loneliness. (URL: https://en.wikipedia.org/wiki/Loneliness)
+ Wikipedia, Empathy. (URL: https://en.wikipedia.org/wiki/Empathy)

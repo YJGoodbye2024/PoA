@@ -1,0 +1,32 @@
+## 1. Official Abstract
+> The sunk cost effect refers to the empirical finding that people tend to let their decisions be influenced bv costs made at an earlier time in such a way that they are more risk seeking than they would be had they not made these costs. This finding seems to be in conflict with economic theory which implies that only incremental costs and benefits should affect decisions. The effect is often explained in terms of prospect theory (Kahneman, D., Tversky, A., 1979. Prospect theory: An analysis of decision under risk. Econometrica 47, 263-291), suggesting that sunk costs may induce a 'loss frame,' consequently causing risk seeking behavior. We argue that sunk costs may also result in risk aversion. In the present study we investigated the effect of time and effort investments (Behavioral Sunk Costs) on risky decision making in gain and loss situations. The results show that, in agreement with prospect theory, participants were more risk averse in gain situations than in loss situations. Moreover, incurring Behavioral Sunk Costs appeared to increase risk aversive choices, i.e., a reverse sunk cost effect.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. A detailed interpretation based on the abstract, introductory text, and analysis from related academic papers is provided below.
+
+### Detailed Interpretation
+
+The 1997 paper by Marcel Zeelenberg and Eric van Dijk, "A reverse sunk cost effect in risky decision making: Sometimes we have too much invested to gamble," challenges the conventional understanding of the sunk cost fallacy. The standard sunk cost effect describes the tendency for people to continue an endeavor after investing money, time, or effort, often leading to increased risk-seeking behavior to justify the initial investment. This is typically explained by prospect theory, which posits that the initial investment creates a "loss frame," making individuals more willing to take risks to recover their losses.
+
+Zeelenberg and van Dijk argue against this monolithic view, proposing that sunk costs can, under certain conditions, lead to the opposite behavior: risk aversion. Their study investigated the impact of "Behavioral Sunk Costs"—investments of time and effort rather than money—on subsequent risky decisions.
+
+The core finding of their research is the identification of a **"reverse sunk cost effect."** The authors discovered that after incurring behavioral sunk costs, participants became more risk-averse. Instead of escalating their commitment, they were less likely to gamble. This suggests that a significant prior investment can make subsequent risks seem too great, leading to the sentiment that one has "too much invested to gamble."
+
+Analysis from other scholarly work clarifies the conditions for this effect: the reverse effect may occur when an individual's aspiration level can be met without taking on the additional risk. In such scenarios, the investor is more inclined to choose a safer option to protect their current position. The paper's experiments confirmed that while participants were generally more risk-averse in gain situations than in loss situations (consistent with prospect theory), the addition of a behavioral sunk cost consistently increased risk-averse choices. This finding demonstrates that the sunk cost fallacy is not a uniform phenomenon; rather, the nature of the investment and the context of the decision can lead to either risk-seeking (the classic effect) or risk-averse (the reverse effect) behavior.
+
+## 3. Sources
+ https://www.terry.uga.edu/api/files/2021-03/cunha_caldieraro_2009_cognitive_science.pdf
+ https://ideas.repec.org/a/eee/joepsy/v18y1997i6p677-691.html
+ https://www.semanticscholar.org/paper/A-reverse-sunk-cost-effect-in-risky-decision-Sometimes-Zeelenberg-Dijk/138133a4697920404374351239989d9703478546
+ https://www.sciencedirect.com/science/article/pii/S0167487097000299
+ https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210334
+ https://pubs.rsna.org/doi/full/10.1148/radiol.14140822
+ https://www.sciencedirect.com/science/article/abs/pii/S0167487097000299
+ https://www.ifo.de/DocDL/CESifo-Working-Paper-9097.pdf
+ https://research.tilburguniversity.edu/en/publications/the-use-of-crying-over-spilled-milk-a-note-on-the-rationality-a
+ https://research.tilburguniversity.edu/en/publications/the-discounting-of-ambiguous-information-in-economic-decision-m
+ http://www.behavioralfinance.nl/wp-content/uploads/2014/09/Thesis-J.A.-C.-van-de-Ven-s258586.pdf
+ https://www.scispace.com/paper/anticipated-regret-expected-feedback-and-behavioral-1999
+ https://research.tilburguniversity.edu/en/publications/regret-in-decision-making-2
+ https://munin.uit.no/bitstream/handle/10037/28399/thesis.pdf
+ https://www.cambridge.org/core/journals/judgment-and-decision-making/article/sunk-cost-predictions-as-theory-of-mind/762A7697410C5D8134F7256191B1621E

@@ -1,0 +1,36 @@
+## 1. Official Abstract
+Mental accounting is an oft-discussed type of decision framing in which individuals are hypothesized to form psychological accounts of the advantages and disadvantages of an event or option. Most discussions of mental accounting have focused on the consequences of framing decisions in this manner rather than on the processes underlying mental accounting. This article seeks to provide insight into the processes underlying mental accounting by relating it to categorization. This is accomplished by documenting the conceptual equivalence of selected categorization and mental accounting principles and by using empirical data to illustrate the similarity of the principles. In doing so, a mental account is treated as a type of category.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on analysis from citing academic sources.
+
+The 1992 paper "Mental accounting and categorization" by Pamela W. Henderson and Robert A. Peterson is a foundational work that provides insight into the cognitive processes that underlie mental accounting. Instead of focusing on the consequences of mental accounting, the authors link it to the established principles of categorization theory. The core argument is that a "mental account" can be understood and analyzed as a type of cognitive category.
+
+Subsequent research frequently cites Henderson and Peterson (1992) to support the idea that mental accounting is fundamentally grounded in the way people categorize and represent concepts. The paper's primary contribution was to formally document the conceptual equivalence between the principles of mental accounting and categorization. By doing so, it helped explain *how* individuals create and use mental accounts to organize, evaluate, and track their financial activities.
+
+Key insights derived from citing literature include:
+*   **Mental Accounts as Categories:** The paper posits that the cognitive principles governing how people categorize general objects and events are the same ones used to create mental accounts for financial decisions. This categorization process helps people manage cognitive load by making it easier to recall and evaluate relevant financial information without having to consider their entire financial portfolio for every decision.
+*   **Hierarchical Structure:** Henderson and Peterson were among the first to provide preliminary evidence that people represent mental accounts hierarchically. For example, expenditures can be grouped into broad categories like "food" or more detailed sub-categories like "groceries" and "dining out." This hierarchical budgeting influences spending decisions.
+*   **Income Source and Labeling:** The paper is cited in discussions of the "income source effect," where the source of money influences how it is spent. For example, one study building on this work found that people were more likely to spend a $2,000 gift on a vacation than a $2,000 work bonus, demonstrating that money is not treated as perfectly fungible. This aligns with the idea that people classify different sources of income into different mental accounts (e.g., "windfall" vs. "earned income"), which in turn dictates how that money is used.
+*   **Budgeting and Self-Control:** The act of categorizing expenditures into mental budgets is a key component of self-control in consumer decisions. By creating distinct accounts for different spending purposes (e.g., housing, food, entertainment), individuals can track and constrain their spending within those self-imposed boundaries.
+
+In summary, Henderson and Peterson's paper shifted the focus of mental accounting research toward its underlying cognitive mechanisms. By framing mental accounts as categories, they provided a theoretical structure that has been used by subsequent researchers to explore how people budget, classify funds, and make financial decisions that often deviate from the principle of fungibility.
+
+## 3. Sources
+ Semantic Scholar, "Mental accounting and categorization," Accessed October 28, 2025.
+ "Mental Accounting," Accessed October 28, 2025.
+ Grafiati, "Journal articles: 'Accounting Mental'," Accessed October 28, 2025.
+ PlumX, "Mental accounting and categorization," Accessed October 28, 2025.
+ IDEAS/RePEc, "Mental accounting and categorization," Accessed October 28, 2025.
+ ResearchGate, "Robert PETERSON | PhD | University of Texas at Austin, Austin | UT | IC2 Institute | Research profile - Page 2," Accessed October 28, 2025.
+ Growing Science, "The role of mental accounting and financial attitudes in shaping financial behavior among entrepreneurial students using fintech," Accessed October 28, 2025.
+ The University of Bath, "Mental Accounting Matters," Accessed October 28, 2025.
+ New Prairie Press, "Time Orientation and Mental Accounting: Examining Serial Mediation Effects of Financial Literacy and Impulsivity," Accessed October 28, 2025.
+ Carnegie Mellon University, "Addition by Division: Partitioning Real Accounts for Financial Well-Being," Accessed October 28, 2025.
+ Oxford Academic, "Consumers’ Mental Representation of Expenditures: Implications for Spending and Savings Decisions," Accessed October 28, 2025.
+ Deutsche Bundesbank, "Discussion Paper - Deutsche Bundesbank No 13/2023 Mental accounting and the marginal propensity to consume René Bernard," Accessed October 28, 2025.
+ INSEAD, "Working Paper Series," Accessed October 28, 2025.
+ Digital Commons @ Connecticut College, "Income Source Effect of Expectations and Seriousness on Spending Behavior," Accessed October 28, 2025.
+ USJ Journals, "MARKET EFFICIENCY VS. BEHAVIORAL FINANCE," Accessed October 28, 2025.
+ "The Psychology of Mental Accounting," Accessed October 28, 2025.
+ eScholarship, "The Impact of 'Display-Set' Options on Decision-Making," Accessed October 28, 2025.

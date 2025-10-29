@@ -1,0 +1,29 @@
+## 1. Official Abstract
+"Three studies examined the relationship between self-awareness and perceptions of “transparency,” that is, individuals' beliefs about the degree to which their personal qualities can be accurately discerned from their behavior. Study 1 revealed that both dispositional private self-consciousness and situational self-focus were positively associated with feeling transparent. In Study 2, participants whose self-focus was elevated by the presence of a video camera evidenced a particularly strong tendency to feel transparent when they were motivated to conceal their personal qualities. Finally, in Study 3, participants who were high in private self-consciousness felt especially transparent when they were led to believe that they possessed a personality attribute that was both unusual and negative. It appears that when individuals are self-aware, they have difficulty suppressing their own self-knowledge when trying to imagine how they appear to others. As a result, they feel as though their private self “leaks out” and is visible to others."
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on the abstract and analysis from related academic literature.
+
+The 1999 paper by Jacquie D. Vorauer and Michael G. Ross, "Self-Awareness and Feeling Transparent: Failing to Suppress One's Self," investigates the psychological link between self-awareness and the "illusion of transparency." This illusion is a cognitive bias where individuals overestimate the extent to which their internal states, such as thoughts and emotions, are obvious to others. The core argument of the paper is that heightened self-awareness—whether as a stable personality trait or a temporary state—intensifies this feeling of transparency. When people are highly focused on themselves, they struggle to disregard their own privileged self-knowledge when trying to adopt an observer's perspective. This leads to a feeling that their inner self is "leaking out" and is more visible than it actually is.
+
+The research is structured around three studies that empirically test this relationship:
+*   **Study 1:** This study established a direct positive correlation between self-awareness and the feeling of transparency. It found that individuals with higher dispositional private self-consciousness (a chronic tendency to focus on one's inner self) and those placed in a state of situational self-focus reported stronger feelings of being transparent to others.
+*   **Study 2:** The second study introduced a motivational component. By placing participants in front of a video camera to increase self-focus, the researchers found that the tendency to feel transparent was most pronounced when individuals were actively trying to hide something about themselves. This suggests that the effort to conceal an internal quality paradoxically makes one feel even more exposed.
+*   **Study 3:** The final study explored how the nature of one's self-knowledge affects the experience. Participants high in private self-consciousness felt particularly transparent when they were made to believe they had an unusual and negative personality trait. This highlights that when self-focused individuals are concerned about a specific, undesirable aspect of themselves, their assumption that others can see it becomes stronger.
+
+In essence, the paper demonstrates that self-focused attention is a key driver of the illusion of transparency. When our attention is directed inward, we use our own rich self-knowledge as a default for guessing how others see us, leading to an egocentric bias where we assume our internal states are shared or visible. This work is frequently cited in research on social anxiety, perspective-taking, and communication, as the mistaken belief that others can easily read our minds can lead to feelings of vulnerability and miscommunication.
+
+## 3. Sources
+ https://www.researchgate.net/publication/232520300_Feeling_Transparent_On_Metaperceptions_and_Miscommunications
+ https://www.semanticscholar.org/paper/Self-awareness-and-feeling-transparent-%3A-Failing-to-Vorauer-Ross/08271705828469853920703876007421d0d939b5
+ https://ouci.dntb.gov.ua/en/works/7P0lQx5G/
+ https://www.shortcogs.com/index.php/en/all-the-shortcuts/24-the-illusion-of-transparency
+ https://dergipark.org.tr/en/download/article-file/2407513
+ https://www.semanticscholar.org/paper/The-effects-of-self-focused-attention-on-and-Hass-Eisenstadt/11c21743f3816281734919593c66f28120610996
+ https://www.researchgate.net/publication/233604359_Self-awareness_and_Emotional_Intensity
+ https://www.researchgate.net/publication/285223380_Don't_You_Know_How_Much_I_Need_You_Consequences_of_Miscommunication_Vary_by_Self-Esteem
+ https://dspace.stir.ac.uk/handle/1893/288
+ https://www.cambridge.org/core/journals/judgment-and-decision-making/article/enactment-of-onetomany-communication-may-induce-selffocused-attention-that-leads-to-diminished-perspective-taking-the-case-of-facebook/13A9922055620959828A811440756783
+ https://ethesisarchive.library.tu.ac.th/thesis/2559/14M.Sc.NURSING_SCIENCE/2066_Teerachol_S.pdf
+ https://www.socialrelationslab.com/uploads/1/3/9/2/13928192/vorauer_sasaki_2013_jesp.pdf
+ https://www.researchgate.net/publication/238721669_When_Metaperceptions_are_Affected_by_Intergroup_Processes

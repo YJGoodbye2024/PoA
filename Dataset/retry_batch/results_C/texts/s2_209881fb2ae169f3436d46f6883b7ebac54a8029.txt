@@ -1,0 +1,44 @@
+## 1. Official Abstract
+"The present research examined how narcissism is manifested on a social networking Web site (i.e., Facebook.com). Narcissistic personality self-reports were collected from social networking Web page owners. Then their Web pages were coded for both objective and subjective content features. Finally, strangers viewed the Web pages and rated their impression of the owner on agentic traits, communal traits, and narcissism. Narcissism predicted (a) higher levels of social activity in the online community and (b) more self-promoting content in several aspects of the social networking Web pages. Strangers who viewed the Web pages judged more narcissistic Web page owners to be more narcissistic. Finally, mediational analyses revealed several Web page content features that were influential in raters' narcissistic impressions of the owners, including quantity of social interaction, main photo self-promotion, and main photo attractiveness. Implications of the expression of narcissism in social networking communities are discussed."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### Introduction
+The authors begin by noting the media's growing concern that social networking sites (SNSs) like Facebook might be a "gateway for self-promotion," vanity, and the accumulation of shallow relationships, all of which are potentially linked to narcissism. The study's goal was to empirically examine the role of narcissism on these platforms. The research was designed to address four main questions:
+1.  The link between narcissism and the quantity of social activity on an SNS.
+2.  The association between narcissism and the self-promoting nature of the content on a user's page.
+3.  Whether outside observers could accurately detect a user's narcissism based on their profile.
+4.  Which specific content features on a profile lead observers to form a narcissistic impression.
+
+### Method
+The study involved 129 undergraduate students (referred to as "Web page owners") who were active on Facebook.com. These participants completed the Narcissistic Personality Inventory (NPI), a standard measure for trait narcissism.
+
+The core of the methodology involved two subsequent steps:
+1.  **Content Coding:** The researchers captured screenshots of each participant's main Facebook profile page. Two independent coders then analyzed these pages for specific content. This included objective measures like the number of friends and wall posts, and subjective ratings of how self-promoting the main photo, "About Me" section, and personal interests were.
+2.  **Observer Ratings:** A separate group of 116 undergraduate "strangers" (raters) were shown the captured Facebook profiles. These raters, who had no prior knowledge of the page owners, were asked to form an impression and rate the owner on various traits, including narcissism, agency (e.g., assertiveness, self-confidence), and communion (e.g., kindness, caring).
+
+### Results
+The study produced several key findings that aligned with the researchers' hypotheses:
+*   **Narcissism and Social Activity:** A higher NPI score (indicating greater narcissism) was significantly correlated with a higher quantity of social interaction. This was measured by a composite score of the number of friends and wall posts on the user's profile.
+*   **Narcissism and Self-Promotion:** Narcissism was linked to more self-promoting content. Specifically, individuals with higher narcissism scores had main profile photos that were rated as more self-promoting and more attractive. Their "About Me" sections and lists of personal interests were also rated as more self-promoting.
+*   **Observer Accuracy:** Strangers who viewed the Facebook profiles were able to accurately perceive the owner's level of narcissism. The observers' ratings of the page owners' narcissism correlated positively with the owners' actual NPI scores.
+*   **Mediating Factors:** The analysis revealed which specific profile elements were most responsible for creating the impression of narcissism. The quantity of social interaction (friends and posts), the self-promotion evident in the main photo, and the attractiveness of the main photo were all significant mediators. This means these features helped explain *why* observers judged certain profile owners as more narcissistic.
+
+### Discussion
+The authors conclude that social networking sites are a fertile ground for the expression of narcissism. Narcissists appear to use these platforms to satisfy their needs for attention and self-promotion. They do this by accumulating a large number of "shallow" relationships (friends) and by carefully crafting their profiles with self-promoting and attractive images.
+
+The study confirms that these online behaviors are not just self-perceived; they are visible and accurately detected by others. The findings suggest that SNS profiles provide reliable cues to an individual's personality. The authors discuss the implications of this, noting that while narcissists are successful at broadcasting their desired agentic and self-important image, this may come at the cost of being perceived as less caring or communal, although this latter point was not strongly demonstrated in the results. The paper concludes by positioning SNSs as a modern arena for timeless human social behaviors, including the expression of personality traits like narcissism.
+
+## 3. Sources
+ Appel, M. (n.d.). *Narcissism and Social Networking Behavior: A Meta-Analysis*. Retrieved from the University of Würzburg.
+ Amanote Research. (2008, July 3). *Narcissism and Social Networking Web Sites*. Retrieved from Amanote.
+ Buffardi, L. E., & Campbell, W. K. (2008). *Narcissism and Social Networking Web Sites*. Semantic Scholar.
+ Buffardi, L. E., & Campbell, W. K. (2008, August). *Narcissism and Social Networking Web Sites*. ResearchGate.
+ Buffardi, L. E., & Campbell, W. K. (2008, July 3). *Narcissism and Social Networking Web Sites*. Personality and Social Psychology Bulletin.
+ Buffardi, L. E., & Campbell, W. K. (2008). Narcissism and social networking Web sites. *Personality and Social Psychology Bulletin, 34*(10), 1303-14.
+ Cengiz, H. (n.d.). The relationship between social media use and narcissism. *Journal of Social and Humanities Sciences Research*.
+ Journal of Articles in Support of the Null Hypothesis. (n.d.). *Narcissism and Social Media Usage: Is There No Longer a Relationship?*.
+ Reed, L. A., & Vacarescu, L. (2021). Self-Absorbed and Socially (Network) Engaged: Narcissistic Traits and Social Networking Site Use. *National Institutes of Health*.
+ Scientific Research Publishing. (n.d.). *Buffardi, L. E., & Campbell, W. K. (2008). Narcissism and Social Networking Web Sites. Personality and Social Psychology Bulletin, 34, 1303-1314*.
+ iScience. (2008, October 1). *Buffardi, L. E., & Campbell, W. K. (2008). Narcissism and social networking web sites. Personality and Social Psychology Bulletin, 34, 1303-1314*.

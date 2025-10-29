@@ -1,0 +1,45 @@
+An expert-level deep search for the specified academic paper has been completed. The target paper is a chapter in an edited volume. The official abstract has been located and a comprehensive analysis based on an accessible full-text version has been prepared.
+
+***
+
+## 1. Official Abstract
+"This chapter reviews the inclusion/exclusion model (IEM) of assimilation and contrast effects. The IEM assumes that evaluative judgments require a mental representation of the target of judgment and a representation of a standard against which the target is evaluated. Both representations are constructed on the spot on the basis of the most accessible information. Information that is used in forming a representation of the target results in assimilation effects. Information that is used in forming a representation of the standard results in contrast effects. How information is used depends on individuals' beliefs about whether the information was brought to mind by some irrelevant influence, the information's perceived representativeness for the target, and conversational norms that influence the perceived appropriateness of information use. The chapter summarizes the core assumptions of the IEM, reviews empirical evidence bearing on it, and highlights its integrative nature."
+
+## 2. Core Insights & Analysis
+The full text of a version of the chapter was accessible for analysis. The following synopsis is structured according to the logical flow of the paper's argument.
+
+### Core Assumptions of the Inclusion/Exclusion Model (IEM)
+
+The paper posits that evaluative judgments are context-dependent and require two mental representations: one for the **target** of judgment and one for a **standard** of comparison. Both of these representations are constructed "on the spot," using information that is most accessible at that moment. The central thesis of the Inclusion/Exclusion Model (IEM) is that the same piece of information can lead to either assimilation or contrast, depending entirely on how it is used.
+
+*   **Assimilation Effect**: Occurs when accessible information is *included* in the mental representation of the target. For example, if a person thinks of a scandal-ridden politician when asked about politicians in general, their overall evaluation of the category "politicians" will become more negative.
+*   **Contrast Effect**: Occurs when accessible information is *excluded* from the representation of the target and is instead used to construct the standard of comparison. For instance, if that same scandal-ridden politician is excluded from the general category "politicians" and is instead used as a standard against which other politicians are judged, the others may appear more honest by comparison.
+
+### The Filtering Process: How Information is Used
+
+The model proposes that accessible information passes through a series of filters that determine whether it will be included in or excluded from the target representation. Information that fails any of these filters is excluded.
+
+1.  **"Aboutness" or Relevance Filter**: Individuals assess whether the information that comes to mind is actually *about* the target. Information is excluded if it is perceived to be from an irrelevant source.
+2.  **Representativeness Filter**: Individuals determine if the information is representative of the target category. Information about a specific exemplar (e.g., a corrupt politician) might be excluded from the broader category (e.g., "politicians") if the category is perceived as heterogeneous or if the exemplar is seen as atypical.
+3.  **Conversational Norms Filter**: The rules of conversation can influence information use. For example, information that has already been provided to a conversational partner is often excluded to avoid redundancy, which can lead to contrast effects.
+
+### Assimilation vs. Contrast Effects
+
+**Assimilation effects** arise when information passes all filters and is added to the temporary representation of the target. The size of the assimilation effect depends on the extremity of the information being included; more extreme information leads to a stronger effect.
+
+**Contrast effects** occur when information is excluded from the target representation. The model describes two forms of contrast:
+*   **Subtraction-based contrast**: When information is simply removed from the target representation, the judgment shifts away from the valence of the excluded information. For example, if a positive piece of information is excluded, the target is judged less positively. This effect is specific to the target being judged.
+*   **Comparison-based contrast**: When the excluded information is used to form a standard of comparison, the target is evaluated against this standard. If the standard is extreme, the target will seem more different from it. For example, comparing an average politician to a highly respected one will make the average politician seem less impressive.
+
+The model updates earlier work by noting that the default process is often the inclusion of information, leading to assimilation. Exclusion is generally thought to require more cognitive effort. The IEM provides a comprehensive framework for understanding how context shapes judgment, integrating various findings on social comparison, priming, and categorization.
+
+## 3. Sources
+ https://dornsife.usc.edu/assets/sites/783/docs/Schwarz_in_press_Mental_Construal_and_the_Emergence_of_Assimilation_and_Contrast_Effects_The_InclusionExclusion_Model.pdf
+ https://dornsife.usc.edu/norbert-schwarz/social-cognition/
+ https://www.researchgate.net/publication/232549247_The_Flexible_Correction_Model_Bias_Correction_Guided_by_Naive_Theories_of_Bias
+ https://www.researchgate.net/publication/270284793_Implications_for_Temporal_Comparison_and_Autobiographical_Memory
+ https://search.library.ucla.edu/discovery/fulldisplay?docid=alma990026214350205751&context=L&vid=01UCS_LAL:UCLA&lang=en&search_scope=MyInstitution&adaptor=Local%20Search%20Engine&tab=LibraryCatalog&query=any,contains,Assimilation%20and%20contrast%20in%20social%20psychology%20%2F%20edited%20by%20Diederik%20A.%20Stapel%20and%20Jerry%20Suls
+ https://www.researchgate.net/publication/285586554_Mental_Construal_and_the_Emergence_of_Assimilation_and_Contrast_Effects_The_InclusionExclusion_Model
+ https://www.researchgate.net/publication/288721661_Mental_construal_processes_The_inclusionexclusion_model
+ https://escholarship.org/uc/item/42d9n2x8
+ https://dornsife.usc.edu/assets/sites/783/docs/schwarz_bless_IEM_chapter_Stapel_Suls_2007.pdf

@@ -1,0 +1,29 @@
+An expert-level deep search for the 1962 book "Explorations in Cognitive Dissonance" by J. W. Brehm and A. R. Cohen has been completed. The target is a full-length book, not an academic paper.
+
+## 1. Official Abstract
+An official, verbatim abstract for this book could not be located. The work was published as a 334-page book by John Wiley & Sons in 1962, a format and era in which formal abstracts were not standard.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on critical reviews and scholarly analyses of the work.
+
+"Explorations in Cognitive Dissonance" is a seminal work that systematically reviewed and consolidated the early experimental research on Leon Festinger's 1957 theory of cognitive dissonance. Written by two prominent researchers in the field, Jack W. Brehm and Arthur R. Cohen, the book's primary contribution was to assess the state of dissonance theory, its limitations, and its general power by examining dozens of experiments.
+
+The central thesis of the book is a significant refinement of Festinger's original theory. Brehm and Cohen argued that two key elements were necessary for the arousal of cognitive dissonance and subsequent attitude change: **commitment** and **volition (choice)**. They posited that dissonance is not just a result of holding two conflicting cognitions, but is most potent when a person feels they have freely chosen to commit to a behavior that contradicts a prior belief or attitude. This focus on commitment as a crucial variable was a major theoretical extension.
+
+The book is structured as a comprehensive review of the experimental paradigms used in dissonance research at the time. It synthesizes findings from a wide array of studies, many conducted by the authors themselves, across several domains:
+*   **Post-Decision Dissonance:** It elaborated on Brehm's earlier work (1956) on the "spreading of alternatives," where individuals, after making a difficult choice, reduce dissonance by viewing the chosen option as more attractive and the rejected option as less attractive.
+*   **Forced Compliance/Counter-attitudinal Advocacy:** The book extensively analyzed experiments where individuals were induced to act in ways contrary to their private attitudes (e.g., writing an essay against their own beliefs). It highlighted that the less the incentive or justification for the counter-attitudinal behavior (e.g., a small reward vs. a large one), the greater the dissonance and the more likely the individual was to change their private attitude to align with their behavior.
+*   **Effort Justification:** The work covered the paradigm where the more effort one puts into achieving a goal, the more they will value it, even if the outcome is modest. This is done to justify the effort and reduce the dissonance created by the cognition "I worked hard for this" and "This outcome is not very valuable."
+
+In their analysis, Brehm and Cohen distinctly characterized dissonance as a motivational state of arousal or a drive, similar to hunger or thirst, that impels the individual to reduce it. This interpretation moved the concept from being a purely cognitive inconsistency to a psychologically uncomfortable state that energizes behavior, a view that heavily influenced subsequent research. The book served as a critical touchstone that brought perspective to the flurry of research following Festinger's initial publication and solidified the importance of choice and commitment in understanding human self-justification.
+
+## 3. Sources
+*   [https://psycnet.apa.org/record/1963-01283-000](https://psycnet.apa.org/record/1963-01283-000)
+*   [https://www.semanticscholar.org/paper/Explorations-in-Cognitive-Dissonance-Brehm-Cohen/176039a0614488390779774a13805903e185c163](https://www.semanticscholar.org/paper/Explorations-in-Cognitive-Dissonance-Brehm-Cohen/176039a0614488390779774a13805903e185c163)
+*   [https://catalog.hathitrust.org/Record/001312411](https://catalog.hathitrust.org/Record/001312411)
+*   [https://www.proquest.com/docview/1297746430](https://www.proquest.com/docview/1297746430)
+*   [https://www.abebooks.com/9780471101799/Explorations-Cognitive-Dissonance-BREHM-JACK-0471101796/plp](https://www.abebooks.com/9780471101799/Explorations-Cognitive-Dissonance-BREHM-JACK-0471101796/plp)
+*   [https://www.ebay.com/p/1171465](https://www.ebay.com/p/1171465)
+*   [https://montserrat.noblenet.org/eg/opac/record/1005830](https://montserrat.noblenet.org/eg/opac/record/1005830)
+*   [https://www.airitilibrary.com/Publication/alDetailedMesh?docid=P20150527001-202002-202002100009-202002100009-1-10](https://www.airitilibrary.com/Publication/alDetailedMesh?docid=P20150527001-202002-202002100009-202002100009-1-10)
+*   [http://www.communicationcache.com/uploads/1/0/8/8/10887248/on_the_motivational_nature_of_cognitive_dissonance-_dissonance_as_psychological_discomfort.pdf](http://www.communicationcache.com/uploads/1/0/8/8/10887248/on_the_motivational_nature_of_cognitive_dissonance-_dissonance_as_psychological_discomfort.pdf)

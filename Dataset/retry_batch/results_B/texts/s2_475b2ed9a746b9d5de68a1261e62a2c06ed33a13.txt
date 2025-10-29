@@ -1,0 +1,48 @@
+## 1. Official Abstract
+"Social projection is the tendency to expect similarities between oneself and others. A review of the literature and a meta-analysis reveal that projection is stronger when people make judgments about ingroups than when they make judgments about outgroups. Analysis of moderator variables further reveals that ingroup projection is stronger for laboratory groups than for real social categories. The mode of analysis (i.e., nomothetic vs. idiographic) and the order of judgments (i.e., self or group judged first) have no discernable effects. Outgroup projection is positive, but small in size. Together, these findings support the view that projection can serve as an egocentric heuristic for inductive reasoning. The greater strength of ingroup projection can contribute to ingroup-favoritism, perceptions of ingroup homogeneity, and cooperation with ingroup members."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### Introduction
+The paper begins by defining social projection as the "process, or a set of processes, by which people come to expect others to be similar to themselves." The authors frame it as a judgmental heuristic where individuals use their own characteristics to make predictions about others. This process is often efficient but not without error. The central focus of the review is to investigate how social categorization—specifically the distinction between ingroups and outgroups—moderates the strength of social projection. The authors state two primary objectives for their meta-analysis: first, to establish reliable estimates for the average strength of projection to both ingroups and outgroups, and second, to explore several "process-related hypotheses" by examining how different study characteristics might moderate these effects.
+
+### Moderator Variables
+The authors identified three key ways in which studies on social projection differ, which they analyzed as potential moderators:
+1.  **Group Type:** The researchers distinguished between "real social categories" (e.g., gender, race, political affiliation) and "laboratory groups" created for experimental purposes.
+2.  **Mode of Analysis:** They compared studies that used a "nomothetic" approach (correlating average self-ratings with average group ratings) versus an "idiographic" approach (calculating correlations for each participant and then averaging them).
+3.  **Judgment Order:** The analysis considered whether participants made judgments about themselves first or about the group first. This was to test the "self-anchoring hypothesis," which posits that projection is stronger when the self is judged first, as it serves as an anchor for subsequent group judgments.
+
+### Method
+The meta-analysis was conducted on a collection of studies that reported correlations between self-judgments and group-judgments. The authors systematically searched for relevant literature and included studies that provided the necessary data to calculate effect sizes for projection to ingroups and outgroups. They converted these correlations into Fisher's Z scores for analysis to ensure statistical validity. The analysis aimed to determine the overall effect size for ingroup and outgroup projection and to test the significance of the moderator variables identified.
+
+### Results
+The meta-analysis yielded several key findings:
+*   **Ingroup vs. Outgroup Projection:** As hypothesized, social projection was significantly stronger when directed toward ingroups compared to outgroups.
+*   **Outgroup Projection:** While smaller, the effect size for outgroup projection was consistently positive and statistically significant, refuting the idea that people do not project to outgroups at all. This supports an "induction hypothesis," where people project to outgroups, but to a lesser extent than to ingroups.
+*   **Moderator Effects for Ingroup Projection:** The type of group was a significant moderator. Projection was stronger in studies using temporary laboratory groups than in those using pre-existing, real-world social categories. This suggests that when people lack detailed information about a group, they rely more heavily on their own characteristics as a basis for judgment.
+*   **Non-significant Moderators:** The mode of analysis (nomothetic vs. idiographic) and the order of judgments (self-first vs. group-first) did not have a discernible impact on the strength of ingroup projection. The lack of an order effect fails to support the self-anchoring hypothesis.
+
+### Discussion
+The authors interpret the findings as strong support for viewing social projection as an "egocentric heuristic for inductive reasoning." People use themselves as a sample to make inferences about groups. This process is more pronounced for ingroups because they are perceived as more similar to the self. The finding that projection is stronger in newly formed laboratory groups further supports this, as uncertainty about the group encourages greater reliance on the self as the primary source of information.
+
+The paper concludes by discussing the broader implications of differential projection. The authors argue that the stronger tendency to project to ingroups can help explain several fundamental intergroup phenomena, including:
+*   **Ingroup Favoritism:** By projecting their own (typically positive) traits onto the ingroup, individuals develop a more favorable view of their own group compared to others.
+*   **Perceived Homogeneity:** Projection can lead to seeing ingroup members as more similar to each other, contributing to perceptions of ingroup homogeneity.
+*   **Cooperation:** Expecting that ingroup members share one's own cooperative intentions can facilitate trust and collaboration within the group.
+
+## 3. Sources
+ https://www.semanticscholar.org/paper/Social-Projection-to-Ingroups-and-Outgroups%3A-A-and-Robbins-Krueger/e69a053b2162f0393a5b34a2632b7b51e73a7201
+ https://en.wikipedia.org/wiki/Social_projection
+ https://pubmed.ncbi.nlm.nih.gov/15745863/
+ https://www.researchgate.net/publication/7996389_Social_Projection_to_Ingroups_and_Outgroups_A_Review_and_Meta-Analysis
+ https://www.brown.edu/academics/cognitive-linguistic-psychological-sciences/sites/brown.edu.academics.cognitive-linguistic-psychological-sciences/files/uploads/Robbins%26Krueger2005.pdf
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01590/full
+ https://openalex.org/work/w2063080533
+ https://www.econstor.eu/handle/10419/108593
+ https://www.semanticscholar.org/paper/From-social-projection-to-social-behaviour-Krueger/395333552f954752044820684f88a241a8775249
+ https://sydneysymposium.unsw.edu.au/symposia/2024/chapters/SSSP2024_Krueger.pdf
+ https://typeset.io/papers/from-social-projection-to-social-behaviour-2v69q703lr
+ https://www.cambridge.org/core/books/abs/information-sampling-and-adaptive-cognition/self-as-sample/9D622A63378E07996324D64D5687796E
+ https://www.brown.edu/academics/cognitive-linguistic-psychological-sciences/sites/brown.edu.academics.cognitive-linguistic-psychological-sciences/files/uploads/JoachimKruegerCV.pdf
+ https://www.koreascience.or.kr/article/JAKO201205562186816.page

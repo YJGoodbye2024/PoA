@@ -1,0 +1,46 @@
+## 1. Official Abstract
+"The meanings of many idioms are perceived as relatively transparent, that is, we see a connection between the expressions and their meanings. We propose that an important source of these intuitions is language users' attempts to make sense of conventional expressions. In two experiments, subjects learned either the original meaning of an unfamiliar idiom or its conceptual opposite, e.g., for the idiom *The goose hangs high*, either *things look good* or *things look bad*. The learned meaning was perceived as more transparent and the nonlearned less transparent, regardless of whether subjects learned the original meaning or its opposite. In addition, the nonlearned meaning became less transparent with increased use of the idiom. Theories of idioms must be able to distinguish between transparency that results from conventional use and transparency which is more conceptually motivated."
+
+## 2. Core Insights & Analysis
+Full text was accessible.
+
+### **Introduction**
+
+The paper begins by establishing that while idioms are not strictly compositional (their meaning isn't a sum of their parts), native speakers often feel a "nonarbitrary and relatively transparent" link between an idiom and its meaning. For example, "spill the beans" seems intuitively connected to revealing a secret. The central question the authors investigate is the source of this intuition of transparency. They propose that this feeling doesn't necessarily come from an inherent, pre-existing conceptual link, but rather from a "hindsight" process where language users, once they know the meaning of an idiom, actively work to make sense of it. This effort to create a connection *after the fact* is what generates the intuition of transparency. The authors argue that people essentially convince themselves that the conventional meaning is the one that makes the most sense.
+
+### **Experiment 1**
+
+The first experiment was designed to test whether the intuition of transparency is a result of knowing the idiom's meaning.
+
+*   **Methods:** The researchers used archaic or obsolete English idioms that modern speakers would not know, such as "the goose hangs high." They presented participants with one of two opposite meanings for each idiom. For instance, half the participants were taught that "the goose hangs high" means "things look good" (its original meaning), while the other half were taught it means "things look bad" (its conceptual opposite). After learning the assigned meaning, participants were asked to rate how transparent both the "learned" and "nonlearned" meanings were.
+*   **Results:** The findings strongly supported the authors' hypothesis. Regardless of whether participants learned the original meaning or its opposite, they consistently rated the meaning they had just learned as significantly more transparent. Conversely, the meaning they were *not* taught was rated as less transparent. This suggests that the feeling of transparency is not tied to the historically "correct" meaning but is instead constructed by the individual once a meaning is established.
+
+### **Experiment 2**
+
+The second experiment aimed to explore whether using an idiom reinforces this constructed sense of transparency.
+
+*   **Methods:** This experiment followed a similar procedure to the first, teaching participants either the original or opposite meaning of an unfamiliar idiom. However, after the initial learning phase, participants were required to use the idiom in several sentences. They were then asked again to rate the transparency of both the learned and unlearned meanings.
+*   **Results:** The results of Experiment 2 replicated those of the first: the learned meaning was always perceived as more transparent. Crucially, it also showed that the act of using the idiom strengthened this bias. After using the idiom, participants' transparency ratings for the learned meaning increased, while the ratings for the unlearned meaning decreased even further. This demonstrates that with use, the conventional meaning becomes more entrenched and seems even more self-evident, while alternative meanings appear increasingly implausible.
+
+### **General Discussion**
+
+In the final section, the authors conclude that the perceived transparency of an idiom is largely an "illusion" created in hindsight. Once a person knows what an idiom means, they engage in a sense-making process that retroactively justifies the connection between the phrase and its meaning. This process is so effective that people come to believe the connection is natural and obvious.
+
+Keysar and Bly argue that theories of language and idiom comprehension must account for this phenomenon. It's not enough to say that transparency is based on underlying conceptual metaphors. Instead, theories must distinguish between transparency that is conceptually motivated from the start and transparency that is a "by-product of conventionality"—an artifact of knowing and using a linguistic expression. The study demonstrates that once a meaning is conventional for a speaker, it feels transparent, regardless of its origin.
+
+## 3. Sources
+ https://www.arts.kuleuven.be/ling/ccl/presentations/as-clear-as-day-the-transparency-of-english-idiomatic-expressions
+ https://www.semanticscholar.org/paper/Intuitions-of-the-transparency-of-idioms%3A-Can-one-Keysar-Bly/652f75845c464e83f3934322795326554b732441
+ https://www.lesswrong.com/posts/CqyJzDZWvGfDBAW3p/illusion-of-transparency-why-no-one-understands-you
+ https://dspace.unia.es/bitstream/handle/10334/2360/05_Herrero.pdf?sequence=1
+ https://www.jstage.jst.go.jp/article/jcss/22/1/22_1_45/_pdf
+ https://core.ac.uk/download/pdf/55234159.pdf
+ https://www.proquest.com/openview/a31628d059c29a65d4142f025e93910c/1?pq-origsite=gscholar&cbl=41362
+ https://www.cambridge.org/core/journals/english-language-and-linguistics/article/abs/role-of-encyclopedic-world-knowledge-in-semantic-transparency-intuitions-of-idioms/458C96181466487E987B5474B53E7700
+ https://www.researchgate.net/publication/236746409_The_role_of_encyclopedic_world_knowledge_in_semantic_transparency_intuitions_of_idioms
+ https://preserve.lehigh.edu/cgi/viewcontent.cgi?article=1883&context=etd
+ https://www.gwern.net/docs/psychology/2007-10-20-yudkowsky-illusionoftransparency.html
+ https://www.scispace.com/paper/serrano-de-moreno-2010-teaching
+ https://www.researchgate.net/publication/222534571_Intuition_and_conceptual_awareness_for_experience-based_learning_of_idioms
+ https://www.academicstar.us/UploadFile/Picture/2014-11/20141125101132515.pdf
+ https://www.researchgate.net/publication/295851412_Idioms_Formally_Flexible_but_Semantically_Non-transparent

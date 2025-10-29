@@ -1,0 +1,31 @@
+An expert-level deep search for the specified paper has been completed. The findings are organized below.
+
+## 1. Official Abstract
+A formal abstract for this 1925 paper is not provided in available academic databases. However, the introductory sentence of the article serves as a concise statement of purpose:
+
+> "With the feeling that such an investigation had a direct bearing upon practical problems, the author studied especially the effect of a small audience upon the eye-hand coordination test of Koerth."
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The publisher, the American Psychological Association, holds the paper behind a paywall, and no publicly available full-text versions were located. The following is a detailed interpretation and critical analysis based on reliable secondary academic sources that cite and analyze this study.
+
+### **Context and Significance**
+L. E. Travis's 1925 study is a foundational experiment in the field of social psychology, specifically in the area of social facilitation. It followed early work by researchers like Norman Triplett, who first noted that individuals' performance can be influenced by the presence of others. Travis's experiment is frequently cited as one of the classic demonstrations of the "audience effect," where the presence of passive spectators can enhance a person's performance on a well-learned task. It helped lay the groundwork for later, more complex theories of social facilitation and inhibition, such as Robert Zajonc's influential drive theory, which proposed that an audience increases arousal, thereby enhancing the performance of simple or well-mastered tasks while hindering the performance of complex or new ones.
+
+### **Methodology**
+The experiment was designed to test the influence of a small, passive audience on a specific, measurable skill.
+*   **Task:** The study used a psychomotor, eye-hand coordination task involving a pursuit rotor. This device required subjects to hold a flexible pointer or stylus on a small target that was revolving on a turntable.
+*   **Participants:** The subjects were primarily male college students.
+*   **Procedure:** A critical feature of the methodology was that participants were first trained on the pursuit rotor task until their performance plateaued, meaning they had reached their maximum skill level and were no longer improving. Once a subject was "well-trained," their performance was measured both alone and in the presence of a small audience, which consisted of four to eight upper-class or graduate students.
+
+### **Results and Conclusion**
+The study found that the performance of the well-trained subjects on the eye-hand coordination task improved when they were in the presence of the small audience. Though some analyses describe the improvement as relatively small, it was a clear demonstration of social facilitation. The conclusion drawn was that for a well-mastered motor task, the presence of a few spectators can have a facilitating effect on performance. This finding supported the idea that an audience can positively influence performance, a concept that would be refined by later research distinguishing between simple, well-learned tasks (which are often enhanced) and complex, novel tasks (which are often impaired).
+
+## 3. Sources
+ Guy-Evans, O. (2023, October 5). *Social Facilitation Theory in Psychology*. Simply Psychology. https://www.simplypsychology.org/social-facilitation.html
+ Duchan, J. (n.d.). *Lee Edward Travis*. History of Speech - Language Pathology. Retrieved October 28, 2025, from https://www.acsu.buffalo.edu/~duchan/history_subpages/travis.html
+ Wikipedia. (2024, October 15). *Social facilitation*. https://en.wikipedia.org/wiki/Social_facilitation
+ Strauss, B. (2002). Social facilitation in motor tasks: a review of research and theory. *Psychology of Sport and Exercise*, *3*(4), 237–256. https://www.researchgate.net/publication/222669535_Social_facilitation_in_motor_tasks_a_review_of_research_and_theory
+ Travis, L. E. (1925). The effect of a small audience upon eye-hand coordination. *Semantic Scholar*. Retrieved October 28, 2025, from https://www.semanticscholar.org/paper/The-effect-of-a-small-audience-upon-eye-hand-Travis/b18a6873535231339175c589365a6f20958b44c3
+ Moore, W. M., & Baron, R. S. (1983). *Social Facilitation: The Effects of Audience's Status on Performances of a Pursuit Rotor Task*. Eastern Illinois University. https://thekeep.eiu.edu/cgi/viewcontent.cgi?article=3013&context=theses
+ The Decision Lab. (n.d.). *Social Facilitation*. Retrieved October 28, 2025, from https://thedecisionlab.com/reference-guide/psychology/social-facilitation
+ Stangor, C. (n.d.). *Group Performance*. Principles of Social Psychology – 1st International Edition. Retrieved October 28, 2025, from https://ecampusontario.pressbooks.pub/socialpsychology/chapter/group-performance/

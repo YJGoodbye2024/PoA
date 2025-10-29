@@ -1,0 +1,45 @@
+## 1. Official Abstract
+The original 1959 publication, a chapter within the book *Studies in Social Power*, does not contain a formal, demarcated abstract. The paper begins with an introductory paragraph that outlines its primary purpose.
+
+**Introductory Paragraph (verbatim):**
+"The processes of power are pervasive, complex, and often disguised in our society. Accordingly one finds in political science, in sociology, and in social psychology a variety of distinctions among different types of social power or among qualitatively different processes of social influence. Our main purpose is to identify the major types of power and to define them systematically so that we may compare them according to the changes which they produce and the other effects which accompany the use of power."
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis organized according to the paper's thematic structure.
+
+### Introduction: Power, Influence, and Change
+The paper begins by establishing its theoretical framework, defining social influence and power from the perspective of the person being influenced, denoted as 'P'. Social influence is defined as a "change in the belief, attitude, or behavior of a person (the target of influence) which results from the action of another person (an influencing agent)". Social power is then defined as the *potential* for such influence. The authors limit their theory to the influence exerted by a social agent, 'O', on a person, 'P'. They conceptualize this influence in terms of psychological forces, stating that the influence of O on P is "the resultant force on system a [any part of the life space of P] which has its source in an act of O".
+
+### The Bases of Social Power
+The core of the paper is the identification and definition of five distinct bases of power, which represent the source of O's ability to influence P. The authors note that in any real-world relationship, several of these bases are likely to be present.
+
+The five bases of power are defined as follows:
+1.  **Reward Power:** This power is "based on P's perception that O has the ability to mediate rewards for him". Its strength increases with the magnitude of the perceived rewards. This type of power depends on O's ability to administer positive outcomes or remove negative ones. An example given is a factory piece-work rate designed to incentivize production.
+2.  **Coercive Power:** This is the opposite of reward power and is "based on P's perception that O has the ability to mediate punishments for him". The strength of this power is proportional to the magnitude of the negative consequences P expects from nonconformity. The ability to fire a worker for failing to meet a production level is a clear example of coercive power.
+3.  **Legitimate Power:** This power stems from "the perception by P that O has a legitimate right to prescribe behavior for him". This legitimacy is based on internalized values in P that accept a code or standard, granting O the right to influence. The authors identify three bases for legitimate power: cultural values (e.g., age, intelligence, caste), acceptance of a social structure (e.g., a formal hierarchy where a supervisor has authority over a worker), and designation by a legitimizing agent (e.g., an elected leader).
+4.  **Referent Power:** This power is based on "P's identification with O". If P is strongly attracted to or identifies with O, P will have a desire to become more like O and will thus adopt O's behaviors and beliefs. The authors state, "The stronger the identification of P with O the greater the referent power of O/P". Unlike the other forms, the person being influenced (P) may be unaware that this power is being exerted.
+5.  **Expert Power:** This power is "based on the perception that O has some special knowledge or expertness". The strength of expert power depends on P's perception of O's knowledge in a specific area. For this power to be effective, P must believe that O is credible. For instance, the advice of a doctor or a mechanic is influential because of their perceived expertise.
+
+### Summary and Hypotheses
+The paper concludes with a summary section that distills the distinctions between the five power bases into a set of six hypotheses.
+
+*   **Hypothesis 1:** For all five types, the stronger the basis of power, the greater the power.
+*   **Hypothesis 2:** The "range" of power (the areas in which it is effective) varies, but "in general, referent power will have the broadest range."
+*   **Hypothesis 3:** Any attempt to use power outside of its accepted range will tend to reduce that power.
+*   **Hypothesis 4:** A change produced by reward or coercive power will be highly dependent on O's surveillance, whereas changes from referent, expert, or legitimate power are more independent of O.
+*   **Hypothesis 5:** Coercion leads to decreased attraction and high resistance from P, while reward power leads to increased attraction and low resistance.
+*   **Hypothesis 6:** The more legitimate P perceives coercion to be, the less it will produce resistance and decreased attraction.
+
+## 3. Sources
+ French, J. R. P., & Raven, B. (1959). The Bases of Social Power. In D. Cartwright (Ed.), *Studies in Social Power* (pp. 150-167). Ann Arbor, MI: Institute for Social Research. (As cited by Wikipedia)
+ MindTools. (n.d.). *French and Raven's Five Forms of Power*. Retrieved from https://www.mindtools.com/pages/article/newCDV_56.htm
+ French, J. R. P., Jr., & Raven, B. (1959). *The Bases of Social Power*. Retrieved from https://www.communicationcache.com/uploads/1/0/8/8/10887248/the_bases_of_social_power_-_chapter_20.pdf
+ Lyon, A. (2017, November 13). *French and Raven's Bases of Power* [Video]. YouTube. Retrieved from https://www.youtube.com/watch?v=eP0s1I334gY
+ French, J. R. P., Jr., & Raven, B. (1959). *The Bases of Social Power*. ResearchGate. Retrieved from https://www.researchgate.net/publication/232544872_The_Bases_of_Social_Power
+ French, J. R. P., Jr., & Raven, B. (1959). *The bases of social power* [PDF]. ResearchGate. Retrieved from https://www.researchgate.net/publication/282883403_The_bases_of_social_power
+ Baker, J. (2020). Leader Influence: A Research Review of French & Raven's (1959) Power Dynamics. *ValpoScholar*. Retrieved from https://scholar.valpo.edu/mssj/vol19/iss1/3/
+ French Jr., J. R. P., & Raven, B. H. (1959). The bases of social power. In D. Cartwright (Ed.), *Studies in social power* (pp. 150-167). Ann Arbor, MI: Institute for Social Research. (As cited by scirp.org)
+ French, J. R. P., Jr., & Raven, B. (1959). *The Bases of Social Power*. Retrieved from https://web.mit.edu/curhan/www/docs/Articles/15.301/2006/French_&_Raven.pdf
+ Scribd. (n.d.). *Social Power and Influence Dynamics* [PDF]. Retrieved from https://www.scribd.com/document/427221298/French-Raven-1959-pdf
+ Podsakoff, P. M., & Schriesheim, C. A. (1985). Field studies of French and Raven's bases of power: Critique, reanalysis, and suggestions for future research. *SciSpace*. Retrieved from https://typeset.io/papers/field-studies-of-french-and-raven-s-bases-of-power-critique-3j8118g7qr
+ Raven, B. (2008). The Bases of Power and the Power/Interaction Model of Interpersonal Influence. *Analyses of Social Issues and Public Policy*. Retrieved from https://spssi.onlinelibrary.wiley.com/doi/10.1111/j.1530-2415.2008.00175.x

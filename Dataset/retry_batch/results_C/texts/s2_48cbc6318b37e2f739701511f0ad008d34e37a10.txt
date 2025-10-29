@@ -1,0 +1,23 @@
+## 1. Official Abstract
+"Affinity is a complex blend of affinity, familiarity and similarity that strengthens social relations by fostering a sense of closeness among people. We studied the development of affinity among students in a large college course. Four women of similar appearance attended class sessions, posing as students in the course. To create conditions of mere exposure, they did not interact with any of the other students. Each woman attended a different number (0, 5, 10, or 15) of class sessions. At the end of the term, students (N = 130) were shown slides of the women and measures of each woman's perceived familiarity, attractiveness, and similarity were obtained. Mere exposure had weak effects on familiarity, but strong effects on attraction and similarity. Causal analyses indicated that the effects of exposure on familiarity and similarity were mediated by its effects on atrraction. The potential role of affinity in several kinds of social relations is discussed."
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on reliable academic summaries.
+
+The 1992 study by Richard L. Moreland and Scott R. Beach, published in the *Journal of Experimental Social Psychology*, was designed to investigate the "mere exposure effect" within a real-world classroom setting. The core of the research was to determine if repeated exposure to a person, without any social interaction, could lead to the development of affinity—a feeling of closeness composed of familiarity, attraction, and similarity.
+
+**Methodology**
+The experiment was conducted in a large college course with over 100 students. Four female research assistants (confederates), chosen for their similar appearance, posed as students in the class for an entire semester. To isolate the variable of exposure, the women were instructed not to interact with any of the actual students. The level of exposure was systematically varied: one woman did not attend the class at all (0 sessions), while the other three attended 5, 10, or 15 times, respectively. At the end of the semester, the 130 students in the course were shown photographs of the four women and asked to rate them on measures of perceived familiarity, attractiveness, and similarity.
+
+**Results**
+The findings demonstrated a powerful mere exposure effect. The number of classes a confederate attended had only a weak impact on whether students recognized her. However, the frequency of attendance had a strong, direct influence on how much the students liked the women. As the number of appearances increased, so did the students' ratings of the confederate's attractiveness and their perceived similarity to her. The woman who attended class most often (15 times) was liked significantly more than the woman who never attended.
+
+**Conclusion**
+The authors concluded that mere exposure is a significant factor in the development of interpersonal affinity. Their causal analysis suggested that the primary effect of repeated exposure was an increase in attraction. This heightened attraction, in turn, led the students to perceive the frequently seen women as more familiar and more similar to themselves. The study provides strong evidence that simple, passive contact in a natural environment can foster the initial positive feelings that form the basis of social relationships.
+
+## 3. Sources
+ https://www.semanticscholar.org/paper/Exposure-effects-in-the-classroom%3A-The-development-Moreland-Beach/f10131b141434185d39e313e5149842a256249e9
+ https://opentext.wsu.edu/psychology/chapter/15-1-social-cognition-making-sense-of-ourselves-and-others/
+ https://open.lib.umn.edu/socialpsychology/chapter/8-1-initial-attraction/
+ https://www.science-in-school.org/article/2022/exposure-effects-in-the-classroom/
+ https://www.scirp.org/reference/referencespapers?referenceid=2719223

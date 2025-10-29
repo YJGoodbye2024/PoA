@@ -1,0 +1,33 @@
+## 1. Official Abstract
+"Although organizational control and power are often designed to diminish workplace deviance, they also have the capacity to incite it. This is because enactments of power that confront organizational members in their daily work lives can create frustration that is expressed in acts of deviance. In this article, the authors examine why power provokes workplace deviance in organizations and, specifically, how types of power affect the form that workplace deviance takes."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### Introduction
+The authors begin by establishing the high prevalence and staggering costs of workplace deviance, including theft, sabotage, and bullying. They argue that while deviance is often seen as a reaction to organizational stressors, the role of power as a direct cause has not been systematically examined. The central thesis is that the use of power in organizations—even for legitimate purposes like control and motivation—can provoke deviance as a form of resistance. This resistance stems from the frustration employees feel when enactments of power are perceived negatively. The paper defines workplace deviance as "voluntary behavior that violates significant organizational norms and thus is perceived as threatening the well-being of the organization or its members."
+
+### The Primary Relationship Between Power and Workplace Deviance
+Lawrence and Robinson propose that organizational power incites deviance by creating frustration through three primary mechanisms:
+
+1.  **Threats to Autonomy:** Enactments of power inherently reduce individual autonomy. When this loss of freedom is significant, or when the individual has a high need for autonomy, it can lead to frustration and deviant behaviors intended to resist that loss.
+2.  **Threats to Identity:** Power can threaten an individual's sense of self and social identity. When an employee's identity is threatened, they may engage in defensive or retaliatory behaviors, such as aggression or revenge, to restore their social face and re-establish a sense of self-respect.
+3.  **Threats to Justice:** The exercise of power can create a "disparity between a need for justice and experiences of unfairness." When employees perceive the processes or outcomes of power as unfair, this can engender frustration and motivate them to seek retribution through deviant acts.
+
+### Dimensions of Power and Workplace Deviance
+The paper moves beyond a general model to explore how specific *types* of power can lead to specific *forms* of deviance. The authors categorize power along two dimensions: the degree of objectification (treating a person as an object versus a subject) and the locus of power (episodic/individual vs. systemic/structural). This creates four modes of power: force, influence, discipline, and domination.
+
+Similarly, workplace deviance is categorized along two dimensions: severity (minor vs. serious) and target (interpersonal vs. organizational). The core argument in this section is that the nature of the power used influences the form of resistance that emerges.
+
+*   **Objectifying Power and Deviance:** The authors propose that "Objectifying forms of power will tend to lead to greater levels of frustration than do those that treat targets as subjects." This is because objectification entails a greater loss of autonomy and a more significant threat to identity.
+*   **Systemic vs. Episodic Power:** The paper argues that systemic forms of power (e.g., discriminatory pay systems, surveillance) are more likely to provoke deviance directed at the organization itself. In contrast, episodic power enacted by a specific manager is more likely to result in deviance targeting that individual.
+
+### Conclusion
+The authors conclude by summarizing their theoretical model: workplace deviance can be understood as a form of resistance to the everyday exercise of organizational power. This resistance is sparked by feelings of frustration arising from threats to employees' autonomy, identity, and sense of justice. Importantly, they clarify that the forms of power discussed are not necessarily abusive but are often "ordinary, legitimate mechanisms of control in contemporary organizational life." The paper emphasizes that it does not seek to "romanticize deviance and demonize power," but rather to provide a more nuanced understanding of the relationship between the two. The key implication is that managerial attempts to increase control can paradoxically increase the very behaviors they are meant to reduce.
+
+## 3. Sources
+ Lawrence, T. B., & Robinson, S. L. (2007). *Ain't Misbehavin: Workplace Deviance as Organizational Resistance*. Journal of Management, 33(3), 378–394. Full text available from Simon Fraser University Library.
+ Lawrence, T. B., & Robinson, S. L. (2007). *“Ain't Misbehavin”: Workplace deviance as organizational resistance*. ResearchGate. (PDF)
+ Lawrence, T. B., & Robinson, S. L. (2007). *Ain't Misbehavin: Workplace Deviance as Organizational Resistance*. Semantic Scholar.
+ van Baarle, M. (2024). *Faces of Power in Organizations: Foundations, Applications, and Extension*. Eurokd.
+ Other citing articles and abstracts: [https://www.researchgate.net/publication/235298089_Ain't_Misbehavin_Workplace_Deviance_as_Organizational_Resistance](https://www.researchgate.net/publication/235298089_Ain't_Misbehavin_Workplace_Deviance_as_Organizational_Resistance), [https://www.tandfonline.com/doi/full/10.1080/23311975.2022.2075931](https://www.tandfonline.com/doi/full/10.1080/23311975.2022.2075931), [https://www.tandfonline.com/doi/full/10.1080/25741292.2023.2291587](https://www.tandfonline.com/doi/full/10.1080/25741292.2023.2291587), [https://ivypanda.com/essays/deviance-in-the-workplace-overview/](https://ivypanda.com/essays/deviance-in-the-workplace-overview/), [https://www.emerald.com/insight/content/doi/10.1108/LODJ-07-2023-0322/full/html](https://www.emerald.com/insight/content/doi/10.1108/LODJ-07-2023-0322/full/html), [https://www.conscientiabeam.com/journal/71/abstract/6631](https://www.conscientiabeam.com/journal/71/abstract/6631), [https://academic.oup.com/book/34360/chapter/295874246](https://academic.oup.com/book/34360/chapter/295874246), [https://sajip.co.za/index.php/sajip/article/view/2347/3573](https://sajip.co.za/index.php/sajip/article/view/2347/3573)

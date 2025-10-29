@@ -1,0 +1,51 @@
+Based on a deep search for the specified paper, the following information has been retrieved and analyzed.
+
+## 1. Official Abstract
+
+A verbatim official abstract for this book chapter is not available in the public domain. However, a descriptive summary from a reliable academic source provides an overview of the chapter's content:
+
+> "Takes on the challenge of finding the elusive psychological cause of the correspondence bias. The author offers a fanciful conversation with E. E. Jones in which they discuss the outcome of efforts to fulfill Jones's wish to find the single integrating mechanism for the correspondence bias. Gilbert concludes that there are..."
+
+The full citation for the work is: Gilbert, D. T. (1998). Speeding with Ned: A personal view of the correspondence bias. In J. M. Darley & J. Cooper (Eds.), *Attribution and social interaction: The legacy of E. E. Jones* (pp. 5-36). Washington, DC: American Psychological Association.
+
+## 2. Core Insights & Analysis
+
+Full text was not accessible. The following is a detailed interpretation based on analysis of secondary sources and related works.
+
+The chapter "Speeding with Ned: A personal view of the correspondence bias" is a conceptual contribution to the field of social psychology, written by Daniel Gilbert as a tribute to his mentor, Edward E. "Ned" Jones, a foundational figure in attribution theory. The paper is not a traditional empirical study but rather a reflective essay that explores the nature of the "correspondence bias."
+
+**The Correspondence Bias:**
+The correspondence bias, a term Gilbert championed over the more commonly known "fundamental attribution error," is the pervasive tendency for people to infer that a person's actions correspond to their internal dispositions (personality, attitudes) while underestimating the influence of situational factors. For instance, if someone gives an angry speech, observers tend to assume the person is inherently angry, even if they know the person was instructed to act that way. This bias is considered a fundamental phenomenon in social psychology because it shapes how we perceive and interact with others.
+
+**Core Argument and Structure:**
+The chapter is uniquely structured as a "fanciful conversation" with Ned Jones. This narrative format is used to explore the central question that preoccupied Jones: what is the single, underlying psychological mechanism that causes the correspondence bias? Through this imagined dialogue, Gilbert reviews the state of the research and ultimately argues against the idea of a single cause. Instead, he suggests that the correspondence bias is not one error but a family of related errors produced by several distinct psychological mechanisms.
+
+**Key Mechanisms Discussed:**
+While the full text is not available, Gilbert's related and highly-cited works from the same period elaborate on the multi-stage model of attribution that is central to his view. This model, likely a core component of the "Speeding with Ned" chapter, posits that social inference occurs in sequential stages:
+1.  **Categorization & Characterization:** An observer automatically characterizes a behavior in dispositional terms (e.g., seeing an anxious-looking person and thinking "she is an anxious person").
+2.  **Inferential Correction:** The observer then consciously and effortfully uses information about the situation (e.g., "she is being asked stressful questions") to correct their initial inference.
+
+The correspondence bias arises when this second "correctional" stage is insufficient or skipped entirely. This failure to correct can happen for several reasons, such as when the observer is cognitively busy or distracted. Gilbert's work suggests that people are not necessarily blind to situational factors, but that accounting for them requires cognitive resources that are not always deployed.
+
+**Conclusion of the Chapter:**
+The chapter concludes that the search for a single cause for the correspondence bias is misguided. Instead, Gilbert posits that various processes contribute to the phenomenon. This multifaceted view acknowledges the complexity of social perception and moves beyond a simplistic explanation for this fundamental error in human judgment. The title itself, "Speeding with Ned," is a poignant double entendre: a personal memory of his mentor and a metaphor for the fast, automatic cognitive processes that lead people to jump to dispositional conclusions.
+
+## 3. Sources
+
+ https://www.wjh.harvard.edu/~dtg/gilbert.htm
+ https://cb-research.github.io/cb-module/references
+ https://en.wikipedia.org/wiki/Fundamental_attribution_error
+ https://www.researchgate.net/publication/232537380_Inferences_about_Actions_Performed_in_Constraining_Contexts_Correspondence_Bias_or_Correspondent_Inference
+ https://en.wikipedia.org/wiki/Fundamental_attribution_error?useskin=vector
+ https://scialert.net/fulltext/?doi=jbs.2017.1.20
+ https://sciencebeta.com/psychological-models-attribution/
+ https://en.wikipedia.org/wiki/Edward_E._Jones
+ https://www.researchgate.net/publication/285593847_Language_and_Categorization
+ https://searchworks.stanford.edu/view/3807536
+ https://www.wjh.harvard.edu/~dtg/Gilbert%20&%20Malone%20(CORRESPONDENCE%20BIAS).pdf
+ https://www.in-mind.org/article/why-do-we-so-often-ignore-the-influence-of-situations-on-behavior
+ https://www.cambridge.org/core/books/abs/heuristics-and-biases/references/82A14207914757361A0A9560D7020199
+ https://cityaccess.city.ac.uk/id/eprint/17094/
+ https://web.mit.edu/sdey/www/sdeypapers/Motivation.pdf
+ https://www.researchgate.net/publication/311681944_Individual_Differences_in_Correspondence_Bias_Measurement_Consequences_and_Correction_of_Biased_Interpersonal_Attributions
+ https://commcache.io/wp-content/uploads/2021/08/Gawronski-2004-Theory-based-bias-correction-in-dispositional-inference.pdf

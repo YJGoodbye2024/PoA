@@ -1,0 +1,38 @@
+## 1. Official Abstract
+"Patents' memoirs o painfu medica procedures ma influenc their decision abou futur treatments ye memoir ar imperfec an susceptibl t bias W recorde i real-tim th intensit o pai experience b patient undergoin colonoscop ( = 154 an lithotrips ( = 133) W subsequentl examine patients retrospectiv evaluation o th tota pai o th procedur an relate thes evaluation t th real-tim recordin obtaine durin th experience W foun tha individual varie substantiall i th tota amoun o pai the remembered Patients judgment o tota pai wer strongl correlate wit th pea intensit o pai (P < 0.005 an wit th intensit o pai recorde durin th las mi o th procedur (P < 0.005) Despit substantia variatio i th duratio o th experience length procedure wer no remembere a particularl aversive W sugges tha patients memoir o painfu medica procedure largel reflec th intensit o pai a th wors par an a th fina par o th experience."
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on an analysis of authoritative third-party sources.
+
+### Detailed Interpretation: The Peak-End Rule in Medical Practice
+
+The 1996 study by Redelmeier and Kahneman is a seminal work in the understanding of how patients remember painful experiences. Its findings have had a significant impact on behavioral psychology and patient care, primarily through the introduction and validation of the "peak-end rule."
+
+**Methodology and Core Concept**
+The researchers studied two groups of patients undergoing inherently uncomfortable medical procedures: 154 patients for colonoscopy and 133 for lithotripsy. During the procedures, patients provided real-time ratings of their pain intensity. After the procedure, they were asked to provide a retrospective evaluation of the "total amount of pain" they had experienced. The study's primary goal was to compare the real-time data with the final, remembered evaluation to identify any systematic biases in how pain is recalled.
+
+**Key Findings**
+The analysis revealed that patients' memories of the total pain were not a simple average or summation of the pain experienced throughout the procedure. Instead, two key moments disproportionately influenced their memory:
+1.  **The Peak:** The moment of most intense pain during the procedure.
+2.  **The End:** The level of pain experienced during the final three minutes of the procedure.
+
+Both the peak intensity and the end intensity were strongly correlated with the patients' overall retrospective judgment of the experience. This cognitive shortcut, where an entire experience is judged by its most intense point and its conclusion, is known as the **peak-end rule**.
+
+A crucial related finding was **"duration neglect."** The study found that the actual length of the procedure had little to no bearing on the patient's memory of how painful it was. A lengthy procedure was not remembered as being significantly more aversive than a shorter one, a finding that contradicts the intuitive assumption that more time spent in pain would result in a worse memory of the event.
+
+**Implications and Critical Analysis**
+The study demonstrates that our "remembering self" does not process experiences in the same way as our "experiencing self." The memory of an event is not a faithful record but rather a biased summary. This has profound implications for patient care and medical practice. For instance, a subsequent study by the same authors in 2003 tested this rule by extending a colonoscopy procedure with a short period where the scope was left in place but was not painful. Patients in this group, who experienced a less painful end to their procedure (even though it was longer), rated the experience as less unpleasant and were more likely to return for a follow-up procedure.
+
+The peak-end rule suggests that to improve a patient's memory of a painful procedure—and thus their willingness to seek future care—medical practitioners could focus on minimizing the peak pain and ensuring the final moments of the procedure are as comfortable as possible. The rule has been shown to apply to a variety of other disagreeable experiences, including exposure to loud noises and other effortful tasks, indicating it is a robust psychological phenomenon.
+
+## 3. Sources
+ Redelmeier, D. A., & Kahneman, D. (1996). Patients' memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures. *Pain*, 66(1), 3–8. https://pubmed.ncbi.nlm.nih.gov/8857625/
+ The Decision Lab. (n.d.). *Peak-end rule*. Retrieved October 28, 2025, from https://thedecisionlab.com/biases/peak-end-rule
+ Finn, B., & Miele, D. B. (2016). ENDING ON A HIGH NOTE: Adding a Better End to Effortful Study. *Journal of Experimental Psychology: Applied*, 22(3), 304–313. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5584666/
+ Redelmeier, D. A., & Kahneman, D. (1996). Patients' memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures. *Semantic Scholar*. https://www.semanticscholar.org/paper/Patients'-memories-of-painful-medical-treatments%3A-Redelmeier-Kahneman/1705e49a05423432924357b2195027b47f48939c
+ Redelmeier, D. A., & Kahneman, D. (1996). Patients' memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures. *EVA FCS*. https://eva.fcs.upv.es/eva/pluginfile.php/151972/mod_resource/content/1/Redelmeier%20y%20Kahneman%201996.pdf
+ Redelmeier, D. A., Katz, J., & Kahneman, D. (2003). Memories of colonoscopy: a randomized trial. *Pain*, 104(1-2), 187–194. https://www.amherst.edu/system/files/media/0678/colonoscopy%202.pdf
+ Sprouts. (2023, June 29). *The Peak End Rule: What You Actually Remember From a Experience* [Video]. YouTube. https://www.youtube.com/watch?v=S3h5D22hBfI
+ Practical Psychology. (2022, September 25). *The Peak-End Rule | Cognitive Biases Explained* [Video]. YouTube. https://www.youtube.com/watch?v=jZEZp-3nE5g
+ Santos, L. (n.d.). *Cognitive Biases: Peak-End Effect* [Video]. Khan Academy. Retrieved October 28, 2025, from https://www.khanacademy.org/science/health-and-medicine/executive-systems-of-the-brain/bias-and-decision-making-in-medicine/v/cognitive-biases-peak-end-effect
+ Boon, K. (2022, July 28). *How Our Memories Are Shaped by High Moments (Peak-End Rule)* [Video]. YouTube. https://www.youtube.com/watch?v=rWpl2BvFk9c

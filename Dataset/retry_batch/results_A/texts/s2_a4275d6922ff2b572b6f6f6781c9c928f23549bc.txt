@@ -1,0 +1,21 @@
+## 1. Official 's investment model of commitment, an instrument designed to measure four constructs: commitment level, satisfaction level, quality of alternatives, and investment size. The scale was developed to provide a reliable and valid tool for research on interdependence and commitment in close relationships.
+
+The authors conducted three separate studies to evaluate the scale's reliability and validity.
+
+*   **Study 1:** This study aimed to establish the internal consistency and factor structure of the scale. The results showed that the items for each of the four constructs (satisfaction, alternatives, investments, commitment) were internally reliable. A principal components analysis confirmed that the items loaded onto four distinct factors, aligning with the theoretical constructs of the Investment Model.
+
+*   **Study 2:** This study examined the convergent and discriminant validity of the scale. It tested the associations between the Investment Model variables and other measures of relationship functioning (like dyadic adjustment and trust) and individual personal dispositions (like self-esteem). As predicted, the scale's measures were moderately associated with superior couple functioning and were not related to personal disposition measures, further supporting the scale's validity.
+
+*   **Study 3:** This longitudinal study assessed the predictive validity of the scale. The researchers found that measurements of satisfaction, alternatives, investments, and commitment taken at an initial time point could successfully predict later relationship outcomes. Specifically, the scale's variables predicted future levels of dyadic adjustment and whether the relationship persisted or ended.
+
+In conclusion, the paper establishes the Investment Model Scale as a psychometrically sound instrument. The authors demonstrated its reliability through internal consistency, its structural validity through factor analysis, and its predictive validity by showing that the constructs can forecast future relationship stability. The development of this scale was intended to facilitate further empirical research into the complex dynamics of commitment and dependence in ongoing relationships.
+
+## 3. Sources
+*   [https://www.researchgate.net/publication/230829219_The_Investment_Model_Scale_Measuring_commitment_level_satisfaction_level_quality_of_alternatives_and_investment_size](https://www.researchgate.net/publication/230829219_The_Investment_Model_Scale_Measuring_commitment_level_satisfaction_level_quality_of_alternatives_and_investment_size)
+*   [https://www.scirp.org/reference/referencespapers?referenceid=1588931](https://www.scirp.org/reference/referencespapers?referenceid=1588931)
+*   [https://www.semanticscholar.org/paper/The-Investment-Model-Scale%3A-Measuring-commitment-Rusbult-Martz/9804813cd6163359d9921a48332152f20d6f4f21](https://www.semanticscholar.org/paper/The-Investment-Model-Scale%3A-Measuring-commitment-Rusbult-Martz/9804813cd6163359d9921a48332152f20d6f4f21)
+*   [https://www.docsity.com/en/investment-model-scale-ims-lecture-notes-social-psychology/8226307/](https://www.docsity.com/en/investment-model-scale-ims-lecture-notes-social-psychology/8226307/)
+*   [https://www.scribd.com/document/387711909/The-Investment-Model-Scale-Measuring-Commitment-Level-Satisfaction-Level-Quality-of-Alternatives-and-Investment-Size](https://www.scribd.com/document/387711909/The-Investment-Model-Scale-Measuring-Commitment-Level-Satisfaction-Level-Quality-of-Alternatives-and-Investment-Size)
+*   [https://www.brieflands.com/articles/ircmj-123491.html](https://www.brieflands.com/articles/ircmj-123491.html)
+*   [https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1006&context=socpubs](https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1006&context=socpubs)
+*   [https://danieldashnaw.com/what-is-rusbults-investment-model/](https://danieldashnaw.com/what-is-rusbults-investment-model/)

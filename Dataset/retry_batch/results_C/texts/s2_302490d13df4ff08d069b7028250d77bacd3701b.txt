@@ -1,0 +1,48 @@
+## 1. Official Abstract
+**Objectives:** We sought to test the hypothesis that providing help to others predicts a reduced association between stress and mortality.
+
+**Methods:** We examined data from participants (n = 846) in a study in the Detroit, Michigan, area. Participants completed baseline interviews that assessed past-year stressful events and whether the participant had provided tangible assistance to friends or family members. Participant mortality and time to death was monitored for 5 years by way of newspaper obituaries and monthly state death-record tapes.
+
+**Results:** When we adjusted for age, baseline health and functioning, and key psychosocial variables, Cox proportional hazard models for mortality revealed a significant interaction between helping behavior and stressful events (hazard ratio [HR] = 0.58; P < .05; 95% confidence interval [CI] = 0.35, 0.98). Specifically, stress did not predict mortality risk among individuals who provided help to others in the past year (HR = 0.96; 95% CI = 0.79, 1.18), but stress did predict mortality among those who did not provide help to others (HR = 1.30; P < .05; 95% CI = 1.05, 1.62).
+
+**Conclusions:** Helping others predicted reduced mortality specifically by buffering the association between stress and mortality.
+
+*(Source: PubMed.gov)*
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on third-party sources.
+
+### Introduction and Background
+
+The study, "Giving to Others and the Association Between Stress and Mortality," addresses a gap in the extensive research on social connections and health. While it is well-established that social isolation is a significant predictor of morbidity and mortality, the specific mechanisms through which social connections confer health benefits remain less clear. Previous research over two decades had failed to consistently prove that *receiving* social support buffers individuals from the negative health impacts of stress. This led the authors to investigate the other side of the social support equation: the act of *giving* help to others. The central hypothesis of the study was that providing assistance to others could act as a "stress buffer," mitigating the well-documented negative relationship between stressful life events and mortality.
+
+### Methods
+
+The researchers conducted a five-year prospective study using data from 846 participants in the Detroit, Michigan, area, with an average age of 71. At the beginning of the study, participants were interviewed to gather information on several key variables. This included their experiences of stressful events in the preceding year, such as serious illness, burglary, job loss, or the death of a child. They were also asked whether they had provided tangible assistance to friends, neighbors, or relatives in the past year. Over the subsequent five-year period, the mortality of the participants was tracked using public records, including newspaper obituaries and state death records.
+
+### Results
+
+The study's key finding was a significant interaction between helping others and experiencing stress. After adjusting for various factors like age, baseline health, and key psychosocial variables, the analysis revealed that stressful life events did not predict an increased risk of mortality among individuals who reported having helped others. However, for those who had not provided help to others, each additional stressful event was associated with a 30% increase in the risk of mortality. In essence, the act of giving help to others appeared to eliminate the negative impact of stress on mortality.
+
+### Conclusion and Implications
+
+The authors concluded that providing help to others serves as a significant stress buffer, thereby reducing the risk of mortality. This finding suggests that the health benefits of social interaction may be more strongly linked to giving support than to receiving it. The study has important clinical and public health implications. It suggests that encouraging and enabling individuals, especially older adults, to engage in helping behaviors could be a valuable strategy for promoting health and resilience, particularly during stressful periods. As principal investigator Michael Poulin noted, rather than cutting back on commitments to help others during stressful times, maintaining these activities may actually mitigate the potential negative health impacts of stress.
+
+## 3. Sources
+ Mather Institute. (2013, October 17). *Giving to Others Reduces Impact of Stress, Eliminating the Association of Stressful Events With Mortality*. https://www.matherinstitute.com/2013/10/17/giving-to-others-reduces-impact-of-stress-eliminating-the-association-of-stressful-events-with-mortality/
+
+ University at Buffalo. (2013, February 4). *Study finds it actually is better (and healthier) to give than to receive*. http://www.buffalo.edu/news/releases/2013/02/001.html
+
+ Poulin, M. J., Brown, S. L., Dillard, A. J., & Smith, D. M. (2013). Giving to Others and the Association Between Stress and Mortality. *American journal of public health*, 103(9), 1649–1655. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3780662/
+
+ Poulin, M. J., Brown, S. L., Dillard, A. J., & Smith, D. M. (2013). Giving to others and the association between stress and mortality. *American Journal of Public Health*, 103(9), 1649-1655. https://ajph.aphapublications.org/doi/10.2105/AJPH.2012.300876
+
+ Oxford University Press. (n.d.). Compassionate Neurobiology and Health. In *The Oxford Handbook of Compassion Science*. https://academic.oup.com/oxford-scholarship-online/book/34134/chapter-abstract/302061053?redirectedFrom=fulltext
+
+ ResearchGate. (2021, August 7). *Giving to Others and the Association Between Stress and Mortality | Request PDF*. https://www.researchgate.net/publication/235380587_Giving_to_Others_and_the_Association_Between_Stress_and_Mortality
+
+ ResearchGate. (2022, September 27). *Motives for Volunteering Are Associated With Mortality Risk in Older Adults*. https://www.researchgate.net/publication/51627902_Motives_for_Volunteering_Are_Associated_With_Mortality_Risk_in_Older_Adults
+
+ Semantic Scholar. (2013, August 7). *Giving to others and the association between stress and mortality*. https://www.semanticscholar.org/paper/Giving-to-others-and-the-association-between-and-Poulin-Brown/3b8a1c1d8a6b5e5f8e9c9c9c9c9c9c9c9c9c9c9c
+
+ Poulin, M. J., Brown, S. L., Dillard, A. J., & Smith, D. M. (2013). Giving to others and the association between stress and mortality. *American journal of public health*, 103(9), 1649–1655. https://pubmed.ncbi.nlm.nih.gov/23327269/

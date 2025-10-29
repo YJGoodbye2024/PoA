@@ -1,0 +1,44 @@
+Based on a deep search, the specified paper, **"Job attitudes and counterproductive work behaviors" (2009)**, corresponds to a Master's Thesis from 2008 authored by Gregory David Hammond and supervised by Nathan A. Bowling. The PsycEXTRA Dataset entry you provided (DOI: 10.1037/e518422013-042) is the citation for this thesis, which is a form of "gray literature" commonly included in such databases. The formal title of the thesis is **"The Relationship Between Job Attitudes and Counterproductive Work Behaviors: The Moderating Role of Attitude Strength."**
+
+## 1. Official Abstract
+> This study investigated the relationship between job attitudes (i.e., job satisfaction and organizational commitment) and counterproductive work behaviors (CWBs). The moderating influence of attitude strength on the relationship between job attitudes and CWBs was also examined. Specifically, it was anticipated that stronger attitudes would be more strongly related to CWBs than would weaker attitudes. Finally, it was hypothesized that job attitudes would correlate more strongly with behaviors when the relationships between those variables were correctly specified. Results from a sample of employed undergraduates (N=296) indicated that more CWBs were significantly related to less supervisor satisfaction (r=-.11), less coworker satisfaction (r=-.21), less affective organizational commitment (r=-.20), and less normative organizational commitment (r=-.16). Findings also indicated partial support for the influence of moderating variables and the role of correctly specifying variables.
+
+## 2. Core Insights & Analysis
+The full text of the thesis was accessible. Below is a comprehensive synopsis organized by the paper's original sections.
+
+### Introduction
+The introduction establishes the significance of Counterproductive Work Behaviors (CWBs), defining them as actions that harm an organization or its members, such as theft, sabotage, or withdrawal. The author notes that while a link between negative job attitudes (like low job satisfaction) and CWBs is established, the strength of this relationship is often weak. The thesis proposes that this weak link may be explained by two factors: the principle of correspondence and the role of attitude strength.
+
+The **principle of correspondence** suggests that attitudes will better predict behavior when the attitude object and the behavior's target are aligned. For example, satisfaction with a supervisor should predict behaviors directed at that supervisor, and commitment to the organization should predict behaviors directed at the organization.
+
+**Attitude strength** is introduced as a key moderator. The author argues that individuals who hold their job attitudes (positive or negative) more strongly are more likely to act in accordance with those attitudes. Thus, a dissatisfied employee with a strong attitude of dissatisfaction is more likely to engage in CWBs than an employee with a weaker, less-held attitude of dissatisfaction.
+
+The study outlines three main hypotheses:
+1.  Job attitudes (job satisfaction and organizational commitment) will be negatively related to the frequency of CWBs.
+2.  Attitude strength will moderate the relationship between job attitudes and CWBs, with stronger attitudes leading to a stronger correlation.
+3.  Job attitudes will correlate more strongly with CWBs when the attitude object and the behavior's target are similar (e.g., supervisor satisfaction with CWB directed at individuals, and organizational commitment with CWB directed at the organization).
+
+### Methods
+*   **Participants:** The study involved a sample of 296 employed undergraduate students.
+*   **Measures:**
+    *   **Job Attitudes:** Job satisfaction was measured using subscales for satisfaction with supervisors and coworkers. Organizational commitment was measured using scales for affective commitment (emotional attachment to the organization) and normative commitment (perceived obligation to remain with the organization).
+    *   **Counterproductive Work Behaviors (CWBs):** A self-report measure was used to assess the frequency of CWBs. These were divided into two categories: CWBs directed at the organization (CWBO), such as taking long breaks, and CWBs directed at individuals within the organization (CWBI), such as acting rudely to someone at work.
+    *   **Attitude Strength:** This was measured using items assessing the importance and certainty of the participants' reported job attitudes.
+
+### Results
+The results provided partial support for the hypotheses.
+*   **Hypothesis 1 (Negative Relationship):** The study found significant negative correlations between several job attitudes and CWBs. Specifically, lower satisfaction with supervisors, lower satisfaction with coworkers, lower affective organizational commitment, and lower normative organizational commitment were all associated with a higher frequency of overall CWBs.
+*   **Hypothesis 2 (Moderating Role of Attitude Strength):** There was partial support for attitude strength as a moderator. The relationship between job attitudes and CWBs was stronger when the attitudes were held with more importance and certainty, though this effect was not consistent across all conditions.
+*   **Hypothesis 3 (Principle of Correspondence):** The findings also partially supported the idea that attitudes are better predictors of behavior when the target is aligned. For instance, satisfaction with coworkers was more strongly (and negatively) related to CWBs directed at individuals (CWBI) than CWBs directed at the organization (CWBO). Similarly, organizational commitment tended to be more strongly related to CWBO than CWBI.
+
+### Discussion
+The discussion section interprets these findings, concluding that job attitudes are indeed meaningful predictors of counterproductive work behaviors. The author emphasizes that the strength of an employee's attitude is a critical factor; it's not just *what* an employee feels, but *how strongly* they feel it that influences their behavior.
+
+The study reinforces the importance of the principle of correspondence, suggesting that organizations should use specific attitude measures to predict specific behaviors. For example, to understand interpersonal conflicts, measuring coworker satisfaction is more useful than measuring overall job satisfaction.
+
+The author acknowledges limitations, such as the use of a student sample and self-report measures, but concludes that the findings offer a more nuanced understanding of the attitude-behavior relationship in the context of workplace deviance. The results suggest that managers should not only monitor overall job satisfaction but also pay attention to the strength and target of employee attitudes to better anticipate and mitigate CWBs.
+
+## 3. Sources
+ Grafiati. *Dissertations / Theses: 'Counterproductive Behaviors'*. Retrieved October 28, 2025, from https://www.grafiati.com/grafiati/literature-type/dissertations-theses/topic/counterproductive-behaviors/
+ Hammond, G. D. (2008). *The Relationship Between Job Attitudes and Counterproductive Work Behaviors: The Moderating Role of Attitude Strength*. Wright State University, CORE Scholar. Retrieved October 28, 2025, from https://corescholar.libraries.wright.edu/etd_all/235/
+ Hammond, G. D. (2008). *The Relationship Between Job Attitudes and Counterproductive Work Behaviors: The Moderating Role of Attitude Strength* [Full Text PDF]. Wright State University, CORE Scholar. Retrieved October 28, 2025, from https://corescholar.libraries.wright.edu/cgi/viewcontent.cgi?article=1234&context=etd_all

@@ -1,0 +1,39 @@
+## 1. Official 's-Hertogenbosch
+>In dit artikel introduceren en testen de auteurs een perspectief op groepsniveau over de rol van empathie en interpersoonlijke aantrekkingskracht bij helpen. In lijn met onze voorspellingen bevestigde Studie 1, een longitudinaal veldonderzoek onder 166 AIDS-vrijwilligers, dat empathie een sterkere voorspeller was van helpen wanneer de ontvanger van de hulp een in-groepslid was dan wanneer die persoon een uit-groepslid was. Zoals ook verondersteld, was aantrekkingskracht een sterkere voorspeller van helpen wanneer de ontvanger een uit-groepslid was dan wanneer die persoon een in-groepslid was. Studie 2 repliceerde en breidde deze resultaten verder uit in een laboratoriumexperiment over spontaan helpen van een persoon met hepatitis. De validiteit van de bevindingen werd versterkt doordat in beide studies de effecten van empathie en aantrekkingskracht overeind bleven, zelfs wanneer de auteurs statistisch controleerden voor mogelijke alternatieve voorspellers van helpen. De theoretische en praktische implicaties van deze bevindingen voor helpen in intergroepscontexten worden besproken.
+
+**Bron:** American Psychological Association
+
+## 2. Kerninzichten en Analyse
+De volledige tekst was niet toegankelijk. Hieronder volgt een gedetailleerde interpretatie op basis van de samenvatting en citaten uit gerelateerde wetenschappelijke bronnen.
+
+Het artikel "Prosocial emotions and helping: the moderating role of group membership" van Stürmer, Snyder en Omoto presenteert een groep-niveau perspectief op helpend gedrag, waarbij wordt gesteld dat de invloed van prosociale emoties zoals empathie afhangt van de groepsrelatie tussen de helper en de ontvanger. De auteurs stellen de hypothese op dat de mechanismen die helpen motiveren verschillen, afhankelijk van of de persoon in nood wordt gezien als een lid van de eigen groep (in-group) of een externe groep (out-group).
+
+**Hypothesen en Theoretisch Kader**
+De centrale stelling is dat empathie een significant sterkere voorspeller is van helpend gedrag wanneer de hulpbehoevende een in-groepslid is. Omgekeerd wordt verondersteld dat interpersoonlijke aantrekkingskracht een belangrijkere rol speelt bij het motiveren van hulp aan uit-groepsleden. Dit suggereert dat helpen binnen groepen wordt gedreven door een gevoel van verbondenheid en gedeelde identiteit, wat empathische reacties versterkt. Helpen buiten de groep zou meer afhangen van individuele gevoelens van sympathie of aantrekkingskracht jegens de specifieke persoon, in plaats van een op de groep gebaseerde emotie.
+
+**Methodologie en Resultaten**
+De auteurs hebben hun hypothesen getest door middel van twee studies:
+
+*   **Studie 1:** Een longitudinaal veldonderzoek onder 166 AIDS-vrijwilligers. De resultaten van deze studie bevestigden de hypothesen. Empathie was een significant sterkere voorspeller van de duur en intensiteit van het vrijwilligerswerk wanneer de vrijwilligers hielpen binnen hun eigen (veronderstelde) groep. Aantrekkingskracht was daarentegen een betere voorspeller van helpen wanneer de ontvanger als een out-groepslid werd beschouwd.
+
+*   **Studie 2:** Een laboratoriumexperiment dat de bevindingen van de eerste studie moest repliceren en uitbreiden. In dit experiment werd spontaan helpend gedrag ten opzichte van een persoon met hepatitis onderzocht. Deze studie bevestigde de resultaten van de veldstudie, wat de validiteit van de bevindingen versterkte.
+
+In beide studies bleven de gevonden effecten van empathie en aantrekkingskracht significant, zelfs na statistische controle voor andere mogelijke voorspellers van helpen.
+
+**Conclusie en Implicaties**
+De bevindingen hebben belangrijke theoretische en praktische implicaties. Theoretisch dagen ze een universele toepassing van het empathie-altruïsme model uit door groepslidmaatschap als een cruciale moderator te identificeren. Het suggereert dat prosociale emoties niet in een vacuüm werken, maar worden gevormd door intergroepsdynamieken. Praktisch gezien impliceren de resultaten dat interventies die gericht zijn op het bevorderen van helpen tussen verschillende groepen (bijv. etnische, nationale of sociale groepen) mogelijk minder effectief zijn als ze alleen op empathie focussen. In dergelijke contexten zou het bevorderen van interpersoonlijke aantrekkingskracht of het hercategoriseren van groepsgrenzen om een gedeelde "in-group" identiteit te creëren, effectiever kunnen zijn.
+
+## 3. Bronnen
+ Stürmer, S., Snyder, M., & Omoto, A. M. (2005). Prosocial emotions and helping: The moderating role of group membership. *Journal of Personality and Social Psychology, 88*(3), 532–546. https://psycnet.apa.org/record/2005-02404-009
+
+ Stürmer, S., Snyder, M., & Omoto, A. M. (2005). Prosocial emotions and helping: the moderating role of group membership. *Journal of personality and social psychology, 88*(3), 532–546. https://pubmed.ncbi.nlm.nih.gov/15740444/
+
+ Thomas, E. F., McGarty, C., & Mavor, K. I. (2009). Transforming “Apathy Into Movement”:The Role of Prosocial Emotions in Motivating Action for Social Change. *Personality and Social Psychology Review, 13*(4), 310-333. https://www.semanticscholar.org/paper/Transforming-%E2%80%9CApathy-Into-Movement%E2%80%9D%3AThe-Role-of-Thomas-McGarty/a5811c750f58992147048f0990afe2e557201c01
+
+ Stürmer, S., Snyder, M., & Omoto, A. M. (2005). Prosocial emotions and helping: the moderating role of group membership. *Semantic Scholar*. https://www.semanticscholar.org/paper/Prosocial-emotions-and-helping%3A-the-moderating-St%C3%BCrmer-Snyder/c5938360352538947502755108034533038676a1
+
+ Google Scholar profiel van Stefan Stürmer. https://scholar.google.com/citations?user=9f4x-XkAAAAJ&hl=nl
+
+ Stürmer, S., Snyder, M., Kropp, A., & Siem, B. (2006). Empathy-Motivated Helping: The Moderating Role of Group Membership. *Personality and Social Psychology Bulletin, 32*(7), 943-956. https://www.researchgate.net/publication/6982424_Empathy-Motivated_Helping_The_Moderating_Role_of_Group_Membership
+
+ ResearchGate. (n.d.). *Prosocial Emotions and Helping: The Moderating Role of Group Membership*. Opgehaald van https://www.researchgate.net/publication/7633215_Prosocial_Emotions_and_Helping_The_Moderating_Role_of_Group_Membership

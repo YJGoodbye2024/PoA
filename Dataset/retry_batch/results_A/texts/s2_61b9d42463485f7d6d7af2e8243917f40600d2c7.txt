@@ -1,0 +1,38 @@
+## 1. Official Abstract
+People are inaccurate judges of how their abilities compare to others'. J. Kruger and D. Dunning (1999, 2002) argued that unskilled performers in particular lack metacognitive insight about their relative performance and disproportionately account for better-than-average effects. The unskilled overestimate their actual percentile of performance, whereas skilled performers more accurately predict theirs. However, not all tasks show this bias. In a series of 12 tasks across 3 studies, the authors show that on moderately difficult tasks, best and worst performers differ very little in accuracy, and on more difficult tasks, best performers are less accurate than worst performers in their judgments. This pattern suggests that judges at all skill levels are subject to similar degrees of error. The authors propose that a noise-plus-bias model of judgment is sufficient to explain the relation between skill level and accuracy of judgments of relative standing.
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis organized by the paper's original sections.
+
+### **Introduction**
+The paper challenges the "unskilled-unaware hypothesis" popularized by Kruger and Dunning, which posits that poor performers are uniquely unable to recognize their own incompetence due to a lack of metacognitive skill. Burson, Larrick, and Klayman argue against this, proposing instead that perceptions of task difficulty are a primary driver of miscalibration for *all* performers, regardless of skill level. They introduce a "noise-plus-bias" model, suggesting that everyone is generally poor at estimating their relative performance (noise) and is susceptible to bias based on how easy or hard they find a task. On easy tasks, people tend to overestimate their rank, making low-performers appear less accurate. Conversely, on difficult tasks, people tend to underestimate their rank, which can make high-performers appear less accurate. The authors contend this provides a more complete explanation than attributing the effect solely to the metacognitive deficits of the unskilled.
+
+### **Alternative Explanations and Measures**
+The authors propose that instead of a metacognitive deficit in the unskilled, the observed patterns can be explained more simply. They argue that "people at all performance levels are equally poor at estimating their relative performance... and equally prone to overestimating their percentile on tasks that are perceived to be easy and underestimating it on tasks that are perceived to be hard." This "noise-plus-bias" account suggests that the accuracy of skilled performers on easy tasks is not necessarily due to greater insight, but because their actual high performance happens to align with the general tendency to overestimate. To better measure accuracy, the paper introduces a measure called "sensitivity," which is designed to be less influenced by the overall bias created by task difficulty than the "miscalibration" measure used in prior research.
+
+### **Studies 1, 2, and 3**
+Across three studies involving twelve different tasks, the researchers manipulated task difficulty to observe its effect on self-assessments. The tasks ranged from trivia and word games to estimating the popularity of names.
+
+*   **Study 1:** Used tasks of easy, moderate, and hard difficulty. On the easy task, the results replicated the original Dunning-Kruger finding: the worst performers were the least accurate. However, on the moderate task, there was little difference in accuracy between the top and bottom performers. On the hard task, the pattern reversed: the best performers were the *least* accurate because they underestimated their performance more than the poor performers did.
+
+*   **Study 2:** This study was designed to test the authors' hypothesis that the perceived difficulty of a task, rather than its actual difficulty, drives the bias. By manipulating perceptions of difficulty for the same task, they demonstrated that this perception was enough to shift self-assessments, supporting their noise-plus-bias model.
+
+*   **Study 3:** This study further solidified the findings by examining tasks where an individual's skill should theoretically provide a good basis for judging others' performance. Even in these cases, the pattern held: task difficulty was a powerful predictor of estimation bias across all skill levels.
+
+The collective results from these studies showed that on moderately difficult tasks, there is little difference in the accuracy of judgments between the best and worst performers. On more difficult tasks, the top performers become less accurate than the worst performers.
+
+### **General Discussion**
+The authors conclude that the relationship between skill and self-awareness is more complex than the "unskilled-unaware" hypothesis suggests. Their findings indicate that "judges at all skill levels are subject to similar degrees of error." The key factor is the perceived difficulty of the task, which creates a systematic bias affecting everyone. Poor performers contribute most to the "better-than-average" effect on easy tasks, while skilled performers contribute most to the "worse-than-average" effect on difficult tasks. The paper argues that while metacognitive differences might play some role, the noise-plus-bias model offers a more sufficient and parsimonious explanation for why people misjudge their performance relative to others. Ultimately, the research suggests that "for the most part, the skilled and the unskilled are equally unaware of how their performances compare to those of others."
+
+## 3. Sources
+ https://api.semanticscholar.org/CorpusID:2112461
+ https://pubmed.ncbi.nlm.nih.gov/16448310/
+ https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect
+ https://scholar.google.com/citations?user=Lg-b2OAAAAAJ&hl=en
+ https://deepblue.lib.umich.edu/handle/2027.42/39168
+ https://www.semanticscholar.org/author/Katherine-Burson/1783321
+ https://www.researchgate.net/publication/7218859_Skilled_or_Unskilled_but_Still_Unaware_of_It_How_Perceptions_of_Difficulty_Drive_Miscalibration_in_Relative_Comparisons
+ https://www.researchgate.net/figure/The-Dunning-Kruger-effect-in-which-low-performers-grossly-overestimate-their-performance_fig1_374534882
+ https://www.researchgate.net/publication/313498387_Skilled_or_Unskilled_but_Still_Unaware_of_It_How_Perceptions_of_Difficulty_Drive_Miscalibration_in_Relative_Comparisons
+ https://typeset.io/papers/skilled-or-unskilled-but-still-unaware-of-it-how-2l6g2z9jlr
+ https://ru.wikipedia.org/wiki/%D0%AD%D1%84%D1%84%D0%B5%D0%BA%D1%82_%D0%94%D0%B0%D0%BD%D0%BD%D0%B8%D0%BD%D0%B3%D0%B0_%E2%80%94_%D0%9A%D1%80%D1%8E%D0%B3%D0%B5%D1%80%D0%B0

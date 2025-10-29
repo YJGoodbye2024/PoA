@@ -1,0 +1,43 @@
+## 1. Official Abstract
+"This article examines consumer choice as a function of the perceptual similarity of the options in the decision set. In particular, we examine a scenario in which a set of options is extended by adding alternatives that change its perceptual characteristics, increasing the salience of one of the options in the core set. In this context, we document that, contrary to normative predictions, perceptual focus can increase the choice share of one of the core options, even when the added alternatives are dominated by both options in the core set. We further show that the observed effect is a function of consumers' mode of information processing and is more pronounced in the context of intuitive (System 1) processing than analytic (System 2) processing."
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis organized by the paper's original sections.
+
+### **Introduction**
+The paper introduces the concept of "perceptual focus," proposing that the visual presentation and perceptual characteristics of a choice set can systematically influence consumer decisions. The authors argue that by adding new options to a choice set, one can change the set's perceptual features, making one of the original ("core") options more salient or "focal." This increased salience can boost the choice share of the focal option, even when the newly added options are objectively inferior to all original options.
+
+The authors build on the dual-mode processing paradigm, which distinguishes between intuitive (System 1) and analytic (System 2) thinking. They hypothesize that the perceptual focus effect is most prominent when consumers rely on intuitive processing, as this mode is more susceptible to salient, perceptual cues. In contrast, more deliberative, analytic processing should diminish the effect. The research aims to demonstrate this effect across four empirical studies.
+
+### **Theoretical Framework and Experiments**
+The paper's core proposition is that adding perceptually similar, yet inferior, options to a choice set can draw attention to one of the core options, making it focal and increasing its likelihood of being chosen. This contrasts with normative decision theory, which would predict that adding universally dominated options should not influence choice.
+
+*   **Experiment 1:** This study was designed to demonstrate the basic perceptual focus effect and its moderation by the consumer's mode of processing. It tested whether adding inferior options could reverse the well-known "attraction effect." The results showed that by adding options that were perceptually grouped with the "competitor" option from a core set, the choice share of the "target" option increased. This effect was significant in the intuitive processing condition but was eliminated when participants were prompted to use an analytic mode of processing.
+
+*   **Experiment 2:** This experiment aimed to provide more direct evidence for the perceptual nature of the effect. The study manipulated the visual presentation of the options (e.g., using colors to group items) without altering the options' attribute values. The findings supported the hypothesis that visual cues alone could create a perceptual focus, shifting choice share toward the focal option, and that this effect was again stronger under intuitive processing.
+
+*   **Experiment 3:** This study tested the hypothesis in a different context by examining its impact on attribute preferences rather than choice between specific options. The goal was to show that making an option focal could increase the perceived importance of the attribute on which that option excels. The results confirmed this, demonstrating that perceptual focus can alter not just the choice of an item but also the underlying evaluation of its features.
+
+*   **Experiment 4:** The final experiment, as described in the full text available on ResearchGate, further investigated the underlying process. It explored whether the perceptual focus effect is driven by increased attention to the focal option. By using online study software to track how participants evaluated options, the researchers found that making an option perceptually focal increased the attention paid to it, which in turn mediated the increase in its choice share.
+
+### **General Discussion**
+The authors conclude that the perceptual characteristics of a choice set are not neutral and can significantly influence decisions in predictable ways. The research makes a key contribution by documenting the "perceptual focus effect," whereby adding dominated alternatives can increase the choice share of a core option by making it perceptually salient.
+
+A significant theoretical implication is the link between this effect and dual-processing theories. The finding that the effect is more pronounced under intuitive (System 1) processing and attenuated under analytic (System 2) processing helps explain the mechanism behind this context effect. It suggests that when consumers make quick, intuitive decisions, they are more likely to be swayed by the "look" of the choice set. The paper highlights that "consumer decisions are often not based on well-defined preferences but are constructed on the spot" and that perceptual factors play a crucial role in that construction process.
+
+## 3. Sources
+ https://www.google.com/search?q=time+in+Hamilton,+CA
+ https://ideas.repec.org/a/oup/jconrs/v34y2007i2p187-199.html
+ https://www.econbiz.de/Record/perceptual-focus-effects-in-choice/10008581027
+ https://www.researchgate.net/publication/24090956_Perceptual_Focus_Effects_in_Choice
+ https://www.mkt.hkust.edu.hk/faculty-and-staff/directory/jiewen-hong
+ https://academic.oup.com/jcr/article/34/2/187/1856201
+ https://www.researchgate.net/publication/320409491_Decision-making_style_mediates_the_relationship_between_trait_self-control_and_self-reported_criminal_behavior
+ https://www.researchgate.net/publication/228131365_The_Impact_of_Product_Line_Extensions_and_Consumer_Goals_on_the_Formation_of_Price_Image
+ https://www.researchgate.net/publication/289531362_Commentary_on_Scheibehenne_Greifeneder_and_Todd_Choice_Overload_Is_There_Anything_to_It
+ https://scholars.northwestern.edu/en/publications/perceptual-focus-effects-in-choice
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2023.1147700/full
+ https://open.lib.umn.edu/intropsyc/chapter/1-2-the-evolution-of-psychology-history-approaches-and-questions/
+ https://visibledotlearning.com/john-hattie-effect-size/
+ https://www.mdpi.com/2504-3900/126/1/12
+ https://www.ncbi.nlm.nih.gov/books/NBK535451/

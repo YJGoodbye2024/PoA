@@ -1,0 +1,33 @@
+An official abstract for this paper could not be located in the available digital archives. The publisher's page does not provide an abstract for this 1977 article.
+
+### 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation and critical analysis based on scholarly citations and summaries of the paper's central arguments.
+
+Melvin J. Lerner's 1977 paper, "The justice motive: Some hypotheses as to its origins and forms," is a foundational text in social psychology that formally introduced the "justice motive." This concept posits that humans have a fundamental need to believe that the world is a just place where people get what they deserve and deserve what they get. This motive is so powerful that it shapes perceptions and behaviors, often in non-rational ways, and stands in contrast to theories that frame human interaction as being driven purely by self-interest.
+
+#### **The "Personal Contract" and Origins of the Justice Motive**
+Lerner proposes that the justice motive originates in early development as a "personal contract" an individual forms with the social world. To function effectively and pursue long-term goals, a person must believe that their efforts will lead to deserved outcomes. This belief requires a commitment to a just world, as it provides a sense of order, predictability, and control. The awareness of injustice threatens this fundamental belief, creating psychological distress that motivates people to find ways to reaffirm their belief in a just world.
+
+#### **Forms of Justice: Equity, Equality, and Need**
+A key contribution of the paper is the hypothesis that the form of justice people apply depends on the nature of their social relationships. Lerner outlines three primary rules for distributing resources:
+*   **Equity:** Resources are distributed based on individual contributions. This is typically applied in formal or competitive relationships.
+*   **Equality:** Resources are distributed equally among all members. This rule is often preferred in cooperative relationships where group cohesion is important.
+*   **Need:** Resources are given to those who need them most. This is most common in close, communal relationships, such as within a family.
+
+According to Lerner's theory, the primary determinant for which justice rule is deemed "fair" is the relationship between the individuals involved.
+
+#### **Justice for Self vs. Justice for Others**
+Lerner distinguishes between two manifestations of the justice motive:
+1.  **Justice for Self:** This involves the protection of one's own entitlements and rightful claims.
+2.  **Justice for Others:** This concerns the evaluation of others' claims based on internalized moral norms and standards of fairness.
+
+This distinction helps explain the different ways people react to perceived injustices, whether they are the victim or an observer.
+
+#### **Consequences of the Justice Motive: Victim Blaming**
+One of the most significant and widely studied consequences of the justice motive is the phenomenon of victim blaming. When confronted with an innocent person suffering, an observer's belief in a just world is threatened. To resolve this cognitive dissonance, the observer may engage in irrational reinterpretations of the event. Instead of accepting the injustice, they may derogate or blame the victim, concluding that the person must have done something to deserve their fate. This cognitive distortion allows the observer to maintain their fundamental belief that the world is, ultimately, a just place.
+
+In summary, Lerner's 1977 paper established the justice motive as a crucial psychological construct. It moved beyond simple equity theory to propose a more nuanced model where the type of justice people seek is contingent on their relationships. It also provided a powerful theoretical explanation for seemingly irrational behaviors like victim blaming, framing them as a defense mechanism to protect a fundamental and necessary belief in a just world.
+
+### 3. Sources
+*   **** https://www.cairn.info/revue-internationale-de-psychologie-sociale-2003-3-page-35.htm
+*   **** https://www.researchgate.net/publication/232559556_The_justice_motive_Some_hypotheses_as_to_its_origins_and_forms1

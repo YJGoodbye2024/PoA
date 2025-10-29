@@ -1,0 +1,52 @@
+## 1. Official Abstract
+> The Meaning in Life Questionnaire (MLQ) was developed to measure 2 dimensions of meaning in life: Presence of Meaning (i.e., the sense that one's life is meaningful) and Search for Meaning (i.e., the drive to find meaning in one's life). In Study 1, exploratory factor analysis with a sample of 159 undergraduate students supported this 2-factor structure. In Study 2, this factor structure was confirmed in a sample of 219 undergraduate students. In Study 3, the convergent and discriminant validity of the MLQ was demonstrated in a sample of 78 undergraduate students. The MLQ demonstrated incremental validity in the prediction of well-being over and above the most widely used measure of meaning in life, the Purpose in Life Test, in a sample of 67 undergraduate students in Study 4. Finally, the 3-week test-retest reliability of the MLQ was demonstrated in a sample of 55 undergraduate students in Study 5. The MLQ offers a reliable, valid, and brief assessment of the presence of and search for meaning in life.
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### Introduction
+
+The paper begins by highlighting a resurgence of interest in the study of meaning in life within psychology, noting it as a core component of a fulfilling human life. The authors argue that existing measures are inadequate. Specifically, they critique the most popular measure at the time, the Purpose in Life Test (PIL), for its "methodological and theoretical shortcomings," including outdated items and a factor structure that confounds the presence of meaning with the search for it. The central goal of the paper is to introduce and validate a new instrument, The Meaning in Life Questionnaire (MLQ), designed to overcome these issues. The MLQ is built on a clear theoretical distinction between two separate constructs: **Presence of Meaning** (the degree to which people feel their lives have meaning) and **Search for Meaning** (the degree to which people are actively trying to establish or increase their understanding of meaning in their lives). The authors hypothesize that these are "independent, though correlated, factors."
+
+### Study 1: Exploratory Factor Analysis
+
+The first study aimed to establish the fundamental structure of the MLQ.
+
+*   **Methods:** The researchers administered a pool of 37 initial items to 159 undergraduate students. These items were designed to capture either the presence of meaning or the search for it. An exploratory factor analysis was conducted to see how the items would group together statistically.
+*   **Results:** The analysis clearly supported a two-factor structure. Ten items loaded cleanly onto these two factors, with five items measuring "Presence" (e.g., "I have a good sense of what makes my life meaningful") and five items measuring "Search" (e.g., "I am looking for something that makes my life feel meaningful"). This provided the initial evidence that Presence and Search were distinct constructs, forming the 10-item final version of the MLQ.
+
+### Study 2: Confirmatory Factor Analysis
+
+This study sought to confirm the two-factor structure found in Study 1 using a new, larger sample.
+
+*   **Methods:** The 10-item MLQ was administered to 219 undergraduate students. The researchers then used confirmatory factor analysis (CFA), a more rigorous statistical technique, to test if the two-factor model (Presence and Search as separate but related constructs) fit the data well. They compared this model against a single-factor model where all items loaded onto one general "meaning" factor.
+*   **Results:** The CFA showed that the two-factor model was an "excellent fit" for the data and was statistically superior to the one-factor model. This result strongly validated the questionnaire's design, confirming that "the presence of and search for meaning in life are indeed separable and best measured as such."
+
+### Study 3: Convergent and Discriminant Validity
+
+The third study tested how the MLQ subscales related to other psychological constructs, which is crucial for establishing validity.
+
+*   **Methods:** A sample of 78 undergraduate students completed the MLQ along with a battery of other questionnaires measuring life satisfaction, positive and negative affect, self-esteem, depression, and the Purpose in Life Test (PIL).
+*   **Results:** As hypothesized, the Presence subscale showed strong positive correlations with well-being measures (life satisfaction, positive affect, self-esteem) and strong negative correlations with depression. In contrast, the Search subscale was largely unrelated to these well-being measures but showed a positive correlation with negative affect and depression. This demonstrates discriminant validity: Presence and Search relate to well-being in different ways. The authors note, "People who are searching for meaning appear to be less happy than those who are not... however, this relationship is not strong."
+
+### Study 4: Incremental Validity
+
+This study aimed to prove that the MLQ was not just a different measure, but a better one that could predict outcomes even after accounting for the most widely used existing scale.
+
+*   **Methods:** 67 undergraduate students completed both the MLQ and the PIL, along with measures of well-being (life satisfaction and depression). The researchers used hierarchical regression analysis to see if the MLQ could predict well-being "over and above" the PIL.
+*   **Results:** The MLQ demonstrated significant incremental validity. Specifically, the Presence subscale was a unique predictor of higher life satisfaction and lower depression, even after the PIL's predictive contribution was statistically removed. This finding directly supported the authors' claim that the MLQ provides valuable information not captured by older measures.
+
+### Study 5: Test-Retest Reliability
+
+The final study assessed the stability of the MLQ's scores over time.
+
+*   **Methods:** 55 undergraduate students completed the MLQ twice, with a 3-week interval between administrations.
+*   **Results:** The test-retest reliability was found to be good for both the Presence subscale (r = .75) and the Search subscale (r = .74). This indicates that the questionnaire provides consistent and stable measurements over a short period.
+
+### General Discussion
+
+In the final section, the authors summarize the collective evidence from the five studies. They conclude that the Meaning in Life Questionnaire (MLQ) is a "psychometrically sound brief assessment of two major dimensions of meaning in life: Presence of Meaning and Search for Meaning." They emphasize that the clear separation of these two constructs is the MLQ's primary advantage. The findings suggest that having meaning is strongly linked to psychological well-being, whereas the process of searching for meaning is more complex, showing some association with negative psychological states but being largely independent of well-being. The paper concludes by positioning the MLQ as a valuable tool for both researchers and clinicians seeking to understand and assess meaning in life.
+
+## 3. Sources
+ Steger, M. F., Frazier, P., Oishi, S., & Kaler, M. (2006). The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. *Journal of Counseling Psychology, 53*(1), 80–93. https://psycnet.apa.org/record/2005-16713-008
+ Full-text PDF of the paper, hosted at Colorado State University. http://www.coloradoanthonystudies.org/wp-content/uploads/2018/07/Steger-Frazier-Oishi-Kaler-2006-JCP.pdf

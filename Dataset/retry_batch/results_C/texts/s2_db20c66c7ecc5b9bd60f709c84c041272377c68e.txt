@@ -1,0 +1,51 @@
+Based on a deep analysis of the specified academic paper, here are the requested findings.
+
+## 1. Official Abstract
+"This article describes the development of a measure of dispositional authenticity and tests whether authenticity is related to well-being, as predicted by several counseling psychology perspectives. Scales were designed to measure a tripartite conception of authenticity, comprising self-alienation, authentic living, and accepting external influence, which was supported with exploratory factor analysis. Multigroup confirmatory factor analysis showed that the factor loadings were invariant across sample, ethnicity, and gender. The scale showed substantial discriminant validity from the Big Five personality traits, nonsignificant correlations with social desirability, and 2- and 4-week test–retest correlations ranging from r = .78 to .91. Each subscale was strongly related to self-esteem and aspects of both subjective and psychological well-being. This article provides the first direct test of several theoretical models that view authenticity as integral to well-being."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis. The research is presented across three distinct studies.
+
+### **Introduction (Theoretical Conceptualization)**
+The paper begins by positioning authenticity as a core concept in humanistic and existential psychology, citing thinkers like Rogers and May who linked it to well-being and freedom from psychopathology. The authors argue that despite its theoretical importance, there was a lack of empirically validated measures for authenticity. They propose a new tripartite model of authenticity, defining it as consisting of three related but distinct components:
+*   **Self-Alienation:** This is described as the subjective experience of not knowing oneself and feeling disconnected from one's true self. It is presented as the reverse of the self-awareness component often discussed in humanistic theories.
+*   **Authentic Living:** This involves acting in accordance with one's personal values and beliefs. The authors state, "Authentic living is a central component of authenticity and involves people acting in ways that are consistent with their values and beliefs."
+*   **Accepting External Influence:** This component refers to the degree to which a person accepts the views and desires of others, internalizing them to the point where they guide behavior. High authenticity is associated with a low level of accepting external influence.
+
+### **Study 1: Scale Development and Factor Structure**
+The primary goal of the first study was to develop the Authenticity Scale and establish its factor structure.
+
+*   **Methods:** An initial pool of 25 items was generated to reflect the three proposed components. These items were administered to a diverse sample of 299 participants from the general public in the United Kingdom. The data was subjected to Exploratory Factor Analysis (EFA) to identify the underlying structure.
+*   **Results:** The EFA clearly supported the proposed three-factor structure. After eliminating items that did not load cleanly onto a single factor, a final 12-item scale was established, with four items for each of the three subscales: Self-Alienation, Authentic Living, and Accepting External Influence. This structure was found to be the most coherent and interpretable.
+
+### **Study 2: Confirmatory Factor Analysis and Validity**
+This study aimed to confirm the three-factor structure in new samples and to test the scale's validity and reliability.
+
+*   **Methods:** The 12-item Authenticity Scale was administered to two new, large samples (n=369 and n=568). Confirmatory Factor Analysis (CFA) was used to test the fit of the three-factor model. The study also assessed the scale's relationship with the "Big Five" personality traits, social desirability, and various measures of well-being (e.g., self-esteem, life satisfaction, positive and negative affect). Test-retest reliability was measured over 2- and 4-week intervals.
+*   **Results:** The CFA confirmed that the three-factor model was a good fit for the data and that this structure was consistent across different genders and ethnicities. The Authenticity Scale demonstrated good discriminant validity, showing only modest correlations with the Big Five personality traits and no significant correlation with social desirability. Reliability was strong, with test-retest correlations ranging from .78 to .91. Crucially, all three authenticity subscales were strongly correlated with measures of well-being. For instance, Authentic Living was positively related to self-esteem, life satisfaction, and positive affect, while Self-Alienation and Accepting External Influence were strongly related to lower well-being and higher negative affect.
+
+### **Study 3: Further Validation**
+A third study was conducted to provide additional validation for the scale's relationship with psychological well-being.
+
+*   **Methods:** A sample of 101 university students completed the Authenticity Scale and Ryff's (1989) Scales of Psychological Well-Being, which measures six facets of well-being (e.g., Autonomy, Personal Growth, Purpose in Life).
+*   **Results:** The findings reinforced the link between authenticity and well-being. The Authenticity Scale subscales were significantly correlated with all six aspects of psychological well-being in the expected directions. For example, Authentic Living was strongly associated with Purpose in Life and Personal Growth, while Self-Alienation was negatively correlated with Self-Acceptance and Environmental Mastery.
+
+### **General Discussion**
+The authors conclude that their research provides a theoretically grounded and empirically robust conceptualization of authenticity. The developed 12-item Authenticity Scale is presented as a reliable and valid tool for measuring the construct. The paper's main contribution is providing the "first direct test of several theoretical models that view authenticity as integral to well-being." The strong relationships found between the authenticity components and multiple indicators of well-being lend significant empirical support to long-standing theories in counseling and humanistic psychology. The authors suggest the scale can be a valuable tool for future research and clinical practice to explore the role of authenticity in mental health.
+
+## 3. Sources
+ https://api.semanticscholar.org/CorpusID:31706489
+ https://www.psyctc.org/psyctc-site-specific-stuff/measures-and-evaluation/measures-by-name/authenticity-scale-as/
+ https://www.researchgate.net/publication/23257121_The_Authentic_Personality_A_Theoretical_and_Empirical_Conceptualization_and_the_Development_of_the_Authenticity_Scale
+ https://www.scirp.org/reference/referencespapers?referenceid=2515810
+ https://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=psyc&NEWS=N&AN=2008-09210-008
+ https://pubmed.ncbi.nlm.nih.gov/18665709/
+ https://www.researchgate.net/publication/23224097_Every_Time_You_Go_Away_Changes_in_Affect_Behavior_and_Physiology_Associated_With_Travel-Related_Separations_From_Romantic_Partners
+ https://storre.stir.ac.uk/handle/1893/5895
+ https://psychologyroots.com/authenticity-scale/
+ https://cineicc.com/en/instrument/authenticity-scale/
+ https://psycnet.apa.org/fulltext/2013-30693-001.html
+ https://scholarworks.boisestate.edu/psych_facpubs/10/
+ https://cyberleninka.ru/article/n/separation-in-close-relationships-emotional-and-physiological-consequences
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4083653/
+ https://www.researchgate.net/publication/23257121_The_Authentic_Personality_A_Theoretical_and_Empirical_Conceptualization_and_the_Development_of_the_Authenticity_Scale/fulltext/0233933457a7403328004f2f/The-Authentic-Personality-A-Theoretical-and-Empirical-Conceptualization-and-the-Development-of-the-Authenticity-Scale.pdf

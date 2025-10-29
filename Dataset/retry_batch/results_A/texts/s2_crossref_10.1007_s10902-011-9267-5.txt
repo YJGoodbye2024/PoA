@@ -1,0 +1,32 @@
+## 1. Official Abstract
+"We examine whether a positive feedback loop exists between spending money on others (i.e. prosocial spending) and happiness. Participants recalled a previous purchase made for either themselves or someone else and then reported their happiness. Afterward, participants chose whether to spend a monetary windfall on themselves or someone else. Participants assigned to recall a purchase made for someone else reported feeling significantly happier immediately after this recollection; most importantly, the happier participants felt, the more likely they were to choose to spend a windfall on someone else in the near future. Thus, by providing initial evidence for a positive feedback loop between prosocial spending and well-being, these data offer one potential path to sustainable happiness: prosocial spending increases happiness which in turn encourages prosocial spending."
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis of the paper's core sections.
+
+### Introduction
+The paper begins by questioning if simple interventions can lead to sustainable increases in well-being, noting that the effects of many happiness-boosting strategies are often temporary. While previous research demonstrated that spending money on others (prosocial spending) promotes happiness more effectively than spending on oneself, this study investigates the next step: whether the happiness gained from a prosocial act encourages subsequent prosocial behavior. The authors hypothesize that a positive feedback loop exists, where prosocial spending enhances happiness, and that elevated happiness, in turn, promotes future prosocial spending, creating a potential pathway to sustainable well-being.
+
+### Method
+The study involved 51 undergraduate students from the University of British Columbia. Participants were randomly assigned to recall a time they had spent either $20 or $100 on themselves or on someone else. The instructions were designed to provoke vivid memories of the spending event. Immediately after this recall task, participants reported their current level of happiness using the Subjective Happiness Scale. Following this, they were presented with a hypothetical monetary windfall and asked to choose whether they would spend it on themselves or on someone else, which served as the key behavioral outcome measure.
+
+### Results
+The study yielded two primary findings. First, participants who were asked to recall a time they spent money on someone else reported significantly higher levels of happiness compared to those who recalled spending money on themselves. The amount of money recalled ($20 vs. $100) did not have a significant impact on the level of happiness reported.
+
+The second and most critical finding was that the increase in happiness directly predicted future prosocial behavior. The happier a participant felt after the recall task, the more likely they were to decide to spend the hypothetical windfall on another person. This finding supports the central hypothesis of a self-reinforcing cycle between prosocial spending and happiness.
+
+### General Discussion
+The authors conclude that the results provide strong evidence for a positive feedback loop between prosocial spending and happiness. The findings demonstrate that reflecting on past acts of financial generosity can increase immediate happiness, and this happiness, in turn, motivates future generosity. This cycle offers a potential mechanism for achieving sustainable happiness, as the rewarding feeling from one act of giving encourages the next. The paper suggests that the emotional benefits derived from prosocial spending are a key driver in the decision to engage in such behavior again. The authors note that how money is spent may be more important for happiness than the amount spent.
+
+## 3. Sources
+ https://api.semanticscholar.org/CorpusID:254695807
+ https://www.hbs.edu/ris/Publication%20Files/Aknin_Dunn_Norton_JHS_2012_a4a4010a-8211-4b3f-8c3f-c3873c52b9c3.pdf
+ https://www.researchgate.net/publication/257549832_Happiness_Runs_in_a_Circular_Motion_Evidence_for_a_Positive_Feedback_Loop_Between_Prosocial_Spending_and_Happiness
+ https://www.pursuit-of-happiness.org/science-of-happiness/key-studies/review-of-key-studies-on-caring-volunteering/
+ https://dash.harvard.edu/bitstream/handle/1/11189882/Aknin_Dunn_Norton_JHS_2012.pdf?sequence=1
+ https://www.pursuit-of-happiness.org/history-of-happiness/key-studies/review-of-key-studies-on-caring-volunteering/
+ https://www.researchgate.net/profile/Lara-Aknin/publication/257549832_Happiness_Runs_in_a_Circular_Motion_Evidence_for_a_Positive_Feedback_Loop_Between_Prosocial_Spending_and_Happiness/links/553a73b30cf226723ab34199/Happiness-Runs-in-a-Circular-Motion-Evidence-for-a-Positive-Feedback-Loop-Between-Prosocial-Spending-and-Happiness.pdf
+ https://psycnet.apa.org/record/2011-08803-001
+ https://www.visionpsychology.com/giving-or-receiving-which-makes-us-happier/
+ https://dash.harvard.edu/bitstream/handle/1/11129219/13-085.pdf?sequence=1
+ https://czasopisma.bg.ug.edu.pl/index.php/cipp/article/view/3093

@@ -1,0 +1,38 @@
+## 1. Official Abstract
+"Policymakers рассматривают крупномасштабные программы, направленные на самоконтроль, для улучшения здоровья и благосостояния граждан и снижения преступности. Экспериментальные и экономические исследования показывают, что такие программы могут принести пользу. Однако, важен ли самоконтроль для здоровья, благосостояния и общественной безопасности населения? Наблюдая за когортой из 1000 детей с рождения до 32 лет, мы показываем, что детский самоконтроль предсказывает физическое здоровье, зависимость от психоактивных веществ, личные финансы и исходы, связанные с совершением преступлений, следуя градиенту самоконтроля. Влияние детского самоконтроля можно было отделить от их интеллекта и социального класса, а также от ошибок, которые они совершали в подростковом возрасте. В другой когорте из 500 пар сиблингов сиблинг с более низким самоконтролем имел худшие результаты, несмотря на общее семейное прошлое. Вмешательства, направленные на самоконтроль, могут сократить целый ряд социальных издержек, сэкономить деньги налогоплательщиков и способствовать процветанию."
+
+## 2. Core Insights & Analysis
+Full text was accessible.
+
+### Introduction
+The paper opens by highlighting the societal importance of self-control, noting that the ability to delay gratification and control impulses is a fundamental demand placed on children. The authors state that while psychologists, health researchers, and sociologists have linked low self-control to various negative life outcomes like unemployment and crime, the predictive power of self-control across a general population gradient into adulthood had not been thoroughly established. The study aimed to test four main hypotheses: 1) whether childhood self-control predicts adult health, wealth, and crime across the entire population gradient; 2) if improvements in self-control over time lead to better outcomes; 3) if childhood self-control predicts adult outcomes independently of IQ and social class; and 4) whether the link between childhood self-control and adult outcomes is mediated by "snares" encountered during adolescence (e.g., early school dropout, unplanned pregnancy).
+
+### Methods
+The primary analysis relies on the Dunedin Multidisciplinary Health and Development Study, a longitudinal study of 1,037 individuals born in Dunedin, New Zealand, between 1972 and 1973. Childhood self-control was assessed at ages 3, 5, 7, 9, and 11 using reports from teachers, parents, observers, and the children themselves. These multi-informant measures were combined to create a single composite score for self-control for each child. The study then followed these individuals to age 32, assessing outcomes related to health (e.g., substance dependence, metabolic syndrome markers), wealth (e.g., socioeconomic status, credit problems, savings habits), and public safety (court-verified criminal conviction records). To further strengthen the findings, the study also analyzed data from a second cohort of 500 sibling pairs to see if the sibling with lower self-control had poorer outcomes, thereby controlling for shared family background.
+
+### Results
+The study found a clear "gradient" of risk: lower childhood self-control was associated with poorer outcomes in a dose-response manner across the entire cohort.
+
+*   **Health:** Children with lower self-control were more likely to have health problems at age 32, including substance dependence (tobacco, alcohol, cannabis), and were more likely to have multiple metabolic risk factors.
+*   **Wealth:** After controlling for both social class of origin and IQ, childhood self-control still predicted financial difficulties in adulthood. Individuals with lower self-control were more likely to have lower socioeconomic status, more credit problems like bankruptcy, and less financial planning. They were also more likely to be raising a child in a single-parent household.
+*   **Public Safety:** Children with lower self-control had a significantly higher likelihood of having a criminal conviction by age 32.
+
+The results held even after accounting for IQ and socioeconomic background, indicating that self-control is an independent predictor of life outcomes. Furthermore, the analysis of sibling pairs confirmed these findings; the sibling with lower self-control at age 5 was more likely to exhibit smoking, antisocial behavior, and poor school performance by age 12. The study also showed that individuals who experienced an increase in their self-control between childhood and young adulthood had better outcomes than their childhood trajectory would have predicted.
+
+### Discussion/Comment
+The authors conclude that the "effects of children's self-control are potent and long-reaching." They emphasize that self-control is a clear and important target for policy interventions. Because the benefits of self-control are distributed as a gradient across the entire population, interventions that produce even small improvements for individuals could lead to significant reductions in societal costs related to healthcare, financial dependency, and crime. The findings suggest that policies aimed at improving self-control could have broad benefits for a nation's health, wealth, and public safety.
+
+## 3. Sources
+ https://www.researchgate.net/publication/49833295_A_Gradient_of_Childhood_Self-Control_Predicts_Health_Wealth_and_Public_Safety
+ https://pubmed.ncbi.nlm.nih.gov/21262822/
+ https://ourarchive.otago.ac.nz/handle/10523/13916
+ https://www.pnas.org/doi/full/10.1073/pnas.1010076108
+ https://www.semanticscholar.org/paper/A-gradient-of-childhood-self-control-predicts-Moffitt-Arseneault/1502f628547d2345f8552175a0e33e455c822e11
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041102/
+ https://www.addictionpolicy.org/post/child-s-self-control-reflected-in-adult-health-wealth-and-crime
+ https://scite.ai/reports/a-gradient-of-childhood-self-control-predicts-health-wealth-and-public-safety-L8N4A6
+ https://lifechangingprinciples.com/what-does-childhood-self-control-predict/
+ https://www.pnas.org/doi/pdf/10.1073/pnas.1010076108
+ https://dunedinstudy.otago.ac.nz/files/1669001850.pdf
+ https://www.esri.ie/system/files/media/file-uploads/2019-04/seminar-michael-daly.pdf
+ https://dunedinstudy.otago.ac.nz/files/1671600375.pdf

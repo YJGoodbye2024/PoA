@@ -1,0 +1,37 @@
+## 1. Official Abstract
+"This research develops a model of consumer response to charity appeals. Using the Extended Parallel Process Model from the fear appeal literature as a foundation, the current model proposes that empathy and self-efficacy generate guilt and reduce maladaptive responses, which, in turn, shapes donation intention. The results demonstrate that the impact of empathy on charitable donation intention is fully mediated by guilt and maladaptive responses. The impact of self-efficacy is partially mediated by guilt and maladaptive responses. Therefore, both empathy and self-efficacy determine whether guilt or maladaptive responses result. This model clarifies the process through which guilt appeals operate, by identifying the roles of empathy and self-efficacy."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis. It was published in *Psychology & Marketing*, Volume 25, Issue 1. The following is a synopsis structured according to the paper's original sections.
+
+### Conceptual Development and Hypotheses
+The introduction positions the research as an effort to understand the inconsistent effects of guilt appeals in charity advertising. The authors propose a new model based on the Extended Parallel Process Model (EPPM), which is typically used in fear appeal literature. The core argument is that for a guilt appeal to be effective (i.e., lead to donations), it must generate empathy and a sense of efficacy in the potential donor.
+
+The authors theorize that empathy (the ability to imagine oneself in another's situation) and efficacy (the belief that one's actions can make a difference) are crucial precursors. When a charity advertisement successfully evokes empathy and efficacy, it leads to productive guilt, which motivates giving. Conversely, without sufficient empathy or efficacy, the appeal may backfire, leading to maladaptive responses like avoidance or anger. The paper outlines several hypotheses, including:
+*   **H1:** Guilt appeals will generate a stronger sense of responsibility to help than non-guilt appeals.
+*   **H2:** Guilt appeals will lead to a stronger donation intention than non-guilt appeals.
+*   **H3:** The impact of guilt appeals on donation intention will be mediated by a sense of responsibility.
+
+### Study 1: Empathy and Guilt
+The first study aimed to test the roles of empathy and guilt in donation intention.
+*   **Method:** The study utilized a laboratory experiment where participants were exposed to mock charity advertisements for an organization called "Childreach". The ads were manipulated to create high and low levels of empathy-based guilt. Participants then answered questions measuring their sense of responsibility, donation intention, and other relevant variables.
+*   **Results:** The findings from Study 1 supported the initial hypotheses. The results showed that guilt appeals successfully increased the sense of responsibility and the intention to donate. Furthermore, the analysis confirmed that the effect of the guilt appeal on donation intention was mediated by the feeling of responsibility, supporting H3.
+
+### Study 2: The Role of Efficacy
+The second study was designed to build on the first by introducing and testing the variable of efficacy.
+*   **Method:** A second experiment was conducted. Participants were exposed to mock charity appeals that varied in both empathy and efficacy. For example, a high-efficacy message explicitly stated how a small donation could help ("Your $2 will help these children"), while a high-empathy message encouraged perspective-taking ("Imagine that you are a child with no home").
+*   **Results:** The data from this study showed that both empathy and efficacy were important. As empathy and efficacy increased, so did feelings of guilt, which in turn predicted the amount donated. Crucially, higher levels of empathy and efficacy also led to a reduction in negative or unintentional responses, such as irritation or avoidance. This demonstrates that efficacy is a key component in making guilt appeals productive rather than counterproductive.
+
+### General Discussion and Conclusion
+In the final section, the authors consolidate the findings from both studies. They conclude that their process model, which integrates empathy and efficacy as determinants of how guilt is processed, provides a clearer understanding of how guilt appeals function in charitable giving.
+
+The key takeaway is that advertisers cannot simply induce guilt and expect positive results. To be effective, a guilt appeal must be paired with messages that foster empathy and, critically, provide a sense of efficacy. Donors need to feel that their contribution can make a tangible difference. When efficacy is low, donors are more likely to engage in defensive avoidance and ignore the message. The authors suggest that this model helps explain why some guilt-based campaigns succeed while others fail and offers practical guidance for nonprofit organizations.
+
+## 3. Sources
+ https://www.researchgate.net/publication/227653998_Guilt_and_giving_A_process_model_of_empathy_and_efficacy
+ https://oxfordre.com/communication/display/10.1093/acrefore/9780190228613.001.0001/acrefore-9780190228613-e-408
+ https://opentext.wsu.edu/social-psychology/chapter/module-10-helping-and-prosocial-behavior/
+ https://www.semanticscholar.org/paper/Guilt-and-giving%3A-A-process-model-of-empathy-and-Basil-Ridgway/a8236178930438b456f8f051a877546554558509
+ https://www.researchgate.net/publication/235282217_Guilt_appeals_The_mediating_effect_of_responsibility
+ https://www.tandfonline.com/doi/abs/10.1080/10641734.2017.1345657
+ https://www.scispace.com/paper/basil-ridgway-basil-2007-guilt-and-giving-a-process-model-of-empathy-and-efficacy-10.1002-mar.20200/

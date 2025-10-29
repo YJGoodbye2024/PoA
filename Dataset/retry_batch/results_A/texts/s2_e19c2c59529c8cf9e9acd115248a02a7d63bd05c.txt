@@ -1,0 +1,47 @@
+Execution of the deep search is complete. The target paper is a book chapter for which the full text was accessible.
+
+## 1. Official Abstract
+A formal, standalone abstract for this book chapter could not be located in the provided publication. The source text begins directly with the introduction. ResearchGate provides a brief text in its "abstract" field, which is an excerpt from the paper's introduction that discusses spreading activation theory as a point of contrast for the paper's own approach.
+
+That excerpt is as follows:
+"abstract. concepts and concrete memories as nodes in an. associative network (Anderson & Bower,. 1973). In this approach to cognitive processes,. activation is believed to spread from one. memory or concept to another along. associative pathways. By observing the precise. time required to go from one concept to. another it has been possible to map aspects of a. person's implicit cognitive structure (Posner,. 1978). Spreading activation theory offers an."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible. This synopsis is structured according to the original headings and thematic sections within the chapter.
+
+### Introduction (Untitled)
+The chapter begins by contrasting traditional cognitive psychology, which focuses on the representation and processing of knowledge, with the concept of "cognitive phenomenology." Clore argues that while cognitive science has been successful, it often overlooks the role of subjective feelings in judgment and decision-making. The author proposes that feelings are not just a consequence of cognitive appraisal but are themselves a source of information. The central thesis is that "the proximal cue for many kinds of affective judgments is the information provided by one's feelings as one considers the object of judgment."
+
+### Feelings as Information
+This section elaborates on the "affect-as-information" hypothesis. The core idea is that feelings provide conscious feedback from unconscious appraisal processes. Instead of reviewing all the complex details that lead to a judgment, a person can simply ask, "How do I feel about it?". Affective feelings serve as "heuristic cues" that allow for efficient judgment. Clore distinguishes this from the idea that mood simply primes mood-congruent thoughts. The theory posits that feelings have a direct informational function. For example, sadness might inform a person that their situation is problematic, while joy signals that things are going well. This information then guides subsequent processing.
+
+### Evidence for the Affect-as-Information View
+Clore presents experimental evidence to support the hypothesis. The foundational study cited is Schwarz and Clore (1983), where participants were interviewed about their life satisfaction on either sunny or rainy days.
+*   **Finding:** People reported greater life satisfaction on sunny days than on rainy days.
+*   **The Key Manipulation:** When the interviewer first asked, "By the way, how's the weather down there?", the effect of the weather on life-satisfaction judgments disappeared.
+*   **Interpretation:** This occurs because making the weather salient allows participants to correctly attribute their feelings to an external, irrelevant source (the weather) rather than to their life in general. This attributional process is key; people use their feelings as information only when the perceived informational value of those feelings is not called into question.
+
+### The Subjectivity of Experience
+This section delves into why feelings are such a potent source of information. Clore argues that experience is characterized by "subjective immediacy and certainty." We tend to trust our feelings implicitly because they feel like our own direct reaction to the world. The author states, "We instinctively believe our senses and our feelings above all else, and it is surprising to discover that they can be in error." This inherent trust makes feelings a compelling, default basis for judgment.
+
+### The Object of Feelings
+A crucial aspect of the theory is that feelings must be *about* something. An affective reaction is initially just a state, but it acquires meaning when it is attached to an object of judgment. If a person feels bad, they will implicitly ask, "What is this feeling about?" The feeling is then attributed to whatever object is the current focus of attention. This explains why an irrelevant factor like the weather can influence judgments about life satisfaction—the free-floating mood from the weather is attributed to the object being judged (one's life). When the true source of the feeling is made obvious, the feeling is no longer seen as relevant information about that object.
+
+### Cognitive Phenomenology
+This section connects the affect-as-information hypothesis to the broader concept of cognitive phenomenology. Clore defines cognitive phenomenology as the experiential aspect of cognitive states—the "feel" of thinking, knowing, and judging. He argues that affective feelings are a primary form of cognitive phenomenology. They provide tangible, conscious information about matters of personal value and concern. The "intensity of the experience provides information about the relative importance of the situation for one's concerns." Thus, feelings are not separate from cognition but are an integral part of how we process information and construct judgments about the world.
+
+### Summary and Conclusions
+The chapter concludes by restating that feelings are a fundamental source of information in judgment. The affect-as-information approach explains how moods and emotions influence judgments through a process of attribution. People use their momentary feelings as a heuristic for judgment, unless the informational value of those feelings is undermined. This perspective treats feelings not as noise or bias in the cognitive system, but as a crucial feedback mechanism that guides thought and behavior. The author emphasizes that this provides a more central role for affective experience in cognition than previous models had allowed.
+
+## 3. Sources
+ https://www.cairn.info/revue-a-n-a-e-2016-5-page-519.htm
+ https://www.researchgate.net/profile/Gerald-Clore
+ https://academic.oup.com/book/5196/chapter-abstract/147770147
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2022.1026524/full
+ https://www.researchgate.net/publication/232529124_Cognitive_phenomenology_Feelings_and_the_construction_of_judgment
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2737625/
+ https://ouci.dntb.gov.ua/en/works/4E1mN7Xz/
+ https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=1231&context=etd
+ https://jurnal.uns.ac.id/jsse/article/view/7
+ https://scielo.pt/scielo.php?script=sci_arttext&pid=S0870-82312021000100005
+ https://dokumen.pub/cognitive-phenomenology-reprint-ed-0198708033-9780198708032.html

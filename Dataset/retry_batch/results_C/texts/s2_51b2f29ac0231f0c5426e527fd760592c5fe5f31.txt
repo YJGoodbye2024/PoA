@@ -1,0 +1,36 @@
+## 1. Official Abstract
+Analyzing political conservatism as motivated social cognition integrates theories of personality (authoritarianism, dogmatism-intolerance of ambiguity), epistemic and existential needs (for closure, regulatory focus, terror management), and ideological rationalization (social dominance, system justification). A meta-analysis (88 samples, 12 countries, 22,818 cases) confirms that several psychological variables predict political conservatism: death anxiety (weighted mean r = .50); system instability (.47); dogmatism-intolerance of ambiguity (.34); openness to experience (–.32); uncertainty tolerance (–.27); needs for order, structure, and closure (.26); integrative complexity (–.20); fear of threat and loss (.18); and self-esteem (–.09). The core ideology of conservatism stresses resistance to change and justification of inequality and is motivated by needs that vary situationally and dispositionally to manage uncertainty and threat.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. A detailed interpretation based on reliable academic sources is provided below.
+
+The paper "Political Conservatism as Motivated Social Cognition" puts forth a comprehensive theory arguing that political conservatism is a belief system that satisfies fundamental psychological needs. Rather than viewing conservatism as a product of abnormal personality traits, the authors propose that it is rooted in normal cognitive and motivational functions aimed at managing uncertainty and threat. This motivated social-cognition perspective integrates several existing theories to explain why individuals adopt conservative ideologies.
+
+The central thesis is that two core principles define conservatism: **resistance to change** and **justification of inequality**. The authors argue that these ideological tenets are appealing to individuals with specific psychological motivations. The paper's analysis is built upon a large-scale meta-analysis of 88 studies involving over 22,000 participants across 12 countries.
+
+Key findings from this meta-analysis support the authors' framework by linking several psychological variables to a conservative political orientation. These variables can be broadly categorized:
+
+*   **Existential and Existential Needs:** These are needs related to managing fundamental fears and threats. The strongest predictors of conservatism identified in the meta-analysis fall into this category. They include:
+    *   **Death Anxiety:** A high correlation was found with conservatism (weighted mean r = .50). The authors draw on Terror Management Theory, suggesting that conservative ideologies can provide a buffer against the fear of death.
+    *   **System Instability and Threat:** Perceived societal instability and a general sensitivity to threat and loss are also significant predictors. The research suggests that conservatism is appealing because it offers a sense of order and security in a threatening world.
+
+*   **Epistemic Needs:** These are needs related to how individuals process information and deal with ambiguity. The study found that conservatism is associated with:
+    *   **Dogmatism and Intolerance of Ambiguity:** A preference for certainty and a dislike for ambiguity are characteristic.
+    *   **Need for Order, Structure, and Closure:** Individuals who prefer predictability and clear answers are more likely to lean conservative.
+    *   **Low Openness to Experience and Integrative Complexity:** The analysis found negative correlations with these traits, suggesting that a lower preference for novelty and complex, nuanced thinking is linked to conservatism.
+
+*   **Ideological Rationalization:** The framework also incorporates theories like Social Dominance Orientation and System Justification Theory. These suggest that conservatism provides a means to rationalize and uphold the existing social hierarchy and inequality. The authors note that while the advantaged may gravitate towards conservatism for self-interest, the disadvantaged might also embrace it to reduce dissonance and instability.
+
+In essence, Jost and his colleagues argue that political conservatism is a functional ideology that helps individuals satisfy deep-seated psychological needs to feel safe, secure, and certain in a world that is often unpredictable and threatening. Their motivated-cognition approach provides a unifying framework that surpasses earlier theories by explaining how a wide range of personality variables consistently relate to political ideology.
+
+## 3. Sources
+ Empirical Evaluation of Political Ideology as Motivated Social Cognition - NYU Arts & Science
+ Political Conservatism as Motivated Social Cognition - Goldman School of Public Policy
+ Political conservatism as motivated social cognition - PubMed - NIH
+ [PDF] Political conservatism as motivated social cognition. - Semantic Scholar
+ Political conservatism as motivated social cognition | Request PDF - ResearchGate
+ Political Conservatism as Motivated Social Cognition
+ Political ideology as motivated social cognition: Behavioral and neuroscientific evidence | Request PDF - ResearchGate
+ Jost, J. T., Glaser, J., Kruglanski, A. W., & Sulloway, F. J. (2003 ...
+ Political Conservatism as Motivated Social Cognition | Request PDF - ResearchGate
+ Jost, J. T., Glaser, J., Kruglanski, A. W., and Sulloway, F. J. “Political conservatism as motivated social cognition,” Psychological Bulletin, 129(3), 339-375. 2003. - Science and Education Publishing

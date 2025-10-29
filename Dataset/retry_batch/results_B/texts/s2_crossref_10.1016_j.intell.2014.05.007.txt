@@ -1,0 +1,56 @@
+## 1. Official Abstract
+"Intelligence and creativity are known to be correlated constructs suggesting that they share a common cognitive basis. The present study assessed three specific executive abilities - updating, shifting, and inhibition - and examined their common and differential relations to fluid intelligence and creativity (i.e., divergent thinking ability) within a latent variable model approach. Additionally, it was tested whether the correlation of fluid intelligence and creativity can be explained by a common executive involvement. As expected, fluid intelligence was strongly predicted by updating, but not by shifting or inhibition. Creativity was predicted by updating and inhibition, but not by shifting. Moreover, updating (and the personality factor openness) was found to explain a relevant part of the shared variance between intelligence and creativity. The findings provide direct support for the executive involvement in creative thought and shed further light on the functional relationship between intelligence and creativity."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### Introduction
+The authors begin by establishing that intelligence and creativity are correlated, which suggests a shared cognitive foundation. They question the "threshold theory," which posits that intelligence is only a prerequisite for creativity up to a certain IQ level (around 120), after which the correlation disappears. The paper proposes that this relationship might be better explained by the involvement of executive functions (EFs), which are higher-order cognitive processes responsible for controlling and regulating thought and action. The study focuses on three core EFs as defined by Miyake et al. (2000):
+*   **Updating:** The monitoring and active manipulation of information in working memory.
+*   **Shifting:** The ability to flexibly switch between different tasks or mental sets.
+*   **Inhibition:** The capacity to suppress prepotent but irrelevant responses.
+
+The introduction reviews existing literature, noting that fluid intelligence (Gf) is strongly linked to working memory capacity, particularly the updating function. The relationship between creativity and EFs is less clear, with some theories suggesting creativity requires a *lack* of inhibition (defocused attention), while others argue it relies on controlled processes to guide the generation of novel ideas. The study aims to clarify these relationships by examining how all three EFs simultaneously relate to both intelligence and creativity, and whether a shared reliance on these functions can explain the correlation between intelligence and creativity.
+
+### Method
+*   **Participants:** The study involved 172 adults (121 female, 51 male) with an average age of 23.5 years, primarily university students from diverse fields.
+*   **Measures:**
+    *   **Fluid Intelligence (Gf):** A latent variable was created from three tasks: a figural-inductive reasoning task, a numerical-inductive reasoning task, and a verbal-deductive reasoning task.
+    *   **Creativity (Divergent Thinking):** A latent variable was formed from two classic divergent thinking tasks: the Alternate Uses Task (generating unusual uses for common objects) and the Instances Task (generating instances of a category). Responses were scored for fluency (number of ideas) and originality (uniqueness).
+    *   **Executive Functions:**
+        *   **Updating:** Measured using three versions of the n-back task (letter, auditory, spatial).
+        *   **Shifting:** Measured using a number-letter task and a color-shape task, which require participants to switch between different classification rules.
+        *   **Inhibition:** Measured using the Stroop task and a flanker task, which require suppressing a dominant response.
+    *   **Personality:** The Big Five personality traits were assessed, with a particular interest in Openness to Experience, which is often linked to creativity.
+*   **Procedure:** Participants completed the tasks in two sessions. The first was a group session for the intelligence and divergent thinking tests, while the second was an individual session for the computer-based executive function tasks.
+*   **Statistical Analysis:** The researchers used structural equation modeling (SEM) to create latent variables for each cognitive construct and to test the predictive relationships between the EFs and the higher-order constructs of intelligence and creativity.
+
+### Results
+The study's main findings were derived from a latent variable model. The model confirmed that intelligence and creativity were moderately correlated.
+
+*   **Predicting Intelligence:** As hypothesized, fluid intelligence was strongly and significantly predicted by the **updating** function. Neither shifting nor inhibition showed a significant predictive relationship with intelligence. This reinforces the idea that the ability to monitor and manipulate information in working memory is central to fluid reasoning.
+*   **Predicting Creativity:** Creativity (divergent thinking) was significantly predicted by both **updating** and **inhibition**. This suggests that creative ideation involves not only working memory capacity (updating) but also the ability to suppress obvious or prepotent ideas (inhibition) to generate more novel ones. Shifting was not a significant predictor of creativity.
+*   **Explaining the Intelligence-Creativity Link:** The analysis revealed that the correlation between intelligence and creativity was substantially accounted for by shared underlying factors. Specifically, **updating** was identified as a common cognitive process that contributes to both constructs. When the influence of updating and the personality trait of Openness to Experience were statistically controlled for, the direct relationship between intelligence and creativity became non-significant. This indicates that their correlation is largely explained by a shared reliance on the working memory function of updating.
+
+### Discussion
+The authors interpret their findings as providing strong evidence for the "common and differential involvement of executive functions in intelligence and creativity."
+
+*   **Common Ground:** The key common ground is the **updating** function of working memory. This ability to hold, monitor, and manipulate information is crucial for both solving complex reasoning problems (intelligence) and generating and exploring novel ideas (creativity). This shared reliance on updating explains a significant portion of the well-known correlation between the two traits.
+*   **Differential Roles:** The study also highlights crucial differences. While intelligence primarily relies on updating, creativity draws on a combination of **updating and inhibition**. The role of inhibition in creativity supports the "controlled-attention" view of creative cognition, where individuals must actively suppress salient, high-dominant ideas to clear the way for more original ones. The authors state, "creative thought is not only a matter of loose associations but also involves executive control to guide the ideation process toward novelty."
+*   **Revisiting the Threshold Theory:** The findings offer an alternative to the threshold theory. Instead of intelligence being a simple prerequisite, the relationship is better understood through shared cognitive mechanisms. The correlation exists because both constructs draw upon the same limited executive resources, particularly updating.
+*   **Conclusion:** The study concludes that executive functions are deeply involved in both intelligence and creativity, but in distinct ways. It successfully demonstrates that updating is a shared component, while inhibition is a specific requirement for creativity but not for fluid intelligence in this context. This sheds light on the functional mechanics of higher-order cognition and clarifies the nature of the relationship between being smart and being creative.
+
+## 3. Sources
+ https://pubmed.ncbi.nlm.nih.gov/25278640/
+ https://www.semanticscholar.org/paper/Intelligence%2C-creativity%2C-and-cognitive-control%3A-Benedek-Jauk/9380961838891589158309971915998246342825
+ https://sites.google.com/view/mathiasbenedek/research
+ https://www.researchgate.net/publication/262931103_Intelligence_creativity_and_cognitive_control_The_common_and_differential_involvement_of_executive_functions_in_intelligence_and_creativity
+ https://www.cambridge.org/core/books/abs/cambridge-handbook-of-the-neuroscience-of-creativity/creativity-and-cognitive-control-in-the-cognitive-and-affective-domains/08F7E41662589088E2101735163618C1
+ https://www.scribd.com/document/425642878/Intelligence-Creativity-and-Cognitive-Control
+ https://ouci.cuni.cz/CI-2321.html
+ https://www.researchgate.net/publication/322502690_Creativity_and_cognitive_control_in_the_cognitive_and_affective_domains
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7415286/
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5293796/
+ https://www.mdpi.com/2079-3200/9/2/29
+ https://www.researchgate.net/publication/347525719_Keeping_Creativity_Under_Control_Contributions_of_Attention_Control_and_Fluid_Intelligence_to_Divergent_Thinking
+ https://plaudit.pub/201016jintell201405007

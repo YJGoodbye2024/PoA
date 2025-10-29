@@ -1,0 +1,45 @@
+## 1. Official Abstract
+"While the majority of consumer research that has studied social influences has focused on the impact of an interactive social presence, in this research we demonstrate that a noninteractive social presence (i.e., a mere presence) is also influential. We conduct two field experiments in a retail setting to show when and how a noninteractive social presence that differs in size and proximity impacts consumers' emotions and self-presentation behaviors. In doing so, we refine Social Impact Theory by identifying boundary conditions under which the theory does not hold."
+
+## 2. Core Insights & Analysis
+Full text was accessible. The analysis below is a synopsis structured according to the paper's original sections.
+
+### **Introduction**
+The research addresses a gap in consumer behavior studies, which have predominantly focused on *interactive* social influences (e.g., talking with a salesperson). The authors argue that *noninteractive* social presences (e.g., other shoppers in an aisle) are also highly influential but understudied. The paper aims to understand how the "mere presence" of other people affects a consumer's emotions and behaviors in a retail context. The study uses Social Impact Theory (SIT) as its theoretical framework, which posits that social influence is a function of the source's strength, immediacy (proximity), and number (size). The authors seek to test and refine this theory in a real-world consumption environment.
+
+### **Conceptual Development and Hypotheses**
+The authors build their hypotheses based on the principles of Social Impact Theory and self-presentation. They propose that the presence of others, even if non-interactive, can trigger self-presentation concerns, leading consumers to manage the impressions they make. This can result in negative emotions like nervousness and embarrassment.
+
+The two main hypotheses tested are:
+*   **Hypothesis 1:** "As the size of a noninteractive social presence increases, a consumer will be more likely to experience negative (and less positive) emotions and manage self-presentation behaviors." This is based on the idea that a larger group creates more pressure to manage one's impression.
+*   **Hypothesis 2:** "A consumer will experience more negative (less positive) emotions and will be more likely to manage self-presentation behaviors when a close noninteractive social presence increases in size, but when the social presence is further away, social size will no longer matter." This hypothesis introduces proximity as a critical moderator, suggesting that the effect of group size diminishes with distance.
+
+### **Study 1**
+The first field experiment was designed to test the effect of social size on consumer emotions and behavior.
+*   **Method:** The study was conducted in a university bookstore, where researchers manipulated the number of confederates (other "shoppers") present near a product display. The conditions were: no one present, one person present, or three people present. Unsuspecting consumers who approached the display were observed, and their emotional responses and product choices were recorded. The key self-presentation behavior measured was the choice between a "need-based" product (a box of computer paper) and a "self-expressive" product (a university-branded clipboard).
+*   **Results:** The findings supported Hypothesis 1. As the number of people present increased from zero to one, and from one to three, consumers reported an increase in negative emotions and a decrease in positive emotions. Furthermore, consumers were more likely to choose the less-desirable, need-based product (the paper) over the self-expressive one (the clipboard) as social size increased, indicating a desire to avoid potential judgment and terminate the shopping trip quickly.
+
+### **Study 2**
+The second field experiment was designed to test the moderating role of proximity (Hypothesis 2).
+*   **Method:** This study took place in a liquor store and involved a 3 (social size: no one vs. one person vs. three people) x 2 (proximity: close vs. far) between-subjects design. Confederates were positioned either 2 feet (close) or 8 feet (far) from a wine display. The observed behaviors were emotional responses and brand selection, specifically the choice between a nationally recognized brand and a lesser-known local brand. The assumption was that choosing the well-known brand was a safer, impression-management choice.
+*   **Results:** The results confirmed the moderating effect of proximity. When the social presence was close (2 feet), an increase in the number of people led to higher negative emotions and a greater likelihood of choosing the well-known national brand. However, when the social presence was distant (8 feet), the number of people present had no significant effect on either emotions or brand choice. This supports the idea that the impact of social size is contingent on proximity; its influence is nullified when the observers are farther away.
+
+### **General Discussion**
+The authors conclude that the mere presence of others in a retail environment is a significant factor that can negatively impact consumer emotions and drive self-presentation behaviors. The two field studies demonstrate that both the size and proximity of a noninteractive social presence are key determinants of this influence.
+
+A key theoretical contribution is the refinement of Social Impact Theory. The findings reveal a boundary condition for the theory: the principle that increasing the number of sources enhances social impact only holds when those sources are in close proximity. When they are distant, the effect of their number disappears. The authors suggest that in these distant-presence situations, consumers may feel less personally targeted and their personal space is not invaded, thus mitigating self-presentation concerns. The paper highlights the importance of considering the physical layout of retail spaces and the nuanced effects of social density on consumer experience.
+
+## 3. Sources
+ https://academic.oup.com/jcr/article/32/2/207/1854429
+ https://www.researchgate.net/publication/24121115_The_Influence_of_a_Mere_Social_Presence_in_a_Retail_Context
+ https://ideas.repec.org/a/oup/jconrs/v32y2005i2p207-212.html
+ https://bookdown.org/ullrich_schroeder/marketing_research/references.html
+ https://www.dhi-paris.fr/de/zotero/suche/zitate/detail/Citation/936496.html
+ https://ideas.repec.org/x/elg/eechap/18507_2.html
+ https://econpapers.repec.org/article/oupjconrs/v_3a32_3ay_3a2005_3ai_3a2_3ap_3a207-212.htm
+ https://communicationcache.com/uploads/1/0/8/8/10887248/the_influence_of_a_mere_social_presence_in_a_retail_context.pdf
+ https://www.semanticscholar.org/paper/Social-Influence-in-the-Retail-Context%3A-A-Review-Argo-Dahl/3091e92d9f78361719586111005a76980562629b
+ https://www.emerald.com/insight/content/doi/10.1108/JSM-03-2023-0100/full/html
+ https://www.mdpi.com/2071-1050/17/1/395
+ https://econpapers.repec.org/article/oupjconrs/v_3a28_3ay_3a2001_3ai_3a3_3ap_3a473-81.htm
+ https://repositorio.bcrp.gob.pe/handle/20.500.12162/10042

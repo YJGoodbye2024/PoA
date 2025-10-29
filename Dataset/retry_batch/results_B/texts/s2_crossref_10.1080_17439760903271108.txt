@@ -1,0 +1,37 @@
+An expert-level deep search has been executed to analyze the specified academic paper. The official abstract has been retrieved and the full text was accessible, allowing for a comprehensive synopsis of its core insights.
+
+## 1. Official Abstract
+"Four studies examined positive affect (PA) and social relatedness as sources of information for meaning in life judgments. Study 1 (N = 150) showed that relatedness need satisfaction (RNS) and PA each shared strong independent links to meaning in life. In Study 2 (N = 63), loneliness moderated the effects of a positive mood induction on meaning in life ratings. In Study 3 (N = 65), priming positive social relationships reduced the contribution of PA to subsequent judgments of meaning in life. In Study 4 (N = 95), relationship primes decreased reliance on PA and increased reliance on RNS compared to dessert primes. Results are discussed in terms of the value of integrating judgment processes in studies of meaning in life."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible. The following is a synopsis of its core arguments and findings, organized by the paper's original sections.
+
+### **Introduction**
+The paper begins by establishing that while meaning in life is a crucial aspect of human well-being, the factors that shape judgments about it are not well understood. The authors propose that people use accessible information as a heuristic, or mental shortcut, to make these judgments. The introduction posits that two key sources of information are positive affect (PA) and feelings of social relatedness. The central thesis is that the presence of positive feelings and strong social connections informs an individual's sense that their life is meaningful. The authors outline their plan to test this "mood-as-information" model in the context of meaning in life, specifically examining how the availability of social relatedness information might alter a person's reliance on their current mood to judge life's meaning.
+
+### **Study 1**
+The first study aimed to establish that both positive affect and relatedness need satisfaction (RNS) are independently associated with meaning in life. A sample of 150 undergraduates completed questionnaires measuring these three variables. The results confirmed the hypothesis, showing that both PA and RNS had "strong independent links to meaning in life." This initial finding provided the foundational evidence that both positive feelings and social connection are significant, distinct contributors to the sense of a meaningful life.
+
+### **Study 2**
+Study 2 investigated whether the influence of positive mood on meaning in life judgments is stronger when a sense of social connection is lacking. Sixty-three participants were induced into a positive, negative, or neutral mood. Their levels of loneliness were also measured. The findings revealed that for individuals experiencing loneliness, a positive mood induction led to significantly higher ratings of meaning in life compared to those in neutral or negative mood states. This supports the idea that when information about social connection is absent or negative (i.e., loneliness), people rely more heavily on their emotional state as an alternative source of information about meaning.
+
+### **Study 3**
+The third study tested whether making positive social relationships more mentally accessible would decrease the reliance on positive affect when judging meaning in life. Sixty-five participants were primed to think about either positive social relationships or a neutral topic (the contents of their wallets). They then underwent a positive or neutral mood induction and rated their meaning in life. The results showed that "priming positive social relationships reduced the contribution of PA to subsequent judgments of meaning in life." In other words, when participants were reminded of their positive social bonds, their current mood had less of an impact on their assessment of life's meaning, because they had another strong, positive source of information to draw upon.
+
+### **Study 4**
+The final study sought to replicate and extend the findings of Study 3 by comparing a relationship prime to a prime designed to elicit positive feelings from a non-social source. Ninety-five participants were primed to think about either a close friend or a favorite dessert before rating their positive affect, relatedness need satisfaction, and meaning in life. The results indicated that "relationship primes decreased reliance on PA and increased reliance on RNS compared to dessert primes." This demonstrated that making social connections salient not only reduces the influence of mood but also increases the direct influence of feelings of relatedness on judgments of meaning.
+
+### **General Discussion**
+In the concluding section, Hicks and King synthesize the findings from the four studies. They argue that the results provide strong support for their model: that judgments about meaning in life are constructed based on accessible information. People use their current mood (positive affect) and their sense of social connection as key inputs. The studies collectively show that these two sources can substitute for one another. When one source of information (like social connection) is weak or unavailable, individuals lean more heavily on the other (their mood). The authors conclude by emphasizing the importance of applying principles of social and cognitive judgment to understand complex existential experiences like meaning in life.
+
+## 3. Sources
+ https://www.researchgate.net/publication/233486588_Positive_Affect_Meaning_in_Life_and_Future_Time_Perspective_An_Application_of_Socioemotional_Selectivity_Theory
+ https://www.researchgate.net/publication/40032986_Positive_mood_and_social_relatedness_as_information_about_meaning_in_life
+ https://www.semanticscholar.org/paper/Positive-affect-and-the-experience-of-meaning-in-King-Hicks/e01b36a8850a58882955f244111451f08e434447
+ https://www.tandfonline.com/doi/abs/10.1080/17439760903271108
+ https://www.researchgate.net/publication/233486589_Meaning_in_life_and_seeing_the_big_picture_Positive_affect_and_global_focus
+ https://scholar.google.com/citations?user=9f226U4AAAAJ&hl=en
+ https://www.researchgate.net/publication/337899477_Emotions_and_Meaning_in_Life_A_Motivational_Perspective
+ https://existentialpsychology.org/wp-content/uploads/2017/01/Hicks-King-2009-Positive-mood-and-social-relatedness-as-information-about-meaning-in-life.pdf
+ https://ouci.dntb.gov.ua/en/works/lV1pB6Am/
+ https://www.annualreviews.org/doi/abs/10.1146/annurev-psych-010419-050849

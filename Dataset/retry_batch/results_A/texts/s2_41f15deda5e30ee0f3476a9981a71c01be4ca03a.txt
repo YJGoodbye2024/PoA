@@ -1,0 +1,40 @@
+## 1. Official Abstract
+"We present six studies demonstrating that outcome information biases ethical judgments of others' ethically-questionable behaviors. In particular, we show that the same behaviors produce more ethical condemnation when they happen to produce bad rather than good outcomes, even if the outcomes are determined by chance. Our studies show that individuals judge behaviors as less ethical, more blameworthy, and punish them more harshly, when such behaviors led to undesirable consequences, even if they saw those behaviors as acceptable before they knew its consequences. Furthermore, our results demonstrate that a rational, analytic mindset can override the effects of one's intuitions in ethical judgments. Implications for both research and practice are discussed."
+
+## 2. Core Insights & Analysis
+The full text of the paper, a Harvard Business School Working Paper, was accessible and has been analyzed below. The analysis is structured according to the paper's original sections.
+
+### **Introduction**
+The authors introduce the "outcome bias," where people judge the quality of a decision based on its outcome rather than the conditions and information available when the decision was made. They propose to extend this concept to the realm of ethical judgments. The central argument is that people's evaluations of ethically ambiguous actions are significantly swayed by the consequences of those actions. The paper hypothesizes that questionable behaviors leading to negative outcomes will be judged as more unethical than the exact same behaviors that result in positive outcomes (Hypothesis 1). This contradicts philosophical and legal principles that suggest blame should be based on the intent or negligence of an act itself, not its chance outcome.
+
+### **Blame and Punishment**
+This section connects the judgment of an act's ethicality to the assignment of blame and punishment. The authors argue that judgments of blame and punishment are directly affected by how unethical a behavior is perceived to be. They build on this to propose two further hypotheses:
+*   **Hypothesis 2:** People are more likely to blame others for questionable behaviors that lead to negative consequences than for those leading to positive ones.
+*   **Hypothesis 3:** People will punish questionable behaviors more harshly when they lead to negative consequences.
+
+### **The Present Research**
+The paper outlines six studies designed to test these hypotheses. The core methodology involves presenting participants with scenarios describing an ethically questionable action and manipulating only the outcome (positive vs. negative).
+
+*   **Study 1:** Participants read scenarios about a scientist's questionable research methods. When the outcome was negative (the drug being studied was ineffective), the scientist's actions were judged as more unethical and more blameworthy than when the outcome was positive (the drug was effective). This supported Hypotheses 1 and 2.
+*   **Study 2:** This study aimed to replicate Study 1 and also test whether participants would change their own judgments. Participants first judged a behavior *before* knowing the outcome and then judged it again *after* the outcome was revealed. The results showed that people updated their ethical judgments to be harsher if the outcome was bad, demonstrating the power of the outcome bias to alter a previously stated opinion.
+*   **Study 3:** This study tested whether the outcome bias extended to direct punishment. Participants read a scenario about two identical, ethically dubious investments made by two different managers. One had a positive outcome, and the other had a negative one. Participants recommended a significantly lower bonus for the manager whose investment resulted in a loss, confirming that outcomes influence punishment.
+*   **Study 4:** This study explored a potential moderator: the "intuitive" versus "analytic" mindset. Participants were primed to either use their intuition or a more rational, analytic approach before judging a scenario. The results showed that while the outcome bias was strong for the intuitive group, it was eliminated for the group primed to think analytically. This suggests that conscious, rational deliberation can mitigate the outcome bias.
+*   **Study 5:** This study investigated whether the source of the outcome (chance vs. the actor's skill) mattered. The scenario involved a scientist choosing between two research methods, with the success of the chosen method determined by a random number generator. Even when the outcome was explicitly due to chance, participants still judged the scientist more harshly when the random outcome was negative.
+*   **Study 6:** This study examined whether the bias persists when the actor has a self-serving motive. It used a scenario where a manager could approve a financially questionable project that would personally benefit them. The findings reconfirmed that a negative outcome led to harsher ethical judgments, more blame, and greater punishment compared to a positive outcome.
+
+### **General Discussion & Conclusion**
+The authors conclude that their six studies provide robust evidence for the outcome bias in ethical judgments. People consistently condemn the same action more when it is associated with a bad result, even when the outcome is determined purely by chance. This has significant implications for organizations, where employees and managers are often evaluated based on results rather than the quality of their decisions. This can lead to unfairly punishing those who made sound decisions that were unlucky, while rewarding those whose questionable choices were bailed out by good fortune. The authors suggest that the bias stems from an intuitive, emotional response to a negative event, which can be overcome by engaging in more deliberate, analytical thinking.
+
+## 3. Sources
+ http://www.hbs.edu/research/pdf/08-080.pdf
+ https://www.researchgate.net/publication/228246399_No_Harm_No_Foul_The_Outcome_Bias_in_Ethical_Judgments
+ https://www.francescagino.com/uploads/1/2/9/2/12925900/ginoshubazerman_obhdp.pdf
+ https://ideas.repec.org/p/hbs/wpaper/08-080.html
+ https://www.redalyc.org/journal/206/20655623006/html/
+ https://newristics.com/articles/outcome-bias/
+ https://www.behaviouralinvestment.com/2019/02/19/is-an-obsession-with-outcomes-the-most-damaging-investor-bias/
+ https://online.ucpress.edu/collabra/article/10/1/126266/200639/Outcome-Bias-in-Evaluations-of-Ethical-Decisions
+ https://www.journal-bmp.de/wp-content/uploads/2024/05/jbmp-2024-1-a2.pdf
+ https://biblio.ugent.be/publication/1069106/file/6790280.pdf
+ https://www.researchgate.net/publication/254326550_General_ethical_judgments_perceived_organizational_support_interactional_justice_and_workplace_deviance
+ https://ppw.kuleuven.be/okp/_pdf/Mayer2012MSFSDC.pdf

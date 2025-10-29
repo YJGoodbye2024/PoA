@@ -1,0 +1,43 @@
+## 1. Official Abstract
+>Much advertisers know a lot how decisions are made with different levels of probability (risk). Less is known about the neural basis of decision-making when probabilities are uncertain due to missing information (ambiguity). In decision theory, ambiguity about probabilities should not affect choices. Using functional brain imaging, we show that the level of ambiguity in choices correlates positively with activation in the amygdala and orbitofrontal cortex, and negatively with a striatal system. In addition, striatal activity correlates positively with expected reward. Neurological subjects with orbitofrontal lesions were insensitive to the level of ambiguity and risk in behavioral choices. These data suggest a general neural circuit that responds to degrees of uncertainty, contrary to decision theory.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on analyses from related academic sources.
+
+### Detailed Interpretation
+
+The 2005 *Science* paper by Ming Hsu and colleagues represents a foundational study in the field of neuroeconomics, providing key insights into how the human brain processes uncertainty in decision-making. The study's central contribution is the differentiation between the neural correlates of "risk" (when probabilities are known) and "ambiguity" (when probabilities are unknown).
+
+**Methodology and Key Distinctions:**
+The researchers used functional magnetic resonance imaging (fMRI) to monitor the brain activity of participants as they made choices under varying conditions of uncertainty. The experimental design involved tasks, such as choosing from card decks, where in some cases the probability of winning was explicitly stated (risk), and in others, it was unknown (ambiguity). This design allowed the team to isolate brain regions that were specifically sensitive to the level of missing information, a factor that classical decision theory suggests should not influence a rational agent's choice.
+
+**Core Findings:**
+The study produced three main findings that challenged existing theories and laid the groundwork for future research:
+
+1.  **Ambiguity and the Amygdala-OFC Circuit:** The level of ambiguity in a choice was positively correlated with increased activation in the amygdala and the orbitofrontal cortex (OFC). These areas are known for their roles in processing emotions, particularly fear and vigilance. This finding suggests that the brain treats ambiguity as a salient, potentially negative signal, prompting heightened alertness. Subsequent research has confirmed the OFC's role in evaluating the degree of uncertainty in general.
+
+2.  **Reward Expectation and the Striatum:** In contrast, activation in the striatum, a core component of the brain's reward system, was negatively correlated with ambiguity. Striatal activity was, however, positively correlated with the expected monetary value of the choices. This suggests a division of labor: while the OFC and amygdala track the level of uncertainty, the striatum is more involved in tracking the potential reward.
+
+3.  **Evidence from Lesion Patients:** To establish a causal link, the study included neurological patients with lesions in the orbitofrontal cortex. These individuals were found to be behaviorally insensitive to both ambiguity and risk in their choices, unlike healthy control subjects. This provided strong evidence that the OFC is not just correlated with but is a necessary component of the neural circuitry for making decisions under uncertainty.
+
+**Impact and Significance:**
+Hsu et al.'s paper was highly influential for demonstrating that the brain does not treat all forms of uncertainty equally. It provided a neural basis for "ambiguity aversion," a well-documented psychological phenomenon where people prefer risky choices over ambiguous ones, even if the expected value is the same. By identifying a distinct neural network—amygdala and OFC for uncertainty detection, and the striatum for reward valuation—the study offered a model for how the brain navigates complex decision-making environments. This work has been widely cited and helped to bridge decision theory, economics, and neuroscience, showing that human choices that appear "irrational" from a purely economic standpoint have a clear and consistent neural basis.
+
+## 3. Sources
+ Hsu, M., Bhatt, M., Adolphs, R., Tranel, D., & Camerer, C. F. (2005). Neural systems responding to degrees of uncertainty in human decision-making. *Science*, 310(5754), 1680–1683. doi: 10.1126/science.1115327. (https://pubmed.ncbi.nlm.nih.gov/16339445/)
+
+ Hsu, M., Bhatt, M., Adolphs, R., Tranel, D., & Camerer, C. F. (2005). Neural systems responding to degrees of uncertainty in human decision-making. *University of Iowa Institutional Repository*. (https://ir.uiowa.edu/research/publications/3362338/)
+
+ Semantic Scholar. (n.d.). *Neural Systems Responding to Degrees of Uncertainty in Human Decision-Making*. (https://www.semanticscholar.org/paper/Neural-Systems-Responding-to-Degrees-of-in-Human-Hsu-Bhatt/e85202a0a29790259970132d731c3429e512739e)
+
+ Taktak, S., & Triki, M. (2015). The Importance of Behavioral Factors: How Do Overconfidence Affect Entrepreneurial Opportunity Evaluation?. *Journal of Behavioural Economics, Finance, Entrepreneurship, Accounting and Transport*, 3(1), 12-20. (http://pubs.sciepub.com/jbe/3/1/2/index.html)
+
+ ResearchGate. (2006). *(PDF) Neural Systems Responding to Degrees of Uncertainty in Human Decision-Making*. (https://www.researchgate.net/publication/7279768_Neural_Systems_Responding_to_Degrees_of_Uncertainty_in_Human_Decision-Making)
+
+ Ogawa, T. (2012). Seeking Ambiguity: a Review on Neuroimaging Studies on Decision Making under Ambiguity. *Revue économique*, 63(5), 957-966. (https://www.cairn.info/revue-economique-2012-5-page-957.htm)
+
+ Attanasi, G., et al. (2014). Neural Correlates of Decision-Making Under Ambiguity and Conflict. *Frontiers in Behavioral Neuroscience*, 8, 259. (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4106385/)
+
+ Lopez-Paniagua, D., & Seger, C. A. (2013). Coding of level of ambiguity within neural systems mediating choice. *Frontiers in Neuroscience*, 7, 19. (https://www.frontiersin.org/articles/10.3389/fnins.2013.00019/full)
+
+ Levy, I., et al. (n.d.). The neural representation of subjective value under risk and ambiguity. *IGIER*. (https://www.igier.unibocconi.it/papers/levy_hsu_gneezy_et_al_-_neural_representation_of_subjective_value_-_submitted.pdf)

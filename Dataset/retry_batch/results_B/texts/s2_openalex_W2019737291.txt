@@ -1,0 +1,43 @@
+## 1. Official Abstract
+>Illusorische Korrelation bezieht sich auf eine fehlerhafte Schlussfolgerung über die Beziehung zwischen Kategorien von Ereignissen. Eine postulierte Grundlage für illusorische Korrelationen ist das gemeinsame Auftreten von statistisch seltenen Ereignissen; d.h., Beobachter überschätzen die Häufigkeit des gemeinsamen Auftretens von distinkten Ereignissen. Wenn eine Gruppe von Personen seltener „auftritt“ als eine andere und eine Art von Verhalten selten auftritt, dann sagt die obige Hypothese voraus, dass Beobachter die Häufigkeit, mit der dieses Verhalten von Mitgliedern dieser Gruppe ausgeführt wurde, überschätzen würden. Diese Argumentation wurde als Grundlage für stereotype Urteile über Minderheitengruppen vorgeschlagen. Diese Analyse legt nahe, dass die unterschiedliche Wahrnehmung von Mehrheits- und Minderheitengruppen allein aus den kognitiven Mechanismen resultieren könnte, die bei der Verarbeitung von Informationen über Stimulusereignisse beteiligt sind, die sich in ihren Auftretenshäufigkeiten unterscheiden. Die Ergebnisse von zwei Experimenten, die diese Argumentation testeten, lieferten starke Unterstützung für die Hypothese. Implikationen der Experimente für den Erwerb von Stereotypen werden diskutiert.
+
+## 2. Core Insights & Analysis
+Der Volltext war nicht zugänglich. Nachfolgend finden Sie eine detaillierte Interpretation, die aus maßgeblichen Drittquellen zusammengetragen wurde.
+
+**Detaillierte Interpretation**
+
+Die bahnbrechende Studie von David L. Hamilton und Robert K. Gifford aus dem Jahr 1976 lieferte eine kognitive Erklärung für die Entstehung von negativen Stereotypen über Minderheitengruppen, bekannt als das Phänomen der **illusorischen Korrelation**. Die zentrale These ist, dass Stereotypen nicht notwendigerweise aus persönlichen Vorurteilen oder Feindseligkeiten entstehen, sondern aus einem grundlegenden kognitiven Prozess, der mit der Verarbeitung seltener oder distinkter Informationen zusammenhängt.
+
+**Experimentelles Design**
+Die Forscher führten Experimente durch, bei denen die Teilnehmer Informationen über Mitglieder von zwei fiktiven Gruppen, „Gruppe A“ (die Mehrheit) und „Gruppe B“ (die Minderheit), lasen. Den Teilnehmern wurden eine Reihe von Sätzen präsentiert, die jeweils ein wünschenswertes oder unerwünschtes Verhalten beschrieben, das von einem Mitglied der Gruppe A oder B ausgeführt wurde. Die Gestaltung war entscheidend:
+*   **Gruppengröße:** Es gab doppelt so viele Mitglieder in Gruppe A wie in Gruppe B, wodurch Gruppe B zur Minderheit wurde.
+*   **Verhaltensverhältnis:** Für *beide* Gruppen war das Verhältnis von positiven zu negativen Verhaltensweisen identisch und überwiegend positiv.
+*   **Keine tatsächliche Korrelation:** Statistisch gesehen gab es absolut keinen Zusammenhang zwischen der Gruppenzugehörigkeit und der Wahrscheinlichkeit, ein negatives Verhalten zu zeigen.
+
+**Mechanismus der „gemeinsamen Distinktheit“**
+Die Hypothese der Studie basierte auf dem Konzept der **gemeinsamen Distinktheit** (shared distinctiveness). Sowohl die Minderheitengruppe (Gruppe B) als auch die negativen Verhaltensweisen waren für die Teilnehmer statistisch seltener und somit auffälliger. Hamilton und Gifford argumentierten, dass das gleichzeitige Auftreten von zwei distinkten Ereignissen – in diesem Fall ein Mitglied der selteneren Gruppe B, das ein selteneres negatives Verhalten zeigt – im Gedächtnis überrepräsentiert wird. Dieses Zusammentreffen ist kognitiv auffälliger und einprägsamer, was zu einer fehlerhaften Assoziation führt.
+
+**Ergebnisse und Schlussfolgerungen**
+Nach der Präsentation der Informationen wurden die Teilnehmer gebeten, die Eigenschaften der beiden Gruppen zu bewerten und die Häufigkeit der verschiedenen Verhaltensweisen zu schätzen. Die Ergebnisse bestätigten die Hypothese deutlich:
+*   Die Teilnehmer überschätzten systematisch die Häufigkeit, mit der Mitglieder der Minderheitengruppe (Gruppe B) unerwünschte Verhaltensweisen zeigten.
+*   Folglich bewerteten die Teilnehmer die Minderheitengruppe (Gruppe B) in den nachfolgenden Eigenschaftsbewertungen negativer als die Mehrheitsgruppe (Gruppe A).
+
+Hamilton und Gifford schlossen daraus, dass die Wahrnehmung einer Korrelation zwischen der Minderheitengruppe und negativen Verhaltensweisen eine „illusorische Korrelation“ war – eine kognitiv erzeugte Illusion, die nicht auf den tatsächlichen Daten beruhte. Diese Studie zeigte auf, dass die bloße kognitive Verarbeitung von Informationen über Gruppen unterschiedlicher Größe ausreichen kann, um die Grundlage für negative Stereotypen zu schaffen, selbst wenn keine vorbestehenden Vorurteile vorhanden sind.
+
+## 3. Sources
+ Hamilton, D. L., & Gifford, R. K. (1976). Illusory correlation in interpersonal perception: A cognitive basis of stereotypic judgments. *Journal of Experimental Social Psychology, 12*(4), 392–407. https://www.sciencedirect.com/science/article/abs/pii/S002210317680006X
+ Wikipedia. (n.d.). *Illusory correlation*. Retrieved October 29, 2025, from https://en.wikipedia.org/wiki/Illusory_correlation
+ Semantic Scholar. (n.d.). *Illusory correlation in interpersonal perception: A cognitive basis of stereotypic judgments*. Retrieved October 29, 2025, from https://www.semanticscholar.org/paper/Illusory-correlation-in-interpersonal-perception%3A-Hamilton-Gifford/e83b5b6b063d78a18365922a01291005898858d4
+ Top Trumps Social Psychology. (n.d.). *Illusory Correlation*. Retrieved October 29, 2025, from https://www.toptrumps.org/illusory-correlation/
+ ERIC - Education Resources Information Center. (n.d.). *Illusory Correlation in Interpersonal Perception: A Cognitive Basis of Stereotypic Judgments*. Retrieved October 29, 2025, from https://eric.ed.gov/?id=EJ152890
+ Um. (n.d.). *10. Illusory Correlation*. Retrieved October 29, 2025, from https://um.la/library/lecture/10/
+ Scribd. (n.d.). *Illusory Correlation*. Retrieved October 29, 2025, from https://www.scribd.com/presentation/365399589/Illusory-Correlation
+ Simple English Wikipedia. (2020, December 6). *Illusory correlation*. Retrieved October 29, 2025, from https://simple.wikipedia.org/wiki/Illusory_correlation
+ Scribd. (n.d.). *Illusory Correlation*. Retrieved October 29, 2025, from https://www.scribd.com/document/365399589/Illusory-Correlation
+ Oxford Academic | The Journals of Gerontology: Series B. (n.d.). *Illusory Correlation and Group Impression Formation in Young and Older Adults*. Retrieved October 29, 2025, from https://academic.oup.com/psychsocgerontology/article/53B/5/P293/559403
+ University of Auckland - Reading Lists. (n.d.). *Shared item from PSYCH 311 - Danny (2017)*. Retrieved October 29, 2025, from https://rl.talis.com/3/auckland/lists/55768568-9844-593B-A795-2E8984956328/items/5472857D-8576-887E-464A-A8519E868777.html
+ YouTube. (2021, May 13). *Hamilton & Gifford (1976)- Supporting study for Illusory Correlation- Stereotypes*. Retrieved October 29, 2025, from https://www.youtube.com/watch?v=rh-yM4_2-eI
+ Análise Psicológica. (n.d.). *Behavior as a stereotype cue: An European Portuguese pretest on age and gender stereotypes*. Retrieved October 29, 2025, from https://scielo.pt/scielo.php?script=sci_arttext&pid=S0870-82312019000200004
+ ResearchGate. (n.d.). *Illusory Correlation in the Perception of Group Attitudes*. Retrieved October 29, 2025, from https://www.researchgate.net/publication/232535035_Illusory_Correlation_in_the_Perception_of_Group_Attitudes
+ YouTube. (2020, February 11). *Formation and effects of stereotyping*. Retrieved October 29, 2025, from https://www.youtube.com/watch?v=0n2y-a4P6gA
+ YouTube. (2016, November 13). *IB Psychology Webinar - Stereotype Formation and Effects*. Retrieved October 29, 2025, from https://www.youtube.com/watch?v=525z_mJq1i8

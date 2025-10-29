@@ -1,0 +1,7 @@
+{
+  "mode": "prepare",
+  "split_dir": "Dataset/retry_batch",
+  "task_count": 708,
+  "pdf_copied": 0,
+  "text_copied": 150
+}

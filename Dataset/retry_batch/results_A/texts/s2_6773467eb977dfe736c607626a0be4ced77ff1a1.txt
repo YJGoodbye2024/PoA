@@ -1,0 +1,37 @@
+An expert-level deep search for the specified paper has been completed. The official abstract was located; however, the full text was not accessible. In accordance with the operational workflow, a detailed interpretation has been compiled from reliable secondary academic sources that cite and analyze the target paper.
+
+## 1. Official Abstract
+"Envy is the pain that arises from the good fortune of others. Recent research identified two subtypes of envy, benign and malicious envy. Malicious envy is the envy subtype with action tendencies aimed to pull down the envied person from their superior position. Benign envy is also a frustrating experience, but activates action tendencies aimed at improving oneself. This article provides an overview of the empirical support for making this distinction in envy subtypes. It then discusses the benefits of a subtype approach to envy, with the main advantages of distinguishing benign and malicious envy being that it (a) provides researchers with the language to be clear in how they conceptualize envy and (b) allows novel predictions. A next section provides a response to some criticism on making this distinction. Finally, I conclude with a section on how envy in general, and benign and malicious envy in particular, could be measured."
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on an analysis of secondary academic sources.
+
+### The Dual Nature of Envy: Benign vs. Malicious
+
+The central argument of Van de Ven's 2016 paper is that envy is not a single, monolithic emotion but a dualistic concept that should be separated into two distinct types: **benign envy** and **malicious envy**. Both forms are described as unpleasant and frustrating experiences that stem from an upward social comparison, where one recognizes that another person possesses a superior quality, achievement, or possession. The fundamental difference between the two lies in the motivational outcomes they produce.
+
+*   **Benign Envy** is characterized as a constructive, less-hostile form of envy. It motivates individuals to "level up" by improving their own position to match that of the envied person. This type of envy can inspire a person to work harder or strive for personal growth to acquire what the other has. It is associated with a desire for self-improvement and a focus on the coveted object or achievement.
+*   **Malicious Envy** is a destructive and hostile emotion. It triggers a "pulling-down" motivation, where the envier's goal is to damage the superior person's position and diminish their advantage. This form of envy is linked to resentment, bitterness, and a focus on the envied person themselves, rather than the object of envy.
+
+### Theoretical Framework and Justification
+
+Van de Ven's distinction is rooted in the functional perspective of emotions, which suggests that emotions serve specific purposes. Both types of envy arise from the same initial situation—an upward social comparison that threatens an individual's self-image—and share the ultimate goal of closing the gap between the self and the superior other. However, they represent two different strategies for achieving that goal.
+
+The paper argues that distinguishing between these subtypes is crucial for several reasons. Firstly, it provides researchers with a more precise vocabulary to conceptualize and study envy, avoiding the ambiguity of a single term. Secondly, this distinction allows for novel predictions about behavior. For instance, benign envy is expected to lead to positive outcomes like better performance, whereas malicious envy is linked to negative consequences such as sabotage or schadenfreude (pleasure at another's misfortune).
+
+### Antecedents and Measurement
+
+While both forms of envy stem from upward social comparison, the factor that often determines which type is felt is the perception of **deservedness** or **attainability**. Malicious envy is more likely to ignite when the other person's advantage is perceived as undeserved. In contrast, if self-improvement seems attainable, an upward comparison is more likely to trigger benign envy and subsequent better performance.
+
+The paper also addresses the measurement of these constructs, referencing the Benign and Malicious Envy Scale (BeMaS) as a tool designed to capture both subtypes. This scale includes items related to self-enhancement for benign envy and hostile feelings for malicious envy.
+
+## 3. Sources
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3PYfclHqtM7-6s4yCQJ1OChED5mB9NRIelYYF4G9ZE5Gp7eMjhi9vTXYWCC1PXEbgdyLw7xkALnNhQChI8tQ4m1Hdll7R1HAwl6iqFAbu8qps_azfHnP66o8ZQyQSfc93kn9Dj5H5tU53NPrRAKTAEn8zGXjUe47WM_qhXUlFOWkZGWyc9FjRKFxux_SBh6bGgJvQtqUKdjftqdNXTl0AAprwXs9NAmWzvbcruAuaJiGZpAMIU8-VNJBPf5NY7GMkSGSslR9k
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo2ncO-LFv-M3ZlB2Ukxsvzm4JrOcWyRKVYP3ZA3D_UUv3q_GDcnb8HDe4fulyD6aXkKEpXdPWV05E1ydncke81ZF_B6naT3saeDEtbo0DdzU88A65-1tKC_kcyGo6EZBjM5Se_NovzQdvU33rnJVNhd5TaxhHWIXAqIaEmAf4F78HZE0tCRpBmLa5H7wuyzS5jdyJc6IyKcP1AMz3eo1aR1asdJJMBBZzZCf7xs4iet4h6i4ecY4apf8oDEP_hSFuVNlMf7Qjez0r6DsVhp8jYw6mIRn5ctM4wQrMwJvfwmwTY6Y=
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp2JU5Ko_GAakOuNNy2FG4_tc2UhOmBjbJspeHFGtzwGtjsKBSkYNiHjO2HrbMHhmpkHUtAT22m4Bw__hP6Lc3srFxT3XdEm6EQ2exum6TAULjWqF76ZYv8lc24T68PKKhcM2YqkxPCw5pKHBXjWqZmDPgErEWtrWWZ7yXTyD2CxP5NS6TbZQHrZ3g2lBKJsoLx9A71tJXJ4qDo2z147AgIXBpBgVf5rVUXsNelHitnU0pMS3GGtDJ0Kh6Nyi1S_EF53A=
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHJQSOfDdeSpaqe29ytAtmVWwhRODBOZnEu_Ot90qNpBvHAkqy7kSknfM0Nr4CRj6nW9kaagyGZyMPIKrBQubu0f0teHM_n7RuCXUJySw8uJVTHGrGk5pIH_YdiaTZTzkblvlXFWSAJk4c5v_DKqSHjFo68ADDFJ1I9uhJEA==
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtAqDXL0AK_8xWKJIwvDAQrJtoWAB2g52Uw_46QjXP2KTVf-pvi5ojB4SW0L5LMdlrB-1BsoaAMoULW6WEGGOnSNIAHUK0BLdBvSgr6fcrgDBbRjHyXOheFb-2Ii4BlE6XWx--_Igy5hcakxnTJZyxkskZ7SZyaOW3SQex6LHGKqUy1INma1mCuqlVjNsMWps_z2PgYAF_0fEdM8OnwNaJLqIEH1c4Cs_M9VKiQ5ehZUURV0iGsUePfZaHntsmWg==
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY2JnR2kQu1QM4oLRgIT1xb-VMJCo3l25N-h2EAwHDSLBCijDRnCfSo6m49nwk9Px0uFlAeVIVWP2Vwj8zBg1H_eYvNQ2kT4GabPGo4u2QQKOji3VxOOuRnL6JwExvstwdJsbTdjkDJ-veh-xwalKzS1xFyxY=
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1C-pyloB-WBnu3SKENrIISKH6k8Ru0_v3OMurEgXV6IGuvPvaAL3KqDvoG8Yy_5rBQd0A11suhXpgPVTFwqAv_8XsCoYCHS4MCWNcuvCoCPHAOSyMDLYRKsWYaR6XPAkS7sILp1edqjvX0_rI5_HiEUvl_ILcI5AxGrSSxMtG-of_L0v8w9YPjiN6adCb51KTBNRgdC7Ytxn63WA-XwPIhAZjxcwBKTQ=
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFInwElynVw9niWCwDh36FMCPnWofq4WT68HFoBGExmpobhFmovE8-rzltvHreD2P3GAYBgOPOhZkUrQCiRJZWle3rSFal1L_TNWrw8_Ltg5C4CjnoMX33DJdOgzZCyk8MabQDaRDJvplj9l_a9jmhbBiX8dZATwMok-8BWk1JTMA==
+ https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqUqSb9ghWquhbn9XiovHTE-zDwTfhm9DJZXm0bqwsk6apD24kXNAXf5ENtq8jbEKxwsGCRKhIqMclj3yDy9ByZ2_JNGL7UyljYJbxU_Blkh5_AskdeEqcWrmOwM2na9huvajwkF9wERn9z-4Wzla7

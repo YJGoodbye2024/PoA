@@ -1,0 +1,23 @@
+## 1. Official Abstract
+"Meta-analytic techniques were used to review studies of the illusion of control. Fifty-three experiments from 29 articles were included in the present review. Participants' awareness of the possibility that task outcomes were random, type of illusion measured, type of situational variable, and type of control assessment were identified as possible moderator variables. Larger effect sizes were found in experiments that measured participants' perception of their ability to predict outcomes as opposed to participants' perception of their ability to control outcomes. Also, larger effects were obtained in experiments that used indirect, quantitative as opposed to direct assessments of the illusion of control. The illusion of control construct has been operationalized in many different ways. These operationalizations converge on E. Langer's (1975) definition of illusory control, but many of them do not seem to assess the commonly used notion of control."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis. This synopsis is structured according to the paper's original sections.
+
+### Introduction
+The authors begin by establishing the importance of perceived control in psychological theory, citing theorists like Adler, Heider, and White who emphasized the human motive to control one's environment. They introduce Ellen Langer's (1975) concept of the "illusion of control," where individuals act as if they can control outcomes that are, in fact, determined by chance. The paper states its purpose is to use meta-analytic techniques to review the existing literature on the illusion of control, identify variables that might moderate the effect, and clarify the different ways the concept has been operationalized.
+
+### Method
+The researchers conducted a comprehensive literature search to identify studies on the illusion of control published up to 1992. They established specific criteria for including a study in their meta-analysis: the experiment had to be designed to induce an illusion of control, and it must provide the necessary statistical information to calculate an effect size. This process resulted in a final sample of 53 experiments from 29 different articles. The authors then coded each study for several potential moderator variables, including whether participants knew the task was chance-based, the type of illusion being measured (e.g., ability to predict vs. ability to control), and the method used to assess control (direct vs. indirect).
+
+### Results
+The meta-analysis of the 53 experiments revealed a robust illusion of control effect. The analysis identified several key moderator variables that significantly influenced the strength of the illusion:
+*   **Type of Control Assessment:** The largest effects were found in studies that used indirect, quantitative measures of control, as opposed to direct assessments.
+*   **Type of Illusion Measured:** Experiments that measured a participant's perceived ability to *predict* outcomes yielded larger effect sizes than those measuring the perceived ability to directly *control* outcomes.
+*   **Awareness of Chance:** A significant illusion of control was present both when participants knew the situation was governed by chance and when they did not.
+
+### Discussion/Conclusion
+The authors conclude that the illusion of control is a reliable phenomenon. However, they argue that the construct has been defined and measured in many different ways, not all of which align with the common understanding of personal control. They note that fewer than a third of the experiments reviewed actually measured a participant's perception of direct, personal influence over the outcome. The findings that the illusion is stronger when assessing "prediction" rather than "control" and when using indirect measures suggest that researchers may often be capturing related, but distinct, psychological processes. The review emphasizes the need for greater clarity and consistency in how the illusion of control is operationalized in future research.
+
+## 3. Sources
+ https://www.proquest.com/docview/200007823

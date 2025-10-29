@@ -1,0 +1,39 @@
+## 1. Official Abstract
+An official abstract for this book chapter is not available in the public domain, as is common for chapters within edited academic volumes. The work is published by the American Psychological Association, and access is typically restricted to purchasers of the book.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation of the paper's core contributions based on its widespread citation in subsequent academic literature.
+
+The 2006 book chapter, "Trait Perfectionism Dimensions and Suicidal Behavior," by Hewitt, Flett, Sherry, and Caelian is a foundational text that introduces the **Perfectionism Social Disconnection Model (PSDM)**. This model provides a theoretical framework for understanding the mechanisms through which perfectionism, as a personality trait, contributes to severe psychological distress and, specifically, suicidal behavior.
+
+The central thesis of the paper is that the link between perfectionism and suicidality is not direct but is mediated by experiences of social disconnection. The authors argue that perfectionistic behaviors and thought patterns alienate individuals from others, leading to feelings of rejection, exclusion, and loneliness, which in turn elevate the risk for suicide.
+
+Core arguments presented in the chapter, as described by other scholars, include:
+
+*   **Focus on Socially Prescribed Perfectionism:** The model places particular emphasis on the "socially prescribed" dimension of perfectionism—the belief that others have unrealistically high expectations of oneself and that one must be perfect to gain their approval. This dimension is identified as a key interpersonal risk factor. It is seen as conferring vulnerability for depression and suicidality, especially in the context of interpersonal stressors.
+
+*   **The Mechanism of Social Disconnection:** The PSDM posits that perfectionism leads to interpersonal behaviors (such as hostility, coldness, and excessive reassurance-seeking) and cognitions (such as perceiving others as critical and judgmental) that are off-putting to others. This results in two forms of social disconnection:
+    *   **Objective Social Disconnection:** The verifiable reality that others may avoid or reject the perfectionistic individual due to their difficult interpersonal style.
+    *   **Subjective Social Disconnection:** The individual's internal perception that others are not interested in connecting, which involves heightened sensitivity to rejection and a feeling of being unwanted or irrelevant.
+
+*   **Pathway to Suicidality:** According to the model detailed in this chapter, the pathway flows from perfectionism (especially socially prescribed) to social disconnection, which then leads to outcomes like depression, hopelessness, and ultimately, suicidal ideation and behavior. The pain of feeling alienated and rejected, whether real or perceived, is the critical driver of this negative outcome.
+
+In summary, Hewitt et al. (2006) moved the academic conversation beyond simply correlating perfectionism with suicide. They proposed a specific, testable psychological mechanism—the Perfectionism Social Disconnection Model—that explains *why* perfectionists are at a heightened risk for suicide, identifying interpersonal disruption and the resulting sense of isolation as the primary cause.
+
+## 3. Sources
+ https://www.researchgate.net/publication/383921021_Perfectionism_and_Emotion_Regulation_in_the_Study_of_Suicidal_Ideation_in_Portuguese_Young_Adults
+ https://www.frontiersin.org/articles/10.3389/fpsyt.2021.691147/full
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8912239/
+ https://hewittlab.psych.ubc.ca/files/2020/02/Hewitt-et-al.-2020-Psychotherapy-The-perniciousness-of-perfectionism-in-group-therapy-for-depression.pdf
+ https://www.researchgate.net/publication/351897850_PERFECTIONISM_RESOURCE_OF_PATHOLOGY
+ https://dergipark.org.tr/en/pub/ulsbder/issue/75475/1169002
+ https://www.cruxpsychology.com/wp-content/uploads/2020/09/Sherry-Mackinnon-Gautreau-2016-Perfectionists-dont-play-nicely-with-others-Expanding-the-social-disconnection-model.pdf
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4439468/
+ https://www.frontiersin.org/articles/10.3389/fpsyt.2021.693354/full
+ https://brieflands.com/articles/ijpbs-115386.html
+ https://www.cruxpsychology.com/wp-content/uploads/2020/09/Sherry-et-al.-2018-Why-does-socially-prescribed-perfectionism-place-people-at-risk-for-depression.pdf
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2021.642512/full
+ https://hewittlab.psych.ubc.ca/research/perfectionism-social-disconnection-model/
+ https://scholarspace.library.gwu.edu/concern/gw_etds/gq67js01p
+ https://www.mdpi.com/2673-4551/5/3/39
+ https://ci.nii.ac.jp/naid/10029519198/

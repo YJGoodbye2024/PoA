@@ -1,0 +1,42 @@
+## 1. Official Abstract
+> This article studies the impact of explanatory coherence on the evaluation of explanations. Tested were 4 principles of P. Thagard's (1989) model for evaluating the coherence of explanations. Study 1 found that Ss preferred a single explanation that explained several facts to multiple explanations that each explained a single fact. Study 2 found that Ss preferred a simple explanation to a more complex one. Study 3 found that when explaining a single fact, Ss preferred a specific explanation to a more general one. However, when explaining multiple facts, Ss preferred a broad explanation that accounted for all the facts to a narrow one that explained only 1 fact. Study 4 found that the judged quality of an explanation decreased when a 2nd, competing explanation was available. These results are consistent with a parallel distributed processing or connectionist model of explanatory coherence.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. A detailed interpretation based on analyses from citing academic papers is provided below.
+
+### Detailed Interpretation
+
+The 1993 paper by Stephen J. Read and Amy Marcus-Newhall, "Explanatory coherence in social explanations: A parallel distributed processing account," is a significant contribution to the understanding of how individuals evaluate and prefer certain types of social explanations over others. The research is grounded in Paul Thagard's theory of explanatory coherence, proposing that making sense of social behavior is a process of achieving maximum coherence among a network of interconnected propositions, including evidence and hypotheses. The authors operationalize and test several key principles of this theory using a parallel distributed processing (PDP), or connectionist, framework.
+
+The core argument is that the mind acts like a constraint satisfaction system, settling on the most coherent interpretation of a social situation. An explanation is not judged in isolation but in relation to other beliefs and alternative explanations. The paper empirically tests principles derived from this model, primarily focusing on how simplicity, breadth (or scope), and competition influence the perceived quality of an explanation.
+
+**Key Principles and Findings:**
+
+The research is structured around a series of studies designed to test specific hypotheses about what makes an explanation "good."
+
+*   **Simplicity and Parsimony:** A foundational finding is that people generally prefer simpler explanations. One study demonstrated that participants favored a single cause to explain multiple observations over multiple, independent causes that each explained only one observation. For instance, if someone exhibits several symptoms, an explanation that posits a single underlying cause (like pregnancy) is rated as better than multiple, unrelated causes (like stomach flu, lack of exercise, etc.). This aligns with the principle of parsimony, where an explanation that invokes fewer causes is considered more coherent and, therefore, more satisfying.
+
+*   **Breadth (Scope) and Specificity:** The preference for simplicity is moderated by the explanation's breadth or scope—its ability to account for a wider range of facts. The research found a crucial interaction between the number of facts to be explained and the preferred level of generality. When explaining a single, isolated fact, participants preferred a more specific explanation. However, when faced with multiple facts, they preferred a broader, more general explanation that could unify all of them under a single coherent framework. This demonstrates that the goal is not just simplicity, but explanatory power; a slightly more complex but much broader explanation can be more coherent overall.
+
+*   **Competition Among Explanations:** A central tenet of the coherence model is that alternative explanations for the same evidence are inherently competitive and thus incoherent with each other. Read and Marcus-Newhall demonstrated this by showing that the perceived quality of an explanation significantly decreases when a competing alternative is introduced. The presence of a better alternative makes a mediocre explanation less acceptable, a dynamic captured by the inhibitory links between competing hypotheses in a connectionist model.
+
+**Methodology and Model:**
+
+The authors employed experimental methods, presenting participants with social scenarios and asking them to rate the quality of different explanations. For example, they would provide a story about a person's behaviors and then offer various causal explanations, manipulating factors like the number of causes (simplicity) or the number of facts the explanation could account for (breadth).
+
+The "parallel distributed processing" aspect of the title refers to the computational model that underpins the theory. This model, like Thagard's ECHO, involves a network of nodes representing propositions (hypotheses and evidence). Excitatory links connect propositions that support each other, while inhibitory links connect propositions that are contradictory or in competition. The network then iteratively settles into a state of maximum coherence, where the activation of nodes represents the acceptability of the propositions. The experimental results presented in the paper provide strong evidence that human social judgment operates in a manner consistent with these parallel constraint satisfaction processes.
+
+In summary, the paper provides robust empirical support for a coherence-based model of social explanation. It demonstrates that people's preferences for explanations are not arbitrary but are guided by systematic principles like simplicity, breadth, and competition, which are elegantly captured by a parallel constraint satisfaction framework.
+
+## 3. Sources
+ https://psycnet.apa.org/record/1993-43479-001
+ https://dornsife.usc.edu/stephen-read/social-perception/
+ https://uwaterloo.ca/scholar/thadard/publications/making-sense-people-coherence-mechanisms
+ https://www.semanticscholar.org/paper/Connectionism%2C-Parallel-Constraint-Satisfaction-Cognitive-Read-Vanman/25330a174116037142c1613437295779061c560f
+ https://www.jstage.jst.go.jp/article/jcss/13/1/13_1_3/_article
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7059779/
+ https://www.researchgate.net/publication/232549248_Explanatory_Coherence_and_goal-based_knowledge_structures_in_making_dispositional_inferences
+ https://www.cambridge.org/core/books/stereotypes-as-explanations/references/A9711345512A093D99A9B26B54417531
+ https://www.frontiersin.org/articles/10.3389/fpsyg.2017.01534/full
+ https://academic.oup.com/book/40923/chapter-abstract/349328043?redirectedFrom=fulltext
+ https://psycnet.apa.org/doi/10.1037/0022-3514.65.3.429

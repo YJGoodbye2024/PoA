@@ -1,0 +1,45 @@
+An expert-level deep search has been executed to locate and analyze the specified academic paper. The official abstract has been retrieved and the full text was accessible for a comprehensive synopsis.
+
+## 1. Official Abstract
+"Judges were asked to make numerical estimates (e.g., "In what year was the first flight of a hot air balloon?"). Judges provided high and low estimates such that they were X% sure that the correct answer lay between them. They exhibited substantial overconfidence: The correct answer fell inside their intervals much less than X% of the time. This contrasts with choices between 2 possible answers to a question, which showed much less overconfidence. The authors show that overconfidence in interval estimates can result from variability in setting interval widths. However, the main cause is that subjective intervals are systematically too narrow given the accuracy of one's information—sometimes only 40% as large as necessary to be well calibrated. The degree of overconfidence varies greatly depending on how intervals are elicited. There are also substantial differences among domains and between male and female judges. The authors discuss the possible psychological mechanisms underlying this pattern of findings."
+
+## 2. Core Insights & Analysis
+Full text was accessible. The following is a synopsis of the paper's core sections.
+
+### **Introduction**
+The paper begins by addressing the long-standing psychological finding that people are generally overconfident in their knowledge. While this phenomenon is well-documented, the authors note that recent, more controlled studies on two-alternative-choice questions show little to no overconfidence. However, a significant level of overconfidence persists when people are asked to create confidence intervals (e.g., "I am 90% sure the answer is between X and Y"). The actual "hit rate" (the frequency the correct answer falls within the interval) is consistently much lower than the stated confidence level. The authors propose to investigate the reasons for this robust overconfidence in interval estimates, distinguishing between two potential causes: unsystematic random error ("noise") in judgment and a systematic tendency to make intervals too narrow ("bias").
+
+### **Experiment 1: Interval Elicitation Formats**
+This experiment tested how the method of eliciting intervals affects overconfidence. Participants were asked general knowledge questions and provided 80% confidence intervals in one of three formats:
+*   **Two-Point:** Participants provided a lower and an upper bound separately ("I am 90% sure the answer is higher than..." and "I am 90% sure the answer is lower than...").
+*   **Range:** Participants provided the lower and upper bounds simultaneously.
+*   **Center + Width:** Participants first gave their best guess and then specified a symmetric range around it.
+
+**Results:** All formats produced significant overconfidence, but the degree varied. The hit rate was highest for the two-point format (around 57%) and lowest for the Center + Width format (around 32%), against a target of 80%. This suggests that the way a question is framed has a substantial impact on the resulting interval width and degree of overconfidence. The two-point method appears to encourage participants to consider a wider range of possibilities.
+
+### **Experiment 2: Domain and Gender Differences**
+Experiment 2 explored whether overconfidence varied across different domains of knowledge and between genders. Participants answered questions from five categories: business, geography, sports, science & nature, and history & culture.
+
+**Results:** The study found significant differences in overconfidence across domains. For example, participants were more overconfident (i.e., their intervals were narrower relative to their accuracy) on topics like business and geography compared to sports. The experiment also revealed a gender difference: female judges had a higher hit rate, indicating they were better calibrated (less overconfident) than male judges.
+
+### **Experiment 3: Assessing Bias and Noise**
+This experiment was designed to disentangle the effects of systematic bias (making intervals too narrow) from random noise (variability in judgment). Participants were asked to provide a "best guess" and then construct an 80% confidence interval around it. This allowed the researchers to analyze the accuracy of the best guess separately from the width of the interval.
+
+**Results:** The analysis showed that while random error does contribute to overconfidence, it is not the primary cause. The main finding was a strong systematic bias: participants' intervals were consistently too narrow given the accuracy of their own best guesses. In some cases, the intervals were only 40% as wide as they should have been for the person to be well-calibrated. This demonstrates that people are not just noisy in their estimations; they systematically underestimate the degree of uncertainty in their knowledge.
+
+### **General Discussion**
+In the final section, the authors synthesize the findings. They conclude that overconfidence in interval estimates is a robust and significant phenomenon, distinct from the lower levels of overconfidence seen in two-alternative tasks. The primary driver of this effect is a systematic bias causing individuals to set their confidence intervals too narrowly.
+
+The authors propose that different elicitation methods trigger different cognitive processes. For instance, the two-point format may reduce overconfidence by forcing the judge to separately consider evidence for the upper and lower bounds, thus widening the interval. They suggest that when people generate a single interval, they may anchor on their best guess and fail to adjust sufficiently for uncertainty, a classic anchoring-and-adjustment heuristic. The paper concludes by emphasizing that the format of the question and the domain of knowledge are critical factors in the degree of overconfidence observed.
+
+## 3. Sources
+ Soll, J. B., & Klayman, J. (2004). Overconfidence in interval estimates. *Journal of experimental psychology. Learning, memory, and cognition*, 30(2), 299–314. URL: https://api.semanticscholar.org/CorpusID:14096559
+ Soll, J. B., & Klayman, J. (2004). Overconfidence in Interval Estimates. *ResearchGate*. [Full-text PDF provided by authors]. URL: https://www.researchgate.net/publication/8906361_Overconfidence_in_Interval_Estimates
+ Moore, D. A., & Healy, P. J. (2008). A simple remedy for overprecision in judgment. *PMC*. URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3858029/
+ Klayman, J., Soll, J. B., González-Vallejo, C., & Barlas, S. (1999). Overconfidence: It Depends on How, What, and Whom You Ask. *Semantic Scholar*. URL: https://api.semanticscholar.org/CorpusID:2174781
+ Juslin, P., Winman, A., & Lindskog, M. (2009). Overconfidence and Format Dependence in Subjective Probability Intervals: Naïve Estimation and Constrained Sampling. *DiVA portal*. URL: https://www.diva-portal.org/smash/record.jsf?pid=diva2:284918
+ Soll, J. B., Palley, A. B., Klayman, J., & Moore, D. A. (2019). Overconfidence in Probability Distributions. *eScholarship.org*. URL: https://escholarship.org/uc/item/42p1j9w1
+ Klein, C., et al. (2018). How Metacognitive Awareness Relates to Overconfidence in Interval Judgments. *CORE*. URL: https://core.ac.uk/display/322830883
+ Scientific Research Publishing. (n.d.). Soll, J,. & Klayman, J. (2004). Overconfidence in interval estimates. *scirp.org*. URL: https://www.scirp.org/(S(351jmbntvnsjt1aadkposzje))/reference/referencespapers.aspx?referenceid=2750370
+ Klein, C., et al. (2018). How Metacognitive Awareness Relates to Overconfidence in Interval Judgments. *ScholarWorks@CWU*. URL: https://digitalcommons.cwu.edu/ijurca/vol10/iss1/6/
+ Moore, D. A., et al. (2017). Is overconfidence an individual difference?. *Judgment and Decision Making*, Cambridge Core. URL: https://www.cambridge.org/core/journals/judgment-and-decision-making/article/is-overconfidence-an-individual-difference/63F239559F338478A096A133A2649E6C

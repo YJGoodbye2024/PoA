@@ -1,0 +1,33 @@
+## 1. Official Abstract
+"Mccullough, Kilpatrick, Emmons, and Larson (2001) posited that gratitude prompts individuals to behave prosocially. However, research supporting the prosocial effect of gratitude has relied on scenario and self-report methodology. To address limitations of previous research, this experiment utilised a laboratory induction of gratitude, a method that is potentially more covert than scenarios and that elicits actual grateful emotion. Prosocial responses to gratitude—operationalised as the distribution of resources to another—were paired with a self-report measure of gratitude to test the prosocial effect of gratitude. To investigate positive mood as an alternative explanation, this experiment compared responses of individuals receiving a favour to responses of individuals receiving a positive outcome by chance. A total of 40 participants were randomly assigned to either a Favour or Chance condition. Participants receiving a favour helped more and reported more gratitude compared to participants in the Chance condition."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### Introduction
+
+The paper begins by defining gratitude as a positive emotion resulting from receiving a gift or benefit from another. The author notes that while theorists like McCullough et al. (2001) have proposed that gratitude motivates prosocial behavior, empirical support has been limited. Previous studies often used hypothetical scenarios, which suffer from potential social desirability bias and may not evoke genuine feelings of gratitude. This experiment aimed to overcome these limitations by using a laboratory-based induction of gratitude to see if it would lead to tangible prosocial actions. The study also sought to distinguish the effects of gratitude from those of a general positive mood by including a control group that received a positive outcome by chance rather than as a deliberate favor. The central hypothesis was that participants who received a favor would experience more gratitude and, in turn, behave more prosocially toward their benefactor compared to those who benefited by chance.
+
+### Method
+
+**Participants and Design:** The study involved 40 undergraduate participants who were randomly assigned to one of two conditions: "Favour" or "Chance."
+
+**Procedure:** Participants were led to believe they were paired with another participant (who was actually a confederate) for a computer-based task. In the "Favour" condition, a staged computer malfunction occurred, and the confederate seemingly fixed the problem, allowing the participant to complete the task and earn their credit. In the "Chance" condition, the malfunction appeared to resolve on its own. This setup was designed to induce gratitude in the Favour group. Afterward, participants were given an opportunity to help the confederate by participating in a "second, boring, and tedious study" for which the confederate needed assistance. The amount of time they volunteered to help served as the primary measure of prosocial behavior. Finally, participants completed a questionnaire to measure their self-reported levels of gratitude and other emotions.
+
+### Results
+
+The results supported the main hypothesis. Participants in the "Favour" condition, who believed they had been intentionally helped, reported significantly higher levels of gratitude compared to those in the "Chance" condition. More importantly, those in the Favour group also demonstrated more prosocial behavior; they volunteered to help the confederate for a significantly longer period of time than participants in the Chance group. The analysis showed that the effect of the favor on helping behavior was mediated by the feeling of gratitude, suggesting that gratitude itself, not just a general positive mood, was the driver of the prosocial actions.
+
+### Discussion
+
+The discussion section concludes that the experiment provides clear support for the hypothesis that gratitude motivates prosocial behavior. By using a laboratory induction instead of scenarios, the study offered a more realistic test and demonstrated that feeling grateful directly leads to helping behavior. The findings help to differentiate the effects of gratitude from general positive affect, showing that the intentionality behind a gift or favor is crucial for producing the specific emotion of gratitude which then promotes prosociality. The author suggests that gratitude functions as a key mechanism in reinforcing cooperative and reciprocal altruism in social relationships.
+
+## 3. Sources
+ Tsang, J.-A. (2006). BRIEF REPORT Gratitude and prosocial behaviour: An experimental test of gratitude. *Cognition and Emotion, 20*(1), 138–148. https://api.semanticscholar.org/CorpusID:143628907
+ Tsang, J.-A. (2006). BRIEF REPORT Gratitude and prosocial behaviour: An experimental test of gratitude. *Cognition and Emotion, 20*(1), 138-148. (Sourced via ResearchGate PDF viewer) https://www.researchgate.net/publication/233475878_BRIEF_REPORT_Gratitude_and_prosocial_behaviour_An_experimental_test_of_gratitude
+ Raggio, R. D., & Folse, J. A. G. (2009). Gratitude Works: Its Impact and the Mediating Role of Affective Commitment in Driving Positive Outcomes. *American Marketing Association Conference Proceedings*. https://www.researchgate.net/publication/254887010_Gratitude_Works_Its_Impact_and_the_Mediating_Role_of_Affective_Commitment_in_Driving_Positive_Outcomes
+ Google Scholar Profile: Jo-Ann Tsang. https://scholar.google.com/citations?user=9g6o3d0AAAAJ&hl=en
+ Tsang, J.-A. (2006). Gratitude and prosocial behavior: An experimental test of gratitude. *Cognition and Emotion, 20*, 138-148. (Sourced via ResearchGate) https://www.researchgate.net/publication/247509585_Gratitude_and_prosocial_behavior_An_experimental_test_of_gratitude
+ Washburn, A. N., & Twardawski, M. (2022). Evidence for a relationship between trait gratitude and prosocial behaviour. *Cognition and Emotion, 36*(6), 1196-1204. https://www.tandfonline.com/doi/full/10.1080/02699931.2022.2087383
+ Google Scholar Profile: Jo-Ann Tsang (alternate language). https://scholar.google.com/citations?user=9g6o3d0AAAAJ&hl=hr
+ Wikipedia. (n.d.). *Gratitude*. https://en.wikipedia.org/wiki/Gratitude

@@ -1,0 +1,42 @@
+## 1. Official Abstract
+"Two experiments documented a phenomenon of duration neglect in people's global evaluations of past affective experiences. In Study 1, 32 Ss viewed aversive film clips and pleasant film clips that varied in duration and intensity. Ss provided real-time ratings of affect during each clip and global evaluations of each clip when it was over. In Study 2, 96 Ss viewed these same clips and later ranked them by their contribution to an overall experience of pleasantness (or unpleasantness). Experimental Ss ranked the films from memory; control Ss were informed of the ranking task in advance and encouraged to make evaluations on-line. Effects of film duration on retrospective evaluations were small, entirely explained by changes in real-time affect and further reduced when made from memory. Retrospective evaluations appear to be determined by a weighted average of "snapshots" of the actual affective experience, as if duration did not matter."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### Introduction
+The authors introduce the concept of retrospective evaluation of past episodes, questioning how people combine moments of pleasure or pain into a single, global assessment. They contrast two models: temporal integration, where the duration of an experience is a key factor, and a "snapshot" model, where the overall evaluation is based on a few key moments. The paper proposes that retrospective evaluations are often governed by a heuristic that neglects the duration of the episode, a phenomenon they term "duration neglect." This is contrary to the logical principle of temporal monotonicity, which dictates that a longer aversive experience should be worse than a shorter one, and a longer pleasant experience should be better. The research aims to test the hypothesis that retrospective evaluations are disproportionately influenced by the most intense moment (the peak) and the final moments (the end) of an experience, while the duration is largely ignored.
+
+### Study 1: Method
+*   **Participants:** 32 undergraduate students participated.
+*   **Stimuli:** The participants were shown a series of 12 short film clips. Six of the clips were designed to be aversive (e.g., an amputation, a bloody accident) and six were pleasant (e.g., puppies, ocean waves). The clips varied in both duration and intensity.
+*   **Procedure:** Participants provided continuous, real-time ratings of their affective state while watching each film using a dial that ranged from "very pleasant" to "very unpleasant." After each clip, they provided a global, retrospective evaluation of the total pleasantness or unpleasantness of the experience.
+
+### Study 1: Results
+The results showed that the duration of the film clips had very little independent effect on the participants' global retrospective evaluations. Instead, these evaluations were best predicted by a combination of the peak affect (the most intense moment of the experience) and the affect reported at the end of the clip. The correlation between the duration of the clips and the global ratings was not statistically significant when the peak and end moments were accounted for. This supports the "duration neglect" hypothesis, suggesting that people's memory of an experience is not a simple sum of its moments but rather a weighted average of specific "snapshots."
+
+### Study 2: Method
+*   **Participants:** 96 undergraduate students were involved in the second study.
+*   **Procedure:** Participants were shown the same film clips used in Study 1. They were then divided into two groups. The "memory" group was unexpectedly asked to rank the films from most pleasant to most unpleasant based on their memory of the experience. The "on-line" group was told about the ranking task beforehand and encouraged to form their evaluations as they watched the clips.
+
+### Study 2: Results
+The findings from Study 2 reinforced the conclusions of Study 1. For the memory group, duration had almost no impact on how they ranked the films. Their rankings were again strongly predicted by the peak and end moments of each clip. In the on-line group, where participants were consciously evaluating the experience as it happened, duration had a slightly larger, but still modest, effect. The authors conclude that retrospective evaluations made from memory are particularly prone to duration neglect. The study demonstrates that when people recall an affective episode, their judgment is not based on the total sum of pleasure or pain but on a simplified heuristic that heavily weights the peak and end moments.
+
+### General Discussion
+In the final section, the authors discuss the broader implications of their findings. They argue that people's retrospective evaluations of experiences are governed by a "peak-end rule." This rule means that the memory of an experience is not a faithful record of the sum of its moments. Instead, it is a constructed representation heavily influenced by the most intense point and the final feeling.
+
+The authors note a critical distinction between the "experiencing self" (which lives through the moments) and the "remembering self" (which evaluates the experience later). Decisions about which experiences to repeat are often based on the memories constructed by the remembering self, which neglects duration. This can lead to choices that the experiencing self would not endorse, such as preferring a longer period of discomfort that ends well over a shorter one that does not. The paper concludes that this neglect of duration is a significant and robust feature of how humans evaluate their past.
+
+## 3. Sources
+ Fredrickson, B. L., & Kahneman, D. (1993). Duration neglect in retrospective evaluations of affective episodes. *Journal of Personality and Social Psychology, 65*(1), 45–55. (Full-text PDF was accessed for synopsis).
+ Fredrickson, B. L., & Kahneman, D. (1993). Duration neglect in retrospective evaluations of affective episodes. *PubMed*. Retrieved from https://pubmed.ncbi.nlm.nih.gov/8355141/
+ Wikipedia. (n.d.). *Duration neglect*. Retrieved from https://en.wikipedia.org/wiki/Duration_neglect
+ ResearchGate. (n.d.). *Kahneman's research works*. Retrieved from https://www.researchgate.net/scientific-contributions/Daniel-Kahneman-39134571
+ Emerald Publishing. (n.d.). Evaluations of a sequence of affective events presented simultaneously: An investigation of the peak-end rule. Retrieved from https://www.emerald.com/insight/content/doi/10.1108/JPBM-10-2016-1353/full/html
+ ResearchGate. (n.d.). *Duration Neglect in Retrospective Evaluations of Affective Episodes*. Retrieved from https://www.researchgate.net/publication/14779809_Duration_Neglect_in_Retrospective_Evaluations_of_Affective_Episodes
+ Kahneman, D., Fredrickson, B. L., Schreiber, C. A., & Redelmeier, D. A. (1993). When More Pain Is Preferred to Less: Adding a Better End. *Psychological Science, 4*(6), 401–405. Retrieved from https://journals.sagepub.com/doi/abs/10.1111/j.1467-9280.1993.tb00589.x
+ Gire, J. T. (2014). The Deep Structure of Lives. *Theory & Psychology, 24*(1), 63-81. Retrieved from https://journals.sagepub.com/doi/10.1177/0959354313513854
+ Ariely, D., & Loewenstein, G. (2000). When Does Duration Matter in Judgment and Decision Making? *Journal of Experimental Psychology: General, 129*(4), 508-523. Retrieved from https://people.duke.edu/~dandan/webfiles/Papers/Other/Duration.pdf
+ Liersch, M. J., & McKenzie, C. R. M. (2009). Duration neglect by numbers -- And its elimination by graphs. *Journal of Experimental Psychology: Applied, 15*(1), 1-13. Retrieved from https://pages.ucsd.edu/~mckenzie/LierschMcKenzieJEP-A2009.pdf
+ Frontiers. (n.d.). From Experience to Memory: On the Robustness of the Peak-and-End-Rule for Complex, Heterogeneous Experiences. Retrieved from https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00485/full
+ Data Sheet 1 Retrospective Evaluation of Sequential Events and... (n.d.). Retrieved from https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00045/s1

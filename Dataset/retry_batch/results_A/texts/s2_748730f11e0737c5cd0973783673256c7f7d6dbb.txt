@@ -1,0 +1,45 @@
+## 1. Official Abstract
+Contends that control theory provides a model of self-regulation that is useful in the analysis of human behavior. As an illustration of the breadth of its applicability, the basic construct of control theory—the discrepancy-reducing feedback loop—is presented, and certain implications for theory in 3 areas of human psychology are discussed. In personality-social, clinical, and health psychology, the construct proves to fit well with known phenomena and with the theories most recently developed to account for the phenomena. Moreover, in each case control theory appears to make a unique contribution to the state of the area. The integrative potential suggested by these illustrations and some issues that should receive attention in future work are noted.
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis. The paper introduces control theory as a powerful framework for understanding self-regulation across various domains of psychology. Its core argument is that human behavior can be understood as a process of reducing the discrepancy between a sensed present state and a desired goal or reference value.
+
+### **Introduction to Control Theory**
+The paper begins by introducing the fundamental unit of control theory: the negative feedback loop. This loop consists of four key functions:
+1.  **Input Function:** Sensing or perceiving the current state of the environment.
+2.  **Comparator:** A mechanism that compares the perceived present state against a reference value (a goal or standard).
+3.  **Output Function:** A behavior or action that is performed if the comparator detects a discrepancy between the input and the reference value.
+4.  **Effect on Environment:** The output (behavior) acts on the environment, which in turn alters the present state, leading to a new input perception.
+
+The authors emphasize that the purpose of this system is not to produce behavior for its own sake, but rather "to create and maintain the perception of a specific desired condition." The paper also introduces Powers's concept of a hierarchy of control, where the goals at one level (e.g., "be a moral person") provide the reference values for lower, more concrete levels of control (e.g., "tell the truth" in a specific situation).
+
+### **Application to Personality and Social Psychology**
+Carver and Scheier apply the control theory framework to the domain of self-focused attention and its consequences. They argue that when people become self-aware, they engage the comparator of a feedback loop, comparing their current behavior to a salient standard.
+*   **Behavioral Matching:** If a person's behavior does not match the standard, they will be motivated to change their behavior to reduce the discrepancy.
+*   **Withdrawal:** If the person has unfavorable expectations about their ability to reduce the discrepancy, they may disengage from the attempt, either physically or mentally.
+This model is used to reinterpret findings in objective self-awareness, where self-focus can lead to either improved adherence to standards or withdrawal, depending on the person's expectancies for success.
+
+### **Application to Clinical Psychology**
+In the clinical domain, the paper connects control theory to cognitive-behavioral therapies and theories of therapeutic change, particularly Bandura's concept of self-efficacy. The authors propose that therapy is essentially a process of instilling in the client the expectation that they can successfully reduce discrepancies and achieve their goals. A successful therapy outcome is described as a "restoration of, or creation of, a feedback loop that is terminated by a subjective state of high efficacy." The theory suggests that effective therapy helps clients to:
+1.  Set realistic and attainable sub-goals (reference values).
+2.  Accurately monitor their own behavior (input).
+3.  Develop confidence in their ability to execute the necessary actions to reduce discrepancies (output).
+
+### **Application to Health Psychology**
+For the then-emerging field of health psychology, the paper frames health-related behaviors as acts of self-regulation aimed at maintaining physical well-being. Control theory provides a model for understanding how people adhere to medical advice or engage in healthy habits. For example, a person trying to lower their blood pressure (a reference value) will monitor their diet and exercise (input/output) to reduce the gap between their current health state and their goal. The authors argue that breakdowns in this process, such as a lack of self-monitoring or low confidence in one's ability to change, can explain failures in health-related self-regulation.
+
+### **Conclusion**
+The paper concludes by reiterating the integrative power of control theory as a conceptual framework. It provides a common language and a single set of processes to analyze phenomena across personality, social, clinical, and health psychology. Carver and Scheier suggest that this model offers a parsimonious and widely applicable tool for understanding the mechanics of human self-regulation.
+
+## 3. Sources
+ https://www.researchgate.net/publication/378278788_Control_Theory_Revisiting_Carver_and_Scheier_1982
+ https://pubmed.ncbi.nlm.nih.gov/7134324/
+ https://www.semanticscholar.org/paper/Control-theory%3A-a-useful-conceptual-framework-for-Carver-Scheier/06752c0337855018d04a60126742878c924734c3
+ https://www.researchgate.net/profile/Charles-Carver/publication/232582738_Control_theory_A_useful_conceptual_framework_for_personality-social_clinical_and_health_psychology/links/55b273a908ae92897925367c/Control-theory-A-useful-conceptual-framework-for-personality-social-clinical-and-health-psychology.pdf
+ https://typeset.io/papers/control-theory-a-useful-conceptual-framework-for-2l8i6dmx
+ https://www.researchgate.net/publication/16474778_Control_theory_A_useful_conceptual_framework_for_personality-social_clinical_and_health_psychology
+ https://www.researchgate.net/publication/378278788_Control_Theory_Revisiting_Carver_and_Scheier_1982
+ https://scholar.google.com/scholar_lookup?title=Control%20Theory%20A%20Useful%20Conceptual%20Framework%20for%20Personality%E2%80%94Social,%20Clinical,%20and%20Health%20Psychology&author=Carver,%20C.%20S.&author=Scheier,%20M.%20F.&publication_year=1982
+ https://scholarlyrepository.miami.edu/oa_articles/11/
+ https://www.research.ed.ac.uk/en/publications/control-theory-and-its-application-to-behavior-change-interventi
+ https://www.youtube.com/watch?v=k-r9w_i9a-A

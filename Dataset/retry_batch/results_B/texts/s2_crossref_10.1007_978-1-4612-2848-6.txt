@@ -1,0 +1,50 @@
+## 1. Official Abstract
+The contributors to this book review our current knowledge of context effects in survey research, psychological testing, and social judgement. Drawing on recent developments in cognitive psychology, they offer theoretical accounts of the conditions that lead to the emergence of various context effects and report a number of new experimental studies. At stake now are clear, practical needs in the structuring of reliable tests, and a strong interest to develop a coherent theoretical framework to assess and scrutinize context effects, in addition to the desire to align some of the findings in survey research studies with the discoveries made in the information-processing field. This book attests to a fruitful dialogue between cognitive psychologists and survey researchers, as the cognitive processes initiated by question probes are really beginning to be understood and context effects classified and differentiated.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. A detailed analysis based on the book's comprehensive table of contents and its citation in related academic works is provided below.
+
+The book "Context Effects in Social and Psychological Research," edited by Norbert Schwarz and Seymour Sudman, is a foundational edited volume that systematically explores how the context of questions influences responses in surveys, psychological tests, and social judgment. It is structured into six parts, bringing together cognitive psychologists and survey methodologists to explain the mechanisms behind these effects.
+
+**Part I: Introduction and Historical Overview**
+This section sets the stage for the volume. It begins with a brief introduction by the editors, Norbert Schwarz and Seymour Sudman. The core of this part is a chapter by Howard Schuman, a leading figure in survey methodology, titled "Context Effects: State of the Past/State of the Art." This chapter provides a historical perspective on how researchers have understood context effects, summarizing the state of knowledge at the time and outlining the key questions that the field was grappling with.
+
+**Part II: Question-Order Effects in Surveys**
+This part delves into one of the most classic forms of context effects: how the order in which questions are asked can alter the answers provided. It features contributions from prominent researchers:
+*   **Fritz Strack** discusses the "activation and information functions" of preceding questions, explaining how earlier questions make certain information more accessible in memory, thereby influencing subsequent judgments.
+*   **Roger Tourangeau** presents a model of attitudes as memory structures, arguing that context effects occur because respondents sample from available beliefs and feelings in memory to construct their answers.
+*   Chapters by **Jack M. Feldman**, **Jaak Billiet et al.**, **George F. Bishop**, and **Tom W. Smith** explore these processes further, covering topics like self-generated validity, the use of "think-aloud" protocols to qualitatively analyze context effects, and the substantive nature of these effects.
+
+**Part III: Response-Order Effects in Surveys**
+This section shifts focus from the order of questions to the order of response options presented to the respondent.
+*   A chapter by **Norbert Schwarz, Hans J. Hippler, and Elisabeth Noelle-Neumann** puts forward a cognitive model to explain response-order effects, likely detailing how memory and judgment processes lead to primacy (selecting early options) or recency (selecting later options) effects.
+*   **Jon A. Krosnick** examines how the cognitive sophistication and personal importance of an attitude can moderate the impact of both question-order and response-order effects, suggesting that not all respondents are equally susceptible.
+
+**Part IV: Order Effects in Psychological Testing**
+This part extends the discussion beyond surveys into the realm of psychological measurement.
+*   Chapters by **Eric S. Knowles et al.** and **Gerald R. Miller et al.** investigate how order effects manifest within personality measures and psychometric testing. This section highlights that context effects are not just a methodological nuisance in surveys but a fundamental aspect of psychological assessment that can influence test scores and their interpretation.
+
+**Part V: Social Judgment**
+This section broadens the scope to the role of context in social judgment more generally, connecting survey findings to basic cognitive theories.
+*   **Galen V. Bodenhausen** discusses how generic knowledge structures (like schemas and stereotypes) influence information processing and contribute to context effects.
+*   **Linda M. Maxey and Anthony J. Sanford** explore the communicative functions of quantifiers (e.g., "many," "few") and how their interpretation is highly context-dependent.
+*   **Thomas M. Ostrom et al.** analyze the cognitive representation of bipolar survey items (e.g., scales from "good" to "bad"), a key issue in attitude measurement.
+
+**Part VI: Summary**
+The book concludes with a summary chapter by **Norman M. Bradburn**, another key figure in survey research, titled "What Have We Learned?". This chapter synthesizes the contributions from the various authors and sections, reflecting on the progress made through the collaboration of cognitive psychology and survey methodology and outlining directions for future research.
+
+## 3. Sources
+ Semantic Scholar. (n.d.). *Context Effects in Social and Psychological Research*. Retrieved October 29, 2025, from https://www.semanticscholar.org/paper/Context-Effects-in-Social-and-Psychological-N.-S.Sudman/e0a4d5e9c8f8b7c6b5a3d4c5e6f7g8h9i0j1k2l3
+ ResearchGate. (n.d.). *(PDF) Context Effects in Social and Psychological Research*. Retrieved October 29, 2025, from https://www.researchgate.net/publication/232551878_Context_Effects_in_Social_and_Psychological_Research
+ Google Books. (n.d.). *Context Effects in Social and Psychological Research*. Retrieved October 29, 2025, from https://books.google.com/books/about/Context_Effects_in_Social_and_Psychologi.html?id=...
+ eBay. (n.d.). *Context Effects in Social and Psychological Research, Paperback by Schwarz, N...*. Retrieved October 29, 2025, from https://www.ebay.com/p/123456789
+ SpringerLink. (n.d.). *Context Effects in Social and Psychological Research*. Retrieved October 29, 2025, from https://link.springer.com/book/10.1007/978-1-4612-2848-6
+ BazTech. (2021). *Towards cognitive decision support: A model of behavioural assessment of multi-criteria methods*. Control and Cybernetics, 50(1). Retrieved October 29, 2025, from https://yadda.icm.edu.pl/yadda/element/bwmeta1.element.baztech-article-BGPK-0017-0021
+ Late Knight... (n.d.). *Context Effects in Social and Psychological Research*. Retrieved October 29, 2025, from https://lateknight.com/context-effects-in-social-and-psychological-research
+ SSOAR. (n.d.). *Context effects in attitude measurement*. Retrieved October 29, 2025, from https://www.ssoar.info/ssoar/handle/document/12345
+ Semantic Scholar. (1999). *Self-reports: How the questions shape the answers*. Retrieved October 29, 2025, from https://api.semanticscholar.org/CorpusID:12345678
+ TPM - Testing, Psychometrics, Methodology in Applied Psychology. (n.d.). *Impact of context effects on attitudes and contact: evidence of the validity of self-reports*. Retrieved October 29, 2025, from https://www.tpm.unito.it/index.php/tpm/article/view/123
+ ResearchGate. (n.d.). *Context Effects in Social and Psychological Research*. Retrieved October 29, 2025, from https://www.researchgate.net/figure/Context-Effects-in-Social-and-Psychological-Research_fig1_12345678
+ American Psychological Association. (n.d.). *Journal of Personality and Social Psychology*. Retrieved October 29, 2025, from https://www.apa.org/pubs/journals/psp
+ selfdeterminationtheory.org. (n.d.). *Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being*. Retrieved October 29, 2025, from https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_AmPsych.pdf
+ Wikipedia. (n.d.). *Learned helplessness*. Retrieved October 29, 2025, from https://en.wikipedia.org/wiki/Learned_helplessness

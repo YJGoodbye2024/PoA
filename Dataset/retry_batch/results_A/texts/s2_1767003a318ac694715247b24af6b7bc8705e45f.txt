@@ -1,0 +1,39 @@
+## 1. Official Abstract
+"This paper examines predictions concerning the absence of hindsight bias. Some hypothesise that because hindsight bias increases with outcome "surprisingness", only unsurprising outcomes will remove it. Others suggest the opposite-that very surprising outcomes will reduce or reverse the bias. A proposed sense-making model suggests that unexpected outcomes (i.e., initially surprising) invoke greater sensemaking, which typically produces greater hindsight bias. If the process is not successful, however, the bias may be reduced or reversed. Expected outcomes will also produce little hindsight bias, but only because they invoke relatively little sensemaking in the first place. Feelings of surprise arising from sensemaking (i.e., resultant surprise) should be inversely related to hindsight bias. Results of four experiments provide support for the model. A secondary goal was to determine the boundaries of a defensive-processing mechanism also thought to reduce hindsight bias for negative, self-relevant outcomes. Results suggest that a sense of responsibility for the outcome may be necessary for defensive processing to be activated."
+
+## 2. Core Insights & Analysis
+Full text was not accessible. A detailed interpretation based on reliable academic sources is provided below.
+
+The 2003 paper by Mark Pezzo, "Surprise, defence, or making sense: What removes hindsight bias?", introduces a pivotal "sense-making model" to reconcile conflicting theories on how the surprisingness of an outcome affects hindsight bias. Hindsight bias is the tendency for people to believe, after an event has occurred, that they would have predicted or expected the outcome. Pezzo's work addresses a central debate: does surprise increase or decrease this bias?
+
+**The Sense-Making Model**
+Pezzo proposes a model that distinguishes between two types of surprise:
+*   **Initial Surprise**: This is the immediate feeling of shock or disbelief when an outcome is different from what was expected. Pezzo argues that this initial surprise is what triggers a "sense-making" process, where an individual actively tries to understand and rationalize the unexpected outcome.
+*   **Resultant Surprise**: This is the level of surprise that remains *after* the sense-making process is complete.
+
+The core of the model is that unexpected outcomes (high initial surprise) prompt a cognitive effort to make them seem sensible and predictable in retrospect. When this sense-making process is successful, the outcome is integrated into the person's understanding of the event, its perceived inevitability increases, and a strong hindsight bias is the result. Conversely, if the individual *fails* to make sense of the outcome, a feeling of "resultant surprise" remains high, and the hindsight bias is reduced or even reversed.
+
+Outcomes that were expected from the beginning do not trigger this intense sense-making process and therefore produce little hindsight bias. In essence, the model posits that it is not the initial surprise itself but the *successful resolution* of that surprise through sense-making that creates the hindsight bias.
+
+**Key Findings from Four Experiments**
+The paper presents results from four experiments that provide support for this sense-making model. The findings indicate that the degree to which a person can make sense of an outcome is a strong predictor of the magnitude of the hindsight bias. The model successfully integrates previous contradictory findings by showing that very surprising outcomes can indeed lead to greater hindsight bias, but only when they are ultimately explainable.
+
+**A Secondary Goal: Defensive Processing**
+Pezzo also investigated a second mechanism, known as "defensive processing," which is thought to reduce hindsight bias for negative events that are personally relevant. The idea is that people may downplay the foreseeability of negative outcomes to protect themselves from blame or regret. The paper's results suggest that this defensive mechanism is not activated automatically for all negative events; rather, it appears to require a sense of personal responsibility for the outcome.
+
+In summary, Pezzo's paper argues that hindsight bias is largely a product of a cognitive, motivated effort to make sense of the world. The "knew-it-all-along" effect is strongest not when an outcome is simply expected, but when an *unexpected* outcome is successfully rationalized and made to seem inevitable in retrospect.
+
+## 3. Sources
+ ResearchGate. (2025, August 7). *Surprise, defence, or making sense: What removes hindsight bias?* Retrieved from the search results.
+ Oxford Academic. (n.d.). *Looking Backward and Forward on Hindsight Bias*. Retrieved from the search results.
+ Taylor & Francis Online. (2010, September 22). *Surprise, defence, or making sense: What removes hindsight bias?* Retrieved from https://www.tandfonline.com/doi/abs/10.1080/09658210244000603
+ Semantic Scholar. (n.d.). *Does a surprising outcome reinforce or reverse the hindsight bias*. Retrieved from the search results.
+ SONDERFORSCHUNGSBEREICH 504. (n.d.). *The Role of Surprise in Hindsight Bias: A Metacognitive Model of Reduced and Reversed Hindsight Bias*. Retrieved from the search results.
+ Google Scholar. (n.d.). *Mark Pezzo*. Retrieved from the search results.
+ Cairn.info. (2013). *If it were to happen to me, would I see it coming? How identifying with the victim influences the foreseeability of a sexual aggression*. Retrieved from the search results.
+ Taylor & Francis eBooks. (2003, August 7). *Hindsight Bias: A Special Issue of Memory*. Retrieved from https://www.taylorfrancis.com/books/edit/10.4324/9780203487891/hindsight-bias-ulrich-hoffrage-r%C3%BCdiger-pohl
+ University of South Florida Digital Commons. (2015, March 27). *Some Moral Judgments May Be Immune to Hindsight Bias*. Retrieved from https://digitalcommons.usf.edu/etd/5749/
+ Universitat Ramon Llull. (2018, December 27). *Intentionally “Biased”*. Retrieved from the search results.
+ Semantic Scholar. (2011, September 1). *Hindsight Bias: A Primer for Motivational Researchers*. Retrieved from the search results.
+ YouTube. (2021, May 9). *Hindsight Bias: When people think they're always right*. Retrieved from https://www.youtube.com/watch?v=z8_G6kQkC6o
+ University of South Florida Digital Commons. (2011). *Hindsight bias: A primer for motivational researchers*. Retrieved from the search results.

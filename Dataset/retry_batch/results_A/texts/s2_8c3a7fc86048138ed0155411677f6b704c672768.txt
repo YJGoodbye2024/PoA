@@ -1,0 +1,28 @@
+Based on a deep search and analysis, here is the requested information for the specified academic paper.
+
+## 1. Official Abstract
+> Although Janis's concept of groupthink is influential, experimental investigations have provided only weak support for the theory. Experiment 1 produced the poor decision quality associated with groupthink by manipulating group cohesion (using group labels) and threat to group members' self-esteem. Self-reports of some groupthink and defective decision-making symptoms were independently, but not interactively, affected by cohesion and threat. Experiment 2 confirmed the success of the cohesion manipulation.
+
+## 2. Core Insights & Analysis
+Full text was not accessible. The following is a detailed interpretation based on an analysis of reliable third-party and citation sources.
+
+The 1992 paper, "Threat, Cohesion, and Group Effectiveness," presents a significant experimental test of Irving Janis's groupthink theory, proposing a "Social Identity Maintenance" model as an alternative explanation for the phenomenon. Rather than viewing groupthink as a simple result of high cohesion, the authors reframe it as a collective effort by group members to maintain a positive view of their group, especially when that shared social identity is under threat.
+
+The core of the research lies in two experiments designed to test this perspective:
+
+*   **Methodology and Setup**: The researchers manipulated two key variables. First, **cohesion** was manipulated not as interpersonal attraction, but from a social identity perspective, by simply giving groups distinct labels to foster a sense of "us." Second, **threat** was introduced by telling certain groups that their performance would be evaluated and that tapes of poorly performing groups would be used as examples of dysfunctional decision-making in campus and corporate training sessions. The groups were tasked with a complex problem-solving exercise (the Parasol Subassembly Task).
+
+*   **Key Findings**: The study successfully produced the poor decision-making outcomes characteristic of groupthink. The combination of a threatened group identity and high cohesion led to lower quality decisions. However, the symptoms of groupthink, such as self-censorship and rationalization, were affected independently by threat and cohesion, not by their interaction. A notable finding, highlighted by other analyses, is that groups operating under these groupthink-inducing conditions could produce higher-quality decisions if they were given an excuse for potential poor performance.
+
+*   **Contribution and Interpretation**: This study is significant for providing experimental evidence for groupthink-like outcomes where previous studies had been weak. The authors interpreted their findings as support for their Social Identity Maintenance model. This model posits that when a group's identity is threatened, its members become more concerned with protecting the group's image than with making a high-quality decision. This leads to the classic symptoms of groupthink, such as rationalizing away negative feedback and pressuring dissenters. The paper effectively argues that the drive to maintain a positive collective identity is a primary motivator for the behaviors associated with groupthink.
+
+## 3. Sources
+ Semantic Scholar. (1992). *Threat, Cohesion, and Group Effectiveness: Testing a Social Identity Maintenance Perspective on Groupthink*. Retrieved from https://api.semanticscholar.org/CorpusID:198810849
+ ResearchGate. (1992). *Threat, Cohesion, and Group Effectiveness: Testing a Social Identity Maintenance Perspective on Groupthink*. Retrieved from https://www.researchgate.net/publication/232525184_Threat_Cohesion_and_Group_Effectiveness_Testing_a_Social_Identity_Maintenance_Perspective_on_Groupthink
+ Krosnick, J. A. (2002). *Is Political Psychology Sufficiently Psychological? Distinguishing Political Psychology from Psychological Political Science*. Stanford University. Retrieved from https://comm.stanford.edu/wp-content/uploads/2018/12/2002-Kuklinski-Is-Political-Psychology-Sufficiently-Psychological.pdf
+ Taylor & Francis Online. (2008). *Threat and group creativity*. Retrieved from https://www.tandfonline.com/doi/full/10.1080/13594320143000698
+ GESIS-Suche. (1992). *Group cohesiveness and quality of decision making: an integration of tests of the groupthink hypothesis*. Retrieved from https://search.gesis.org/research_data/SD-0080-42
+ Emerald Insight. (1999). *From prototypicality to power: A social identity analysis of leadership*. Retrieved from https://www.emerald.com/insight/content/doi/10.1016/S0895-9968(99)16006-1/full/html
+ Doctor Spin. (n.d.). *The Pitfalls of Groupthink | Communication Challenges*. Retrieved from https://doctorspin.co.uk/groupthink-communication-challenges/
+ Consensus. (n.d.). *Does group cohesiveness affect the quality of decision making?*. Retrieved from https://consensus.app/papers/group-cohesiveness-quality-decision-making-mullen/32943224738555248558a2305593817e/?utm_source=bing&utm_medium=paid&utm_campaign=20428456100&utm_content=155705353240&utm_term=group%20cohesion%20and%20decision%20making
+ Calhoun: The NPS Institutional Archive. (2014). *Groupthink: a significant threat to the homeland security of the United States*. Retrieved from https://calhoun.nps.edu/handle/10945/44510

@@ -1,0 +1,11 @@
+{
+  "split_id": "split_1",
+  "split_path": "Dataset/batch_run_01/splits/split_1",
+  "task_count": 3979,
+  "principle_count": 241,
+  "pipeline_state_file": "pipeline_state.json",
+  "responses_file": "responses_parsed.json",
+  "tasks_file": "tasks.jsonl",
+  "principles_file": "principles.txt",
+  "mode": "responses_only"
+}

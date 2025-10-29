@@ -1,0 +1,39 @@
+Based on a deep search and analysis of the specified paper, here are the requested findings.
+
+## 1. Official Abstract
+"Awe has been theorized as a collective emotion, one that enables individuals to integrate into social collectives. In keeping with this theorizing, we propose that awe diminishes the sense of self and shifts attention away from individual interests and concerns. In testing this hypothesis across 6 studies (N = 2,137), a first step was to validate pictorial and verbal measures of the small self; we then document that daily, in vivo, and lab experiences of awe, but not other positive emotions, diminish the sense of the self. These findings were observed across collectivist and individualistic cultures, but also varied across cultures in magnitude and content. Evidence from the last 2 studies showed that the influence of awe upon the small self accounted for increases in collective engagement, fitting with claims that awe promotes integration into social groups. Discussion focused on how the small self might mediate the effects of awe on collective cognition and behavior, the need to study more negatively valenced varieties of awe, and other potential cultural variations of the small self."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis. The core of the research is to empirically test the "small self" hypothesis—the idea that the emotion of awe diminishes the prominence of the individual self, which in turn fosters a more collective mindset.
+
+### Introduction
+The authors begin by defining awe as an emotion triggered by stimuli that are vast and require a "need for accommodation," meaning they challenge one's existing mental frameworks. Building on prior work, they frame awe as a "quintessentially collective emotion" that serves a social function: to integrate individuals into social groups. The central argument is that this integration is achieved by making the individual self feel smaller and less significant. This "small self" is hypothesized to be the mechanism through which awe shifts focus from personal concerns to collective goals. The paper outlines four main hypotheses: (1) awe leads to a "small self," (2) the intensity of awe correlates with the reduction in self-size, (3) this effect is universal across cultures, and (4) the small self mediates the relationship between awe and increased collective engagement.
+
+### The Studies: Methods and Results
+The paper presents six studies to test these hypotheses, involving participants from both an individualistic culture (United States) and a collectivist culture (China).
+
+*   **Study 1: Validating the Small Self Measure:** This study developed and validated a pictorial measure of the small self, where participants select a circle representing themselves from a group of circles representing others. The results confirmed that the relative size of the self-circle was a valid indicator of self-perception.
+*   **Study 2: Daily Experiences of Awe:** Participants kept a diary of their daily emotional experiences. The findings showed that on days when individuals felt more awe, they reported a smaller sense of self compared to days dominated by other emotions.
+*   **Study 3: Awe in Nature (In Vivo):** This study took place in a real-world setting known to elicit awe: a grove of tall trees. Participants who gazed up at the trees for one minute reported a greater sense of a small self compared to a control group that looked at a campus building.
+*   **Study 4: Cross-Cultural Awe (U.S. vs. China):** American and Chinese participants were induced to feel awe or a neutral state. In both cultures, awe led to a diminished self-concept. However, the content of the "small self" differed: for Americans, it was associated with a focus on universal, abstract group identities, while for Chinese participants, it was linked to a focus on specific, well-defined social roles.
+*   **Study 5: The Small Self and Collective Engagement:** This study tested whether the small self created by awe would lead to greater collective engagement. After an awe induction, participants who reported a smaller self also drew their social network with themselves as a smaller, less central node and prioritized group interests over individual ones.
+*   **Study 6: Mediating Role of the Small Self:** The final study provided direct evidence for the full model. It demonstrated that experiencing awe (compared to shame or a neutral state) led to a smaller self, and this reduction in self-size directly accounted for an increased focus on the collective.
+
+### General Discussion
+The authors conclude that the six studies provide robust, multi-method evidence for their central thesis: awe diminishes the self, and this "small self" is a key mechanism that facilitates engagement with the collective. They highlight the cross-cultural evidence, noting that while the small-self effect appears to be a universal function of awe, its specific expression is shaped by cultural context.
+
+The discussion also addresses limitations and future directions. The authors note that their research primarily focused on positive forms of awe and that future work should explore threat-based or negative awe (e.g., from natural disasters or powerful leaders), which might lead to different outcomes like outgroup aggression. They also call for more research into other cultural variations of the small self and how this phenomenon might mediate other known effects of awe, such as prosocial behavior and improvements in well-being.
+
+## 3. Sources
+ Bai, Y., Maruskin, L. A., Chen, S., Gordon, A. M., Stellar, J. E., McNeil, G. D., Peng, K., & Keltner, D. (2017). Awe, the diminished self, and collective engagement: Universals and cultural variations in the small self. *Journal of Personality and Social Psychology, 113*(2), 185–209. https://pubmed.ncbi.nlm.nih.gov/28481617/
+ Full Text PDF of "Awe, the Diminished Self, and Collective Engagement: Universals and Cultural Variations in the Small Self". http://dx.doi.org/10.1037/pspa0000087 (Note: This link is derived from the official APA citation and was accessible).
+ Semantic Scholar page for "Awe, the Diminished Self, and Collective Engagement: Universals and Cultural Variations in the Small Self". https://www.semanticscholar.org/paper/Awe%2C-the-Diminished-Self%2C-and-Collective-Universals-Bai-Maruskin/803a6828551381e59042854308a0d92298642958
+ Journal of Social Ontology citation. https://www.degruyter.com/document/doi/10.1515/jso-2022-0040/html
+ Citation in "Facilitative effect of awe on cooperation: The role of the small-self...". https://psycnet.apa.org/record/2021-93118-001
+ ResearchGate page for "Awe, the Diminished Self, and Collective Engagement: Universals and Cultural Variations in the Small Self". https://www.researchgate.net/publication/316773539_Awe_the_Diminished_Self_and_Collective_Engagement_Universals_and_Cultural_Variations_in_the_Small_Self
+ Alternate Semantic Scholar link. https://www.semanticscholar.org/paper/Journal-of-Personality-and-Social-Psychology-Awe%2C-Bai-Maruskin/81330386762035306637e194857476839352136e
+ J-Stage citation in "Awe and meaning-making". https://www.jstage.jst.go.jp/article/jcss/33/1/33_33.1.1/_article/-char/ja/
+ Guanghua School of Management seminar page. https://en.gsm.pku.edu.cn/faculty_and_research/research/seminars/organization_and_strategy_seminar/info/238/5345.html
+ Semantic Scholar page for a related paper, "Awe, the small self, and prosocial behavior." https://www.semanticscholar.org/paper/Awe%2C-the-small-self%2C-and-prosocial-behavior.-Piff-Dietze/5d5494f6970783515b3d684b726487a029b9f740
+ John Templeton Foundation article, "The Science of Awe". https://www.templeton.org/discoveries/the-science-of-awe
+ OUCI citation in "Contentment and Self-acceptance: Wellbeing Beyond Happiness". https://ouci.dntb.gov.ua/en/works/4E1jN7gq/

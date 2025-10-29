@@ -1,0 +1,46 @@
+## 1. Official Abstract
+"Recent years have seen a rapid proliferation of mass-market consumer software that takes inspiration from video games. Usually summarized as “gamification”, this trend connects to a sizeable body of existing concepts and research in human-computer interaction and game studies, such as serious games, pervasive games, alternate reality games, or playful design. However, it is not clear how “gamification” relates to these, whether it denotes a novel phenomenon, and how to define it. Thus, in this paper we investigate “gamification” and the historical origins of the term in relation to precursors and similar concepts. It is suggested that “gamified” applications provide insight into novel, gameful phenomena complementary to playful phenomena. Based on our research, we propose a definition of “gamification” as the use of game design elements in non-game contexts."
+
+## 2. Core Insights & Analysis
+The full text of the paper was accessible for analysis.
+
+### **1. Introduction**
+The paper opens by observing the rise of "gamification," a term that became popular in late 2010 to describe software that incorporates elements inspired by video games, such as points, badges, and leaderboards. The authors state that while the trend is evident, its definition and relationship to existing academic concepts like "serious games," "playful design," and "pervasive games" are unclear. The paper's goal is to investigate the term's origins, propose a clear definition, and situate it within the fields of Human-Computer Interaction (HCI) and game studies.
+
+### **2. Precursors & Parallels**
+This section traces the intellectual history leading up to gamification. The authors note that using game-like elements to make activities more engaging is not a new idea in HCI. They point to early work by Malone on making learning fun and a subsequent "hedonic turn" in HCI that moved beyond pure usability to focus on user experience, enjoyment, and playfulness. The paper distinguishes gamification from several related concepts:
+*   **Serious Games:** Defined as full-fledged games designed for a primary purpose other than pure entertainment (e.g., education, training). Gamification, in contrast, is not about creating whole games but about integrating game *elements* into existing non-game services.
+*   **Playful Design (or Toys):** Play is described as "unstructured and improvisational," whereas games are "structured by rules and competitive strife." The authors argue that gamification relates more to the structured, rule-bound nature of *games* (ludus) rather than the freeform nature of *play* (paidia).
+
+### **3. Towards a Definition of "Gamification"**
+This is the core section where the authors construct their influential definition. They argue that for "gamification" to be a useful academic term, it must describe a distinct phenomenon. They systematically build their definition:
+*   **"in non-game contexts":** This clause separates gamification from designing games for entertainment or creating serious games. The context is services or applications whose primary purpose is not gaming.
+*   **"use of game design elements":** This is the most crucial part of the definition. The authors clarify that gamification is not the use of whole games. Instead, it involves implementing specific elements characteristic of games. They acknowledge that defining a "game element" is difficult but propose thinking of them as "elements that are characteristic to games – elements that are found in most (but not all) games, and that are found to play a significant role in gameplay."
+*   **Proposed Definition:** Combining these parts, the paper formally proposes that **"‘Gamification’ is the use of game design elements in non-game contexts."**
+
+### **4. Situating "Gamification"**
+Here, the authors explore the implications of their definition. They introduce the concept of **"gamefulness"** as the experiential counterpart to gamification. While "playfulness" describes the free, improvisational state of mind associated with play, "gamefulness" describes the experience of being engaged in a structured, rule-bound, goal-oriented activity, similar to playing a game. They argue that gamified applications, by using game design elements, aim to evoke this state of gamefulness. The paper presents a conceptual model that distinguishes between:
+*   **Gaming and Playing:** Whole activities.
+*   **Gamefulness and Playfulness:** The experiential and behavioral modes associated with those activities.
+*   **Game Design and Playful Design:** The design approaches to foster those experiences.
+
+Gamification is thus positioned as a form of gameful design, distinct from playful design or the creation of full games.
+
+### **5. Conclusion & Open Questions**
+The paper concludes by summarizing its main contribution: a clear and distinct definition of gamification that separates it from related concepts like serious games and playful design. The authors argue that this definition helps clarify a new area of research focused on how game elements can be used to create engaging, "gameful" experiences in non-game contexts. They end by posing open questions for future research, such as which game elements are most effective, how they function in different contexts, and the ethical implications of their use.
+
+## 3. Sources
+ https://uwspace.uwaterloo.ca/handle/10012/6214
+ https://www.scispace.com/paper/from-game-design-elements-to-gamefulness-defining-207193782
+ https://pure.itu.dk/ws/portalfiles/portal/63785128/Deterding_et_al_2011_From_Game_Design_Elements_to_Gamefulness.pdf
+ https://www.researchgate.net/publication/221659843_From_Game_Design_Elements_to_Gamefulness_Defining_Gamification
+ https://www.semanticscholar.org/paper/From-game-design-elements-to-gamefulness%3A-defining-Deterding-Dixon/1bff3b595030381944509514a7d6368d1956af4f
+ https://gamification-research.org/2012/04/from-game-design-elements-to-gamefulness-defining-gamification/
+ https://www.researchgate.net/profile/Rilla-Khaled/publication/221659843_From_Game_Design_Elements_to_Gamefulness_Defining_Gamification/links/09e41531755a536532000000/From-Game-Design-Elements-to-Gamefulness-Defining-Gamification.pdf
+ https://www.scribd.com/document/512061099/From-Game-Design-Elements-To-Gamefulness-Notes
+ https://www.qmul.ac.uk/digital-education-studio/case-studies/using-game-elements-in-learning/
+ https://www.scispace.com/paper/gamification-design-elements-in-business-education-2108740523
+ https://www.slideshare.net/zichermann/from-game-design-elements-to-gamefulness-defining-gamification
+ https://www.scirp.org/reference/referencespapers?referenceid=1587823
+ https://de-tel.eu/the-de-tel-book/learning-design/gamification
+ https://www.fh-ooe.at/fileadmin/user_upload/fhooe/fakultaeten/gesundheit-soziales/studiengaenge/master/gesundheits-sozial-pflegemanagement/lehrveranstaltungen/20210318_Gamification_Tolks.pdf

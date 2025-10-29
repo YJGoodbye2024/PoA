@@ -6,6 +6,7 @@ import re
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
+from difflib import SequenceMatcher
 from hashlib import sha1
 from html import unescape
 from html.parser import HTMLParser
@@ -92,6 +93,7 @@ class CitationInfo:
     index: int
     doi: Optional[str]
     title_hint: Optional[str]
+    year_hint: Optional[int]
 
 
 @dataclass
@@ -216,6 +218,9 @@ class PaperRegistry:
                 return key, self.by_key[key]
         return None
 
+    def get_by_key(self, paper_key: str) -> Optional[Dict]:
+        return self.by_key.get(paper_key)
+
     def build_key(self, metadata: Dict, default_title: str) -> str:
         if metadata.get("paperId"):
             # Sanitize paperId to ensure it's a valid filename
@@ -287,8 +292,13 @@ def parse_citation(principle: str, citation: str, idx: int) -> CitationInfo:
     doi = doi_match.group(1).rstrip(".") if doi_match else None
 
     title = None
+    year_value: Optional[int] = None
     year_match = re.search(r"\(\d{4}\)", cleaned)
     if year_match:
+        try:
+            year_value = int(year_match.group(0).strip("()"))
+        except ValueError:
+            year_value = None
         after_year = cleaned[year_match.end():].lstrip(". ").strip()
         if after_year:
             title_candidate = re.split(
@@ -316,7 +326,79 @@ def parse_citation(principle: str, citation: str, idx: int) -> CitationInfo:
         index=idx,
         doi=doi,
         title_hint=title or None,
+        year_hint=year_value,
     )
+
+
+def _normalize_name(name: str) -> str:
+    return re.sub(r"[^a-z]", "", name.lower())
+
+
+def extract_citation_last_names(citation: str) -> List[str]:
+    header = citation.split("(", 1)[0]
+    matches = re.findall(
+        r"([A-Z][\w'\-]*(?:\s+[A-Z][\w'\-]*)*)\s*,", header)
+    return [_normalize_name(match) for match in matches if match]
+
+
+def extract_metadata_last_names(metadata: Dict) -> List[str]:
+    authors = metadata.get("authors") or []
+    last_names: List[str] = []
+    for author in authors:
+        if not isinstance(author, dict):
+            continue
+        name = author.get("name")
+        if not name:
+            continue
+        parts = name.split()
+        if not parts:
+            continue
+        last_names.append(_normalize_name(parts[-1]))
+    return last_names
+
+
+def titles_similar(meta_title: str, citation_title: str, min_ratio: float = 0.6) -> bool:
+    norm_meta = normalize_title(meta_title)
+    norm_citation = normalize_title(citation_title)
+    if not norm_meta or not norm_citation:
+        return False
+    if norm_meta == norm_citation:
+        return True
+    if norm_meta in norm_citation or norm_citation in norm_meta:
+        return True
+    ratio = SequenceMatcher(None, norm_meta, norm_citation).ratio()
+    return ratio >= min_ratio
+
+
+def metadata_matches_citation(metadata: Dict, info: CitationInfo) -> bool:
+    meta_doi = (metadata.get("doi") or "").lower()
+    info_doi = (info.doi or "").lower()
+    if info_doi and meta_doi and info_doi == meta_doi:
+        return True
+
+    if info.title_hint:
+        meta_title = metadata.get("title")
+        if not meta_title:
+            return False
+        if not titles_similar(meta_title, info.title_hint):
+            return False
+
+    if info.year_hint is not None:
+        meta_year = metadata.get("year")
+        try:
+            meta_year_int = int(meta_year) if meta_year is not None else None
+        except (TypeError, ValueError):
+            meta_year_int = None
+        if meta_year_int is not None and abs(meta_year_int - info.year_hint) > 1:
+            return False
+
+    citation_last_names = extract_citation_last_names(info.citation_raw)
+    metadata_last_names = extract_metadata_last_names(metadata)
+    if citation_last_names and metadata_last_names:
+        if not any(name in metadata_last_names for name in citation_last_names):
+            return False
+
+    return True
 
 
 class PdfLinkExtractor(HTMLParser):
@@ -1061,6 +1143,10 @@ def fetch_metadata_from_multiple_sources(info: CitationInfo, session: requests.S
             try:
                 result = future.result()
                 if result:
+                    if not metadata_matches_citation(result, info):
+                        print(
+                            f"[warn] {source_name} result rejected due to mismatch with citation")
+                        continue
                     has_pdf = result.get(
                         "openAccessPdf") and result["openAccessPdf"].get("url")
                     if has_pdf:
@@ -1123,14 +1209,18 @@ def fetch_metadata(info: CitationInfo, session: requests.Session) -> Tuple[Optio
                 session,
             )
             if result:
-                print(
-                    f"[info] Semantic Scholar DOI lookup succeeded for {info.doi}")
-                s2_result = result
-                s2_result["source"] = "semantic_scholar"
-                s2_has_pdf = bool(result.get("openAccessPdf")
-                                  and result["openAccessPdf"].get("url"))
-                if "semantic_scholar" not in sources_found:
-                    sources_found.append("semantic_scholar")
+                if metadata_matches_citation(result, info):
+                    print(
+                        f"[info] Semantic Scholar DOI lookup succeeded for {info.doi}")
+                    s2_result = result
+                    s2_result["source"] = "semantic_scholar"
+                    s2_has_pdf = bool(result.get("openAccessPdf")
+                                      and result["openAccessPdf"].get("url"))
+                    if "semantic_scholar" not in sources_found:
+                        sources_found.append("semantic_scholar")
+                else:
+                    print(
+                        f"[warn] Semantic Scholar DOI result rejected due to mismatch with citation")
         except requests.RequestException:
             pass
 
@@ -1153,13 +1243,17 @@ def fetch_metadata(info: CitationInfo, session: requests.Session) -> Tuple[Optio
                 data = result.get("data")
                 if data:
                     print(f"[info] Semantic Scholar title search succeeded")
-                    s2_result = data[0]
-                    s2_result["source"] = "semantic_scholar"
-                    s2_has_pdf = bool(s2_result.get(
-                        "openAccessPdf") and s2_result["openAccessPdf"].get("url"))
-                    if "semantic_scholar" not in sources_found:
-                        sources_found.append("semantic_scholar")
-                    break
+                    candidate = data[0]
+                    if metadata_matches_citation(candidate, info):
+                        s2_result = candidate
+                        s2_result["source"] = "semantic_scholar"
+                        s2_has_pdf = bool(s2_result.get(
+                            "openAccessPdf") and s2_result["openAccessPdf"].get("url"))
+                        if "semantic_scholar" not in sources_found:
+                            sources_found.append("semantic_scholar")
+                        break
+                    print(
+                        "[warn] Semantic Scholar title result rejected due to mismatch with citation")
                 print(f"[info] Query '{query}' returned no matches.")
 
     # If Semantic Scholar found result with PDF, return it
@@ -1311,24 +1405,47 @@ def prepare_pipeline_task(
     registry: "PaperRegistry",
     session: requests.Session,
     download_pdfs: bool,
+    existing_record: Optional[Dict] = None,
 ) -> Tuple[Optional[PipelineTask], Dict[str, Any]]:
     lookup_sources: List[str] = []
     metadata: Optional[Dict] = None
     paper_key: Optional[str] = None
     fetch_failed = False
 
-    existing = registry.get_by_identifiers(info.doi, info.title_hint)
-    if existing:
-        paper_key, metadata = existing
-        if metadata:
-            stored_sources = metadata.get("_lookup_sources")
-            if isinstance(stored_sources, list) and stored_sources:
-                lookup_sources = list(dict.fromkeys(stored_sources))
-            else:
-                source_name = metadata.get("source")
-                if source_name:
-                    lookup_sources = [source_name]
-    else:
+    if existing_record:
+        existing_key = existing_record.get("paper_key")
+        if existing_key:
+            cached_metadata = registry.get_by_key(existing_key)
+            if cached_metadata and metadata_matches_citation(cached_metadata, info):
+                paper_key = existing_key
+                metadata = cached_metadata
+                stored_sources = cached_metadata.get("_lookup_sources")
+                if isinstance(stored_sources, list) and stored_sources:
+                    lookup_sources = list(dict.fromkeys(stored_sources))
+                else:
+                    source_name = cached_metadata.get("source")
+                    if source_name:
+                        lookup_sources = [source_name]
+
+    if metadata is None:
+        existing = registry.get_by_identifiers(info.doi, info.title_hint)
+        if existing:
+            paper_key, metadata = existing
+            if metadata and not metadata_matches_citation(metadata, info):
+                print(
+                    f"[warn] Stored metadata for '{paper_key}' failed validation; refetching.")
+                metadata = None
+                paper_key = None
+            elif metadata:
+                stored_sources = metadata.get("_lookup_sources")
+                if isinstance(stored_sources, list) and stored_sources:
+                    lookup_sources = list(dict.fromkeys(stored_sources))
+                else:
+                    source_name = metadata.get("source")
+                    if source_name:
+                        lookup_sources = [source_name]
+
+    if metadata is None:
         try:
             metadata, lookup_sources = fetch_metadata(info, session)
             lookup_sources = list(dict.fromkeys(lookup_sources))
@@ -1428,6 +1545,7 @@ async def stage1_producer(
     pdf_queue: "asyncio.Queue[PipelineTask]",
     deep_queue: "asyncio.Queue[PipelineTask]",
     state: PipelineState,
+    existing_records: Dict[Tuple[str, int, str], Dict],
     download_pdfs: bool,
     pdf_worker_count: int,
     deep_worker_count: int,
@@ -1439,8 +1557,11 @@ async def stage1_producer(
         print(
             f"[{idx}/{total}] Processing principle='{info.principle}' citation #{info.index}"
         )
+        existing_record = existing_records.get(
+            (info.principle, info.index, info.citation_raw)
+        )
         task, payload = await asyncio.to_thread(
-            prepare_pipeline_task, info, registry, session, download_pdfs
+            prepare_pipeline_task, info, registry, session, download_pdfs, existing_record
         )
         state_key = payload.pop("state_key")
         await state.update(state_key, payload)
@@ -1724,6 +1845,15 @@ async def run_pipeline_async(
         for idx in range(active_deep_workers)
     ]
 
+    existing_records_map: Dict[Tuple[str, int, str], Dict] = {}
+    initial_snapshot = state.snapshot()
+    for record in initial_snapshot.values():
+        principle = record.get("principle")
+        citation_index = record.get("citation_index")
+        citation = record.get("citation")
+        if principle and citation_index is not None and citation:
+            existing_records_map[(principle, int(citation_index), citation)] = record
+
     session = requests.Session()
     monitor_task = asyncio.create_task(
         progress_monitor(
@@ -1744,6 +1874,7 @@ async def run_pipeline_async(
                 pdf_queue,
                 deep_queue,
                 state,
+                existing_records_map,
                 download_pdfs,
                 pdf_workers,
                 active_deep_workers,
