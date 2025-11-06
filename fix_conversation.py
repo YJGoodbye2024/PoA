@@ -8,13 +8,17 @@ from tqdm.asyncio import tqdm
 
 # --- 配置 ---
 # --- Triage Model (用于分类的低成本模型) ---
-TRIAGE_API_KEY = "sk-a5582064b3c444249b2cdc825c76eebc"
-TRIAGE_BASE_URL = "https://api.deepseek.com"
+TRIAGE_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+if not TRIAGE_API_KEY:
+    raise EnvironmentError("DEEPSEEK_API_KEY is not set in the environment.")
+TRIAGE_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
 TRIAGE_MODEL = "deepseek-chat"
 
 # --- Correction Model (用于修正的高质量模型) ---
-CORRECTION_API_KEY = "sk-WKak50Ii5K68isoe7bF316D6E7Eb44A3Aa32843eBaE4866f"
-CORRECTION_BASE_URL = "https://api.pumpkinaigc.online/v1"
+CORRECTION_API_KEY = os.getenv("API_KEY_FULL")
+if not CORRECTION_API_KEY:
+    raise EnvironmentError("API_KEY_FULL is not set in the environment.")
+CORRECTION_BASE_URL = os.getenv("BASE_URL_FULL", "https://api.pumpkinaigc.online/v1")
 CORRECTION_MODEL = "claude-sonnet-4-20250514"
 
 # --- 文件路径 ---
