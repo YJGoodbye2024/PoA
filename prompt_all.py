@@ -99,12 +99,20 @@ You are a precise data-to-JSON formatting specialist.
 Convert the Markdown-structured text provided between `[START_TEXT]` and `[END_TEXT]` into the *exact* JSON format specified below.
 
 **Target JSON Structure:**
-{{
-"construct_name": "{PRINCIPLE_NAME}",
-"description": "Provide a clear, detailed, and scientific description of what this principle is, how it manifests, and its underlying psychological mechanisms.",
-"core_mechanisms": "Explain the primary evolutionary, cognitive, or emotional reasons why this principle exists. Is it a heuristic for efficiency, a result of memory limitations, a self-esteem protection mechanism, or something else? Be specific.",
-"real_world_manifestation": "Provide a profound analysis of the principle's broader impact. Go beyond a simple description to explore its nuanced consequences. Discuss how it might challenge conventional wisdom, its function as a 'double-edged sword' (e.g., both hindering and helping personal growth), and its practical applications in fields like marketing, persuasion, or self-improvement. The analysis should reveal deeper truths about human behavior, explaining not just *what* happens, but *why* it is significant. Use the detailed example provided by the user for 'Cognitive Dissonance' as the benchmark for the required depth, structure, and insight.",
-}}
+{
+  "construct_name": "{PRINCIPLE_NAME}",
+  "description": "Provide a clear, detailed, and scientific description of what this principle is, how it manifests, and its underlying psychological mechanisms.",
+  "core_mechanisms": "Explain the primary evolutionary, cognitive, or emotional reasons why this principle exists. Is it a heuristic for efficiency, a result of memory limitations, a self-esteem protection mechanism, or something else? Be specific.",
+  "real_world_manifestation": "Provide a profound analysis of the principle's broader impact. Go beyond a simple description to explore its nuanced consequences. Discuss how it might challenge conventional wisdom, its function as a 'double-edged sword' (e.g., both hindering and helping personal growth), and its practical applications in fields like marketing, persuasion, or self-improvement. The analysis should reveal deeper truths about human behavior, explaining not just *what* happens, but *why* it is significant. Use the detailed example provided by the user for 'Cognitive Dissonance' as the benchmark for the required depth, structure, and insight."
+}
+
+**Example Output (structure only):**
+{
+  "construct_name": "Example Principle",
+  "description": "Summary text drawn exactly from the source.",
+  "core_mechanisms": "Mechanistic explanation sourced from the corpus.",
+  "real_world_manifestation": "Insightful analysis of real-world outcomes from the corpus."
+}
 
 **Mapping Rules:**
 1.  Map all text under the `## Description` heading to the `description` field.
@@ -114,7 +122,8 @@ Convert the Markdown-structured text provided between `[START_TEXT]` and `[END_T
 **Constraints:**
 1.  Your final output **must** be *only* the single, syntactically perfect JSON object.
 2.  Do not include *any* explanatory text, acknowledgments, or pre-amble.
-3.  Ensure all content from the source text is preserved perfectly within the correct JSON fields.
+3.  Do not wrap the JSON in Markdown code fences or add any extra words before or after the JSON.
+4.  Ensure all content from the source text is preserved perfectly within the correct JSON fields.
 
 **[START_TEXT]**
 
@@ -150,16 +159,13 @@ Your task is to generate a clearly organized report. Follow the Markdown structu
 (Describe the spontaneous, observable behaviors someone with this trait exhibits in everyday, non-pressured situations, as documented in the papers.)
 
 ## Real-World Manifestation
-(This section analyzes how the trait is expressed in different contexts.)
+(This section analyzes how the trait is expressed across a wide variety of real-world contexts, situations, and life domains. Based on the corpus, synthesize a comprehensive overview of its practical implications. 
 
-### Manifestation Under Stress
-(Based on the corpus, how does this trait manifest when the individual is facing challenges, failure, or high pressure? Is it amplified, diminished, or distorted?)
-
-### Manifestation In Conflict
-(Based on the corpus, what are the typical strategies for handling interpersonal conflict for someone with this trait?)
-
-### Manifestation In Positive Situations
-(Based on the corpus, how is this trait expressed when the individual is succeeding, supported, or feeling happy?)
+Your analysis should aim to be broad, covering **as many different contexts as are documented in the papers**. This **may include, but is not limited to**, areas such as:
+* **Response to Stress and Adversity:** How does the trait manifest when the individual faces challenges, failure, or high pressure (e.g., is it amplified, diminished, or distorted)?
+* **Interpersonal Dynamics:** What are the typical strategies for handling conflict? How does the trait impact teamwork, leadership, or close relationships?
+* **Response to Positive Scenarios:** How is the trait expressed when the individual is succeeding, supported, or feeling happy?
+* **Other Domains:** Look for evidence related to work performance, decision-making, health behaviors, or other significant life outcomes mentioned in the corpus.)
 
 **Constraints:**
 1.  **Strict Source Adherence:** Base all conclusions *exclusively* on the provided text corpus.
@@ -173,42 +179,30 @@ Your task is to generate a clearly organized report. Follow the Markdown structu
 **[END_CORPUS]**
 '''
 
-
 td_to_json = """**System Role:**
 You are a precise data-to-JSON formatting specialist.
 
 **Core Task & Instructions:**
-Convert the Markdown-structured text provided between `[START_TEXT]` and `[END_TEXT]` into the *exact* JSON format specified below. You must correctly map the H2 and H3 headings into the nested JSON objects.
+Convert the Markdown-structured text provided between `[START_TEXT]` and `[END_TEXT]` into the *exact* JSON format specified below.
 
 **Target JSON Structure:**
 {{
   "construct_name": "{PRINCIPLE_NAME}",
   "definition": "Provide a precise and professional definition of this personality trait, referencing mainstream psychological theories. Explain its role in an individual's personality structure.",
-  "core_mechanisms": {{
-    "cognitive_patterns": "Describe the typical mindset, belief systems, and attentional focus of a person with this trait. How do they view the world, others, and themselves?",
-    "emotional_signatures": "Describe the core emotions they tend to experience and express, their emotional stability, and their typical empathic responses.",
-    "behavioral_tendencies": "Describe the spontaneous, observable behaviors someone with this trait exhibits in everyday, non-pressured situations."
-  }},
-  "real_world_manifestation": {{
-    "under_stress": "How does this trait manifest when the individual is facing challenges, failure, or high pressure? Is it amplified, diminished, or distorted?",
-    "in_conflict": "What are the typical strategies for handling interpersonal conflict for someone with this trait?",
-    "in_positive_situations": "How is this trait expressed when the individual is succeeding, supported, or feeling happy?"
-  }}
+  "core_mechanisms": "A single string containing all synthesized content from the '## Core Mechanisms' section, including cognitive patterns, emotional signatures, and behavioral tendencies.",
+  "real_world_manifestation": "A single string containing all synthesized content from the '## Real-World Manifestation' section of the source text."
 }}
 
 **Mapping Rules:**
-1.  Map all text under `## Definition` to `definition`.
-2.  Map text under `### Cognitive Patterns` to `core_mechanisms.cognitive_patterns`.
-3.  Map text under `### Emotional Signatures` to `core_mechanisms.emotional_signatures`.
-4.  Map text under `### Behavioral Tendencies` to `core_mechanisms.behavioral_tendencies`.
-5.  Map text under `### Manifestation Under Stress` to `real_world_manifestation.under_stress`.
-6.  Map text under `### Manifestation In Conflict` to `real_world_manifestation.in_conflict`.
-7.  Map text under `### Manifestation In Positive Situations` to `real_world_manifestation.in_positive_situations`.
+1.  Map the trait name from the `# Construct Name: {Trait Name}` line to `construct_name`.
+2.  Map all text under `## Definition` to the single string field `definition`.
+3.  Map **all** text under `## Core Mechanisms` (including all content from its sub-sections `### Cognitive Patterns`, `### Emotional Signatures`, and `### Behavioral Tendencies`) to the single string field `core_mechanisms`.
+4.  Map **all** text under `## Real-World Manifestation` to the single string field `real_world_manifestation`.
 
 **Constraints:**
 1.  Your final output **must** be *only* the single, syntactically perfect JSON object.
 2.  Do not include *any* explanatory text, acknowledgments, or pre-amble.
-3.  Ensure all content from the source text is preserved perfectly within the correct nested JSON fields.
+3.  Ensure all content from the source text is preserved perfectly within the correct JSON fields.
 
 **[START_TEXT]**
 
@@ -216,16 +210,28 @@ Convert the Markdown-structured text provided between `[START_TEXT]` and `[END_T
 
 **[END_TEXT]**"""
 
+
 # prompt for scenario
-scenario_sys_prompt = '''Role: You are an expert psychologist and a creative screenwriter. You excel at translating abstract psychological theories into vivid, concrete, and deeply human story scenarios.'''
-gen_scenario_prompt = '''
-Task: Your core mission is to take one or more human psychological or behavioral principles I provide and create a detailed scenario featuring well-rounded characters and an authentic setting. This scenario must serve as a solid foundation for a subsequent multi-turn dialogue that vividly illustrates these principles.
+scenario_sys_prompt = '''Role: You are a dual-specialist: an expert psychologist and creative screenwriter for scenario generation, and a rigorous narrative analyst for deconstruction. You excel at both creating vivid, human stories and then, in a separate step, precisely analyzing *why* they work.'''
+
+gen_scenario_prompt = ''' Task: Your core mission is to take one or more human psychological or behavioral principles I provide and create a detailed scenario, followed by a concise analysis of your own design.
 
 Input Principles: {principle1_information}
 
-Core Output Requirement:
+Core Output Requirement: Your output must be structured into two strictly separate, clearly labeled parts. Do not mix analysis into the scenario, and do not mix storytelling into the analysis.
 
-No Self-Analysis: Your task is to create the scenario, not to analyze your creation. You are absolutely forbidden from adding any summary or explanatory paragraphs at the end of the scenario description that explain why the scene is suitable for showcasing the psychological principles. Simply complete the story background and character profiles; do not add any "author's notes."
+Part 1: The Scenario: The creative narrative itself.
+
+Part 2: Design Process: A concise, analytical breakdown of the scenario.
+
+Part 1: The Scenario
+[ROLE]: For this part, adopt your role as the expert psychologist and creative screenwriter.
+
+[IMPORTANT CONSTRAINTS FOR PART 1]:
+
+Length: Your narrative for Part 1 must be detailed and comprehensive, but MUST NOT EXCEED 1000 TOKENS.
+
+Purity: You are absolutely forbidden from adding any self-analysis, "author's notes," or explanatory paragraphs within this narrative part. Your task here is only to create the story. All analysis must be saved for Part 2.
 
 Narrative Output: Please write in a natural, flowing prose format. Do not use lists or a "label: content" structure. The requirements below are elements to be integrated into your writing, not an output template to be filled.
 
@@ -257,7 +263,70 @@ Key Concept: A person with strong opinions might still conform under specific pr
 
 Ultimate Goal: Your aim is to create "the authentic reaction of a multi-dimensional person in a specific situation," not "the preset behavior of a one-dimensional character in a tailor-made scenario."
 
-Now, based on all the requirements above, please begin generating the scenario.
+
+Part 2: Design Process
+[ROLE SWITCH]: Now, you must shift from your "creative screenwriter" role to your "rigorous narrative analyst" role.
+
+[IMPORTANT CONSTRAINTS FOR PART 2]:
+
+Length: Your entire analysis for Part 2 must be extremely concise and MUST NOT EXCEED 500 TOKENS.
+
+Format: Provide a scannable analytical breakdown. This section must be to the point and avoid excessive detail or academic verbosity. You must follow the exact format below.
+
+Design Rationale
+
+In a brief paragraph (3-4 sentences maximum), summarize how the overall setting, characters, and core event are designed to create pressure for the input principles to manifest.
+
+Catalyst Details
+
+Using concise bullet points, identify the most critical details in the scenario that act as 'catalysts'. For each bullet, briefly (1-2 sentences) explain its function.
+
+[Detail 1]: [Brief explanation of its function]
+
+[Detail 2]: [Brief explanation of its function]
+
+[...etc.]
+
+Expected Protagonist Tendencies
+
+List the protagonist's most likely cognitive or behavioral tendencies within this scenario, along with their key psychological conflicts. Use the following exact format, providing a brief description for each tendency. [Expect1] [Brief description of the first expected tendency] [Expect2] [Brief description of the second expected tendency] [Expect3] [Brief description of the third expected tendency] [...etc.]
+
+Now, based on all the requirements above, please begin generating the two-part response. '''
+
+
+# prompt for conversation
+gen_conversationtion_sys_prompt = '''
+**Role**: You are a master screenwriter and behavioral psychologist. Your expertise lies in bringing characters to life through nuanced dialogue and action, ensuring their **pivotal thoughts and resulting behaviors** in the dialogue are rooted in authentic psychological principles.
+**Task**: Your mission is to take the provided psychological principles, a detailed scenario, and the accompanying design analysis (analysis), then write a multi-turn dialogue based on that scenario. This dialogue must, **at key moments**, vividly and concretely enact the specified principles through the characters' inner thoughts, spoken words, and physical actions.
+'''
+gen_conversationtion_prompt = '''
+
+**You must follow this structure and these requirements:**
+
+**Inputs:**
+
+1.  **Principles**: `{principle1_information}`
+2.  **Scenario**: `{scenario}`
+3.  **Design Analysis**: `{analysis}`
+
+**Output Requirements & Formatting:**
+
+1.  **Content:** Create a multi-turn dialogue between the protagonist and other characters. The dialogue should contain **between 12 and 20 individual speaking turns** (each time a character speaks counts as one turn), ensuring there is sufficient developmental space to clearly showcase the principle in operation.
+2.  Turn Structure (Important): The dialogue must strictly follow a turn-based format. One character must completely finish their turn (including any thoughts, dialogue, and actions) before the next character begins. Strictly prohibit any instances of characters interrupting each other or having overlapping speech.
+3.  **Trinity of Expression**: At the key moments that reveal the principles, you should integrate the three layers of **inner thought, spoken dialogue, and external action** to form a complete, cohesive moment of behavior.
+4.  **Strict Formatting Rules**:
+
+    * **Inner thoughts/psychology**: Use `[square brackets]`.
+    * **Actions/expressions/behaviors**: Use `(parentheses)`.
+    * **Spoken dialogue**: Use no brackets.
+    * **Formatting Example**: `Hermione: [I have to devise a foolproof plan.] (She quickly draws her wand, pointing it at the door) Harry, use the flute, now!`
+5.  **No Preamble**: Do not **begin** the response with any introductory text, preambles, or explanations (e.g., "Here is the dialogue...", "according to your detailed instructions").
+**Core Creative Principles:**
+
+1.  **Focus and Breathing Room**: This is the most crucial principle. You do **not** need to have every minor gesture or piece of small talk carry the weight of a psychological principle. Use the principles as a "**spotlight**" to illuminate and explain **the most critical turning points, the core conflicts, or the moments that best define the characters' arcs**. Other routine, functional dialogue and actions (like greetings or pouring water) should exist naturally, creating "breathing room" for these key moments and making the manifestation of the principles more prominent and powerful.
+2.  **Show, Don't Tell**: Never allow characters to openly state or explain the psychological principles by name. Instead, you must **show** how the principles influence their judgment and choices through their concrete actions (the combination of thoughts, dialogue, and physical behavior).
+3.  **Psychology Drives Action**: In the key moments illuminated by the "spotlight," the character's `[inner thought]`should be the origin of their behavior, directly reflecting the influence of a psychological principle. The subsequent dialogue and `(actions)` should be the logical, external expression of that internal state.
+4.  **Seamless Integration**: Weave the principles into the natural flow of the story. The entire dialogue should feel like an authentic interaction, not a contrived demonstration for a psychology case study.
 
 '''
 
@@ -315,12 +384,11 @@ You must parse the `Scenario Text` and populate the following JSON structure. Us
 '''
 
 
-# prompt for conversation
-gen_conversationtion_sys_prompt = '''
+gen_conversationtion_sys_prompt_no_analysis = '''
 **Role**: You are a master screenwriter and behavioral psychologist. Your expertise lies in bringing characters to life through nuanced dialogue and action, ensuring their **pivotal thoughts and resulting behaviors** in the dialogue are rooted in authentic psychological principles.
 **Task**: Your mission is to take the provided psychological principles and a detailed scenario, then write a multi-turn dialogue. This dialogue must, **at key moments**, vividly and concretely enact the specified principles through the characters' inner thoughts, spoken words, and physical actions.
 '''
-gen_conversationtion_prompt = '''
+gen_conversationtion_prompt_no_analysis = '''
 
 **You must follow this structure and these requirements:**
 
@@ -336,10 +404,11 @@ gen_conversationtion_prompt = '''
 3. **Trinity of Expression**: At the key moments that reveal the principles, you should integrate the three layers of **inner thought, spoken dialogue, and external action** to form a complete, cohesive moment of behavior.
 4. **Strict Formatting Rules**:
 
-  - **Inner thoughts/psychology**: Use `[square brackets]`.
-  - **Actions/expressions/behaviors**: Use `(parentheses)`.
-  - **Spoken dialogue**: Use no brackets.
-  - **Formatting Example**: `Hermione: [I have to devise a foolproof plan.] Wait! (She quickly draws her wand, pointing it at the door) ...Harry, you go first, you have Hagrid's flute...`
+- **Inner thoughts/psychology**: Use `[square brackets]`.
+- **Actions/expressions/behaviors**: Use `(parentheses)`.
+- **Spoken dialogue**: Use no brackets.
+- **Formatting Example**: `Hermione: [I have to devise a foolproof plan.] (She quickly draws her wand, pointing it at the door) Harry, use the flute, now!`
+5.  **No Preamble**: Do not **begin** the response with any introductory text, preambles, or explanations (e.g., "Here is the dialogue...", "according to your detailed instructions").
 
 **Core Creative Principles:**
 
@@ -350,7 +419,41 @@ gen_conversationtion_prompt = '''
 
 
 '''
+# prompt for protagonist name extraction
+protagonist_name_sys_prompt = ''' You are a rigorous text extraction assistant. You will receive a scenario description. Please find the name of the first character who is fully introduced in the text. Output only the name itself. Do not include any extra text, punctuation, or explanations. If no name can be found, output an empty string. '''
+protagonist_name_prompt = ''' Please extract the name of the first fully introduced character from the following scenario description:
+{scenario} '''
 
+# prompt for checlist
+gen_checklist_sys_prompt = '''You are an AI assistant specialized in analyzing psychological principles in narratives. Your task is to generate a list of conversation evaluation items based on the analysis and scenario provided by the user.
+
+# Task: Generate Conversation Evaluation Items
+
+You will generate a list of evaluation items for a "Conversation" based on the provided 【Pattern Information】, 【Scenario】, and 【Analysis】.
+
+# Generation Steps
+1.  The evaluation items are intended to assess whether the characters' actions, statements, and psychology in the "Conversation" (which takes place under the 【Scenario】) align with the 【Pattern Information】.
+2.  The specific generation logic is: Based on the 【Pattern Information】 and the specific details in the 【Scenario】, you must transform the content of the 【Analysis】 into evaluation items for the "Conversation".
+3.  The source for the evaluation items must be **strictly based on** the "Catalyst Details" and "Expected Protagonist Tendencies" sections found within the user-provided 【Analysis】.
+
+# Output Requirements
+* Your output format must be a numbered list (1. ... 2. ... 3. ...).
+* The evaluation items must be **brief and concise**.
+* The items should first list all checkpoints based on "Catalyst Details", followed by all checkpoints based on "Expected Protagonist Tendencies".
+* The items must use specific names and events from the 【Scenario】 (e.g., character names, specific actions, system names) to make the content concrete.
+
+Wait for the user to provide the three inputs, then begin the task immediately.'''
+
+gen_checklist_prompt = '''
+# 【Pattern Information】
+{principle1_information}
+
+# 【Scenario】
+{scenario}
+
+# 【Analysis】
+{analysis}
+'''
 
 # prompt for SFT dataset
 gen_dataset_sys_prompt = '''

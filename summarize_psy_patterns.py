@@ -6,7 +6,7 @@ import re
 import threading
 import time
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Tuple, Set
 
 import requests
 
@@ -34,10 +34,11 @@ TEXT_DIR = BASE_DIR / "texts"
 OUTPUT_DIR = Path("Dataset/principle_summaries")
 RAW_OUTPUT_PATH = Path("Dataset/patterns_info/psy_patterns_markdown.json")
 JSON_OUTPUT_PATH = Path("Dataset/patterns_info/psy_patterns_info.json")
+DEBUG_JSON_DIR = Path("Dataset/patterns_info/debug_failed_json")
 
-DEFAULT_MODEL = os.getenv("DEEP_SEARCH_MODEL", "gemini-2.5-pro-cli")
+DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-pro-cli")
 DEFAULT_SLEEP_SECONDS = float(os.getenv("DEEP_REQUEST_INTERVAL", "15"))
-MAX_DOC_CHARS = int(os.getenv("SUMMARY_MAX_DOC_CHARS", "20000"))
+MAX_DOC_CHARS = int(os.getenv("SUMMARY_MAX_DOC_CHARS", "30000"))
 
 SOURCE_SECTION_PATTERN = re.compile(
     r"(?:^|\n)##?\s*3\.\s*Sources\b.*", re.IGNORECASE | re.DOTALL)
@@ -132,7 +133,7 @@ def build_request_payload(
     prompt_template: str,
     prompt_type: str,
     model: str,
-) -> str:
+) -> Dict[str, Any]:
     prompt_text = prompt_template
     if prompt_type == "td":
         prompt_text = prompt_text.replace("{Trait Name}", principle)
@@ -158,26 +159,67 @@ def build_request_payload(
 def send_completion(
     base_url: str,
     api_key: str,
-    payload: Dict,
+    payload: Dict[str, Any],
     timeout: int = 180,
-) -> Dict:
+    max_retries: int = 5,
+    initial_backoff: float = 2.0,
+) -> str:
     url = f"{base_url.rstrip('/')}/chat/completions"
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}",
     }
-    response = requests.post(url, headers=headers,
-                             json=payload, timeout=timeout)
-    response.raise_for_status()
-    data = response.json()
-    choices = data.get("choices") or []
-    if not choices:
-        raise RuntimeError("Model response missing choices.")
-    message = choices[0].get("message") or {}
-    content = message.get("content")
-    if not content:
-        raise RuntimeError("Model response missing content.")
-    return content
+    retryable_statuses = {429}
+    backoff = max(initial_backoff, 1.0)
+
+    for attempt in range(max_retries + 1):
+        try:
+            response = requests.post(
+                url,
+                headers=headers,
+                json=payload,
+                timeout=timeout,
+            )
+        except requests.RequestException as exc:
+            if attempt < max_retries:
+                print(
+                    "[warn] Network error calling model API. "
+                    f"Retrying in {backoff:.1f}s..."
+                )
+                time.sleep(backoff)
+                backoff *= 2
+                continue
+            raise
+
+        status = response.status_code
+        if status in retryable_statuses or 500 <= status < 600:
+            if attempt < max_retries:
+                retry_after = response.headers.get("Retry-After")
+                wait_time = backoff
+                if retry_after:
+                    try:
+                        wait_time = float(retry_after)
+                    except (TypeError, ValueError):
+                        wait_time = backoff
+                print(
+                    f"[warn] HTTP {status} from model API. Retrying in {wait_time:.1f}s..."
+                )
+                time.sleep(wait_time)
+                backoff = max(backoff * 2, 1.0)
+                continue
+
+        response.raise_for_status()
+        data = response.json()
+        choices = data.get("choices") or []
+        if not choices:
+            raise RuntimeError("Model response missing choices.")
+        message = choices[0].get("message") or {}
+        content = message.get("content")
+        if not content:
+            raise RuntimeError("Model response missing content.")
+        return content
+
+    raise RuntimeError("Exceeded maximum retries when calling model API.")
 
 
 def ensure_output_dir(path: Path) -> None:
@@ -186,13 +228,27 @@ def ensure_output_dir(path: Path) -> None:
 
 def write_summary_markdown(principle: str, data: str, output_path: Path) -> None:
     try:
-        parsed = json.loads(output_path.read_text(encoding="utf-8")) if output_path.exists() else {}
+        parsed = json.loads(output_path.read_text(
+            encoding="utf-8")) if output_path.exists() else {}
     except json.JSONDecodeError:
         parsed = {}
     parsed[principle] = data
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(json.dumps(parsed, ensure_ascii=False, indent=2), encoding="utf-8")
+    output_path.write_text(json.dumps(
+        parsed, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[info] Cached markdown summary for '{principle}'.")
+
+
+def sanitize_model_json(raw: str) -> str:
+    """Remove common Markdown code fences and trim whitespace."""
+    cleaned = raw.strip()
+    if cleaned.lower().startswith("```json"):
+        cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else ""
+    elif cleaned.startswith("```"):
+        cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else ""
+    if cleaned.endswith("```"):
+        cleaned = cleaned.rsplit("```", 1)[0]
+    return cleaned.strip()
 
 
 def build_json_conversion_payload(
@@ -220,20 +276,37 @@ def build_json_conversion_payload(
 
 
 def write_summary_json(principle: str, data: str, output_path: Path) -> None:
+    cleaned_data = sanitize_model_json(data)
     try:
-        parsed = json.loads(data)
+        parsed = json.loads(cleaned_data)
     except json.JSONDecodeError as exc:
+        DEBUG_JSON_DIR.mkdir(parents=True, exist_ok=True)
+        debug_path = DEBUG_JSON_DIR / f"{slugify(principle)}.txt"
+        debug_payload = (
+            "=== raw ===\n"
+            f"{data}\n\n"
+            "=== cleaned ===\n"
+            f"{cleaned_data}\n"
+        )
+        debug_path.write_text(debug_payload, encoding="utf-8")
         raise RuntimeError(
             f"Model returned invalid JSON for '{principle}': {exc}"
         ) from exc
 
     existing: Dict[str, Dict] = {}
     if output_path.exists():
-        existing = json.loads(output_path.read_text(encoding="utf-8"))
+        try:
+            existing = json.loads(output_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            print(
+                f"[warn] Existing JSON at {output_path} is invalid; ignoring cache."
+            )
+            existing = {}
 
     existing[principle] = parsed
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
+    output_path.write_text(json.dumps(
+        existing, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[info] Updated JSON summary for '{principle}' in {output_path}")
 
 
@@ -266,6 +339,9 @@ class PrincipleWorker(threading.Thread):
         model: str,
         sleep_seconds: float,
         overwrite: bool,
+        raw_output_path: Path,
+        json_output_path: Path,
+        skip_principles: Optional[Set[str]] = None,
     ) -> None:
         super().__init__(name=name)
         self.task_queue = task_queue
@@ -276,6 +352,9 @@ class PrincipleWorker(threading.Thread):
         self.model = model
         self.sleep_seconds = sleep_seconds
         self.overwrite = overwrite
+        self.raw_output_path = raw_output_path
+        self.json_output_path = json_output_path
+        self.skip_principles = skip_principles or set()
         self.daemon = True
 
     def run(self) -> None:
@@ -295,26 +374,8 @@ class PrincipleWorker(threading.Thread):
                 time.sleep(self.sleep_seconds)
 
     def process_principle(self, principle: str) -> None:
-        slug = slugify(principle)
-        if RAW_OUTPUT_PATH.exists() and not self.overwrite:
-            try:
-                existing_raw = json.loads(RAW_OUTPUT_PATH.read_text(encoding="utf-8"))
-            except json.JSONDecodeError:
-                existing_raw = {}
-            else:
-                if principle in existing_raw:
-                    print(f"[info] Skipping '{principle}' (raw summary exists).")
-                    return
-
-        if JSON_OUTPUT_PATH.exists() and not self.overwrite:
-            try:
-                existing_json = json.loads(JSON_OUTPUT_PATH.read_text(encoding="utf-8"))
-            except json.JSONDecodeError:
-                existing_json = {}
-            else:
-                if principle in existing_json:
-                    print(f"[info] Skipping '{principle}' (JSON summary exists).")
-                    return
+        if not self.overwrite and principle in self.skip_principles:
+            print(f"[info] Skipping '{principle}' (already completed).")
             return
 
         entries = self.principles_data.get(principle, [])
@@ -334,14 +395,15 @@ class PrincipleWorker(threading.Thread):
             principle, corpus_payload, prompt_template, prompt_type, self.model)
         summary_markdown = send_completion(
             self.base_url, self.api_key, payload)
-        write_summary_markdown(principle, summary_markdown, RAW_OUTPUT_PATH)
+        write_summary_markdown(
+            principle, summary_markdown, self.raw_output_path)
 
         json_prompt = sd_to_json if prompt_type == "sd" else td_to_json
         json_payload = build_json_conversion_payload(
             principle, summary_markdown, json_prompt, self.model)
         summary_json = send_completion(
             self.base_url, self.api_key, json_payload)
-        write_summary_json(principle, summary_json, JSON_OUTPUT_PATH)
+        write_summary_json(principle, summary_json, self.json_output_path)
 
 
 def main() -> None:
@@ -362,7 +424,7 @@ def main() -> None:
     parser.add_argument(
         "--model",
         default=DEFAULT_MODEL,
-        help="Model name to request (default from DEEP_SEARCH_MODEL env).",
+        help="Model name to request (default from GEMINI_MODEL env).",
     )
     parser.add_argument(
         "--sleep-seconds",
@@ -391,12 +453,43 @@ def main() -> None:
 
     ensure_output_dir(OUTPUT_DIR)
 
+    existing_raw: Dict[str, Any] = {}
+    existing_json: Dict[str, Any] = {}
+    already_done: set[str] = set()
+    if RAW_OUTPUT_PATH.exists() and not args.overwrite:
+        try:
+            existing_raw = json.loads(
+                RAW_OUTPUT_PATH.read_text(encoding="utf-8"))
+            already_done.update(existing_raw.keys())
+        except json.JSONDecodeError:
+            existing_raw = {}
+    if JSON_OUTPUT_PATH.exists() and not args.overwrite:
+        try:
+            existing_json = json.loads(
+                JSON_OUTPUT_PATH.read_text(encoding="utf-8"))
+            already_done.update(existing_json.keys())
+        except json.JSONDecodeError:
+            existing_json = {}
+
     task_queue: "queue.Queue[str]" = queue.Queue()
     for principle in all_principles:
-        task_queue.put(principle)
+        if args.overwrite or principle not in already_done:
+            task_queue.put(principle)
+
+    if task_queue.empty():
+        print("[info] No principles to process (everything already completed).")
+        return
 
     workers: List[PrincipleWorker] = []
+    worker_paths: List[Tuple[Path, Path]] = []
     for idx, cred in enumerate(credentials):
+        raw_output_path = RAW_OUTPUT_PATH.with_name(
+            f"{RAW_OUTPUT_PATH.stem}_{idx+1}.json"
+        )
+        json_output_path = JSON_OUTPUT_PATH.with_name(
+            f"{JSON_OUTPUT_PATH.stem}_{idx+1}.json"
+        )
+        worker_paths.append((raw_output_path, json_output_path))
         worker = PrincipleWorker(
             name=f"worker-{idx+1}",
             task_queue=task_queue,
@@ -407,12 +500,46 @@ def main() -> None:
             model=args.model,
             sleep_seconds=args.sleep_seconds,
             overwrite=args.overwrite,
+            raw_output_path=raw_output_path,
+            json_output_path=json_output_path,
+            skip_principles=already_done if not args.overwrite else set(),
         )
         worker.start()
         workers.append(worker)
 
     task_queue.join()
+    for worker in workers:
+        worker.join()
     print("[done] All principle summaries generated.")
+
+    combined_raw = {} if args.overwrite else existing_raw.copy()
+    combined_json = {} if args.overwrite else existing_json.copy()
+
+    for raw_path, json_path in worker_paths:
+        if raw_path.exists():
+            try:
+                data = json.loads(raw_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                data = {}
+            combined_raw.update(data)
+        if json_path.exists():
+            try:
+                data = json.loads(json_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                data = {}
+            combined_json.update(data)
+
+    if combined_raw:
+        RAW_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+        RAW_OUTPUT_PATH.write_text(json.dumps(
+            combined_raw, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[info] Aggregated raw summaries written to {RAW_OUTPUT_PATH}")
+    if combined_json:
+        JSON_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+        JSON_OUTPUT_PATH.write_text(json.dumps(
+            combined_json, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(
+            f"[info] Aggregated JSON summaries written to {JSON_OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

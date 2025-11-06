@@ -1,139 +1,419 @@
+import argparse
+import asyncio
 import json
-from principle_situaton import sd_pri_list, td_pri_list_100
+import os
+import re
+import time
+from itertools import cycle
+from typing import Dict, List, Tuple, Optional
 
-p_j = []
-prompt1 = """
-**Role:** You are a distinguished academic researcher and psychologist with expertise in synthesizing complex theories for a knowledgeable audience.
+from openai import AsyncOpenAI  # Use the asynchronous client
+from tqdm.asyncio import tqdm_asyncio  # For asynchronous progress bars
 
-**Objective:** Your objective is to conduct a deep, systematic, and source-based investigation into the psychological principle of **`{PRINCIPLE_NAME}`**. You will generate a concise but profound research report structured into the three distinct sections outlined below. Your analysis, particularly in the `real_world_manifestation` section, must be insightful and go beyond surface-level descriptions.
+# Make sure prompt_all.py and principle_situaton.py are in the same directory or accessible via PYTHONPATH
+from principle_situaton import sd_pri_list, td_pri_list_100, Situation_list
+# prompt for scenario
+scenario_sys_prompt = '''Role: You are a dual-specialist: an expert psychologist and creative screenwriter for scenario generation, and a rigorous narrative analyst for deconstruction. You excel at both creating vivid, human stories and then, in a separate step, precisely analyzing *why* they work.'''
 
----
+gen_scenario_prompt = ''' Task: Your core mission is to take one or more human psychological or behavioral principles I provide and create a detailed scenario, followed by a concise analysis of your own design.
 
-### **Report Structure and Content Requirements:**
+Input Principles: {principle1_information}
 
-**1. Description**
-Provide a detailed and purely descriptive definition of `{PRINCIPLE_NAME}`. This description should be a single, comprehensive paragraph that explains the core phenomenon itself—what it is and how it functions as a fundamental psychological process. Crucially, this section must focus exclusively on the definition and avoid including historical origins (e.g., who first proposed it or when), specific illustrative examples, or meta-commentary on the concept's nuances.
+Core Output Requirement: Your output must be structured into two strictly separate, clearly labeled parts. Do not mix analysis into the scenario, and do not mix storytelling into the analysis.
 
-**2. Core Mechanisms**
-Elucidate the primary evolutionary, cognitive, or emotional reasons why this principle exists. Explain the underlying drivers that give rise to this phenomenon. Be specific about whether it functions primarily as:
-* A cognitive heuristic for efficiency (a mental shortcut).
-* A self-esteem or ego-protection mechanism.
-* A consequence of fundamental limitations in memory, perception, or attention.
-* An adaptive evolutionary trait for social cohesion or survival.
-* Or another core psychological driver.
+Part 1: The Scenario: The creative narrative itself.
 
-**3. Real-World Manifestation**
-Deliver a profound analysis of the principle's broader impact and significance. This section must go beyond simple descriptions to explore its nuanced consequences. The analysis should reveal deeper truths about human behavior, explaining not just *what* happens, but *why* it is significant. Specifically, discuss:
-* **Challenge to Conventional Wisdom:** How does this principle challenge common assumptions about human rationality, behavior, or personality?
-* **The "Double-Edged Sword":** Analyze its function as a double-edged sword. Detail both its adaptive/beneficial aspects (e.g., preserving motivation, simplifying a complex world) and its maladaptive/detrimental consequences (e.g., hindering personal growth, fueling interpersonal conflict, contributing to societal biases).
-* **Practical Applications:** Identify and explain its practical applications in applied fields such as management, marketing, persuasion, therapy, conflict resolution, or self-improvement, providing actionable insights.
+Part 2: Design Process: A concise, analytical breakdown of the scenario.
 
----
+Part 1: The Scenario
+[ROLE]: For this part, adopt your role as the expert psychologist and creative screenwriter.
 
-### **Concluding Requirement:**
+[IMPORTANT CONSTRAINTS FOR PART 1]:
 
-**4. Key References**
-Conclude the report with a list titled "Key References." List 5-7 of the most seminal or highly relevant academic papers and books foundational to the understanding of `{PRINCIPLE_NAME}`. Please use APA citation format. This list should consist of authoritative sources that a researcher would consult for a deep dive into the topic.
+Length: Your narrative for Part 1 must be detailed and comprehensive, but MUST NOT EXCEED 1000 TOKENS.
 
-"""
+Purity: You are absolutely forbidden from adding any self-analysis, "author's notes," or explanatory paragraphs within this narrative part. Your task here is only to create the story. All analysis must be saved for Part 2.
 
+Narrative Output: Please write in a natural, flowing prose format. Do not use lists or a "label: content" structure. The requirements below are elements to be integrated into your writing, not an output template to be filled.
 
-prompt2 = """
-Role: You are an expert personality psychologist and behavioral analyst. Your expertise lies in creating detailed, multi-faceted profiles that explain how a specific psychological trait manifests in an individual's internal world and external behavior.
+You must follow the requirements below to generate the scenario:
 
-Objective: Your goal is to conduct an in-depth, systematic analysis of the psychological trait of {TRAIT_NAME}. You will produce a comprehensive report that dissects this trait according to the specific, multi-layered structure provided below. The analysis must be nuanced, insightful, and grounded in established psychological theory.
+1. Story Background:
 
-Report Structure and Content Requirements:
+Please create a complete and vivid description to build the story background. Your writing must seamlessly integrate the following elements to form a compelling picture:
 
-1. Description
-Provide a detailed and purely descriptive definition of {TRAIT_NAME}. This description should be a single, comprehensive paragraph that explains the core phenomenon itself—what it is and how it functions as a fundamental psychological construct. Crucially, this section must focus exclusively on the definition and avoid including historical origins, specific illustrative examples, or meta-commentary on the concept's nuances.
+Core Elements: You must clearly depict the time, place, and core event of the story, while also establishing a unique atmosphere.
 
-2. Core Mechanisms
-Analyze the fundamental internal processes that constitute this trait. This section should be divided into three specific sub-sections:
+Requirements and Details: The entire story background should be based on the {situation} situational framework, using it as a foundational reference. Additionally, you must add rich details (such as unique cultural customs, environmental features, or relevant sub-events) to make this world feel believable and lived-in, not merely a functional 'laboratory'.
 
-2.1. Cognitive Patterns: Describe the typical mindset, belief systems, and attentional focus of a person exhibiting this trait. How do they characteristically process information? What are their core assumptions about the world, other people, and themselves?
+2. Persona Profiles:
 
-2.2. Emotional Signatures: Describe the core emotions they tend to experience and express. Detail their general emotional tone, their level of emotional stability or reactivity, and their typical capacity and patterns for empathic response.
+Protagonist:
+Likewise, please use a complete, three-dimensional paragraph to shape the protagonist. This description must contain and naturally showcase the character's identity and social role, core personality, and key past experiences relevant to the current situation that may influence their mindset and behavior. Building on this, you must give the character additional personality dimensions, personal goals, unique habits, or minor internal conflicts to ensure they are well-rounded and authentic.
 
-2.3. Behavioral Tendencies: Describe the spontaneous, observable behaviors someone with this trait typically exhibits in everyday, non-pressured situations. Focus on their default actions, communication style, and social inclinations.
+Other Characters:
+Please provide a concise yet three-dimensional introduction for other key characters. Your description needs to clearly present their identity, personality, and their core relationship with the protagonist.
 
-3. Real-World Manifestation
-Examine how this trait is expressed dynamically across different real-world contexts. This section must analyze how the trait's expression changes based on situational factors and should be divided into three specific sub-sections:
+Core Creative Mindset:
 
-3.1. Under Stress: How does this trait manifest when the individual is facing challenges, failure, or high pressure? Is the trait amplified, diminished, distorted, or does it transform into a different set of behaviors?
+Layer 1: Ensuring Compatibility: The foundational goal is to create a context where the given principle can emerge naturally. Your characters, especially the protagonist, should be "potentially susceptible" to the principle, not "naturally immune." Your scenario should act as a "catalyst," not an "inhibitor."
 
-3.2. In Conflict: What are the typical strategies for handling interpersonal conflict for someone with this trait? Do they tend toward confrontation, avoidance, accommodation, or collaboration? Describe their goals and tactics during disagreements.
+Layer 2: Pursuing Richness (The Higher Goal): Beyond mere compatibility, the objective is to create three-dimensional characters, not simple archetypes. Characters serve the story, not the principle. Be bold in giving them authentic human depth and complexity.
 
-3.3. In Positive Situations: How is this trait expressed when the individual is succeeding, receiving support, or experiencing happiness and security? Does the trait contribute positively to these moments, or does it remain unchanged or even subtly hinder them?
+Key Concept: A person with strong opinions might still conform under specific pressures; a decisive leader might rely on flawed heuristics when overwhelmed. This "situational susceptibility" is far more compelling and dramatically potent than a flat, one-note character.
 
-Concluding Requirement:
-
-4. Key References
-Conclude the report with a list titled "Key References." List 5-7 of the most seminal or highly relevant academic papers, books, or psychometric scales foundational to the understanding of {TRAIT_NAME}. Please use APA citation format.
-
-"""
+Ultimate Goal: Your aim is to create "the authentic reaction of a multi-dimensional person in a specific situation," not "the preset behavior of a one-dimensional character in a tailor-made scenario."
 
 
-"""
+Part 2: Design Process
+[ROLE SWITCH]: Now, you must shift from your "creative screenwriter" role to your "rigorous narrative analyst" role.
 
-请你根据上面的研究报告内容完成以下JSON格式的内容：
-**JSON Structure:**
-```json
-{
-  "construct_name": "Extract the name of the psychological principle",
-  "description": "Extract the entire text from the 'Description' section of the report and place it here as a single string.",
-  "core_mechanisms": "Extract the entire text from the 'Core Mechanisms' section of the report. Place the full, original text here as a single string, without any summarization or abbreviation.",
-  "real_world_manifestation": "Extract the entire text from the 'Real-World Manifestation' section of the report. Place the full, original text here as a single string, without any summarization or abbreviation.",
-  "source": [
-    "Extract each citation from the 'Key References' section of the report. Format them as a JSON list of individual strings, with each string being one complete reference."
-  ]
-}
-```
+[IMPORTANT CONSTRAINTS FOR PART 2]:
 
-"""
+Length: Your entire analysis for Part 2 must be extremely concise and MUST NOT EXCEED 500 TOKENS.
+
+Format: Provide a scannable analytical breakdown. This section must be to the point and avoid excessive detail or academic verbosity. You must follow the exact format below.
+
+Design Rationale
+
+In a brief paragraph (3-4 sentences maximum), summarize how the overall setting, characters, and core event are designed to create pressure for the input principles to manifest.
+
+Catalyst Details
+
+Using concise bullet points, identify the most critical details in the scenario that act as 'catalysts'. For each bullet, briefly (1-2 sentences) explain its function.
+
+[Detail 1]: [Brief explanation of its function]
+
+[Detail 2]: [Brief explanation of its function]
+
+[...etc.]
+
+Expected Protagonist Tendencies
+
+List the most likely cognitive or behavioral tendencies for the protagonist only. Use the following exact format, providing a brief description for each tendency. [Expect1] [Brief description of the first expected tendency] [Expect2] [Brief description of the second expected tendency] [Expect3] [Brief description of the third expected tendency] [...etc.]
+
+Now, based on all the requirements above, please begin generating the two-part response. '''
+# --- Configuration ---
+CLAUDE_MODEL = "claude-sonnet-4-5-20250929"
+GEMINI_MODEL = "gemini-2.5-pro"
+
+# --- File Paths ---
+PATTERNS_INFO_FILE = 'Dataset/patterns_info/psy_patterns_info.json'
+OUTPUT_FILE = 'Dataset/generated_data.json'
+
+# --- Concurrency Control ---
+# 控制同时发送的API请求数量，根据你的API速率限制调整
+# A good starting point is between 10 and 50.
+MAX_CONCURRENT_REQUESTS = 20
+
+# --- Retry / Timeout ---
+REQUEST_TIMEOUT_SECONDS = 300
+MAX_RETRY_ATTEMPTS = 3
+RETRY_BACKOFF_SECONDS = 2
+
+# --- Functions (modified for async) ---
 
 
-"""
-
-请你根据上面的研究报告内容完成以下JSON格式的内容：
-**JSON Structure:**
-
-```json
-{
-  "construct_name": "Extract the name of the psychological trait",
-  "description": "Extract the entire text from the 'Description' section of the report and place it here as a single string.",
-  "core_mechanisms": {
-    "cognitive_patterns": "Extract the full, original text from the '2.1. Cognitive Patterns' sub-section of the report. Do not summarize.",
-    "emotional_signatures": "Extract the full, original text from the '2.2. Emotional Signatures' sub-section of the report. Do not summarize.",
-    "behavioral_tendencies": "Extract the full, original text from the '2.3. Behavioral Tendencies' sub-section of the report. Do not summarize."
-  },
-  "real_world_manifestation": {
-    "under_stress": "Extract the full, original text from the '3.1. Under Stress' sub-section of the report. Do not summarize.",
-    "in_conflict": "Extract the full, original text from the '3.2. In Conflict' sub-section of the report. Do not summarize.",
-    "in_positive_situations": "Extract the full, original text from the '3.3. In Positive Situations' sub-section of the report. Do not summarize."
-  },
-  "source": [
-    "Extract each citation from the 'Key References' section of the report. Format them as a JSON list of individual strings, with each string being one complete reference."
-  ]
-}
-```
+class ModelRunner:
+    def __init__(self, name: str, client: AsyncOpenAI, model_name: str) -> None:
+        self.name = name
+        self.client = client
+        self.model_name = model_name
 
 
-"""
+async def get_model_answer_async(runner: ModelRunner, sys_prompt: str = "", user_prompt: str = ""):
+    """Asynchronous function to get a response from a chat model."""
+    for attempt in range(1, MAX_RETRY_ATTEMPTS + 1):
+        try:
+            response = await asyncio.wait_for(
+                runner.client.chat.completions.create(
+                    model=runner.model_name,
+                    stream=False,
+                    messages=[
+                        {"role": "system", "content": sys_prompt},
+                        {"role": "user", "content": user_prompt},
+                    ]
+                ),
+                timeout=REQUEST_TIMEOUT_SECONDS,
+            )
+            return response.choices[0].message.content
+        except asyncio.TimeoutError:
+            print(
+                f"[{runner.name}] Request timed out (attempt {attempt}/{MAX_RETRY_ATTEMPTS}).")
+        except Exception as e:
+            print(
+                f"[{runner.name}] API call failed on attempt {attempt}/{MAX_RETRY_ATTEMPTS}: {e}")
 
-with open('./Dataset/prompt_for_principle_info.json', 'w', encoding='utf-8') as f:
+        if attempt < MAX_RETRY_ATTEMPTS:
+            backoff = RETRY_BACKOFF_SECONDS * attempt
+            await asyncio.sleep(backoff)
 
-    for i in sd_pri_list:
-        prompt1_i = prompt1.replace("{PRINCIPLE_NAME}", i)
-        p_j.append({
-            "principle": i,
-            "1": prompt1_i,
-        })
+    return None
 
-    for j in td_pri_list_100:
-        prompt1_j = prompt2.replace("{TRAIT_NAME}", j)
-        p_j.append({
-            "principle": j,
-            "1": prompt1_j,
-        })
-    json.dump(p_j, f, indent=2, ensure_ascii=False)
+
+def load_patterns_info(file_path: str) -> Dict[str, Dict]:
+    """Loads principle details from the consolidated patterns info file."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"Error: The file {file_path} was not found.")
+        return {}
+    except json.JSONDecodeError:
+        print(f"Error: The file {file_path} contains invalid JSON.")
+        return {}
+
+
+def gather_gemini_credentials() -> List[Tuple[str, str]]:
+    """Collect BASE_URL/API key pairs for Gemini model."""
+    credentials: List[Tuple[str, str]] = []
+    base_default = os.getenv("BASE_URL_LIMIT")
+
+    for idx in range(10):
+        suffix = "" if idx == 0 else str(idx)
+        api_key = os.getenv(f"API_KEY_LIMIT{suffix}")
+        if not api_key:
+            continue
+        base_env = os.getenv(f"BASE_URL_LIMIT{suffix}") or base_default
+        if not base_env:
+            print(
+                f"[warn] Missing BASE_URL_LIMIT{suffix or ''} for available API key; skipping.")
+            continue
+        credentials.append((base_env.rstrip("/"), api_key))
+
+    if not credentials:
+        raise RuntimeError(
+            "No Gemini API credentials found in environment variables.")
+    return credentials
+
+
+def _clean_section_text(text: str) -> str:
+    """Trim whitespace and drop common markdown separators from a section."""
+    separator_lines = {"---", "***", "___"}
+    lines = text.splitlines()
+    start = 0
+    end = len(lines)
+
+    while start < end and not lines[start].strip():
+        start += 1
+    while end > start and not lines[end - 1].strip():
+        end -= 1
+
+    while start < end and lines[start].strip() in separator_lines:
+        start += 1
+        while start < end and not lines[start].strip():
+            start += 1
+
+    while end > start and lines[end - 1].strip() in separator_lines:
+        end -= 1
+        while end > start and not lines[end - 1].strip():
+            end -= 1
+
+    return "\n".join(lines[start:end]).strip()
+
+
+def split_part_sections(content: str) -> Tuple[str, str]:
+    """
+    Split model output into Part 1 (scenario) and Part 2 (analysis) sections.
+    Falls back to returning the full content as the scenario if split fails.
+    """
+    heading_regex = re.compile(
+        r'(?im)^\s*(?:[#>*-]+\s*)?(?:\*\*|__)?\s*Part\s*(\d)\s*[:\-–—.]*.*?$',
+        re.MULTILINE,
+    )
+    matches = list(heading_regex.finditer(content))
+
+    part1_match = next((m for m in matches if m.group(1) == "1"), None)
+    part2_match = next((m for m in matches if m.group(1) == "2"), None)
+
+    if not part1_match or not part2_match or part2_match.start() <= part1_match.end():
+        print("[warn] Unable to detect distinct Part 1/Part 2 sections; storing full output under 'scenario'.")
+        return content.strip(), ""
+
+    scenario_raw = content[part1_match.end():part2_match.start()]
+    analysis_raw = content[part2_match.end():]
+
+    scenario = _clean_section_text(scenario_raw)
+    analysis = _clean_section_text(analysis_raw)
+
+    if not analysis:
+        # Handle edge cases where the analysis content sits on the same line as the heading.
+        fallback_start = part2_match.start()
+        analysis = _clean_section_text(content[fallback_start:])
+
+    return scenario, analysis
+
+
+async def process_single_combination(principle, situation, runner: ModelRunner, semaphore):
+    """
+    Processes a single principle-situation pair asynchronously.
+    This function combines scenario and conversation generation.
+    """
+    async with semaphore:  # Acquire a semaphore slot
+        # Step 1: Generate Scenario
+        scenario_prompt = gen_scenario_prompt.format(
+            principle1_information=json.dumps(
+                principle, ensure_ascii=False, indent=2),
+            situation=situation
+        )
+        scenario_content = await get_model_answer_async(runner, scenario_sys_prompt, scenario_prompt)
+        if not scenario_content:
+            print(
+                f"[{runner.name}] Failed to generate scenario for '{principle['construct_name']}' with '{situation}'.")
+            return None
+
+        scenario_text, analysis_text = split_part_sections(scenario_content)
+
+        # Step 2: Structure result
+        return {
+            "principle": principle['construct_name'],
+            "situation": situation,
+            "scenario": scenario_text,
+            "analysis": analysis_text,
+        }
+
+
+def save_data_to_json(data, file_path):
+    """Saves the generated data list to a JSON file."""
+    try:
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+        print(f"\nData successfully saved to {file_path}")
+    except IOError as e:
+        print(f"An error occurred while writing to the file: {e}")
+
+
+async def main(
+    limit: Optional[int] = None,
+    situation_limit: Optional[int] = None,
+) -> None:
+    start_time = time.time()
+
+    # Load principle data from consolidated patterns info file
+    patterns_info = load_patterns_info(PATTERNS_INFO_FILE)
+    if not patterns_info:
+        print("No principle information loaded. Exiting.")
+        return
+
+    seen_names = set()
+    principles_to_process = []
+    missing_principles = []
+    for principle_name in sd_pri_list + td_pri_list_100:
+        if principle_name in seen_names:
+            continue
+        seen_names.add(principle_name)
+        info = patterns_info.get(principle_name)
+        if not info:
+            missing_principles.append(principle_name)
+            continue
+        entry = dict(info)
+        entry.setdefault("construct_name", principle_name)
+        principles_to_process.append(entry)
+    if limit is not None and limit > 0:
+        principles_to_process = principles_to_process[:limit]
+        print(
+            f"[info] Limiting to first {len(principles_to_process)} principles for testing.")
+
+    if missing_principles:
+        print(
+            f"[warn] Missing principle info for: {', '.join(missing_principles)}")
+
+    if not principles_to_process:
+        print("No valid principles to process. Exiting.")
+        return
+
+    selected_situations = list(Situation_list)
+    if situation_limit is not None and situation_limit > 0:
+        selected_situations = selected_situations[:situation_limit]
+        print(
+            f"[info] Limiting to first {len(selected_situations)} situations for testing.")
+
+    base_url_full = os.getenv("BASE_URL_FULL")
+    api_key_full = os.getenv("API_KEY_FULL")
+    if not base_url_full:
+        raise RuntimeError("BASE_URL_FULL environment variable is not set.")
+    if not api_key_full:
+        raise RuntimeError("API_KEY_FULL environment variable is not set.")
+
+    claude_runner = ModelRunner(
+        "claude",
+        AsyncOpenAI(api_key=api_key_full, base_url=base_url_full.rstrip("/")),
+        CLAUDE_MODEL,
+    )
+
+    gemini_credentials = gather_gemini_credentials()
+    gemini_runners = [
+        ModelRunner(
+            f"gemini-{idx + 1}",
+            AsyncOpenAI(api_key=api_key, base_url=base_url),
+            GEMINI_MODEL,
+        )
+        for idx, (base_url, api_key) in enumerate(gemini_credentials)
+    ]
+    gemini_cycle = cycle(gemini_runners)
+
+    # Create a semaphore to limit concurrency
+    semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
+
+    # Create a list of all tasks to be run
+    tasks = []
+    claude_assignments = 0
+    gemini_assignments = 0
+    all_combinations = [
+        (principle, situation)
+        for principle in principles_to_process
+        for situation in selected_situations
+    ]
+
+    for idx, (principle, situation) in enumerate(all_combinations):
+        if idx % 2 == 0:
+            runner = claude_runner
+            claude_assignments += 1
+        else:
+            runner = next(gemini_cycle)
+            gemini_assignments += 1
+        tasks.append(process_single_combination(
+            principle, situation, runner, semaphore))
+
+    print(f"Created {len(tasks)} tasks. Starting concurrent processing with a limit of {MAX_CONCURRENT_REQUESTS} requests...")
+    print(
+        f"Task allocation -> Claude: {claude_assignments}, Gemini: {gemini_assignments}")
+
+    # Run tasks concurrently and display a progress bar
+    results = await tqdm_asyncio.gather(*tasks)
+
+    # Filter out any failed tasks (which return None)
+    successful_results = [res for res in results if res is not None]
+
+    # Save the successful results
+    if successful_results:
+        save_data_to_json(successful_results, OUTPUT_FILE)
+    else:
+        print("No data was generated successfully.")
+
+    end_time = time.time()
+    print(f"\nScript finished in {end_time - start_time:.2f} seconds.")
+    print(
+        f"Successfully generated {len(successful_results)} out of {len(tasks)} total items.")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Generate scenarios and conversations based on principle summaries."
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        help="Only process the first N principles from psy_patterns_info.json (testing helper).",
+    )
+    parser.add_argument(
+        "--situation-limit",
+        type=int,
+        help="Only use the first M situations from Situation_list (testing helper).",
+    )
+    args = parser.parse_args()
+
+    try:
+        asyncio.run(
+            main(limit=args.limit, situation_limit=args.situation_limit))
+    except KeyboardInterrupt:
+        print("\nScript interrupted by user. Exiting.")
